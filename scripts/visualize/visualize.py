@@ -223,7 +223,7 @@ remaining_columns = [col for col in filtered_df.columns if col not in existing_c
 filtered_df = filtered_df[existing_columns + remaining_columns]
 
 # Display
-st.title("Mostashar Moza Player Database")
+st.title("Mostashar Moza Player Database - Rady Edition")
 st.markdown(f"### Showing {filtered_df['player_origin_id'].nunique()} unique players")
 sort_by = "metarating" if "metarating" in filtered_df.columns else "overall"
 filtered_df = filtered_df.drop(columns=["__true_player_id", "player_origin_id", "debug_index", "__player_id"], errors="ignore")
