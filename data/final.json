@@ -1,176 +1,87 @@
 [
   {
     "accelerateType": "EXPLOSIVE",
-    "attributeAcceleration": 94,
-    "attributeAggression": 64,
-    "attributeAgility": 99,
-    "attributeBalance": 99,
+    "attributeAcceleration": 89,
+    "attributeAggression": 72,
+    "attributeAgility": 93,
+    "attributeBalance": 93,
     "attributeBallControl": 92,
-    "attributeComposure": 79,
-    "attributeCrossing": 91,
-    "attributeCurve": 95,
-    "attributeDefensiveAwareness": 19,
-    "attributeDribbling": 91,
-    "attributeFinishing": 97,
-    "attributeFkAccuracy": 80,
+    "attributeComposure": 90,
+    "attributeCrossing": 90,
+    "attributeCurve": 90,
+    "attributeDefensiveAwareness": 87,
+    "attributeDribbling": 90,
+    "attributeFinishing": 89,
+    "attributeFkAccuracy": 87,
     "attributeGkDiving": 1,
     "attributeGkHandling": 1,
     "attributeGkKicking": 1,
     "attributeGkPositioning": 1,
     "attributeGkReflexes": 1,
-    "attributeHeadingAccuracy": 48,
-    "attributeInterceptions": 22,
-    "attributeJumping": 93,
-    "attributeLongPassing": 80,
-    "attributeLongShots": 90,
-    "attributePenalties": 83,
-    "attributePositioning": 97,
-    "attributeReactions": 79,
-    "attributeShortPassing": 91,
-    "attributeShotPower": 97,
-    "attributeSlidingTackle": 22,
-    "attributeSprintSpeed": 88,
-    "attributeStamina": 99,
-    "attributeStandingTackle": 25,
-    "attributeStrength": 68,
-    "attributeVision": 94,
-    "attributeVolleys": 71,
-    "bodytype": "Lean Medium",
-    "commonName": "Amad Diallo",
-    "eaId": 254088,
+    "attributeHeadingAccuracy": 50,
+    "attributeInterceptions": 94,
+    "attributeJumping": 57,
+    "attributeLongPassing": 83,
+    "attributeLongShots": 95,
+    "attributePenalties": 63,
+    "attributePositioning": 91,
+    "attributeReactions": 91,
+    "attributeShortPassing": 94,
+    "attributeShotPower": 90,
+    "attributeSlidingTackle": 85,
+    "attributeSprintSpeed": 87,
+    "attributeStamina": 90,
+    "attributeStandingTackle": 86,
+    "attributeStrength": 77,
+    "attributeVision": 90,
+    "attributeVolleys": 92,
+    "bodytype": "Average Short",
+    "commonName": "Rapha\u00ebl Guerreiro",
+    "eaId": 50541537,
     "evolution": true,
+    "evolutionIgsBoost": 0,
     "foot": "Left",
-    "height": 173,
+    "height": 170,
     "metaRatings": [
       {
-        "archetype": "false_nine",
-        "metaRating": 88.88905027367652
-      },
-      {
-        "archetype": "inside_forward",
-        "metaRating": 89.90686528804562
+        "archetype": "playmaker",
+        "metaRating": 88.00908488672593
       }
     ],
-    "overall": 92,
+    "overall": 91,
     "playstyles": [
-      "Finesse Shot",
-      "Low Driven Shot",
-      "Dead Ball",
+      "Long Ball Pass",
+      "Whipped Pass",
+      "Intercept",
       "Flair",
       "First Touch",
+      "Trickster",
       "Trivela"
     ],
     "playstylesPlus": [
-      "Technical",
-      "Trickster"
+      "Tiki Taka",
+      "Technical"
     ],
     "positions": [
-      "ST",
-      "CAM",
-      "RW",
-      "RM"
+      "CM",
+      "LB",
+      "CAM"
     ],
     "rolesPlus": [
-      "RM Wide Playmaker",
-      "RM Inside Forward",
-      "CAM Half Winger"
+      "CAM Shadow Striker",
+      "LB Falseback",
+      "LB Attacking Wingback",
+      "CM Box to Box",
+      "CM Half-Winger"
     ],
     "rolesPlusPlus": [
-      "RW Inside Forward",
-      "ST False 9"
+      "CM Playmaker",
+      "CAM Playmaker"
     ],
     "skillMoves": 5,
+    "totalIgsBoost": 0,
     "weakFoot": 4,
-    "weight": 67
-  },
-  {
-    "accelerateType": "MOSTLY_LENGTHY",
-    "attributeAcceleration": 85,
-    "attributeAggression": 89,
-    "attributeAgility": 73,
-    "attributeBalance": 76,
-    "attributeBallControl": 90,
-    "attributeComposure": 83,
-    "attributeCrossing": 89,
-    "attributeCurve": 88,
-    "attributeDefensiveAwareness": 83,
-    "attributeDribbling": 86,
-    "attributeFinishing": 68,
-    "attributeFkAccuracy": 82,
-    "attributeGkDiving": 1,
-    "attributeGkHandling": 1,
-    "attributeGkKicking": 1,
-    "attributeGkPositioning": 1,
-    "attributeGkReflexes": 1,
-    "attributeHeadingAccuracy": 79,
-    "attributeInterceptions": 86,
-    "attributeJumping": 92,
-    "attributeLongPassing": 92,
-    "attributeLongShots": 90,
-    "attributePenalties": 83,
-    "attributePositioning": 88,
-    "attributeReactions": 94,
-    "attributeShortPassing": 94,
-    "attributeShotPower": 99,
-    "attributeSlidingTackle": 91,
-    "attributeSprintSpeed": 94,
-    "attributeStamina": 86,
-    "attributeStandingTackle": 94,
-    "attributeStrength": 85,
-    "attributeVision": 80,
-    "attributeVolleys": 75,
-    "bodytype": "Unique",
-    "commonName": "Kyle Walker",
-    "eaId": 188377,
-    "evolution": true,
-    "foot": "Right",
-    "height": 183,
-    "metaRatings": [
-      {
-        "archetype": "defender",
-        "metaRating": 86.0251876572791
-      },
-      {
-        "archetype": "wingback",
-        "metaRating": 85.2248795513232
-      },
-      {
-        "archetype": "holding",
-        "metaRating": 86.45748019301118
-      }
-    ],
-    "overall": 90,
-    "playstyles": [
-      "Jockey",
-      "Block",
-      "Anticipate",
-      "Slide Tackle",
-      "Bruiser",
-      "Rapid",
-      "Long Throw"
-    ],
-    "playstylesPlus": [
-      "Intercept",
-      "Long Ball Pass"
-    ],
-    "positions": [
-      "CDM",
-      "RB",
-      "CB"
-    ],
-    "rolesPlus": [
-      "CDM Deep-Lying Playmaker",
-      "CB Stopper",
-      "RB Falseback"
-    ],
-    "rolesPlusPlus": [
-      "RB Wingback",
-      "CDM Holding",
-      "CB Defender"
-    ],
-    "skillMoves": 3,
-    "weakFoot": 4,
-    "weight": 83
+    "weight": 71
   },
   {
     "accelerateType": "EXPLOSIVE",
@@ -212,6 +123,7 @@
     "commonName": "Lionel Messi",
     "eaId": 158023,
     "evolution": true,
+    "evolutionIgsBoost": 0,
     "foot": "Left",
     "height": 169,
     "metaRatings": [
@@ -235,10 +147,10 @@
       "Trivela"
     ],
     "positions": [
-      "ST",
       "CAM",
       "RW",
-      "RM"
+      "RM",
+      "ST"
     ],
     "rolesPlus": [
       "ST Advanced Forward",
@@ -250,85 +162,190 @@
       "RW Wide Playmaker"
     ],
     "skillMoves": 4,
+    "totalIgsBoost": 0,
     "weakFoot": 5,
     "weight": 67
   },
   {
-    "accelerateType": "CONTROLLED",
-    "attributeAcceleration": 89,
-    "attributeAggression": 88,
-    "attributeAgility": 82,
-    "attributeBalance": 82,
-    "attributeBallControl": 89,
-    "attributeComposure": 85,
-    "attributeCrossing": 77,
-    "attributeCurve": 84,
-    "attributeDefensiveAwareness": 59,
-    "attributeDribbling": 84,
-    "attributeFinishing": 91,
+    "accelerateType": "CONTROLLED_EXPLOSIVE",
+    "attributeAcceleration": 88,
+    "attributeAggression": 95,
+    "attributeAgility": 83,
+    "attributeBalance": 94,
+    "attributeBallControl": 92,
+    "attributeComposure": 94,
+    "attributeCrossing": 99,
+    "attributeCurve": 99,
+    "attributeDefensiveAwareness": 90,
+    "attributeDribbling": 81,
+    "attributeFinishing": 83,
+    "attributeFkAccuracy": 99,
+    "attributeGkDiving": 1,
+    "attributeGkHandling": 1,
+    "attributeGkKicking": 1,
+    "attributeGkPositioning": 1,
+    "attributeGkReflexes": 1,
+    "attributeHeadingAccuracy": 92,
+    "attributeInterceptions": 92,
+    "attributeJumping": 91,
+    "attributeLongPassing": 99,
+    "attributeLongShots": 93,
+    "attributePenalties": 72,
+    "attributePositioning": 91,
+    "attributeReactions": 94,
+    "attributeShortPassing": 99,
+    "attributeShotPower": 91,
+    "attributeSlidingTackle": 65,
+    "attributeSprintSpeed": 86,
+    "attributeStamina": 99,
+    "attributeStandingTackle": 87,
+    "attributeStrength": 77,
+    "attributeVision": 99,
+    "attributeVolleys": 84,
+    "bodytype": "Average Short",
+    "commonName": "Paul Scholes",
+    "eaId": 50331894,
+    "evolution": true,
+    "evolutionIgsBoost": 0,
+    "foot": "Right",
+    "height": 171,
+    "metaRatings": [
+      {
+        "archetype": "deep_lying_playmaker",
+        "metaRating": 91.40750404352563
+      },
+      {
+        "archetype": "playmaker",
+        "metaRating": 91.6819480198926
+      }
+    ],
+    "overall": 92,
+    "playstyles": [
+      "Chip Shot",
+      "Power Shot",
+      "Pinged Pass",
+      "Tiki Taka",
+      "Anticipate",
+      "Slide Tackle",
+      "Technical",
+      "Press Proven",
+      "Relentless"
+    ],
+    "playstylesPlus": [
+      "Incisive Pass",
+      "Long Ball Pass"
+    ],
+    "positions": [
+      "CM",
+      "CDM",
+      "CAM"
+    ],
+    "rolesPlus": [
+      "CM Box to Box",
+      "CAM Classic 10",
+      "CM Half-Winger",
+      "CAM Playmaker"
+    ],
+    "rolesPlusPlus": [
+      "CM Deep-Lying Playmaker",
+      "CM Playmaker",
+      "CDM Deep-Lying Playmaker"
+    ],
+    "skillMoves": 3,
+    "totalIgsBoost": 0,
+    "weakFoot": 5,
+    "weight": 71
+  },
+  {
+    "accelerateType": "MOSTLY_LENGTHY",
+    "attributeAcceleration": 85,
+    "attributeAggression": 89,
+    "attributeAgility": 73,
+    "attributeBalance": 76,
+    "attributeBallControl": 90,
+    "attributeComposure": 83,
+    "attributeCrossing": 89,
+    "attributeCurve": 88,
+    "attributeDefensiveAwareness": 83,
+    "attributeDribbling": 86,
+    "attributeFinishing": 68,
     "attributeFkAccuracy": 82,
     "attributeGkDiving": 1,
     "attributeGkHandling": 1,
     "attributeGkKicking": 1,
     "attributeGkPositioning": 1,
     "attributeGkReflexes": 1,
-    "attributeHeadingAccuracy": 99,
-    "attributeInterceptions": 49,
-    "attributeJumping": 85,
-    "attributeLongPassing": 83,
-    "attributeLongShots": 91,
-    "attributePenalties": 87,
-    "attributePositioning": 92,
-    "attributeReactions": 90,
-    "attributeShortPassing": 84,
-    "attributeShotPower": 94,
-    "attributeSlidingTackle": 49,
-    "attributeSprintSpeed": 87,
-    "attributeStamina": 89,
-    "attributeStandingTackle": 63,
+    "attributeHeadingAccuracy": 79,
+    "attributeInterceptions": 86,
+    "attributeJumping": 92,
+    "attributeLongPassing": 92,
+    "attributeLongShots": 90,
+    "attributePenalties": 83,
+    "attributePositioning": 88,
+    "attributeReactions": 94,
+    "attributeShortPassing": 94,
+    "attributeShotPower": 99,
+    "attributeSlidingTackle": 91,
+    "attributeSprintSpeed": 94,
+    "attributeStamina": 86,
+    "attributeStandingTackle": 94,
     "attributeStrength": 85,
-    "attributeVision": 79,
-    "attributeVolleys": 92,
-    "bodytype": "Stocky Medium",
-    "commonName": "Wayne Rooney",
-    "eaId": 54050,
+    "attributeVision": 80,
+    "attributeVolleys": 75,
+    "bodytype": "Unique",
+    "commonName": "Kyle Walker",
+    "eaId": 188377,
     "evolution": true,
+    "evolutionIgsBoost": 0,
     "foot": "Right",
-    "height": 176,
+    "height": 183,
     "metaRatings": [
       {
-        "archetype": "advanced_forward",
-        "metaRating": 83.03123643317323
+        "archetype": "holding",
+        "metaRating": 86.45748019301118
+      },
+      {
+        "archetype": "wingback",
+        "metaRating": 85.2248795513232
+      },
+      {
+        "archetype": "defender",
+        "metaRating": 86.0251876572791
       }
     ],
-    "overall": 89,
+    "overall": 90,
     "playstyles": [
-      "Finesse Shot",
-      "Chip Shot",
-      "Low Driven Shot",
-      "Long Ball Pass",
-      "Intercept",
-      "Relentless",
-      "Trivela",
-      "Acrobatic"
+      "Jockey",
+      "Block",
+      "Anticipate",
+      "Slide Tackle",
+      "Bruiser",
+      "Rapid",
+      "Long Throw"
     ],
     "playstylesPlus": [
-      "Power Shot"
+      "Intercept",
+      "Long Ball Pass"
     ],
     "positions": [
-      "ST",
-      "CAM"
+      "RB",
+      "CDM",
+      "CB"
     ],
     "rolesPlus": [
-      "CAM Shadow Striker",
-      "ST False 9"
+      "CDM Deep-Lying Playmaker",
+      "CB Stopper",
+      "RB Falseback"
     ],
     "rolesPlusPlus": [
-      "ST Advanced Forward"
+      "RB Wingback",
+      "CDM Holding",
+      "CB Defender"
     ],
     "skillMoves": 3,
+    "totalIgsBoost": 0,
     "weakFoot": 4,
-    "weight": 82
+    "weight": 83
   },
   {
     "accelerateType": "CONTROLLED",
@@ -370,6 +387,7 @@
     "commonName": "Cole Palmer",
     "eaId": 257534,
     "evolution": true,
+    "evolutionIgsBoost": 0,
     "foot": "Left",
     "height": 189,
     "metaRatings": [
@@ -410,89 +428,91 @@
       "RW Winger"
     ],
     "skillMoves": 4,
+    "totalIgsBoost": 0,
     "weakFoot": 4,
     "weight": 74
   },
   {
-    "accelerateType": "CONTROLLED_EXPLOSIVE",
-    "attributeAcceleration": 87,
-    "attributeAggression": 99,
-    "attributeAgility": 90,
-    "attributeBalance": 90,
+    "accelerateType": "EXPLOSIVE",
+    "attributeAcceleration": 96,
+    "attributeAggression": 96,
+    "attributeAgility": 98,
+    "attributeBalance": 99,
     "attributeBallControl": 90,
-    "attributeComposure": 90,
-    "attributeCrossing": 93,
-    "attributeCurve": 80,
-    "attributeDefensiveAwareness": 84,
-    "attributeDribbling": 90,
-    "attributeFinishing": 73,
-    "attributeFkAccuracy": 77,
+    "attributeComposure": 86,
+    "attributeCrossing": 86,
+    "attributeCurve": 99,
+    "attributeDefensiveAwareness": 65,
+    "attributeDribbling": 88,
+    "attributeFinishing": 88,
+    "attributeFkAccuracy": 84,
     "attributeGkDiving": 1,
     "attributeGkHandling": 1,
     "attributeGkKicking": 1,
     "attributeGkPositioning": 1,
     "attributeGkReflexes": 1,
-    "attributeHeadingAccuracy": 84,
-    "attributeInterceptions": 90,
-    "attributeJumping": 91,
-    "attributeLongPassing": 70,
-    "attributeLongShots": 69,
-    "attributePenalties": 59,
-    "attributePositioning": 84,
-    "attributeReactions": 90,
-    "attributeShortPassing": 83,
-    "attributeShotPower": 71,
-    "attributeSlidingTackle": 99,
-    "attributeSprintSpeed": 92,
-    "attributeStamina": 99,
-    "attributeStandingTackle": 95,
-    "attributeStrength": 61,
-    "attributeVision": 71,
-    "attributeVolleys": 55,
-    "bodytype": "Average Medium",
-    "commonName": "Patrick Dorgu",
-    "eaId": 50609080,
+    "attributeHeadingAccuracy": 73,
+    "attributeInterceptions": 81,
+    "attributeJumping": 76,
+    "attributeLongPassing": 74,
+    "attributeLongShots": 93,
+    "attributePenalties": 85,
+    "attributePositioning": 93,
+    "attributeReactions": 83,
+    "attributeShortPassing": 88,
+    "attributeShotPower": 94,
+    "attributeSlidingTackle": 47,
+    "attributeSprintSpeed": 88,
+    "attributeStamina": 93,
+    "attributeStandingTackle": 73,
+    "attributeStrength": 67,
+    "attributeVision": 88,
+    "attributeVolleys": 80,
+    "bodytype": "Lean Medium",
+    "commonName": "Antony",
+    "eaId": 255475,
     "evolution": true,
+    "evolutionIgsBoost": 0,
     "foot": "Left",
-    "height": 175,
+    "height": 172,
     "metaRatings": [
       {
-        "archetype": "attacking_wingback",
-        "metaRating": 84.65871797472697
+        "archetype": "winger",
+        "metaRating": 87.16330086094392
       },
       {
         "archetype": "inside_forward",
-        "metaRating": 80.45264122763314
+        "metaRating": 87.12016500609728
       }
     ],
-    "overall": 91,
+    "overall": 90,
     "playstyles": [
+      "Technical",
       "Flair",
-      "Trickster",
-      "Pinged Pass",
-      "Bruiser"
+      "Trickster"
     ],
     "playstylesPlus": [
-      "Technical",
-      "Jockey"
+      "Finesse Shot",
+      "Press Proven"
     ],
     "positions": [
-      "LM",
-      "LB"
+      "RW",
+      "RM"
     ],
     "rolesPlus": [
-      "LB Wingback",
-      "LM Winger",
-      "LM Wide Midfielder",
-      "LM Wide Playmaker"
+      "RM Wide Playmaker",
+      "RW Wide Playmaker"
     ],
     "rolesPlusPlus": [
-      "LM Inside Forward",
-      "LB Attacking Wingback"
+      "RW Inside Forward",
+      "RM Winger",
+      "RM Inside Forward",
+      "RW Winger"
     ],
     "skillMoves": 5,
-    "weakFoot": 5,
-    "weight": 60
+    "totalIgsBoost": 0,
+    "weakFoot": 4,
+    "weight": 63
   },
   {
     "accelerateType": "CONTROLLED",
@@ -534,6 +554,7 @@
     "commonName": "Adama Traor\u00e9",
     "eaId": 50545604,
     "evolution": true,
+    "evolutionIgsBoost": 0,
     "foot": "Right",
     "height": 178,
     "metaRatings": [
@@ -560,8 +581,8 @@
       "Quick Step"
     ],
     "positions": [
-      "ST",
-      "RM"
+      "RM",
+      "ST"
     ],
     "rolesPlus": [
       "RM Inside Forward"
@@ -571,6 +592,7 @@
       "ST Poacher"
     ],
     "skillMoves": 5,
+    "totalIgsBoost": 0,
     "weakFoot": 4,
     "weight": 86
   },
@@ -614,6 +636,7 @@
     "commonName": "Matthijs de Ligt",
     "eaId": 235243,
     "evolution": true,
+    "evolutionIgsBoost": 0,
     "foot": "Right",
     "height": 189,
     "metaRatings": [
@@ -641,8 +664,8 @@
       "Pinged Pass"
     ],
     "positions": [
-      "CB",
-      "CDM"
+      "CDM",
+      "CB"
     ],
     "rolesPlus": [
       "CB Stopper",
@@ -654,258 +677,9 @@
       "CB Defender"
     ],
     "skillMoves": 3,
+    "totalIgsBoost": 0,
     "weakFoot": 5,
     "weight": 89
-  },
-  {
-    "accelerateType": "EXPLOSIVE",
-    "attributeAcceleration": 89,
-    "attributeAggression": 72,
-    "attributeAgility": 93,
-    "attributeBalance": 93,
-    "attributeBallControl": 92,
-    "attributeComposure": 90,
-    "attributeCrossing": 90,
-    "attributeCurve": 90,
-    "attributeDefensiveAwareness": 87,
-    "attributeDribbling": 90,
-    "attributeFinishing": 89,
-    "attributeFkAccuracy": 87,
-    "attributeGkDiving": 1,
-    "attributeGkHandling": 1,
-    "attributeGkKicking": 1,
-    "attributeGkPositioning": 1,
-    "attributeGkReflexes": 1,
-    "attributeHeadingAccuracy": 50,
-    "attributeInterceptions": 94,
-    "attributeJumping": 57,
-    "attributeLongPassing": 83,
-    "attributeLongShots": 95,
-    "attributePenalties": 63,
-    "attributePositioning": 91,
-    "attributeReactions": 91,
-    "attributeShortPassing": 94,
-    "attributeShotPower": 90,
-    "attributeSlidingTackle": 85,
-    "attributeSprintSpeed": 87,
-    "attributeStamina": 90,
-    "attributeStandingTackle": 86,
-    "attributeStrength": 77,
-    "attributeVision": 90,
-    "attributeVolleys": 92,
-    "bodytype": "Average Short",
-    "commonName": "Rapha\u00ebl Guerreiro",
-    "eaId": 50541537,
-    "evolution": true,
-    "foot": "Left",
-    "height": 170,
-    "metaRatings": [
-      {
-        "archetype": "playmaker",
-        "metaRating": 88.00908488672593
-      }
-    ],
-    "overall": 91,
-    "playstyles": [
-      "Long Ball Pass",
-      "Whipped Pass",
-      "Intercept",
-      "Flair",
-      "First Touch",
-      "Trickster",
-      "Trivela"
-    ],
-    "playstylesPlus": [
-      "Tiki Taka",
-      "Technical"
-    ],
-    "positions": [
-      "CM",
-      "CAM",
-      "LB"
-    ],
-    "rolesPlus": [
-      "CAM Shadow Striker",
-      "LB Falseback",
-      "LB Attacking Wingback",
-      "CM Box to Box",
-      "CM Half-Winger"
-    ],
-    "rolesPlusPlus": [
-      "CM Playmaker",
-      "CAM Playmaker"
-    ],
-    "skillMoves": 5,
-    "weakFoot": 4,
-    "weight": 71
-  },
-  {
-    "accelerateType": "EXPLOSIVE",
-    "attributeAcceleration": 96,
-    "attributeAggression": 96,
-    "attributeAgility": 98,
-    "attributeBalance": 99,
-    "attributeBallControl": 90,
-    "attributeComposure": 86,
-    "attributeCrossing": 86,
-    "attributeCurve": 99,
-    "attributeDefensiveAwareness": 65,
-    "attributeDribbling": 88,
-    "attributeFinishing": 88,
-    "attributeFkAccuracy": 84,
-    "attributeGkDiving": 1,
-    "attributeGkHandling": 1,
-    "attributeGkKicking": 1,
-    "attributeGkPositioning": 1,
-    "attributeGkReflexes": 1,
-    "attributeHeadingAccuracy": 73,
-    "attributeInterceptions": 81,
-    "attributeJumping": 76,
-    "attributeLongPassing": 74,
-    "attributeLongShots": 93,
-    "attributePenalties": 85,
-    "attributePositioning": 93,
-    "attributeReactions": 83,
-    "attributeShortPassing": 88,
-    "attributeShotPower": 94,
-    "attributeSlidingTackle": 47,
-    "attributeSprintSpeed": 88,
-    "attributeStamina": 93,
-    "attributeStandingTackle": 73,
-    "attributeStrength": 67,
-    "attributeVision": 88,
-    "attributeVolleys": 80,
-    "bodytype": "Lean Medium",
-    "commonName": "Antony",
-    "eaId": 255475,
-    "evolution": true,
-    "foot": "Left",
-    "height": 172,
-    "metaRatings": [
-      {
-        "archetype": "winger",
-        "metaRating": 87.16330086094392
-      },
-      {
-        "archetype": "inside_forward",
-        "metaRating": 87.12016500609728
-      }
-    ],
-    "overall": 90,
-    "playstyles": [
-      "Technical",
-      "Flair",
-      "Trickster"
-    ],
-    "playstylesPlus": [
-      "Finesse Shot",
-      "Press Proven"
-    ],
-    "positions": [
-      "RW",
-      "RM"
-    ],
-    "rolesPlus": [
-      "RM Wide Playmaker",
-      "RW Wide Playmaker"
-    ],
-    "rolesPlusPlus": [
-      "RW Inside Forward",
-      "RM Winger",
-      "RM Inside Forward",
-      "RW Winger"
-    ],
-    "skillMoves": 5,
-    "weakFoot": 4,
-    "weight": 63
-  },
-  {
-    "accelerateType": "CONTROLLED_EXPLOSIVE",
-    "attributeAcceleration": 88,
-    "attributeAggression": 95,
-    "attributeAgility": 83,
-    "attributeBalance": 94,
-    "attributeBallControl": 92,
-    "attributeComposure": 94,
-    "attributeCrossing": 99,
-    "attributeCurve": 99,
-    "attributeDefensiveAwareness": 90,
-    "attributeDribbling": 81,
-    "attributeFinishing": 83,
-    "attributeFkAccuracy": 99,
-    "attributeGkDiving": 1,
-    "attributeGkHandling": 1,
-    "attributeGkKicking": 1,
-    "attributeGkPositioning": 1,
-    "attributeGkReflexes": 1,
-    "attributeHeadingAccuracy": 92,
-    "attributeInterceptions": 92,
-    "attributeJumping": 91,
-    "attributeLongPassing": 99,
-    "attributeLongShots": 93,
-    "attributePenalties": 72,
-    "attributePositioning": 91,
-    "attributeReactions": 94,
-    "attributeShortPassing": 99,
-    "attributeShotPower": 91,
-    "attributeSlidingTackle": 65,
-    "attributeSprintSpeed": 86,
-    "attributeStamina": 99,
-    "attributeStandingTackle": 87,
-    "attributeStrength": 77,
-    "attributeVision": 99,
-    "attributeVolleys": 84,
-    "bodytype": "Average Short",
-    "commonName": "Paul Scholes",
-    "eaId": 50331894,
-    "evolution": true,
-    "foot": "Right",
-    "height": 171,
-    "metaRatings": [
-      {
-        "archetype": "playmaker",
-        "metaRating": 91.6819480198926
-      },
-      {
-        "archetype": "deep_lying_playmaker",
-        "metaRating": 91.40750404352563
-      }
-    ],
-    "overall": 92,
-    "playstyles": [
-      "Chip Shot",
-      "Power Shot",
-      "Pinged Pass",
-      "Tiki Taka",
-      "Anticipate",
-      "Slide Tackle",
-      "Technical",
-      "Press Proven",
-      "Relentless"
-    ],
-    "playstylesPlus": [
-      "Incisive Pass",
-      "Long Ball Pass"
-    ],
-    "positions": [
-      "CM",
-      "CAM",
-      "CDM"
-    ],
-    "rolesPlus": [
-      "CM Box to Box",
-      "CAM Classic 10",
-      "CM Half-Winger",
-      "CAM Playmaker"
-    ],
-    "rolesPlusPlus": [
-      "CM Deep-Lying Playmaker",
-      "CM Playmaker",
-      "CDM Deep-Lying Playmaker"
-    ],
-    "skillMoves": 3,
-    "weakFoot": 5,
-    "weight": 71
   },
   {
     "accelerateType": "MOSTLY_EXPLOSIVE",
@@ -947,6 +721,7 @@
     "commonName": "Yan Couto",
     "eaId": 50590723,
     "evolution": true,
+    "evolutionIgsBoost": 0,
     "foot": "Right",
     "height": 168,
     "metaRatings": [
@@ -977,8 +752,8 @@
     ],
     "positions": [
       "RW",
-      "RM",
-      "RB"
+      "RB",
+      "RM"
     ],
     "rolesPlus": [
       "RM Wide Playmaker",
@@ -990,8 +765,257 @@
       "RB Attacking Wingback"
     ],
     "skillMoves": 5,
+    "totalIgsBoost": 0,
     "weakFoot": 5,
     "weight": 60
+  },
+  {
+    "accelerateType": "CONTROLLED_EXPLOSIVE",
+    "attributeAcceleration": 87,
+    "attributeAggression": 99,
+    "attributeAgility": 90,
+    "attributeBalance": 90,
+    "attributeBallControl": 90,
+    "attributeComposure": 90,
+    "attributeCrossing": 93,
+    "attributeCurve": 80,
+    "attributeDefensiveAwareness": 84,
+    "attributeDribbling": 90,
+    "attributeFinishing": 73,
+    "attributeFkAccuracy": 77,
+    "attributeGkDiving": 1,
+    "attributeGkHandling": 1,
+    "attributeGkKicking": 1,
+    "attributeGkPositioning": 1,
+    "attributeGkReflexes": 1,
+    "attributeHeadingAccuracy": 84,
+    "attributeInterceptions": 90,
+    "attributeJumping": 91,
+    "attributeLongPassing": 70,
+    "attributeLongShots": 69,
+    "attributePenalties": 59,
+    "attributePositioning": 84,
+    "attributeReactions": 90,
+    "attributeShortPassing": 83,
+    "attributeShotPower": 71,
+    "attributeSlidingTackle": 99,
+    "attributeSprintSpeed": 92,
+    "attributeStamina": 99,
+    "attributeStandingTackle": 95,
+    "attributeStrength": 61,
+    "attributeVision": 71,
+    "attributeVolleys": 55,
+    "bodytype": "Average Medium",
+    "commonName": "Patrick Dorgu",
+    "eaId": 50609080,
+    "evolution": true,
+    "evolutionIgsBoost": 0,
+    "foot": "Left",
+    "height": 175,
+    "metaRatings": [
+      {
+        "archetype": "attacking_wingback",
+        "metaRating": 84.65871797472697
+      },
+      {
+        "archetype": "inside_forward",
+        "metaRating": 80.45264122763314
+      }
+    ],
+    "overall": 91,
+    "playstyles": [
+      "Flair",
+      "Trickster",
+      "Pinged Pass",
+      "Bruiser"
+    ],
+    "playstylesPlus": [
+      "Technical",
+      "Jockey"
+    ],
+    "positions": [
+      "LB",
+      "LM"
+    ],
+    "rolesPlus": [
+      "LB Wingback",
+      "LM Winger",
+      "LM Wide Midfielder",
+      "LM Wide Playmaker"
+    ],
+    "rolesPlusPlus": [
+      "LM Inside Forward",
+      "LB Attacking Wingback"
+    ],
+    "skillMoves": 5,
+    "totalIgsBoost": 0,
+    "weakFoot": 5,
+    "weight": 60
+  },
+  {
+    "accelerateType": "EXPLOSIVE",
+    "attributeAcceleration": 94,
+    "attributeAggression": 64,
+    "attributeAgility": 99,
+    "attributeBalance": 99,
+    "attributeBallControl": 92,
+    "attributeComposure": 79,
+    "attributeCrossing": 91,
+    "attributeCurve": 95,
+    "attributeDefensiveAwareness": 19,
+    "attributeDribbling": 91,
+    "attributeFinishing": 97,
+    "attributeFkAccuracy": 80,
+    "attributeGkDiving": 1,
+    "attributeGkHandling": 1,
+    "attributeGkKicking": 1,
+    "attributeGkPositioning": 1,
+    "attributeGkReflexes": 1,
+    "attributeHeadingAccuracy": 48,
+    "attributeInterceptions": 22,
+    "attributeJumping": 93,
+    "attributeLongPassing": 80,
+    "attributeLongShots": 90,
+    "attributePenalties": 83,
+    "attributePositioning": 97,
+    "attributeReactions": 79,
+    "attributeShortPassing": 91,
+    "attributeShotPower": 97,
+    "attributeSlidingTackle": 22,
+    "attributeSprintSpeed": 88,
+    "attributeStamina": 99,
+    "attributeStandingTackle": 25,
+    "attributeStrength": 68,
+    "attributeVision": 94,
+    "attributeVolleys": 71,
+    "bodytype": "Lean Medium",
+    "commonName": "Amad Diallo",
+    "eaId": 254088,
+    "evolution": true,
+    "evolutionIgsBoost": 0,
+    "foot": "Left",
+    "height": 173,
+    "metaRatings": [
+      {
+        "archetype": "false_nine",
+        "metaRating": 88.88905027367652
+      },
+      {
+        "archetype": "inside_forward",
+        "metaRating": 89.90686528804562
+      }
+    ],
+    "overall": 92,
+    "playstyles": [
+      "Finesse Shot",
+      "Low Driven Shot",
+      "Dead Ball",
+      "Flair",
+      "First Touch",
+      "Trivela"
+    ],
+    "playstylesPlus": [
+      "Technical",
+      "Trickster"
+    ],
+    "positions": [
+      "CAM",
+      "RW",
+      "RM",
+      "ST"
+    ],
+    "rolesPlus": [
+      "RM Wide Playmaker",
+      "RM Inside Forward",
+      "CAM Half Winger"
+    ],
+    "rolesPlusPlus": [
+      "RW Inside Forward",
+      "ST False 9"
+    ],
+    "skillMoves": 5,
+    "totalIgsBoost": 0,
+    "weakFoot": 4,
+    "weight": 67
+  },
+  {
+    "accelerateType": "CONTROLLED",
+    "attributeAcceleration": 89,
+    "attributeAggression": 88,
+    "attributeAgility": 82,
+    "attributeBalance": 82,
+    "attributeBallControl": 89,
+    "attributeComposure": 85,
+    "attributeCrossing": 77,
+    "attributeCurve": 84,
+    "attributeDefensiveAwareness": 59,
+    "attributeDribbling": 84,
+    "attributeFinishing": 91,
+    "attributeFkAccuracy": 82,
+    "attributeGkDiving": 1,
+    "attributeGkHandling": 1,
+    "attributeGkKicking": 1,
+    "attributeGkPositioning": 1,
+    "attributeGkReflexes": 1,
+    "attributeHeadingAccuracy": 99,
+    "attributeInterceptions": 49,
+    "attributeJumping": 85,
+    "attributeLongPassing": 83,
+    "attributeLongShots": 91,
+    "attributePenalties": 87,
+    "attributePositioning": 92,
+    "attributeReactions": 90,
+    "attributeShortPassing": 84,
+    "attributeShotPower": 94,
+    "attributeSlidingTackle": 49,
+    "attributeSprintSpeed": 87,
+    "attributeStamina": 89,
+    "attributeStandingTackle": 63,
+    "attributeStrength": 85,
+    "attributeVision": 79,
+    "attributeVolleys": 92,
+    "bodytype": "Stocky Medium",
+    "commonName": "Wayne Rooney",
+    "eaId": 54050,
+    "evolution": true,
+    "evolutionIgsBoost": 0,
+    "foot": "Right",
+    "height": 176,
+    "metaRatings": [
+      {
+        "archetype": "advanced_forward",
+        "metaRating": 83.03123643317323
+      }
+    ],
+    "overall": 89,
+    "playstyles": [
+      "Finesse Shot",
+      "Chip Shot",
+      "Low Driven Shot",
+      "Long Ball Pass",
+      "Intercept",
+      "Relentless",
+      "Trivela",
+      "Acrobatic"
+    ],
+    "playstylesPlus": [
+      "Power Shot"
+    ],
+    "positions": [
+      "CAM",
+      "ST"
+    ],
+    "rolesPlus": [
+      "CAM Shadow Striker",
+      "ST False 9"
+    ],
+    "rolesPlusPlus": [
+      "ST Advanced Forward"
+    ],
+    "skillMoves": 3,
+    "totalIgsBoost": 0,
+    "weakFoot": 4,
+    "weight": 82
   },
   {
     "accelerateType": "CONTROLLED_LENGTHY",
@@ -1033,6 +1057,7 @@
     "commonName": "Maicon",
     "eaId": 50467103,
     "evolution": true,
+    "evolutionIgsBoost": 0,
     "foot": "Right",
     "height": 184,
     "metaRatings": [
@@ -1062,8 +1087,8 @@
       "Bruiser"
     ],
     "positions": [
-      "RM",
-      "RB"
+      "RB",
+      "RM"
     ],
     "rolesPlus": [
       "RB Falseback"
@@ -1074,8 +1099,273 @@
       "RB Fullback"
     ],
     "skillMoves": 4,
+    "totalIgsBoost": 0,
     "weakFoot": 4,
     "weight": 77
+  },
+  {
+    "accelerateType": "CONTROLLED",
+    "attributeAcceleration": 95,
+    "attributeAggression": 87,
+    "attributeAgility": 87,
+    "attributeBalance": 91,
+    "attributeBallControl": 93,
+    "attributeComposure": 85,
+    "attributeCrossing": 91,
+    "attributeCurve": 92,
+    "attributeDefensiveAwareness": 90,
+    "attributeDribbling": 90,
+    "attributeFinishing": 82,
+    "attributeFkAccuracy": 86,
+    "attributeGkDiving": 1,
+    "attributeGkHandling": 1,
+    "attributeGkKicking": 1,
+    "attributeGkPositioning": 1,
+    "attributeGkReflexes": 1,
+    "attributeHeadingAccuracy": 87,
+    "attributeInterceptions": 88,
+    "attributeJumping": 88,
+    "attributeLongPassing": 85,
+    "attributeLongShots": 88,
+    "attributePenalties": 74,
+    "attributePositioning": 87,
+    "attributeReactions": 90,
+    "attributeShortPassing": 89,
+    "attributeShotPower": 85,
+    "attributeSlidingTackle": 88,
+    "attributeSprintSpeed": 92,
+    "attributeStamina": 91,
+    "attributeStandingTackle": 88,
+    "attributeStrength": 84,
+    "attributeVision": 83,
+    "attributeVolleys": 81,
+    "bodytype": "Average Medium",
+    "commonName": "Federico Dimarco",
+    "eaId": 100889564,
+    "evolution": true,
+    "evolutionIgsBoost": 0,
+    "foot": "Left",
+    "height": 174,
+    "metaRatings": [
+      {
+        "archetype": "attacking_wingback",
+        "metaRating": 88.43697171139404
+      },
+      {
+        "archetype": "deep_lying_playmaker",
+        "metaRating": 88.49089130202036
+      },
+      {
+        "archetype": "fullback",
+        "metaRating": 94.23147828020778
+      },
+      {
+        "archetype": "wingback",
+        "metaRating": 89.20918081571766
+      }
+    ],
+    "overall": 92,
+    "playstyles": [
+      "Finesse Shot",
+      "Power Shot",
+      "Dead Ball",
+      "Incisive Pass",
+      "Pinged Pass",
+      "Long Ball Pass",
+      "Jockey",
+      "First Touch"
+    ],
+    "playstylesPlus": [
+      "Whipped Pass",
+      "Intercept"
+    ],
+    "positions": [
+      "CM",
+      "LB",
+      "LM"
+    ],
+    "rolesPlus": [
+      "LB Falseback",
+      "CM Box to Box",
+      "LM Winger",
+      "LM Wide Playmaker"
+    ],
+    "rolesPlusPlus": [
+      "CM Deep-Lying Playmaker",
+      "LB Fullback",
+      "LB Wingback",
+      "LB Attacking Wingback"
+    ],
+    "skillMoves": 3,
+    "totalIgsBoost": 0,
+    "weakFoot": 4,
+    "weight": 76
+  },
+  {
+    "accelerateType": "MOSTLY_EXPLOSIVE",
+    "attributeAcceleration": 89,
+    "attributeAggression": 98,
+    "attributeAgility": 85,
+    "attributeBalance": 82,
+    "attributeBallControl": 92,
+    "attributeComposure": 85,
+    "attributeCrossing": 85,
+    "attributeCurve": 90,
+    "attributeDefensiveAwareness": 73,
+    "attributeDribbling": 89,
+    "attributeFinishing": 98,
+    "attributeFkAccuracy": 95,
+    "attributeGkDiving": 1,
+    "attributeGkHandling": 1,
+    "attributeGkKicking": 1,
+    "attributeGkPositioning": 1,
+    "attributeGkReflexes": 1,
+    "attributeHeadingAccuracy": 75,
+    "attributeInterceptions": 75,
+    "attributeJumping": 83,
+    "attributeLongPassing": 93,
+    "attributeLongShots": 99,
+    "attributePenalties": 99,
+    "attributePositioning": 99,
+    "attributeReactions": 95,
+    "attributeShortPassing": 93,
+    "attributeShotPower": 99,
+    "attributeSlidingTackle": 78,
+    "attributeSprintSpeed": 85,
+    "attributeStamina": 99,
+    "attributeStandingTackle": 84,
+    "attributeStrength": 76,
+    "attributeVision": 97,
+    "attributeVolleys": 99,
+    "bodytype": "Unique",
+    "commonName": "Bruno Fernandes",
+    "eaId": 100875494,
+    "evolution": true,
+    "evolutionIgsBoost": 0,
+    "foot": "Right",
+    "height": 179,
+    "metaRatings": [
+      {
+        "archetype": "shadow_striker",
+        "metaRating": 91.09882735839032
+      },
+      {
+        "archetype": "playmaker",
+        "metaRating": 90.1985346994774
+      }
+    ],
+    "overall": 92,
+    "playstyles": [
+      "Finesse Shot",
+      "Power Shot",
+      "Incisive Pass",
+      "Pinged Pass",
+      "Flair",
+      "First Touch",
+      "Relentless",
+      "Trivela",
+      "Aerial"
+    ],
+    "playstylesPlus": [
+      "Dead Ball",
+      "Long Ball Pass"
+    ],
+    "positions": [
+      "CM",
+      "CAM"
+    ],
+    "rolesPlus": [
+      "CAM Half Winger",
+      "CAM Classic 10",
+      "CM Half-Winger"
+    ],
+    "rolesPlusPlus": [
+      "CM Playmaker",
+      "CAM Playmaker",
+      "CAM Shadow Striker"
+    ],
+    "skillMoves": 4,
+    "totalIgsBoost": 0,
+    "weakFoot": 4,
+    "weight": 69
+  },
+  {
+    "accelerateType": null,
+    "attributeAcceleration": 78,
+    "attributeAggression": 90,
+    "attributeAgility": 70,
+    "attributeBalance": 71,
+    "attributeBallControl": 72,
+    "attributeComposure": 86,
+    "attributeCrossing": 51,
+    "attributeCurve": 51,
+    "attributeDefensiveAwareness": 93,
+    "attributeDribbling": 51,
+    "attributeFinishing": 44,
+    "attributeFkAccuracy": 47,
+    "attributeGkDiving": 1,
+    "attributeGkHandling": 1,
+    "attributeGkKicking": 1,
+    "attributeGkPositioning": 1,
+    "attributeGkReflexes": 1,
+    "attributeHeadingAccuracy": 91,
+    "attributeInterceptions": 87,
+    "attributeJumping": 92,
+    "attributeLongPassing": 70,
+    "attributeLongShots": 42,
+    "attributePenalties": 66,
+    "attributePositioning": 35,
+    "attributeReactions": 83,
+    "attributeShortPassing": 74,
+    "attributeShotPower": 70,
+    "attributeSlidingTackle": 88,
+    "attributeSprintSpeed": 82,
+    "attributeStamina": 87,
+    "attributeStandingTackle": 92,
+    "attributeStrength": 93,
+    "attributeVision": 56,
+    "attributeVolleys": 51,
+    "bodytype": "Average Tall",
+    "commonName": "Nemanja Vidi\u0107",
+    "eaId": 50472249,
+    "evolution": true,
+    "evolutionIgsBoost": 0,
+    "foot": "Right",
+    "height": 190,
+    "metaRatings": [
+      {
+        "archetype": "stopper",
+        "metaRating": 82.45385340020067
+      }
+    ],
+    "overall": 89,
+    "playstyles": [
+      "Power Header",
+      "Jockey",
+      "Anticipate",
+      "Slide Tackle",
+      "Bruiser",
+      "Acrobatic",
+      "Aerial"
+    ],
+    "playstylesPlus": [
+      "Block",
+      "Intercept"
+    ],
+    "positions": [
+      "CB"
+    ],
+    "rolesPlus": [
+      "CB Defender",
+      "CB Ball-Playing Defender"
+    ],
+    "rolesPlusPlus": [
+      "CB Stopper"
+    ],
+    "skillMoves": 2,
+    "totalIgsBoost": 0,
+    "weakFoot": 3,
+    "weight": 84
   },
   {
     "accelerateType": "MOSTLY_LENGTHY",
@@ -8130,170 +8420,6 @@
     "skillMoves": 4,
     "weakFoot": 4,
     "weight": 75
-  },
-  {
-    "accelerateType": "MOSTLY_EXPLOSIVE",
-    "attributeAcceleration": 86,
-    "attributeAggression": 90,
-    "attributeAgility": 85,
-    "attributeBalance": 82,
-    "attributeBallControl": 92,
-    "attributeComposure": 85,
-    "attributeCrossing": 85,
-    "attributeCurve": 90,
-    "attributeDefensiveAwareness": 73,
-    "attributeDribbling": 89,
-    "attributeFinishing": 89,
-    "attributeFkAccuracy": 95,
-    "attributeGkDiving": 12,
-    "attributeGkHandling": 14,
-    "attributeGkKicking": 15,
-    "attributeGkPositioning": 8,
-    "attributeGkReflexes": 14,
-    "attributeHeadingAccuracy": 75,
-    "attributeInterceptions": 75,
-    "attributeJumping": 75,
-    "attributeLongPassing": 93,
-    "attributeLongShots": 90,
-    "attributePenalties": 98,
-    "attributePositioning": 92,
-    "attributeReactions": 95,
-    "attributeShortPassing": 93,
-    "attributeShotPower": 91,
-    "attributeSlidingTackle": 78,
-    "attributeSprintSpeed": 82,
-    "attributeStamina": 97,
-    "attributeStandingTackle": 84,
-    "attributeStrength": 70,
-    "attributeVision": 97,
-    "attributeVolleys": 92,
-    "bodytype": "Unique",
-    "commonName": "Bruno Fernandes",
-    "eaId": 100875494,
-    "evolution": false,
-    "foot": "Right",
-    "height": 179,
-    "metaRatings": [
-      {
-        "archetype": "playmaker",
-        "metaRating": 86.80869361190298
-      },
-      {
-        "archetype": "shadow_striker",
-        "metaRating": 86.5087068375688
-      }
-    ],
-    "overall": 89,
-    "playstyles": [
-      "Finesse Shot",
-      "Incisive Pass",
-      "Pinged Pass",
-      "Flair",
-      "First Touch",
-      "Relentless"
-    ],
-    "playstylesPlus": [
-      "Dead Ball",
-      "Long Ball Pass"
-    ],
-    "positions": [
-      "CAM",
-      "CM"
-    ],
-    "rolesPlus": [
-      "CM Half-Winger",
-      "CAM Half Winger",
-      "CAM Classic 10"
-    ],
-    "rolesPlusPlus": [
-      "CM Playmaker",
-      "CAM Playmaker",
-      "CAM Shadow Striker"
-    ],
-    "skillMoves": 4,
-    "weakFoot": 4,
-    "weight": 69
-  },
-  {
-    "accelerateType": "CONTROLLED",
-    "attributeAcceleration": 89,
-    "attributeAggression": 85,
-    "attributeAgility": 84,
-    "attributeBalance": 88,
-    "attributeBallControl": 90,
-    "attributeComposure": 82,
-    "attributeCrossing": 91,
-    "attributeCurve": 92,
-    "attributeDefensiveAwareness": 84,
-    "attributeDribbling": 87,
-    "attributeFinishing": 82,
-    "attributeFkAccuracy": 86,
-    "attributeGkDiving": 9,
-    "attributeGkHandling": 8,
-    "attributeGkKicking": 12,
-    "attributeGkPositioning": 7,
-    "attributeGkReflexes": 7,
-    "attributeHeadingAccuracy": 81,
-    "attributeInterceptions": 82,
-    "attributeJumping": 86,
-    "attributeLongPassing": 85,
-    "attributeLongShots": 88,
-    "attributePenalties": 74,
-    "attributePositioning": 87,
-    "attributeReactions": 87,
-    "attributeShortPassing": 89,
-    "attributeShotPower": 85,
-    "attributeSlidingTackle": 82,
-    "attributeSprintSpeed": 86,
-    "attributeStamina": 89,
-    "attributeStandingTackle": 82,
-    "attributeStrength": 82,
-    "attributeVision": 83,
-    "attributeVolleys": 81,
-    "bodytype": "Average Medium",
-    "commonName": "Federico Dimarco",
-    "eaId": 100889564,
-    "evolution": false,
-    "foot": "Left",
-    "height": 174,
-    "metaRatings": [
-      {
-        "archetype": "attacking_wingback",
-        "metaRating": 83.59488272179179
-      },
-      {
-        "archetype": "wingback",
-        "metaRating": 83.47056876522485
-      }
-    ],
-    "overall": 87,
-    "playstyles": [
-      "Finesse Shot",
-      "Power Shot",
-      "Incisive Pass",
-      "Long Ball Pass",
-      "First Touch"
-    ],
-    "playstylesPlus": [
-      "Whipped Pass",
-      "Intercept"
-    ],
-    "positions": [
-      "LB",
-      "LM"
-    ],
-    "rolesPlus": [
-      "LB Fullback",
-      "LM Winger",
-      "LM Wide Playmaker"
-    ],
-    "rolesPlusPlus": [
-      "LB Wingback",
-      "LB Attacking Wingback"
-    ],
-    "skillMoves": 3,
-    "weakFoot": 4,
-    "weight": 76
   },
   {
     "accelerateType": "CONTROLLED_EXPLOSIVE",
