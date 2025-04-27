@@ -1,83 +1,321 @@
 {
   "data": [
     {
-      "eaId": 50541537,
-      "overall": 91,
-      "height": 170,
+      "eaId": 254088,
+      "overall": 92,
+      "height": 173,
       "foot": "Left",
       "skillMoves": 5,
       "weakFoot": 4,
       "playstyles": [
-        "Long Ball Pass",
-        "Whipped Pass",
-        "Intercept",
+        "Finesse Shot",
+        "Low Driven Shot",
+        "Dead Ball",
         "Flair",
         "First Touch",
-        "Trickster",
         "Trivela"
       ],
       "playstylesPlus": [
-        "Tiki Taka",
-        "Technical"
+        "Technical",
+        "Trickster"
       ],
       "rolesPlus": [
-        "CAM Shadow Striker",
-        "LB Falseback",
-        "LB Attacking Wingback",
-        "CM Box to Box",
-        "CM Half-Winger"
+        "RM Wide Playmaker",
+        "RM Inside Forward",
+        "CAM Half Winger"
       ],
       "rolesPlusPlus": [
-        "CM Playmaker",
-        "CAM Playmaker"
+        "RW Inside Forward",
+        "ST False 9"
       ],
       "accelerateType": "EXPLOSIVE",
-      "weight": 71,
-      "attributeAcceleration": 89,
-      "attributeSprintSpeed": 87,
-      "attributeAgility": 93,
-      "attributeBalance": 93,
-      "attributeJumping": 57,
-      "attributeStamina": 90,
-      "attributeStrength": 77,
-      "attributeReactions": 91,
-      "attributeAggression": 72,
-      "attributeComposure": 90,
-      "attributeInterceptions": 94,
-      "attributePositioning": 91,
-      "attributeVision": 90,
+      "weight": 67,
+      "attributeAcceleration": 94,
+      "attributeSprintSpeed": 88,
+      "attributeAgility": 99,
+      "attributeBalance": 99,
+      "attributeJumping": 93,
+      "attributeStamina": 99,
+      "attributeStrength": 68,
+      "attributeReactions": 79,
+      "attributeAggression": 64,
+      "attributeComposure": 79,
+      "attributeInterceptions": 22,
+      "attributePositioning": 97,
+      "attributeVision": 94,
       "attributeBallControl": 92,
-      "attributeCrossing": 90,
-      "attributeDribbling": 90,
-      "attributeFinishing": 89,
-      "attributeFkAccuracy": 87,
-      "attributeHeadingAccuracy": 50,
-      "attributeLongPassing": 83,
-      "attributeShortPassing": 94,
-      "attributeDefensiveAwareness": 87,
-      "attributeShotPower": 90,
-      "attributeLongShots": 95,
-      "attributeStandingTackle": 86,
-      "attributeSlidingTackle": 85,
-      "attributeVolleys": 92,
-      "attributeCurve": 90,
-      "attributePenalties": 63,
+      "attributeCrossing": 91,
+      "attributeDribbling": 91,
+      "attributeFinishing": 97,
+      "attributeFkAccuracy": 80,
+      "attributeHeadingAccuracy": 48,
+      "attributeLongPassing": 80,
+      "attributeShortPassing": 91,
+      "attributeDefensiveAwareness": 19,
+      "attributeShotPower": 97,
+      "attributeLongShots": 90,
+      "attributeStandingTackle": 25,
+      "attributeSlidingTackle": 22,
+      "attributeVolleys": 71,
+      "attributeCurve": 95,
+      "attributePenalties": 83,
       "totalIgsBoost": 0,
       "evolutionIgsBoost": 0,
-      "commonName": "Rapha\u00ebl Guerreiro",
+      "premiumSeasonPassLevel": null,
+      "standardSeasonPassLevel": null,
+      "commonName": "Amad Diallo",
       "rolesPlusPlusArchetypes": [
-        "playmaker"
+        "inside_forward",
+        "false_nine"
       ],
-      "bodytype": "Average Short",
+      "bodytype": "Lean Medium",
       "positions": [
-        "CM",
-        "LB",
-        "CAM"
+        "RM",
+        "CAM",
+        "ST",
+        "RW"
       ],
       "metaRatings": [
         {
+          "archetype": "advanced_forward",
+          "metaR_0chem": 85.24,
+          "metaR_3chem": 88.64,
+          "bestChemStyle": "hunter",
+          "accelerateType_chem": "EXPLOSIVE"
+        },
+        {
+          "archetype": "classic_ten",
+          "metaR_0chem": 86.3,
+          "metaR_3chem": 89.93,
+          "bestChemStyle": "catalyst",
+          "accelerateType_chem": "EXPLOSIVE"
+        },
+        {
+          "archetype": "false_nine",
+          "metaR_0chem": 86.0,
+          "metaR_3chem": 89.91,
+          "bestChemStyle": "maestro",
+          "accelerateType_chem": "EXPLOSIVE"
+        },
+        {
+          "archetype": "half_winger",
+          "metaR_0chem": 81.92,
+          "metaR_3chem": 85.73,
+          "bestChemStyle": "catalyst",
+          "accelerateType_chem": "EXPLOSIVE"
+        },
+        {
+          "archetype": "inside_forward",
+          "metaR_0chem": 88.98,
+          "metaR_3chem": 91.98,
+          "bestChemStyle": "engine",
+          "accelerateType_chem": "EXPLOSIVE"
+        },
+        {
           "archetype": "playmaker",
-          "metaRating": 88.00908488672593
+          "metaR_0chem": 84.02,
+          "metaR_3chem": 87.4,
+          "bestChemStyle": "catalyst",
+          "accelerateType_chem": "EXPLOSIVE"
+        },
+        {
+          "archetype": "poacher",
+          "metaR_0chem": 82.81,
+          "metaR_3chem": 86.48,
+          "bestChemStyle": "hunter",
+          "accelerateType_chem": "EXPLOSIVE"
+        },
+        {
+          "archetype": "shadow_striker",
+          "metaR_0chem": 88.02,
+          "metaR_3chem": 91.26,
+          "bestChemStyle": "maestro",
+          "accelerateType_chem": "EXPLOSIVE"
+        },
+        {
+          "archetype": "target_forward",
+          "metaR_0chem": 68.81,
+          "metaR_3chem": 72.2,
+          "bestChemStyle": "hawk",
+          "accelerateType_chem": "EXPLOSIVE"
+        },
+        {
+          "archetype": "wide_midfielder",
+          "metaR_0chem": 84.32,
+          "metaR_3chem": 87.52,
+          "bestChemStyle": "catalyst",
+          "accelerateType_chem": "EXPLOSIVE"
+        },
+        {
+          "archetype": "wide_playmaker",
+          "metaR_0chem": 84.33,
+          "metaR_3chem": 88.17,
+          "bestChemStyle": "catalyst",
+          "accelerateType_chem": "EXPLOSIVE"
+        },
+        {
+          "archetype": "winger",
+          "metaR_0chem": 87.42,
+          "metaR_3chem": 91.29,
+          "bestChemStyle": "catalyst",
+          "accelerateType_chem": "EXPLOSIVE"
+        }
+      ]
+    },
+    {
+      "eaId": 188377,
+      "overall": 90,
+      "height": 183,
+      "foot": "Right",
+      "skillMoves": 3,
+      "weakFoot": 4,
+      "playstyles": [
+        "Jockey",
+        "Block",
+        "Anticipate",
+        "Slide Tackle",
+        "Bruiser",
+        "Rapid",
+        "Long Throw"
+      ],
+      "playstylesPlus": [
+        "Intercept",
+        "Long Ball Pass"
+      ],
+      "rolesPlus": [
+        "CDM Deep-Lying Playmaker",
+        "CB Stopper",
+        "RB Falseback"
+      ],
+      "rolesPlusPlus": [
+        "RB Wingback",
+        "CDM Holding",
+        "CB Defender"
+      ],
+      "accelerateType": "MOSTLY_LENGTHY",
+      "weight": 83,
+      "attributeAcceleration": 85,
+      "attributeSprintSpeed": 94,
+      "attributeAgility": 73,
+      "attributeBalance": 76,
+      "attributeJumping": 92,
+      "attributeStamina": 86,
+      "attributeStrength": 85,
+      "attributeReactions": 94,
+      "attributeAggression": 89,
+      "attributeComposure": 83,
+      "attributeInterceptions": 86,
+      "attributePositioning": 88,
+      "attributeVision": 80,
+      "attributeBallControl": 90,
+      "attributeCrossing": 89,
+      "attributeDribbling": 86,
+      "attributeFinishing": 68,
+      "attributeFkAccuracy": 82,
+      "attributeHeadingAccuracy": 79,
+      "attributeLongPassing": 92,
+      "attributeShortPassing": 94,
+      "attributeDefensiveAwareness": 83,
+      "attributeShotPower": 99,
+      "attributeLongShots": 90,
+      "attributeStandingTackle": 94,
+      "attributeSlidingTackle": 91,
+      "attributeVolleys": 75,
+      "attributeCurve": 88,
+      "attributePenalties": 83,
+      "totalIgsBoost": 0,
+      "evolutionIgsBoost": 0,
+      "premiumSeasonPassLevel": null,
+      "standardSeasonPassLevel": null,
+      "commonName": "Kyle Walker",
+      "rolesPlusPlusArchetypes": [
+        "defender",
+        "holding",
+        "wingback"
+      ],
+      "bodytype": "Unique",
+      "positions": [
+        "CB",
+        "RB",
+        "CDM"
+      ],
+      "metaRatings": [
+        {
+          "archetype": "attacking_wingback",
+          "metaR_0chem": 82.03,
+          "metaR_3chem": 86.36,
+          "bestChemStyle": "engine",
+          "accelerateType_chem": "MOSTLY_LENGTHY"
+        },
+        {
+          "archetype": "ball_playing_defender",
+          "metaR_0chem": 84.67,
+          "metaR_3chem": 89.11,
+          "bestChemStyle": "backbone",
+          "accelerateType_chem": "MOSTLY_LENGTHY"
+        },
+        {
+          "archetype": "centre_half",
+          "metaR_0chem": 83.29,
+          "metaR_3chem": 87.88,
+          "bestChemStyle": "anchor",
+          "accelerateType_chem": "MOSTLY_LENGTHY"
+        },
+        {
+          "archetype": "deep_lying_playmaker",
+          "metaR_0chem": 82.23,
+          "metaR_3chem": 86.0,
+          "bestChemStyle": "powerhouse",
+          "accelerateType_chem": "MOSTLY_LENGTHY"
+        },
+        {
+          "archetype": "defender",
+          "metaR_0chem": 81.56,
+          "metaR_3chem": 87.3,
+          "bestChemStyle": "shadow",
+          "accelerateType_chem": "MOSTLY_LENGTHY"
+        },
+        {
+          "archetype": "falseback",
+          "metaR_0chem": 83.87,
+          "metaR_3chem": 88.34,
+          "bestChemStyle": "shadow",
+          "accelerateType_chem": "MOSTLY_LENGTHY"
+        },
+        {
+          "archetype": "fullback",
+          "metaR_0chem": 85.26,
+          "metaR_3chem": 91.51,
+          "bestChemStyle": "shadow",
+          "accelerateType_chem": "MOSTLY_LENGTHY"
+        },
+        {
+          "archetype": "holding",
+          "metaR_0chem": 83.37,
+          "metaR_3chem": 88.94,
+          "bestChemStyle": "shadow",
+          "accelerateType_chem": "MOSTLY_LENGTHY"
+        },
+        {
+          "archetype": "stopper",
+          "metaR_0chem": 82.28,
+          "metaR_3chem": 88.31,
+          "bestChemStyle": "shadow",
+          "accelerateType_chem": "MOSTLY_LENGTHY"
+        },
+        {
+          "archetype": "wide_half",
+          "metaR_0chem": 81.04,
+          "metaR_3chem": 85.67,
+          "bestChemStyle": "shadow",
+          "accelerateType_chem": "MOSTLY_LENGTHY"
+        },
+        {
+          "archetype": "wingback",
+          "metaR_0chem": 83.39,
+          "metaR_3chem": 88.94,
+          "bestChemStyle": "shadow",
+          "accelerateType_chem": "MOSTLY_LENGTHY"
         }
       ]
     },
@@ -110,7 +348,7 @@
       "rolesPlusPlus": [
         "RW Wide Playmaker"
       ],
-      "accelerateType": "EXPLOSIVE",
+      "accelerateType": "MOSTLY_EXPLOSIVE",
       "weight": 67,
       "attributeAcceleration": 97,
       "attributeSprintSpeed": 82,
@@ -143,21 +381,1011 @@
       "attributePenalties": 80,
       "totalIgsBoost": 0,
       "evolutionIgsBoost": 0,
+      "premiumSeasonPassLevel": null,
+      "standardSeasonPassLevel": null,
       "commonName": "Lionel Messi",
       "rolesPlusPlusArchetypes": [
         "wide_playmaker"
       ],
       "bodytype": "Unique",
       "positions": [
-        "CAM",
         "RW",
+        "CAM",
+        "ST",
+        "RM"
+      ],
+      "metaRatings": [
+        {
+          "archetype": "advanced_forward",
+          "metaR_0chem": 84.9,
+          "metaR_3chem": 89.28,
+          "bestChemStyle": "hunter",
+          "accelerateType_chem": "MOSTLY_EXPLOSIVE"
+        },
+        {
+          "archetype": "classic_ten",
+          "metaR_0chem": 85.06,
+          "metaR_3chem": 88.87,
+          "bestChemStyle": "deadeye",
+          "accelerateType_chem": "MOSTLY_EXPLOSIVE"
+        },
+        {
+          "archetype": "false_nine",
+          "metaR_0chem": 85.83,
+          "metaR_3chem": 89.62,
+          "bestChemStyle": "deadeye",
+          "accelerateType_chem": "MOSTLY_EXPLOSIVE"
+        },
+        {
+          "archetype": "half_winger",
+          "metaR_0chem": 81.28,
+          "metaR_3chem": 84.72,
+          "bestChemStyle": "catalyst",
+          "accelerateType_chem": "MOSTLY_EXPLOSIVE"
+        },
+        {
+          "archetype": "inside_forward",
+          "metaR_0chem": 84.89,
+          "metaR_3chem": 88.86,
+          "bestChemStyle": "finisher",
+          "accelerateType_chem": "MOSTLY_EXPLOSIVE"
+        },
+        {
+          "archetype": "playmaker",
+          "metaR_0chem": 83.68,
+          "metaR_3chem": 87.34,
+          "bestChemStyle": "deadeye",
+          "accelerateType_chem": "MOSTLY_EXPLOSIVE"
+        },
+        {
+          "archetype": "poacher",
+          "metaR_0chem": 82.5,
+          "metaR_3chem": 86.92,
+          "bestChemStyle": "hunter",
+          "accelerateType_chem": "MOSTLY_EXPLOSIVE"
+        },
+        {
+          "archetype": "shadow_striker",
+          "metaR_0chem": 86.83,
+          "metaR_3chem": 90.64,
+          "bestChemStyle": "deadeye",
+          "accelerateType_chem": "MOSTLY_EXPLOSIVE"
+        },
+        {
+          "archetype": "target_forward",
+          "metaR_0chem": 70.73,
+          "metaR_3chem": 75.42,
+          "bestChemStyle": "hawk",
+          "accelerateType_chem": "MOSTLY_EXPLOSIVE"
+        },
+        {
+          "archetype": "wide_midfielder",
+          "metaR_0chem": 82.11,
+          "metaR_3chem": 85.14,
+          "bestChemStyle": "engine",
+          "accelerateType_chem": "MOSTLY_EXPLOSIVE"
+        },
+        {
+          "archetype": "wide_playmaker",
+          "metaR_0chem": 84.27,
+          "metaR_3chem": 87.6,
+          "bestChemStyle": "basic",
+          "accelerateType_chem": "MOSTLY_EXPLOSIVE"
+        },
+        {
+          "archetype": "winger",
+          "metaR_0chem": 85.73,
+          "metaR_3chem": 89.31,
+          "bestChemStyle": "hunter",
+          "accelerateType_chem": "MOSTLY_EXPLOSIVE"
+        }
+      ]
+    },
+    {
+      "eaId": 54050,
+      "overall": 89,
+      "height": 176,
+      "foot": "Right",
+      "skillMoves": 3,
+      "weakFoot": 4,
+      "playstyles": [
+        "Finesse Shot",
+        "Chip Shot",
+        "Low Driven Shot",
+        "Long Ball Pass",
+        "Intercept",
+        "Relentless",
+        "Trivela",
+        "Acrobatic"
+      ],
+      "playstylesPlus": [
+        "Power Shot"
+      ],
+      "rolesPlus": [
+        "CAM Shadow Striker",
+        "ST False 9"
+      ],
+      "rolesPlusPlus": [
+        "ST Advanced Forward"
+      ],
+      "accelerateType": "CONTROLLED",
+      "weight": 82,
+      "attributeAcceleration": 89,
+      "attributeSprintSpeed": 87,
+      "attributeAgility": 82,
+      "attributeBalance": 82,
+      "attributeJumping": 85,
+      "attributeStamina": 89,
+      "attributeStrength": 85,
+      "attributeReactions": 90,
+      "attributeAggression": 88,
+      "attributeComposure": 85,
+      "attributeInterceptions": 49,
+      "attributePositioning": 92,
+      "attributeVision": 79,
+      "attributeBallControl": 89,
+      "attributeCrossing": 77,
+      "attributeDribbling": 84,
+      "attributeFinishing": 91,
+      "attributeFkAccuracy": 82,
+      "attributeHeadingAccuracy": 99,
+      "attributeLongPassing": 83,
+      "attributeShortPassing": 84,
+      "attributeDefensiveAwareness": 59,
+      "attributeShotPower": 94,
+      "attributeLongShots": 91,
+      "attributeStandingTackle": 63,
+      "attributeSlidingTackle": 49,
+      "attributeVolleys": 92,
+      "attributeCurve": 84,
+      "attributePenalties": 87,
+      "totalIgsBoost": 0,
+      "evolutionIgsBoost": 0,
+      "premiumSeasonPassLevel": null,
+      "standardSeasonPassLevel": null,
+      "commonName": "Wayne Rooney",
+      "rolesPlusPlusArchetypes": [
+        "advanced_forward"
+      ],
+      "bodytype": "Stocky Medium",
+      "positions": [
+        "ST",
+        "CAM"
+      ],
+      "metaRatings": [
+        {
+          "archetype": "advanced_forward",
+          "metaR_0chem": 80.37,
+          "metaR_3chem": 86.08,
+          "bestChemStyle": "hunter",
+          "accelerateType_chem": "CONTROLLED"
+        },
+        {
+          "archetype": "classic_ten",
+          "metaR_0chem": 78.91,
+          "metaR_3chem": 83.31,
+          "bestChemStyle": "engine",
+          "accelerateType_chem": "CONTROLLED"
+        },
+        {
+          "archetype": "false_nine",
+          "metaR_0chem": 79.19,
+          "metaR_3chem": 83.36,
+          "bestChemStyle": "artist",
+          "accelerateType_chem": "CONTROLLED"
+        },
+        {
+          "archetype": "half_winger",
+          "metaR_0chem": 75.5,
+          "metaR_3chem": 80.0,
+          "bestChemStyle": "catalyst",
+          "accelerateType_chem": "CONTROLLED"
+        },
+        {
+          "archetype": "playmaker",
+          "metaR_0chem": 77.64,
+          "metaR_3chem": 81.43,
+          "bestChemStyle": "catalyst",
+          "accelerateType_chem": "CONTROLLED"
+        },
+        {
+          "archetype": "poacher",
+          "metaR_0chem": 79.01,
+          "metaR_3chem": 84.51,
+          "bestChemStyle": "hunter",
+          "accelerateType_chem": "CONTROLLED"
+        },
+        {
+          "archetype": "shadow_striker",
+          "metaR_0chem": 80.56,
+          "metaR_3chem": 84.92,
+          "bestChemStyle": "engine",
+          "accelerateType_chem": "CONTROLLED"
+        },
+        {
+          "archetype": "target_forward",
+          "metaR_0chem": 72.76,
+          "metaR_3chem": 77.45,
+          "bestChemStyle": "hawk",
+          "accelerateType_chem": "CONTROLLED"
+        }
+      ]
+    },
+    {
+      "eaId": 257534,
+      "overall": 90,
+      "height": 189,
+      "foot": "Left",
+      "skillMoves": 4,
+      "weakFoot": 4,
+      "playstyles": [
+        "Incisive Pass",
+        "Whipped Pass",
+        "Technical",
+        "Flair",
+        "First Touch"
+      ],
+      "playstylesPlus": [
+        "Finesse Shot",
+        "Press Proven"
+      ],
+      "rolesPlus": [
+        "CAM Shadow Striker",
+        "RM Wide Playmaker"
+      ],
+      "rolesPlusPlus": [
+        "RW Inside Forward",
+        "RM Winger",
+        "RM Inside Forward",
+        "RW Winger"
+      ],
+      "accelerateType": "CONTROLLED",
+      "weight": 74,
+      "attributeAcceleration": 89,
+      "attributeSprintSpeed": 94,
+      "attributeAgility": 82,
+      "attributeBalance": 78,
+      "attributeJumping": 86,
+      "attributeStamina": 95,
+      "attributeStrength": 74,
+      "attributeReactions": 88,
+      "attributeAggression": 73,
+      "attributeComposure": 91,
+      "attributeInterceptions": 73,
+      "attributePositioning": 94,
+      "attributeVision": 89,
+      "attributeBallControl": 91,
+      "attributeCrossing": 81,
+      "attributeDribbling": 92,
+      "attributeFinishing": 92,
+      "attributeFkAccuracy": 77,
+      "attributeHeadingAccuracy": 86,
+      "attributeLongPassing": 85,
+      "attributeShortPassing": 89,
+      "attributeDefensiveAwareness": 62,
+      "attributeShotPower": 89,
+      "attributeLongShots": 88,
+      "attributeStandingTackle": 74,
+      "attributeSlidingTackle": 56,
+      "attributeVolleys": 74,
+      "attributeCurve": 88,
+      "attributePenalties": 98,
+      "totalIgsBoost": 0,
+      "evolutionIgsBoost": 0,
+      "premiumSeasonPassLevel": null,
+      "standardSeasonPassLevel": null,
+      "commonName": "Cole Palmer",
+      "rolesPlusPlusArchetypes": [
+        "inside_forward",
+        "winger"
+      ],
+      "bodytype": "Lean Tall",
+      "positions": [
+        "RM",
+        "CAM",
+        "RW"
+      ],
+      "metaRatings": [
+        {
+          "archetype": "classic_ten",
+          "metaR_0chem": 83.61,
+          "metaR_3chem": 87.92,
+          "bestChemStyle": "engine",
+          "accelerateType_chem": "CONTROLLED"
+        },
+        {
+          "archetype": "half_winger",
+          "metaR_0chem": 79.83,
+          "metaR_3chem": 83.72,
+          "bestChemStyle": "engine",
+          "accelerateType_chem": "CONTROLLED"
+        },
+        {
+          "archetype": "inside_forward",
+          "metaR_0chem": 83.09,
+          "metaR_3chem": 87.1,
+          "bestChemStyle": "hunter",
+          "accelerateType_chem": "CONTROLLED"
+        },
+        {
+          "archetype": "playmaker",
+          "metaR_0chem": 83.55,
+          "metaR_3chem": 87.09,
+          "bestChemStyle": "deadeye",
+          "accelerateType_chem": "CONTROLLED"
+        },
+        {
+          "archetype": "shadow_striker",
+          "metaR_0chem": 83.88,
+          "metaR_3chem": 88.12,
+          "bestChemStyle": "engine",
+          "accelerateType_chem": "CONTROLLED"
+        },
+        {
+          "archetype": "wide_midfielder",
+          "metaR_0chem": 80.89,
+          "metaR_3chem": 84.63,
+          "bestChemStyle": "engine",
+          "accelerateType_chem": "CONTROLLED"
+        },
+        {
+          "archetype": "wide_playmaker",
+          "metaR_0chem": 80.9,
+          "metaR_3chem": 84.95,
+          "bestChemStyle": "catalyst",
+          "accelerateType_chem": "CONTROLLED"
+        },
+        {
+          "archetype": "winger",
+          "metaR_0chem": 82.5,
+          "metaR_3chem": 86.75,
+          "bestChemStyle": "engine",
+          "accelerateType_chem": "CONTROLLED"
+        }
+      ]
+    },
+    {
+      "eaId": 50609080,
+      "overall": 91,
+      "height": 175,
+      "foot": "Left",
+      "skillMoves": 5,
+      "weakFoot": 5,
+      "playstyles": [
+        "Flair",
+        "Trickster",
+        "Pinged Pass",
+        "Bruiser"
+      ],
+      "playstylesPlus": [
+        "Technical",
+        "Jockey"
+      ],
+      "rolesPlus": [
+        "LB Wingback",
+        "LM Winger",
+        "LM Wide Midfielder",
+        "LM Wide Playmaker"
+      ],
+      "rolesPlusPlus": [
+        "LM Inside Forward",
+        "LB Attacking Wingback"
+      ],
+      "accelerateType": "EXPLOSIVE",
+      "weight": 60,
+      "attributeAcceleration": 87,
+      "attributeSprintSpeed": 92,
+      "attributeAgility": 90,
+      "attributeBalance": 90,
+      "attributeJumping": 91,
+      "attributeStamina": 99,
+      "attributeStrength": 61,
+      "attributeReactions": 90,
+      "attributeAggression": 99,
+      "attributeComposure": 90,
+      "attributeInterceptions": 90,
+      "attributePositioning": 84,
+      "attributeVision": 71,
+      "attributeBallControl": 90,
+      "attributeCrossing": 93,
+      "attributeDribbling": 90,
+      "attributeFinishing": 73,
+      "attributeFkAccuracy": 77,
+      "attributeHeadingAccuracy": 84,
+      "attributeLongPassing": 70,
+      "attributeShortPassing": 83,
+      "attributeDefensiveAwareness": 84,
+      "attributeShotPower": 71,
+      "attributeLongShots": 69,
+      "attributeStandingTackle": 95,
+      "attributeSlidingTackle": 99,
+      "attributeVolleys": 55,
+      "attributeCurve": 80,
+      "attributePenalties": 59,
+      "totalIgsBoost": 0,
+      "evolutionIgsBoost": 0,
+      "premiumSeasonPassLevel": null,
+      "standardSeasonPassLevel": null,
+      "commonName": "Patrick Dorgu",
+      "rolesPlusPlusArchetypes": [
+        "attacking_wingback",
+        "inside_forward"
+      ],
+      "bodytype": "Average Medium",
+      "positions": [
+        "LB",
+        "LM"
+      ],
+      "metaRatings": [
+        {
+          "archetype": "attacking_wingback",
+          "metaR_0chem": 84.19,
+          "metaR_3chem": 88.4,
+          "bestChemStyle": "catalyst",
+          "accelerateType_chem": "EXPLOSIVE"
+        },
+        {
+          "archetype": "falseback",
+          "metaR_0chem": 80.85,
+          "metaR_3chem": 85.55,
+          "bestChemStyle": "powerhouse",
+          "accelerateType_chem": "EXPLOSIVE"
+        },
+        {
+          "archetype": "fullback",
+          "metaR_0chem": 83.93,
+          "metaR_3chem": 90.17,
+          "bestChemStyle": "shadow",
+          "accelerateType_chem": "EXPLOSIVE"
+        },
+        {
+          "archetype": "inside_forward",
+          "metaR_0chem": 78.05,
+          "metaR_3chem": 83.11,
+          "bestChemStyle": "finisher",
+          "accelerateType_chem": "EXPLOSIVE"
+        },
+        {
+          "archetype": "wide_midfielder",
+          "metaR_0chem": 80.68,
+          "metaR_3chem": 84.39,
+          "bestChemStyle": "engine",
+          "accelerateType_chem": "EXPLOSIVE"
+        },
+        {
+          "archetype": "wide_playmaker",
+          "metaR_0chem": 73.7,
+          "metaR_3chem": 78.0,
+          "bestChemStyle": "catalyst",
+          "accelerateType_chem": "EXPLOSIVE"
+        },
+        {
+          "archetype": "wingback",
+          "metaR_0chem": 85.84,
+          "metaR_3chem": 91.49,
+          "bestChemStyle": "shadow",
+          "accelerateType_chem": "EXPLOSIVE"
+        },
+        {
+          "archetype": "winger",
+          "metaR_0chem": 77.76,
+          "metaR_3chem": 82.48,
+          "bestChemStyle": "hunter",
+          "accelerateType_chem": "EXPLOSIVE"
+        }
+      ]
+    },
+    {
+      "eaId": 50545604,
+      "overall": 90,
+      "height": 178,
+      "foot": "Right",
+      "skillMoves": 5,
+      "weakFoot": 4,
+      "playstyles": [
+        "Incisive Pass",
+        "Tiki Taka",
+        "Whipped Pass",
+        "First Touch",
+        "Trickster",
+        "Relentless"
+      ],
+      "playstylesPlus": [
+        "Rapid",
+        "Quick Step"
+      ],
+      "rolesPlus": [
+        "RM Inside Forward"
+      ],
+      "rolesPlusPlus": [
+        "RM Winger",
+        "ST Poacher"
+      ],
+      "accelerateType": "CONTROLLED",
+      "weight": 86,
+      "attributeAcceleration": 95,
+      "attributeSprintSpeed": 95,
+      "attributeAgility": 91,
+      "attributeBalance": 91,
+      "attributeJumping": 83,
+      "attributeStamina": 87,
+      "attributeStrength": 90,
+      "attributeReactions": 84,
+      "attributeAggression": 83,
+      "attributeComposure": 93,
+      "attributeInterceptions": 53,
+      "attributePositioning": 83,
+      "attributeVision": 85,
+      "attributeBallControl": 91,
+      "attributeCrossing": 97,
+      "attributeDribbling": 89,
+      "attributeFinishing": 84,
+      "attributeFkAccuracy": 54,
+      "attributeHeadingAccuracy": 56,
+      "attributeLongPassing": 78,
+      "attributeShortPassing": 92,
+      "attributeDefensiveAwareness": 46,
+      "attributeShotPower": 88,
+      "attributeLongShots": 73,
+      "attributeStandingTackle": 56,
+      "attributeSlidingTackle": 48,
+      "attributeVolleys": 70,
+      "attributeCurve": 97,
+      "attributePenalties": 52,
+      "totalIgsBoost": 0,
+      "evolutionIgsBoost": 0,
+      "premiumSeasonPassLevel": null,
+      "standardSeasonPassLevel": null,
+      "commonName": "Adama Traor\u00e9",
+      "rolesPlusPlusArchetypes": [
+        "poacher",
+        "winger"
+      ],
+      "bodytype": "Unique",
+      "positions": [
         "RM",
         "ST"
       ],
       "metaRatings": [
         {
+          "archetype": "advanced_forward",
+          "metaR_0chem": 81.33,
+          "metaR_3chem": 86.71,
+          "bestChemStyle": "finisher",
+          "accelerateType_chem": "CONTROLLED"
+        },
+        {
+          "archetype": "false_nine",
+          "metaR_0chem": 82.05,
+          "metaR_3chem": 85.98,
+          "bestChemStyle": "maestro",
+          "accelerateType_chem": "CONTROLLED"
+        },
+        {
+          "archetype": "inside_forward",
+          "metaR_0chem": 84.32,
+          "metaR_3chem": 89.49,
+          "bestChemStyle": "finisher",
+          "accelerateType_chem": "CONTROLLED"
+        },
+        {
+          "archetype": "poacher",
+          "metaR_0chem": 79.19,
+          "metaR_3chem": 83.89,
+          "bestChemStyle": "finisher",
+          "accelerateType_chem": "CONTROLLED"
+        },
+        {
+          "archetype": "target_forward",
+          "metaR_0chem": 69.18,
+          "metaR_3chem": 74.27,
+          "bestChemStyle": "hawk",
+          "accelerateType_chem": "CONTROLLED"
+        },
+        {
+          "archetype": "wide_midfielder",
+          "metaR_0chem": 83.95,
+          "metaR_3chem": 87.24,
+          "bestChemStyle": "engine",
+          "accelerateType_chem": "CONTROLLED"
+        },
+        {
           "archetype": "wide_playmaker",
-          "metaRating": 86.31312629772016
+          "metaR_0chem": 83.6,
+          "metaR_3chem": 87.33,
+          "bestChemStyle": "engine",
+          "accelerateType_chem": "CONTROLLED"
+        },
+        {
+          "archetype": "winger",
+          "metaR_0chem": 86.51,
+          "metaR_3chem": 90.47,
+          "bestChemStyle": "finisher",
+          "accelerateType_chem": "CONTROLLED"
+        }
+      ]
+    },
+    {
+      "eaId": 235243,
+      "overall": 92,
+      "height": 189,
+      "foot": "Right",
+      "skillMoves": 3,
+      "weakFoot": 5,
+      "playstyles": [
+        "Power Shot",
+        "Incisive Pass",
+        "Long Ball Pass",
+        "Tiki Taka",
+        "Block",
+        "Bruiser",
+        "Technical"
+      ],
+      "playstylesPlus": [
+        "Anticipate",
+        "Pinged Pass"
+      ],
+      "rolesPlus": [
+        "CB Stopper",
+        "CB Ball-Playing Defender",
+        "CDM Holding"
+      ],
+      "rolesPlusPlus": [
+        "CDM Deep-Lying Playmaker",
+        "CB Defender"
+      ],
+      "accelerateType": "LENGTHY",
+      "weight": 89,
+      "attributeAcceleration": 82,
+      "attributeSprintSpeed": 89,
+      "attributeAgility": 66,
+      "attributeBalance": 79,
+      "attributeJumping": 88,
+      "attributeStamina": 66,
+      "attributeStrength": 93,
+      "attributeReactions": 99,
+      "attributeAggression": 87,
+      "attributeComposure": 99,
+      "attributeInterceptions": 87,
+      "attributePositioning": 58,
+      "attributeVision": 63,
+      "attributeBallControl": 91,
+      "attributeCrossing": 73,
+      "attributeDribbling": 82,
+      "attributeFinishing": 66,
+      "attributeFkAccuracy": 77,
+      "attributeHeadingAccuracy": 91,
+      "attributeLongPassing": 99,
+      "attributeShortPassing": 99,
+      "attributeDefensiveAwareness": 90,
+      "attributeShotPower": 99,
+      "attributeLongShots": 98,
+      "attributeStandingTackle": 90,
+      "attributeSlidingTackle": 91,
+      "attributeVolleys": 59,
+      "attributeCurve": 67,
+      "attributePenalties": 52,
+      "totalIgsBoost": 0,
+      "evolutionIgsBoost": 0,
+      "premiumSeasonPassLevel": null,
+      "standardSeasonPassLevel": null,
+      "commonName": "Matthijs de Ligt",
+      "rolesPlusPlusArchetypes": [
+        "defender",
+        "deep_lying_playmaker"
+      ],
+      "bodytype": "Unique",
+      "positions": [
+        "CB",
+        "CDM"
+      ],
+      "metaRatings": [
+        {
+          "archetype": "ball_playing_defender",
+          "metaR_0chem": 85.28,
+          "metaR_3chem": 90.09,
+          "bestChemStyle": "shadow",
+          "accelerateType_chem": "LENGTHY"
+        },
+        {
+          "archetype": "centre_half",
+          "metaR_0chem": 87.88,
+          "metaR_3chem": 93.43,
+          "bestChemStyle": "shadow",
+          "accelerateType_chem": "LENGTHY"
+        },
+        {
+          "archetype": "deep_lying_playmaker",
+          "metaR_0chem": 84.51,
+          "metaR_3chem": 88.42,
+          "bestChemStyle": "shadow",
+          "accelerateType_chem": "LENGTHY"
+        },
+        {
+          "archetype": "defender",
+          "metaR_0chem": 85.24,
+          "metaR_3chem": 91.74,
+          "bestChemStyle": "shadow",
+          "accelerateType_chem": "LENGTHY"
+        },
+        {
+          "archetype": "holding",
+          "metaR_0chem": 86.18,
+          "metaR_3chem": 92.59,
+          "bestChemStyle": "shadow",
+          "accelerateType_chem": "LENGTHY"
+        },
+        {
+          "archetype": "stopper",
+          "metaR_0chem": 81.64,
+          "metaR_3chem": 88.73,
+          "bestChemStyle": "shadow",
+          "accelerateType_chem": "LENGTHY"
+        },
+        {
+          "archetype": "wide_half",
+          "metaR_0chem": 81.57,
+          "metaR_3chem": 87.13,
+          "bestChemStyle": "shadow",
+          "accelerateType_chem": "LENGTHY"
+        }
+      ]
+    },
+    {
+      "eaId": 50541537,
+      "overall": 91,
+      "height": 170,
+      "foot": "Left",
+      "skillMoves": 5,
+      "weakFoot": 4,
+      "playstyles": [
+        "Long Ball Pass",
+        "Whipped Pass",
+        "Intercept",
+        "Flair",
+        "First Touch",
+        "Trickster",
+        "Trivela"
+      ],
+      "playstylesPlus": [
+        "Tiki Taka",
+        "Technical"
+      ],
+      "rolesPlus": [
+        "CAM Shadow Striker",
+        "LB Falseback",
+        "LB Attacking Wingback",
+        "CM Box to Box",
+        "CM Half-Winger"
+      ],
+      "rolesPlusPlus": [
+        "CM Playmaker",
+        "CAM Playmaker"
+      ],
+      "accelerateType": "MOSTLY_EXPLOSIVE",
+      "weight": 71,
+      "attributeAcceleration": 89,
+      "attributeSprintSpeed": 87,
+      "attributeAgility": 93,
+      "attributeBalance": 93,
+      "attributeJumping": 57,
+      "attributeStamina": 90,
+      "attributeStrength": 77,
+      "attributeReactions": 91,
+      "attributeAggression": 72,
+      "attributeComposure": 90,
+      "attributeInterceptions": 94,
+      "attributePositioning": 91,
+      "attributeVision": 90,
+      "attributeBallControl": 92,
+      "attributeCrossing": 90,
+      "attributeDribbling": 90,
+      "attributeFinishing": 89,
+      "attributeFkAccuracy": 87,
+      "attributeHeadingAccuracy": 50,
+      "attributeLongPassing": 83,
+      "attributeShortPassing": 94,
+      "attributeDefensiveAwareness": 87,
+      "attributeShotPower": 90,
+      "attributeLongShots": 95,
+      "attributeStandingTackle": 86,
+      "attributeSlidingTackle": 85,
+      "attributeVolleys": 92,
+      "attributeCurve": 90,
+      "attributePenalties": 63,
+      "totalIgsBoost": 0,
+      "evolutionIgsBoost": 0,
+      "premiumSeasonPassLevel": null,
+      "standardSeasonPassLevel": null,
+      "commonName": "Rapha\u00ebl Guerreiro",
+      "rolesPlusPlusArchetypes": [
+        "playmaker"
+      ],
+      "bodytype": "Average Short",
+      "positions": [
+        "LB",
+        "CM",
+        "CAM"
+      ],
+      "metaRatings": [
+        {
+          "archetype": "attacking_wingback",
+          "metaR_0chem": 82.04,
+          "metaR_3chem": 86.67,
+          "bestChemStyle": "shadow",
+          "accelerateType_chem": "MOSTLY_EXPLOSIVE"
+        },
+        {
+          "archetype": "box_to_box",
+          "metaR_0chem": 84.68,
+          "metaR_3chem": 88.3,
+          "bestChemStyle": "powerhouse",
+          "accelerateType_chem": "MOSTLY_EXPLOSIVE"
+        },
+        {
+          "archetype": "classic_ten",
+          "metaR_0chem": 85.22,
+          "metaR_3chem": 89.46,
+          "bestChemStyle": "engine",
+          "accelerateType_chem": "MOSTLY_EXPLOSIVE"
+        },
+        {
+          "archetype": "deep_lying_playmaker",
+          "metaR_0chem": 84.14,
+          "metaR_3chem": 88.14,
+          "bestChemStyle": "catalyst",
+          "accelerateType_chem": "MOSTLY_EXPLOSIVE"
+        },
+        {
+          "archetype": "falseback",
+          "metaR_0chem": 82.99,
+          "metaR_3chem": 88.01,
+          "bestChemStyle": "shadow",
+          "accelerateType_chem": "MOSTLY_EXPLOSIVE"
+        },
+        {
+          "archetype": "fullback",
+          "metaR_0chem": 79.36,
+          "metaR_3chem": 86.86,
+          "bestChemStyle": "shadow",
+          "accelerateType_chem": "MOSTLY_EXPLOSIVE"
+        },
+        {
+          "archetype": "half_winger",
+          "metaR_0chem": 81.9,
+          "metaR_3chem": 86.28,
+          "bestChemStyle": "catalyst",
+          "accelerateType_chem": "MOSTLY_EXPLOSIVE"
+        },
+        {
+          "archetype": "holding",
+          "metaR_0chem": 81.22,
+          "metaR_3chem": 87.18,
+          "bestChemStyle": "shadow",
+          "accelerateType_chem": "MOSTLY_EXPLOSIVE"
+        },
+        {
+          "archetype": "playmaker",
+          "metaR_0chem": 85.03,
+          "metaR_3chem": 88.82,
+          "bestChemStyle": "catalyst",
+          "accelerateType_chem": "MOSTLY_EXPLOSIVE"
+        },
+        {
+          "archetype": "shadow_striker",
+          "metaR_0chem": 84.43,
+          "metaR_3chem": 88.69,
+          "bestChemStyle": "hunter",
+          "accelerateType_chem": "MOSTLY_EXPLOSIVE"
+        },
+        {
+          "archetype": "wingback",
+          "metaR_0chem": 82.97,
+          "metaR_3chem": 89.66,
+          "bestChemStyle": "shadow",
+          "accelerateType_chem": "MOSTLY_EXPLOSIVE"
+        }
+      ]
+    },
+    {
+      "eaId": 255475,
+      "overall": 90,
+      "height": 172,
+      "foot": "Left",
+      "skillMoves": 5,
+      "weakFoot": 4,
+      "playstyles": [
+        "Technical",
+        "Flair",
+        "Trickster"
+      ],
+      "playstylesPlus": [
+        "Finesse Shot",
+        "Press Proven"
+      ],
+      "rolesPlus": [
+        "RM Wide Playmaker",
+        "RW Wide Playmaker"
+      ],
+      "rolesPlusPlus": [
+        "RW Inside Forward",
+        "RM Winger",
+        "RM Inside Forward",
+        "RW Winger"
+      ],
+      "accelerateType": "EXPLOSIVE",
+      "weight": 63,
+      "attributeAcceleration": 96,
+      "attributeSprintSpeed": 88,
+      "attributeAgility": 98,
+      "attributeBalance": 99,
+      "attributeJumping": 76,
+      "attributeStamina": 93,
+      "attributeStrength": 67,
+      "attributeReactions": 83,
+      "attributeAggression": 96,
+      "attributeComposure": 86,
+      "attributeInterceptions": 81,
+      "attributePositioning": 93,
+      "attributeVision": 88,
+      "attributeBallControl": 90,
+      "attributeCrossing": 86,
+      "attributeDribbling": 88,
+      "attributeFinishing": 88,
+      "attributeFkAccuracy": 84,
+      "attributeHeadingAccuracy": 73,
+      "attributeLongPassing": 74,
+      "attributeShortPassing": 88,
+      "attributeDefensiveAwareness": 65,
+      "attributeShotPower": 94,
+      "attributeLongShots": 93,
+      "attributeStandingTackle": 73,
+      "attributeSlidingTackle": 47,
+      "attributeVolleys": 80,
+      "attributeCurve": 99,
+      "attributePenalties": 85,
+      "totalIgsBoost": 0,
+      "evolutionIgsBoost": 0,
+      "premiumSeasonPassLevel": null,
+      "standardSeasonPassLevel": null,
+      "commonName": "Antony",
+      "rolesPlusPlusArchetypes": [
+        "inside_forward",
+        "winger"
+      ],
+      "bodytype": "Lean Medium",
+      "positions": [
+        "RM",
+        "RW"
+      ],
+      "metaRatings": [
+        {
+          "archetype": "inside_forward",
+          "metaR_0chem": 85.64,
+          "metaR_3chem": 89.42,
+          "bestChemStyle": "finisher",
+          "accelerateType_chem": "EXPLOSIVE"
+        },
+        {
+          "archetype": "wide_midfielder",
+          "metaR_0chem": 82.8,
+          "metaR_3chem": 85.74,
+          "bestChemStyle": "catalyst",
+          "accelerateType_chem": "EXPLOSIVE"
+        },
+        {
+          "archetype": "wide_playmaker",
+          "metaR_0chem": 81.54,
+          "metaR_3chem": 84.84,
+          "bestChemStyle": "catalyst",
+          "accelerateType_chem": "EXPLOSIVE"
+        },
+        {
+          "archetype": "winger",
+          "metaR_0chem": 84.2,
+          "metaR_3chem": 88.15,
+          "bestChemStyle": "hunter",
+          "accelerateType_chem": "EXPLOSIVE"
         }
       ]
     },
@@ -227,6 +1455,8 @@
       "attributePenalties": 72,
       "totalIgsBoost": 0,
       "evolutionIgsBoost": 0,
+      "premiumSeasonPassLevel": null,
+      "standardSeasonPassLevel": null,
       "commonName": "Paul Scholes",
       "rolesPlusPlusArchetypes": [
         "deep_lying_playmaker",
@@ -234,434 +1464,73 @@
       ],
       "bodytype": "Average Short",
       "positions": [
-        "CM",
         "CDM",
+        "CM",
         "CAM"
       ],
       "metaRatings": [
         {
+          "archetype": "box_to_box",
+          "metaR_0chem": 90.83,
+          "metaR_3chem": 94.57,
+          "bestChemStyle": "shadow",
+          "accelerateType_chem": "CONTROLLED_EXPLOSIVE"
+        },
+        {
+          "archetype": "centre_half",
+          "metaR_0chem": 82.4,
+          "metaR_3chem": 87.9,
+          "bestChemStyle": "shadow",
+          "accelerateType_chem": "CONTROLLED_EXPLOSIVE"
+        },
+        {
+          "archetype": "classic_ten",
+          "metaR_0chem": 88.02,
+          "metaR_3chem": 91.95,
+          "bestChemStyle": "hunter",
+          "accelerateType_chem": "CONTROLLED_EXPLOSIVE"
+        },
+        {
           "archetype": "deep_lying_playmaker",
-          "metaRating": 91.40750404352563
+          "metaR_0chem": 89.59,
+          "metaR_3chem": 93.45,
+          "bestChemStyle": "shadow",
+          "accelerateType_chem": "CONTROLLED_EXPLOSIVE"
+        },
+        {
+          "archetype": "half_winger",
+          "metaR_0chem": 84.36,
+          "metaR_3chem": 88.2,
+          "bestChemStyle": "hunter",
+          "accelerateType_chem": "CONTROLLED_EXPLOSIVE"
+        },
+        {
+          "archetype": "holding",
+          "metaR_0chem": 84.76,
+          "metaR_3chem": 91.12,
+          "bestChemStyle": "shadow",
+          "accelerateType_chem": "CONTROLLED_EXPLOSIVE"
         },
         {
           "archetype": "playmaker",
-          "metaRating": 91.6819480198926
-        }
-      ]
-    },
-    {
-      "eaId": 188377,
-      "overall": 90,
-      "height": 183,
-      "foot": "Right",
-      "skillMoves": 3,
-      "weakFoot": 4,
-      "playstyles": [
-        "Jockey",
-        "Block",
-        "Anticipate",
-        "Slide Tackle",
-        "Bruiser",
-        "Rapid",
-        "Long Throw"
-      ],
-      "playstylesPlus": [
-        "Intercept",
-        "Long Ball Pass"
-      ],
-      "rolesPlus": [
-        "CDM Deep-Lying Playmaker",
-        "CB Stopper",
-        "RB Falseback"
-      ],
-      "rolesPlusPlus": [
-        "RB Wingback",
-        "CDM Holding",
-        "CB Defender"
-      ],
-      "accelerateType": "MOSTLY_LENGTHY",
-      "weight": 83,
-      "attributeAcceleration": 85,
-      "attributeSprintSpeed": 94,
-      "attributeAgility": 73,
-      "attributeBalance": 76,
-      "attributeJumping": 92,
-      "attributeStamina": 86,
-      "attributeStrength": 85,
-      "attributeReactions": 94,
-      "attributeAggression": 89,
-      "attributeComposure": 83,
-      "attributeInterceptions": 86,
-      "attributePositioning": 88,
-      "attributeVision": 80,
-      "attributeBallControl": 90,
-      "attributeCrossing": 89,
-      "attributeDribbling": 86,
-      "attributeFinishing": 68,
-      "attributeFkAccuracy": 82,
-      "attributeHeadingAccuracy": 79,
-      "attributeLongPassing": 92,
-      "attributeShortPassing": 94,
-      "attributeDefensiveAwareness": 83,
-      "attributeShotPower": 99,
-      "attributeLongShots": 90,
-      "attributeStandingTackle": 94,
-      "attributeSlidingTackle": 91,
-      "attributeVolleys": 75,
-      "attributeCurve": 88,
-      "attributePenalties": 83,
-      "totalIgsBoost": 0,
-      "evolutionIgsBoost": 0,
-      "commonName": "Kyle Walker",
-      "rolesPlusPlusArchetypes": [
-        "holding",
-        "wingback",
-        "defender"
-      ],
-      "bodytype": "Unique",
-      "positions": [
-        "RB",
-        "CDM",
-        "CB"
-      ],
-      "metaRatings": [
-        {
-          "archetype": "holding",
-          "metaRating": 86.45748019301118
+          "metaR_0chem": 89.33,
+          "metaR_3chem": 92.81,
+          "bestChemStyle": "hunter",
+          "accelerateType_chem": "CONTROLLED_EXPLOSIVE"
         },
         {
-          "archetype": "wingback",
-          "metaRating": 85.2248795513232
+          "archetype": "shadow_striker",
+          "metaR_0chem": 85.35,
+          "metaR_3chem": 90.02,
+          "bestChemStyle": "finisher",
+          "accelerateType_chem": "CONTROLLED_EXPLOSIVE"
         },
         {
-          "archetype": "defender",
-          "metaRating": 86.0251876572791
-        }
-      ]
-    },
-    {
-      "eaId": 257534,
-      "overall": 90,
-      "height": 189,
-      "foot": "Left",
-      "skillMoves": 4,
-      "weakFoot": 4,
-      "playstyles": [
-        "Incisive Pass",
-        "Whipped Pass",
-        "Technical",
-        "Flair",
-        "First Touch"
-      ],
-      "playstylesPlus": [
-        "Finesse Shot",
-        "Press Proven"
-      ],
-      "rolesPlus": [
-        "CAM Shadow Striker",
-        "RM Wide Playmaker"
-      ],
-      "rolesPlusPlus": [
-        "RW Inside Forward",
-        "RM Winger",
-        "RM Inside Forward",
-        "RW Winger"
-      ],
-      "accelerateType": "CONTROLLED",
-      "weight": 74,
-      "attributeAcceleration": 89,
-      "attributeSprintSpeed": 94,
-      "attributeAgility": 82,
-      "attributeBalance": 78,
-      "attributeJumping": 86,
-      "attributeStamina": 95,
-      "attributeStrength": 74,
-      "attributeReactions": 88,
-      "attributeAggression": 73,
-      "attributeComposure": 91,
-      "attributeInterceptions": 73,
-      "attributePositioning": 94,
-      "attributeVision": 89,
-      "attributeBallControl": 91,
-      "attributeCrossing": 81,
-      "attributeDribbling": 92,
-      "attributeFinishing": 92,
-      "attributeFkAccuracy": 77,
-      "attributeHeadingAccuracy": 86,
-      "attributeLongPassing": 85,
-      "attributeShortPassing": 89,
-      "attributeDefensiveAwareness": 62,
-      "attributeShotPower": 89,
-      "attributeLongShots": 88,
-      "attributeStandingTackle": 74,
-      "attributeSlidingTackle": 56,
-      "attributeVolleys": 74,
-      "attributeCurve": 88,
-      "attributePenalties": 98,
-      "totalIgsBoost": 0,
-      "evolutionIgsBoost": 0,
-      "commonName": "Cole Palmer",
-      "rolesPlusPlusArchetypes": [
-        "winger",
-        "inside_forward"
-      ],
-      "bodytype": "Lean Tall",
-      "positions": [
-        "CAM",
-        "RW",
-        "RM"
-      ],
-      "metaRatings": [
-        {
-          "archetype": "winger",
-          "metaRating": 86.02533484487014
-        },
-        {
-          "archetype": "inside_forward",
-          "metaRating": 84.45216016183751
-        }
-      ]
-    },
-    {
-      "eaId": 255475,
-      "overall": 90,
-      "height": 172,
-      "foot": "Left",
-      "skillMoves": 5,
-      "weakFoot": 4,
-      "playstyles": [
-        "Technical",
-        "Flair",
-        "Trickster"
-      ],
-      "playstylesPlus": [
-        "Finesse Shot",
-        "Press Proven"
-      ],
-      "rolesPlus": [
-        "RM Wide Playmaker",
-        "RW Wide Playmaker"
-      ],
-      "rolesPlusPlus": [
-        "RW Inside Forward",
-        "RM Winger",
-        "RM Inside Forward",
-        "RW Winger"
-      ],
-      "accelerateType": "EXPLOSIVE",
-      "weight": 63,
-      "attributeAcceleration": 96,
-      "attributeSprintSpeed": 88,
-      "attributeAgility": 98,
-      "attributeBalance": 99,
-      "attributeJumping": 76,
-      "attributeStamina": 93,
-      "attributeStrength": 67,
-      "attributeReactions": 83,
-      "attributeAggression": 96,
-      "attributeComposure": 86,
-      "attributeInterceptions": 81,
-      "attributePositioning": 93,
-      "attributeVision": 88,
-      "attributeBallControl": 90,
-      "attributeCrossing": 86,
-      "attributeDribbling": 88,
-      "attributeFinishing": 88,
-      "attributeFkAccuracy": 84,
-      "attributeHeadingAccuracy": 73,
-      "attributeLongPassing": 74,
-      "attributeShortPassing": 88,
-      "attributeDefensiveAwareness": 65,
-      "attributeShotPower": 94,
-      "attributeLongShots": 93,
-      "attributeStandingTackle": 73,
-      "attributeSlidingTackle": 47,
-      "attributeVolleys": 80,
-      "attributeCurve": 99,
-      "attributePenalties": 85,
-      "totalIgsBoost": 0,
-      "evolutionIgsBoost": 0,
-      "commonName": "Antony",
-      "rolesPlusPlusArchetypes": [
-        "winger",
-        "inside_forward"
-      ],
-      "bodytype": "Lean Medium",
-      "positions": [
-        "RW",
-        "RM"
-      ],
-      "metaRatings": [
-        {
-          "archetype": "winger",
-          "metaRating": 87.16330086094392
-        },
-        {
-          "archetype": "inside_forward",
-          "metaRating": 87.12016500609728
-        }
-      ]
-    },
-    {
-      "eaId": 50545604,
-      "overall": 90,
-      "height": 178,
-      "foot": "Right",
-      "skillMoves": 5,
-      "weakFoot": 4,
-      "playstyles": [
-        "Incisive Pass",
-        "Tiki Taka",
-        "Whipped Pass",
-        "First Touch",
-        "Trickster",
-        "Relentless"
-      ],
-      "playstylesPlus": [
-        "Rapid",
-        "Quick Step"
-      ],
-      "rolesPlus": [
-        "RM Inside Forward"
-      ],
-      "rolesPlusPlus": [
-        "RM Winger",
-        "ST Poacher"
-      ],
-      "accelerateType": "CONTROLLED",
-      "weight": 86,
-      "attributeAcceleration": 95,
-      "attributeSprintSpeed": 95,
-      "attributeAgility": 91,
-      "attributeBalance": 91,
-      "attributeJumping": 83,
-      "attributeStamina": 87,
-      "attributeStrength": 90,
-      "attributeReactions": 84,
-      "attributeAggression": 83,
-      "attributeComposure": 93,
-      "attributeInterceptions": 53,
-      "attributePositioning": 83,
-      "attributeVision": 85,
-      "attributeBallControl": 91,
-      "attributeCrossing": 97,
-      "attributeDribbling": 89,
-      "attributeFinishing": 84,
-      "attributeFkAccuracy": 54,
-      "attributeHeadingAccuracy": 56,
-      "attributeLongPassing": 78,
-      "attributeShortPassing": 92,
-      "attributeDefensiveAwareness": 46,
-      "attributeShotPower": 88,
-      "attributeLongShots": 73,
-      "attributeStandingTackle": 56,
-      "attributeSlidingTackle": 48,
-      "attributeVolleys": 70,
-      "attributeCurve": 97,
-      "attributePenalties": 52,
-      "totalIgsBoost": 0,
-      "evolutionIgsBoost": 0,
-      "commonName": "Adama Traor\u00e9",
-      "rolesPlusPlusArchetypes": [
-        "winger",
-        "poacher"
-      ],
-      "bodytype": "Unique",
-      "positions": [
-        "RM",
-        "ST"
-      ],
-      "metaRatings": [
-        {
-          "archetype": "winger",
-          "metaRating": 89.52934875466731
-        },
-        {
-          "archetype": "poacher",
-          "metaRating": 85.15634943693718
-        }
-      ]
-    },
-    {
-      "eaId": 235243,
-      "overall": 92,
-      "height": 189,
-      "foot": "Right",
-      "skillMoves": 3,
-      "weakFoot": 5,
-      "playstyles": [
-        "Power Shot",
-        "Incisive Pass",
-        "Long Ball Pass",
-        "Tiki Taka",
-        "Block",
-        "Bruiser",
-        "Technical"
-      ],
-      "playstylesPlus": [
-        "Anticipate",
-        "Pinged Pass"
-      ],
-      "rolesPlus": [
-        "CB Stopper",
-        "CB Ball-Playing Defender",
-        "CDM Holding"
-      ],
-      "rolesPlusPlus": [
-        "CDM Deep-Lying Playmaker",
-        "CB Defender"
-      ],
-      "accelerateType": "CONTROLLED_LENGTHY",
-      "weight": 89,
-      "attributeAcceleration": 82,
-      "attributeSprintSpeed": 89,
-      "attributeAgility": 66,
-      "attributeBalance": 79,
-      "attributeJumping": 88,
-      "attributeStamina": 66,
-      "attributeStrength": 93,
-      "attributeReactions": 99,
-      "attributeAggression": 87,
-      "attributeComposure": 99,
-      "attributeInterceptions": 87,
-      "attributePositioning": 58,
-      "attributeVision": 63,
-      "attributeBallControl": 91,
-      "attributeCrossing": 73,
-      "attributeDribbling": 82,
-      "attributeFinishing": 66,
-      "attributeFkAccuracy": 77,
-      "attributeHeadingAccuracy": 91,
-      "attributeLongPassing": 99,
-      "attributeShortPassing": 99,
-      "attributeDefensiveAwareness": 90,
-      "attributeShotPower": 99,
-      "attributeLongShots": 98,
-      "attributeStandingTackle": 90,
-      "attributeSlidingTackle": 91,
-      "attributeVolleys": 59,
-      "attributeCurve": 67,
-      "attributePenalties": 52,
-      "totalIgsBoost": 0,
-      "evolutionIgsBoost": 0,
-      "commonName": "Matthijs de Ligt",
-      "rolesPlusPlusArchetypes": [
-        "defender",
-        "deep_lying_playmaker"
-      ],
-      "bodytype": "Unique",
-      "positions": [
-        "CDM",
-        "CB"
-      ],
-      "metaRatings": [
-        {
-          "archetype": "defender",
-          "metaRating": 86.64810260011586
-        },
-        {
-          "archetype": "deep_lying_playmaker",
-          "metaRating": 88.69011805765432
+          "archetype": "wide_half",
+          "metaR_0chem": 85.44,
+          "metaR_3chem": 90.98,
+          "bestChemStyle": "shadow",
+          "accelerateType_chem": "CONTROLLED_EXPLOSIVE"
         }
       ]
     },
@@ -729,6 +1598,8 @@
       "attributePenalties": 72,
       "totalIgsBoost": 0,
       "evolutionIgsBoost": 0,
+      "premiumSeasonPassLevel": null,
+      "standardSeasonPassLevel": null,
       "commonName": "Yan Couto",
       "rolesPlusPlusArchetypes": [
         "attacking_wingback",
@@ -736,259 +1607,66 @@
       ],
       "bodytype": "Lean Short",
       "positions": [
-        "RW",
+        "RM",
         "RB",
-        "RM"
+        "RW"
       ],
       "metaRatings": [
         {
           "archetype": "attacking_wingback",
-          "metaRating": 91.03929230236966
+          "metaR_0chem": 90.59,
+          "metaR_3chem": 94.3,
+          "bestChemStyle": "shadow",
+          "accelerateType_chem": "MOSTLY_EXPLOSIVE"
+        },
+        {
+          "archetype": "falseback",
+          "metaR_0chem": 87.35,
+          "metaR_3chem": 92.57,
+          "bestChemStyle": "powerhouse",
+          "accelerateType_chem": "MOSTLY_EXPLOSIVE"
+        },
+        {
+          "archetype": "fullback",
+          "metaR_0chem": 87.54,
+          "metaR_3chem": 94.11,
+          "bestChemStyle": "shadow",
+          "accelerateType_chem": "MOSTLY_EXPLOSIVE"
+        },
+        {
+          "archetype": "inside_forward",
+          "metaR_0chem": 84.15,
+          "metaR_3chem": 88.11,
+          "bestChemStyle": "finisher",
+          "accelerateType_chem": "MOSTLY_EXPLOSIVE"
+        },
+        {
+          "archetype": "wide_midfielder",
+          "metaR_0chem": 87.71,
+          "metaR_3chem": 90.77,
+          "bestChemStyle": "engine",
+          "accelerateType_chem": "MOSTLY_EXPLOSIVE"
+        },
+        {
+          "archetype": "wide_playmaker",
+          "metaR_0chem": 83.44,
+          "metaR_3chem": 87.05,
+          "bestChemStyle": "catalyst",
+          "accelerateType_chem": "MOSTLY_EXPLOSIVE"
         },
         {
           "archetype": "wingback",
-          "metaRating": 91.0272940987378
-        }
-      ]
-    },
-    {
-      "eaId": 50609080,
-      "overall": 91,
-      "height": 175,
-      "foot": "Left",
-      "skillMoves": 5,
-      "weakFoot": 5,
-      "playstyles": [
-        "Flair",
-        "Trickster",
-        "Pinged Pass",
-        "Bruiser"
-      ],
-      "playstylesPlus": [
-        "Technical",
-        "Jockey"
-      ],
-      "rolesPlus": [
-        "LB Wingback",
-        "LM Winger",
-        "LM Wide Midfielder",
-        "LM Wide Playmaker"
-      ],
-      "rolesPlusPlus": [
-        "LM Inside Forward",
-        "LB Attacking Wingback"
-      ],
-      "accelerateType": "CONTROLLED_EXPLOSIVE",
-      "weight": 60,
-      "attributeAcceleration": 87,
-      "attributeSprintSpeed": 92,
-      "attributeAgility": 90,
-      "attributeBalance": 90,
-      "attributeJumping": 91,
-      "attributeStamina": 99,
-      "attributeStrength": 61,
-      "attributeReactions": 90,
-      "attributeAggression": 99,
-      "attributeComposure": 90,
-      "attributeInterceptions": 90,
-      "attributePositioning": 84,
-      "attributeVision": 71,
-      "attributeBallControl": 90,
-      "attributeCrossing": 93,
-      "attributeDribbling": 90,
-      "attributeFinishing": 73,
-      "attributeFkAccuracy": 77,
-      "attributeHeadingAccuracy": 84,
-      "attributeLongPassing": 70,
-      "attributeShortPassing": 83,
-      "attributeDefensiveAwareness": 84,
-      "attributeShotPower": 71,
-      "attributeLongShots": 69,
-      "attributeStandingTackle": 95,
-      "attributeSlidingTackle": 99,
-      "attributeVolleys": 55,
-      "attributeCurve": 80,
-      "attributePenalties": 59,
-      "totalIgsBoost": 0,
-      "evolutionIgsBoost": 0,
-      "commonName": "Patrick Dorgu",
-      "rolesPlusPlusArchetypes": [
-        "attacking_wingback",
-        "inside_forward"
-      ],
-      "bodytype": "Average Medium",
-      "positions": [
-        "LB",
-        "LM"
-      ],
-      "metaRatings": [
-        {
-          "archetype": "attacking_wingback",
-          "metaRating": 84.65871797472697
+          "metaR_0chem": 89.78,
+          "metaR_3chem": 95.61,
+          "bestChemStyle": "shadow",
+          "accelerateType_chem": "MOSTLY_EXPLOSIVE"
         },
         {
-          "archetype": "inside_forward",
-          "metaRating": 80.45264122763314
-        }
-      ]
-    },
-    {
-      "eaId": 254088,
-      "overall": 92,
-      "height": 173,
-      "foot": "Left",
-      "skillMoves": 5,
-      "weakFoot": 4,
-      "playstyles": [
-        "Finesse Shot",
-        "Low Driven Shot",
-        "Dead Ball",
-        "Flair",
-        "First Touch",
-        "Trivela"
-      ],
-      "playstylesPlus": [
-        "Technical",
-        "Trickster"
-      ],
-      "rolesPlus": [
-        "RM Wide Playmaker",
-        "RM Inside Forward",
-        "CAM Half Winger"
-      ],
-      "rolesPlusPlus": [
-        "RW Inside Forward",
-        "ST False 9"
-      ],
-      "accelerateType": "EXPLOSIVE",
-      "weight": 67,
-      "attributeAcceleration": 94,
-      "attributeSprintSpeed": 88,
-      "attributeAgility": 99,
-      "attributeBalance": 99,
-      "attributeJumping": 93,
-      "attributeStamina": 99,
-      "attributeStrength": 68,
-      "attributeReactions": 79,
-      "attributeAggression": 64,
-      "attributeComposure": 79,
-      "attributeInterceptions": 22,
-      "attributePositioning": 97,
-      "attributeVision": 94,
-      "attributeBallControl": 92,
-      "attributeCrossing": 91,
-      "attributeDribbling": 91,
-      "attributeFinishing": 97,
-      "attributeFkAccuracy": 80,
-      "attributeHeadingAccuracy": 48,
-      "attributeLongPassing": 80,
-      "attributeShortPassing": 91,
-      "attributeDefensiveAwareness": 19,
-      "attributeShotPower": 97,
-      "attributeLongShots": 90,
-      "attributeStandingTackle": 25,
-      "attributeSlidingTackle": 22,
-      "attributeVolleys": 71,
-      "attributeCurve": 95,
-      "attributePenalties": 83,
-      "totalIgsBoost": 0,
-      "evolutionIgsBoost": 0,
-      "commonName": "Amad Diallo",
-      "rolesPlusPlusArchetypes": [
-        "false_nine",
-        "inside_forward"
-      ],
-      "bodytype": "Lean Medium",
-      "positions": [
-        "CAM",
-        "RW",
-        "RM",
-        "ST"
-      ],
-      "metaRatings": [
-        {
-          "archetype": "false_nine",
-          "metaRating": 88.88905027367652
-        },
-        {
-          "archetype": "inside_forward",
-          "metaRating": 89.90686528804562
-        }
-      ]
-    },
-    {
-      "eaId": 54050,
-      "overall": 89,
-      "height": 176,
-      "foot": "Right",
-      "skillMoves": 3,
-      "weakFoot": 4,
-      "playstyles": [
-        "Finesse Shot",
-        "Chip Shot",
-        "Low Driven Shot",
-        "Long Ball Pass",
-        "Intercept",
-        "Relentless",
-        "Trivela",
-        "Acrobatic"
-      ],
-      "playstylesPlus": [
-        "Power Shot"
-      ],
-      "rolesPlus": [
-        "CAM Shadow Striker",
-        "ST False 9"
-      ],
-      "rolesPlusPlus": [
-        "ST Advanced Forward"
-      ],
-      "accelerateType": "CONTROLLED",
-      "weight": 82,
-      "attributeAcceleration": 89,
-      "attributeSprintSpeed": 87,
-      "attributeAgility": 82,
-      "attributeBalance": 82,
-      "attributeJumping": 85,
-      "attributeStamina": 89,
-      "attributeStrength": 85,
-      "attributeReactions": 90,
-      "attributeAggression": 88,
-      "attributeComposure": 85,
-      "attributeInterceptions": 49,
-      "attributePositioning": 92,
-      "attributeVision": 79,
-      "attributeBallControl": 89,
-      "attributeCrossing": 77,
-      "attributeDribbling": 84,
-      "attributeFinishing": 91,
-      "attributeFkAccuracy": 82,
-      "attributeHeadingAccuracy": 99,
-      "attributeLongPassing": 83,
-      "attributeShortPassing": 84,
-      "attributeDefensiveAwareness": 59,
-      "attributeShotPower": 94,
-      "attributeLongShots": 91,
-      "attributeStandingTackle": 63,
-      "attributeSlidingTackle": 49,
-      "attributeVolleys": 92,
-      "attributeCurve": 84,
-      "attributePenalties": 87,
-      "totalIgsBoost": 0,
-      "evolutionIgsBoost": 0,
-      "commonName": "Wayne Rooney",
-      "rolesPlusPlusArchetypes": [
-        "advanced_forward"
-      ],
-      "bodytype": "Stocky Medium",
-      "positions": [
-        "CAM",
-        "ST"
-      ],
-      "metaRatings": [
-        {
-          "archetype": "advanced_forward",
-          "metaRating": 83.03123643317323
+          "archetype": "winger",
+          "metaR_0chem": 87.05,
+          "metaR_3chem": 91.16,
+          "bestChemStyle": "hunter",
+          "accelerateType_chem": "MOSTLY_EXPLOSIVE"
         }
       ]
     },
@@ -1051,6 +1729,8 @@
       "attributePenalties": 70,
       "totalIgsBoost": 0,
       "evolutionIgsBoost": 0,
+      "premiumSeasonPassLevel": null,
+      "standardSeasonPassLevel": null,
       "commonName": "Maicon",
       "rolesPlusPlusArchetypes": [
         "attacking_wingback",
@@ -1059,21 +1739,194 @@
       ],
       "bodytype": "Average Medium",
       "positions": [
-        "RB",
-        "RM"
+        "RM",
+        "RB"
       ],
       "metaRatings": [
         {
           "archetype": "attacking_wingback",
-          "metaRating": 89.16537091328216
+          "metaR_0chem": 86.08,
+          "metaR_3chem": 89.89,
+          "bestChemStyle": "shadow",
+          "accelerateType_chem": "CONTROLLED_LENGTHY"
+        },
+        {
+          "archetype": "falseback",
+          "metaR_0chem": 85.24,
+          "metaR_3chem": 90.37,
+          "bestChemStyle": "powerhouse",
+          "accelerateType_chem": "CONTROLLED_LENGTHY"
         },
         {
           "archetype": "fullback",
-          "metaRating": 92.54219611378647
+          "metaR_0chem": 89.75,
+          "metaR_3chem": 95.33,
+          "bestChemStyle": "shadow",
+          "accelerateType_chem": "CONTROLLED_LENGTHY"
+        },
+        {
+          "archetype": "inside_forward",
+          "metaR_0chem": 78.57,
+          "metaR_3chem": 83.94,
+          "bestChemStyle": "finisher",
+          "accelerateType_chem": "CONTROLLED_LENGTHY"
+        },
+        {
+          "archetype": "wide_midfielder",
+          "metaR_0chem": 82.2,
+          "metaR_3chem": 85.51,
+          "bestChemStyle": "engine",
+          "accelerateType_chem": "CONTROLLED_LENGTHY"
+        },
+        {
+          "archetype": "wide_playmaker",
+          "metaR_0chem": 78.26,
+          "metaR_3chem": 82.07,
+          "bestChemStyle": "engine",
+          "accelerateType_chem": "CONTROLLED_LENGTHY"
         },
         {
           "archetype": "wingback",
-          "metaRating": 90.1735722728476
+          "metaR_0chem": 88.76,
+          "metaR_3chem": 93.66,
+          "bestChemStyle": "shadow",
+          "accelerateType_chem": "CONTROLLED_LENGTHY"
+        },
+        {
+          "archetype": "winger",
+          "metaR_0chem": 81.13,
+          "metaR_3chem": 85.28,
+          "bestChemStyle": "finisher",
+          "accelerateType_chem": "CONTROLLED_LENGTHY"
+        }
+      ]
+    },
+    {
+      "eaId": 100875494,
+      "overall": 92,
+      "height": 179,
+      "foot": "Right",
+      "skillMoves": 4,
+      "weakFoot": 4,
+      "playstyles": [
+        "Finesse Shot",
+        "Power Shot",
+        "Incisive Pass",
+        "Pinged Pass",
+        "Flair",
+        "First Touch",
+        "Relentless",
+        "Trivela",
+        "Aerial"
+      ],
+      "playstylesPlus": [
+        "Dead Ball",
+        "Long Ball Pass"
+      ],
+      "rolesPlus": [
+        "CAM Half Winger",
+        "CAM Classic 10",
+        "CM Half-Winger"
+      ],
+      "rolesPlusPlus": [
+        "CM Playmaker",
+        "CAM Playmaker",
+        "CAM Shadow Striker"
+      ],
+      "accelerateType": "CONTROLLED_EXPLOSIVE",
+      "weight": 69,
+      "attributeAcceleration": 89,
+      "attributeSprintSpeed": 85,
+      "attributeAgility": 85,
+      "attributeBalance": 82,
+      "attributeJumping": 83,
+      "attributeStamina": 99,
+      "attributeStrength": 76,
+      "attributeReactions": 95,
+      "attributeAggression": 98,
+      "attributeComposure": 85,
+      "attributeInterceptions": 75,
+      "attributePositioning": 99,
+      "attributeVision": 97,
+      "attributeBallControl": 92,
+      "attributeCrossing": 85,
+      "attributeDribbling": 89,
+      "attributeFinishing": 98,
+      "attributeFkAccuracy": 95,
+      "attributeHeadingAccuracy": 75,
+      "attributeLongPassing": 93,
+      "attributeShortPassing": 93,
+      "attributeDefensiveAwareness": 73,
+      "attributeShotPower": 99,
+      "attributeLongShots": 99,
+      "attributeStandingTackle": 84,
+      "attributeSlidingTackle": 78,
+      "attributeVolleys": 99,
+      "attributeCurve": 90,
+      "attributePenalties": 99,
+      "totalIgsBoost": 0,
+      "evolutionIgsBoost": 0,
+      "premiumSeasonPassLevel": null,
+      "standardSeasonPassLevel": null,
+      "commonName": "Bruno Fernandes",
+      "rolesPlusPlusArchetypes": [
+        "shadow_striker",
+        "playmaker"
+      ],
+      "bodytype": "Unique",
+      "positions": [
+        "CAM",
+        "CM"
+      ],
+      "metaRatings": [
+        {
+          "archetype": "box_to_box",
+          "metaR_0chem": 86.11,
+          "metaR_3chem": 89.92,
+          "bestChemStyle": "shadow",
+          "accelerateType_chem": "CONTROLLED_EXPLOSIVE"
+        },
+        {
+          "archetype": "classic_ten",
+          "metaR_0chem": 87.68,
+          "metaR_3chem": 91.86,
+          "bestChemStyle": "engine",
+          "accelerateType_chem": "CONTROLLED_EXPLOSIVE"
+        },
+        {
+          "archetype": "deep_lying_playmaker",
+          "metaR_0chem": 82.63,
+          "metaR_3chem": 86.55,
+          "bestChemStyle": "shadow",
+          "accelerateType_chem": "CONTROLLED_EXPLOSIVE"
+        },
+        {
+          "archetype": "half_winger",
+          "metaR_0chem": 82.33,
+          "metaR_3chem": 86.69,
+          "bestChemStyle": "catalyst",
+          "accelerateType_chem": "CONTROLLED_EXPLOSIVE"
+        },
+        {
+          "archetype": "holding",
+          "metaR_0chem": 76.92,
+          "metaR_3chem": 83.48,
+          "bestChemStyle": "shadow",
+          "accelerateType_chem": "CONTROLLED_EXPLOSIVE"
+        },
+        {
+          "archetype": "playmaker",
+          "metaR_0chem": 87.92,
+          "metaR_3chem": 91.46,
+          "bestChemStyle": "catalyst",
+          "accelerateType_chem": "CONTROLLED_EXPLOSIVE"
+        },
+        {
+          "archetype": "shadow_striker",
+          "metaR_0chem": 88.21,
+          "metaR_3chem": 92.51,
+          "bestChemStyle": "engine",
+          "accelerateType_chem": "CONTROLLED_EXPLOSIVE"
         }
       ]
     },
@@ -1143,6 +1996,8 @@
       "attributePenalties": 74,
       "totalIgsBoost": 0,
       "evolutionIgsBoost": 0,
+      "premiumSeasonPassLevel": null,
+      "standardSeasonPassLevel": null,
       "commonName": "Federico Dimarco",
       "rolesPlusPlusArchetypes": [
         "attacking_wingback",
@@ -1152,118 +2007,107 @@
       ],
       "bodytype": "Average Medium",
       "positions": [
-        "CM",
         "LB",
+        "CM",
         "LM"
       ],
       "metaRatings": [
         {
           "archetype": "attacking_wingback",
-          "metaRating": 88.43697171139404
+          "metaR_0chem": 87.58,
+          "metaR_3chem": 91.86,
+          "bestChemStyle": "engine",
+          "accelerateType_chem": "CONTROLLED"
+        },
+        {
+          "archetype": "box_to_box",
+          "metaR_0chem": 85.13,
+          "metaR_3chem": 89.5,
+          "bestChemStyle": "powerhouse",
+          "accelerateType_chem": "CONTROLLED"
         },
         {
           "archetype": "deep_lying_playmaker",
-          "metaRating": 88.49089130202036
+          "metaR_0chem": 85.36,
+          "metaR_3chem": 90.03,
+          "bestChemStyle": "powerhouse",
+          "accelerateType_chem": "CONTROLLED"
+        },
+        {
+          "archetype": "falseback",
+          "metaR_0chem": 85.19,
+          "metaR_3chem": 90.49,
+          "bestChemStyle": "powerhouse",
+          "accelerateType_chem": "CONTROLLED"
         },
         {
           "archetype": "fullback",
-          "metaRating": 94.23147828020778
+          "metaR_0chem": 88.6,
+          "metaR_3chem": 94.89,
+          "bestChemStyle": "shadow",
+          "accelerateType_chem": "CONTROLLED"
         },
         {
-          "archetype": "wingback",
-          "metaRating": 89.20918081571766
-        }
-      ]
-    },
-    {
-      "eaId": 100875494,
-      "overall": 92,
-      "height": 179,
-      "foot": "Right",
-      "skillMoves": 4,
-      "weakFoot": 4,
-      "playstyles": [
-        "Finesse Shot",
-        "Power Shot",
-        "Incisive Pass",
-        "Pinged Pass",
-        "Flair",
-        "First Touch",
-        "Relentless",
-        "Trivela",
-        "Aerial"
-      ],
-      "playstylesPlus": [
-        "Dead Ball",
-        "Long Ball Pass"
-      ],
-      "rolesPlus": [
-        "CAM Half Winger",
-        "CAM Classic 10",
-        "CM Half-Winger"
-      ],
-      "rolesPlusPlus": [
-        "CM Playmaker",
-        "CAM Playmaker",
-        "CAM Shadow Striker"
-      ],
-      "accelerateType": "MOSTLY_EXPLOSIVE",
-      "weight": 69,
-      "attributeAcceleration": 89,
-      "attributeSprintSpeed": 85,
-      "attributeAgility": 85,
-      "attributeBalance": 82,
-      "attributeJumping": 83,
-      "attributeStamina": 99,
-      "attributeStrength": 76,
-      "attributeReactions": 95,
-      "attributeAggression": 98,
-      "attributeComposure": 85,
-      "attributeInterceptions": 75,
-      "attributePositioning": 99,
-      "attributeVision": 97,
-      "attributeBallControl": 92,
-      "attributeCrossing": 85,
-      "attributeDribbling": 89,
-      "attributeFinishing": 98,
-      "attributeFkAccuracy": 95,
-      "attributeHeadingAccuracy": 75,
-      "attributeLongPassing": 93,
-      "attributeShortPassing": 93,
-      "attributeDefensiveAwareness": 73,
-      "attributeShotPower": 99,
-      "attributeLongShots": 99,
-      "attributeStandingTackle": 84,
-      "attributeSlidingTackle": 78,
-      "attributeVolleys": 99,
-      "attributeCurve": 90,
-      "attributePenalties": 99,
-      "totalIgsBoost": 0,
-      "evolutionIgsBoost": 0,
-      "commonName": "Bruno Fernandes",
-      "rolesPlusPlusArchetypes": [
-        "shadow_striker",
-        "playmaker"
-      ],
-      "bodytype": "Unique",
-      "positions": [
-        "CM",
-        "CAM"
-      ],
-      "metaRatings": [
+          "archetype": "half_winger",
+          "metaR_0chem": 80.92,
+          "metaR_3chem": 84.88,
+          "bestChemStyle": "engine",
+          "accelerateType_chem": "CONTROLLED"
+        },
         {
-          "archetype": "shadow_striker",
-          "metaRating": 91.09882735839032
+          "archetype": "holding",
+          "metaR_0chem": 85.5,
+          "metaR_3chem": 91.25,
+          "bestChemStyle": "shadow",
+          "accelerateType_chem": "CONTROLLED"
+        },
+        {
+          "archetype": "inside_forward",
+          "metaR_0chem": 80.39,
+          "metaR_3chem": 85.45,
+          "bestChemStyle": "finisher",
+          "accelerateType_chem": "CONTROLLED"
         },
         {
           "archetype": "playmaker",
-          "metaRating": 90.1985346994774
+          "metaR_0chem": 82.1,
+          "metaR_3chem": 86.02,
+          "bestChemStyle": "deadeye",
+          "accelerateType_chem": "CONTROLLED"
+        },
+        {
+          "archetype": "wide_midfielder",
+          "metaR_0chem": 84.39,
+          "metaR_3chem": 88.17,
+          "bestChemStyle": "engine",
+          "accelerateType_chem": "CONTROLLED"
+        },
+        {
+          "archetype": "wide_playmaker",
+          "metaR_0chem": 80.87,
+          "metaR_3chem": 84.88,
+          "bestChemStyle": "engine",
+          "accelerateType_chem": "CONTROLLED"
+        },
+        {
+          "archetype": "wingback",
+          "metaR_0chem": 87.68,
+          "metaR_3chem": 93.26,
+          "bestChemStyle": "shadow",
+          "accelerateType_chem": "CONTROLLED"
+        },
+        {
+          "archetype": "winger",
+          "metaR_0chem": 82.91,
+          "metaR_3chem": 87.24,
+          "bestChemStyle": "engine",
+          "accelerateType_chem": "CONTROLLED"
         }
       ]
     },
     {
       "eaId": 50472249,
-      "overall": 89,
+      "overall": 90,
       "height": 190,
       "foot": "Right",
       "skillMoves": 2,
@@ -1288,7 +2132,7 @@
       "rolesPlusPlus": [
         "CB Stopper"
       ],
-      "accelerateType": null,
+      "accelerateType": "LENGTHY",
       "weight": 84,
       "attributeAcceleration": 78,
       "attributeSprintSpeed": 82,
@@ -1301,26 +2145,28 @@
       "attributeAggression": 90,
       "attributeComposure": 86,
       "attributeInterceptions": 87,
-      "attributePositioning": 35,
+      "attributePositioning": 41,
       "attributeVision": 56,
       "attributeBallControl": 72,
       "attributeCrossing": 51,
       "attributeDribbling": 51,
-      "attributeFinishing": 44,
+      "attributeFinishing": 51,
       "attributeFkAccuracy": 47,
       "attributeHeadingAccuracy": 91,
       "attributeLongPassing": 70,
       "attributeShortPassing": 74,
       "attributeDefensiveAwareness": 93,
-      "attributeShotPower": 70,
-      "attributeLongShots": 42,
+      "attributeShotPower": 81,
+      "attributeLongShots": 49,
       "attributeStandingTackle": 92,
       "attributeSlidingTackle": 88,
-      "attributeVolleys": 51,
+      "attributeVolleys": 59,
       "attributeCurve": 51,
-      "attributePenalties": 66,
+      "attributePenalties": 77,
       "totalIgsBoost": 0,
       "evolutionIgsBoost": 0,
+      "premiumSeasonPassLevel": null,
+      "standardSeasonPassLevel": null,
       "commonName": "Nemanja Vidi\u0107",
       "rolesPlusPlusArchetypes": [
         "stopper"
@@ -1331,8 +2177,128 @@
       ],
       "metaRatings": [
         {
+          "archetype": "ball_playing_defender",
+          "metaR_0chem": 76.51,
+          "metaR_3chem": 81.3,
+          "bestChemStyle": "backbone",
+          "accelerateType_chem": "LENGTHY"
+        },
+        {
+          "archetype": "defender",
+          "metaR_0chem": 83.9,
+          "metaR_3chem": 90.51,
+          "bestChemStyle": "shadow",
+          "accelerateType_chem": "LENGTHY"
+        },
+        {
           "archetype": "stopper",
-          "metaRating": 82.45385340020067
+          "metaR_0chem": 80.79,
+          "metaR_3chem": 87.97,
+          "bestChemStyle": "shadow",
+          "accelerateType_chem": "LENGTHY"
+        }
+      ]
+    },
+    {
+      "eaId": 250961,
+      "overall": 93,
+      "height": 193,
+      "foot": "Right",
+      "skillMoves": 5,
+      "weakFoot": 5,
+      "playstyles": [
+        "Finesse Shot",
+        "Chip Shot",
+        "Power Shot",
+        "Incisive Pass",
+        "Technical",
+        "Flair",
+        "First Touch",
+        "Trivela"
+      ],
+      "playstylesPlus": [
+        "Trickster",
+        "Press Proven"
+      ],
+      "rolesPlus": [],
+      "rolesPlusPlus": [
+        "ST Target Forward",
+        "ST Advanced Forward",
+        "ST Poacher"
+      ],
+      "accelerateType": "CONTROLLED_LENGTHY",
+      "weight": 89,
+      "attributeAcceleration": 91,
+      "attributeSprintSpeed": 90,
+      "attributeAgility": 90,
+      "attributeBalance": 65,
+      "attributeJumping": 99,
+      "attributeStamina": 94,
+      "attributeStrength": 99,
+      "attributeReactions": 84,
+      "attributeAggression": 69,
+      "attributeComposure": 89,
+      "attributeInterceptions": 32,
+      "attributePositioning": 99,
+      "attributeVision": 84,
+      "attributeBallControl": 92,
+      "attributeCrossing": 62,
+      "attributeDribbling": 90,
+      "attributeFinishing": 95,
+      "attributeFkAccuracy": 71,
+      "attributeHeadingAccuracy": 83,
+      "attributeLongPassing": 73,
+      "attributeShortPassing": 84,
+      "attributeDefensiveAwareness": 45,
+      "attributeShotPower": 92,
+      "attributeLongShots": 91,
+      "attributeStandingTackle": 34,
+      "attributeSlidingTackle": 32,
+      "attributeVolleys": 91,
+      "attributeCurve": 73,
+      "attributePenalties": 93,
+      "totalIgsBoost": 0,
+      "evolutionIgsBoost": 0,
+      "premiumSeasonPassLevel": null,
+      "standardSeasonPassLevel": null,
+      "commonName": "Joshua Zirkzee",
+      "rolesPlusPlusArchetypes": [
+        "target_forward",
+        "advanced_forward",
+        "poacher"
+      ],
+      "bodytype": "Lean Tall",
+      "positions": [
+        "ST"
+      ],
+      "metaRatings": [
+        {
+          "archetype": "advanced_forward",
+          "metaR_0chem": 87.53,
+          "metaR_3chem": 92.02,
+          "bestChemStyle": "hunter",
+          "accelerateType_chem": "CONTROLLED_LENGTHY"
+        },
+        {
+          "archetype": "false_nine",
+          "metaR_0chem": 83.58,
+          "metaR_3chem": 87.71,
+          "bestChemStyle": "engine",
+          "accelerateType_chem": "CONTROLLED_LENGTHY"
+        },
+        {
+          "archetype": "poacher",
+          "metaR_0chem": 86.99,
+          "metaR_3chem": 91.21,
+          "bestChemStyle": "hunter",
+          "accelerateType_chem": "CONTROLLED_LENGTHY"
+        },
+        {
+          "archetype": "target_forward",
+          "metaR_0chem": 89.11,
+          "metaR_3chem": 92.17,
+          "bestChemStyle": "hunter",
+          "accelerateType_chem": "CONTROLLED_LENGTHY"
         }
       ]
     }
