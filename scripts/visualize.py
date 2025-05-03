@@ -81,6 +81,8 @@ if "metaRatings" in df.columns:
 
 df["height"] = pd.to_numeric(df["height"], errors="coerce")
 df["weight"] = pd.to_numeric(df["weight"], errors="coerce")
+df["height"] = df["height"].fillna(0).astype(int)
+df["weight"] = df["weight"].fillna(0).astype(int)
 df["__player_id"] = df["player_origin_id"] + "_" + df["archetype"].astype(str)
 
 # Add mapping from rolesPlusPlus to archetype keys
@@ -108,6 +110,20 @@ evolution_values = [True, False]
 selected_evolution = st.sidebar.selectbox("evolution", options=["All"] + evolution_values)
 if selected_evolution != "All":
     filters["evolution"] = selected_evolution
+
+# Height filter
+if "height" in df.columns and not df["height"].isnull().all():
+    min_height = int(df["height"].min())
+    max_height = int(df["height"].max())
+    selected_height = st.sidebar.slider("Height (cm)", min_height, max_height, (min_height, max_height))
+    filters["height"] = selected_height
+
+# Weight filter
+if "weight" in df.columns and not df["weight"].isnull().all():
+    min_weight = int(df["weight"].min())
+    max_weight = int(df["weight"].max())
+    selected_weight = st.sidebar.slider("Weight (kg)", min_weight, max_weight, (min_weight, max_weight))
+    filters["weight"] = selected_weight
 
 # Archetype filter
 archetypes = sorted(df["archetype"].dropna().unique())
@@ -233,7 +249,7 @@ filtered_df["hasRolePlus"] = filtered_df["hasRolePlus"].apply(format_boolean)
 filtered_df["hasRolePlusPlus"] = filtered_df["hasRolePlusPlus"].apply(format_boolean)
 
 # Display
-st.title("El Mostashar Player Database - Rady Edition")
+st.title("El Mostashar Player Database")
 st.markdown(f"### Showing {filtered_df['player_origin_id'].nunique()} unique players")
 filtered_df = filtered_df.drop(columns=["__true_player_id", "player_origin_id", "debug_index", "__player_id"], errors="ignore")
 st.dataframe(filtered_df.sort_values(by=sort_by, ascending=False), use_container_width=True, hide_index=True)
