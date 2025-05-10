@@ -65,8 +65,8 @@
       "standardSeasonPassLevel": null,
       "commonName": "Amad Diallo",
       "rolesPlusPlusArchetypes": [
-        "inside_forward",
-        "false_nine"
+        "false_nine",
+        "inside_forward"
       ],
       "bodytype": "Lean Medium",
       "positions": [
@@ -144,14 +144,14 @@
       "standardSeasonPassLevel": null,
       "commonName": "Kyle Walker",
       "rolesPlusPlusArchetypes": [
-        "defender",
         "wingback",
-        "holding"
+        "holding",
+        "defender"
       ],
       "bodytype": "Unique",
       "positions": [
-        "RB",
         "CDM",
+        "RB",
         "CB"
       ],
       "metaRatings": []
@@ -370,13 +370,13 @@
       "standardSeasonPassLevel": null,
       "commonName": "Patrick Dorgu",
       "rolesPlusPlusArchetypes": [
-        "inside_forward",
-        "attacking_wingback"
+        "attacking_wingback",
+        "inside_forward"
       ],
       "bodytype": "Average Medium",
       "positions": [
-        "LB",
-        "LM"
+        "LM",
+        "LB"
       ],
       "metaRatings": []
     },
@@ -602,8 +602,8 @@
       "bodytype": "Average Short",
       "positions": [
         "CM",
-        "CAM",
-        "LB"
+        "LB",
+        "CAM"
       ],
       "metaRatings": []
     },
@@ -670,8 +670,8 @@
       "standardSeasonPassLevel": null,
       "commonName": "Antony",
       "rolesPlusPlusArchetypes": [
-        "inside_forward",
-        "winger"
+        "winger",
+        "inside_forward"
       ],
       "bodytype": "Lean Medium",
       "positions": [
@@ -755,9 +755,9 @@
       ],
       "bodytype": "Average Short",
       "positions": [
+        "CDM",
         "CM",
-        "CAM",
-        "CDM"
+        "CAM"
       ],
       "metaRatings": []
     },
@@ -829,14 +829,14 @@
       "standardSeasonPassLevel": null,
       "commonName": "Yan Couto",
       "rolesPlusPlusArchetypes": [
-        "attacking_wingback",
-        "wingback"
+        "wingback",
+        "attacking_wingback"
       ],
       "bodytype": "Lean Short",
       "positions": [
         "RW",
-        "RB",
-        "RM"
+        "RM",
+        "RB"
       ],
       "metaRatings": []
     },
@@ -904,13 +904,13 @@
       "commonName": "Maicon",
       "rolesPlusPlusArchetypes": [
         "fullback",
-        "attacking_wingback",
-        "wingback"
+        "wingback",
+        "attacking_wingback"
       ],
       "bodytype": "Average Medium",
       "positions": [
-        "RB",
-        "RM"
+        "RM",
+        "RB"
       ],
       "metaRatings": []
     },
@@ -985,15 +985,15 @@
       "commonName": "Federico Dimarco",
       "rolesPlusPlusArchetypes": [
         "fullback",
-        "attacking_wingback",
         "wingback",
+        "attacking_wingback",
         "deep_lying_playmaker"
       ],
       "bodytype": "Average Medium",
       "positions": [
+        "LM",
         "CM",
-        "LB",
-        "LM"
+        "LB"
       ],
       "metaRatings": []
     },
@@ -1133,9 +1133,9 @@
       "standardSeasonPassLevel": null,
       "commonName": "Joshua Zirkzee",
       "rolesPlusPlusArchetypes": [
-        "advanced_forward",
         "poacher",
-        "target_forward"
+        "target_forward",
+        "advanced_forward"
       ],
       "bodytype": "Lean Tall",
       "positions": [
@@ -1212,8 +1212,8 @@
       "standardSeasonPassLevel": null,
       "commonName": "Bruno Fernandes",
       "rolesPlusPlusArchetypes": [
-        "shadow_striker",
-        "playmaker"
+        "playmaker",
+        "shadow_striker"
       ],
       "bodytype": "Unique",
       "positions": [
