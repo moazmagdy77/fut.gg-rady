@@ -63,17 +63,18 @@
       "evolutionIgsBoost": 0,
       "premiumSeasonPassLevel": null,
       "standardSeasonPassLevel": null,
+      "metarankStr": null,
       "commonName": "Amad Diallo",
       "rolesPlusPlusArchetypes": [
-        "false_nine",
-        "inside_forward"
+        "inside_forward",
+        "false_nine"
       ],
       "bodytype": "Lean Medium",
       "positions": [
-        "RW",
-        "RM",
         "CAM",
-        "ST"
+        "ST",
+        "RW",
+        "RM"
       ],
       "metaRatings": []
     },
@@ -142,16 +143,17 @@
       "evolutionIgsBoost": 0,
       "premiumSeasonPassLevel": null,
       "standardSeasonPassLevel": null,
+      "metarankStr": null,
       "commonName": "Kyle Walker",
       "rolesPlusPlusArchetypes": [
         "wingback",
-        "holding",
-        "defender"
+        "defender",
+        "holding"
       ],
       "bodytype": "Unique",
       "positions": [
-        "CDM",
         "RB",
+        "CDM",
         "CB"
       ],
       "metaRatings": []
@@ -220,16 +222,17 @@
       "evolutionIgsBoost": 0,
       "premiumSeasonPassLevel": null,
       "standardSeasonPassLevel": null,
+      "metarankStr": null,
       "commonName": "Lionel Messi",
       "rolesPlusPlusArchetypes": [
         "wide_playmaker"
       ],
       "bodytype": "Unique",
       "positions": [
-        "RW",
-        "RM",
         "CAM",
-        "ST"
+        "ST",
+        "RW",
+        "RM"
       ],
       "metaRatings": []
     },
@@ -295,14 +298,15 @@
       "evolutionIgsBoost": 0,
       "premiumSeasonPassLevel": null,
       "standardSeasonPassLevel": null,
+      "metarankStr": null,
       "commonName": "Wayne Rooney",
       "rolesPlusPlusArchetypes": [
         "advanced_forward"
       ],
       "bodytype": "Stocky Medium",
       "positions": [
-        "CAM",
-        "ST"
+        "ST",
+        "CAM"
       ],
       "metaRatings": []
     },
@@ -368,6 +372,7 @@
       "evolutionIgsBoost": 0,
       "premiumSeasonPassLevel": null,
       "standardSeasonPassLevel": null,
+      "metarankStr": null,
       "commonName": "Patrick Dorgu",
       "rolesPlusPlusArchetypes": [
         "attacking_wingback",
@@ -375,8 +380,8 @@
       ],
       "bodytype": "Average Medium",
       "positions": [
-        "LM",
-        "LB"
+        "LB",
+        "LM"
       ],
       "metaRatings": []
     },
@@ -441,15 +446,16 @@
       "evolutionIgsBoost": 0,
       "premiumSeasonPassLevel": null,
       "standardSeasonPassLevel": null,
+      "metarankStr": null,
       "commonName": "Adama Traoré",
       "rolesPlusPlusArchetypes": [
-        "poacher",
-        "winger"
+        "winger",
+        "poacher"
       ],
       "bodytype": "Unique",
       "positions": [
-        "RM",
-        "ST"
+        "ST",
+        "RM"
       ],
       "metaRatings": []
     },
@@ -517,6 +523,7 @@
       "evolutionIgsBoost": 0,
       "premiumSeasonPassLevel": null,
       "standardSeasonPassLevel": null,
+      "metarankStr": null,
       "commonName": "Matthijs de Ligt",
       "rolesPlusPlusArchetypes": [
         "defender",
@@ -595,6 +602,7 @@
       "evolutionIgsBoost": 0,
       "premiumSeasonPassLevel": null,
       "standardSeasonPassLevel": null,
+      "metarankStr": null,
       "commonName": "Raphaël Guerreiro",
       "rolesPlusPlusArchetypes": [
         "playmaker"
@@ -668,10 +676,11 @@
       "evolutionIgsBoost": 0,
       "premiumSeasonPassLevel": null,
       "standardSeasonPassLevel": null,
+      "metarankStr": null,
       "commonName": "Antony",
       "rolesPlusPlusArchetypes": [
-        "winger",
-        "inside_forward"
+        "inside_forward",
+        "winger"
       ],
       "bodytype": "Lean Medium",
       "positions": [
@@ -748,6 +757,7 @@
       "evolutionIgsBoost": 0,
       "premiumSeasonPassLevel": null,
       "standardSeasonPassLevel": null,
+      "metarankStr": null,
       "commonName": "Paul Scholes",
       "rolesPlusPlusArchetypes": [
         "playmaker",
@@ -755,8 +765,8 @@
       ],
       "bodytype": "Average Short",
       "positions": [
-        "CDM",
         "CM",
+        "CDM",
         "CAM"
       ],
       "metaRatings": []
@@ -827,6 +837,7 @@
       "evolutionIgsBoost": 0,
       "premiumSeasonPassLevel": null,
       "standardSeasonPassLevel": null,
+      "metarankStr": null,
       "commonName": "Yan Couto",
       "rolesPlusPlusArchetypes": [
         "wingback",
@@ -834,9 +845,9 @@
       ],
       "bodytype": "Lean Short",
       "positions": [
+        "RB",
         "RW",
-        "RM",
-        "RB"
+        "RM"
       ],
       "metaRatings": []
     },
@@ -901,16 +912,17 @@
       "evolutionIgsBoost": 0,
       "premiumSeasonPassLevel": null,
       "standardSeasonPassLevel": null,
+      "metarankStr": null,
       "commonName": "Maicon",
       "rolesPlusPlusArchetypes": [
-        "fullback",
         "wingback",
+        "fullback",
         "attacking_wingback"
       ],
       "bodytype": "Average Medium",
       "positions": [
-        "RM",
-        "RB"
+        "RB",
+        "RM"
       ],
       "metaRatings": []
     },
@@ -982,18 +994,19 @@
       "evolutionIgsBoost": 0,
       "premiumSeasonPassLevel": null,
       "standardSeasonPassLevel": null,
+      "metarankStr": null,
       "commonName": "Federico Dimarco",
       "rolesPlusPlusArchetypes": [
-        "fullback",
         "wingback",
+        "fullback",
         "attacking_wingback",
         "deep_lying_playmaker"
       ],
       "bodytype": "Average Medium",
       "positions": [
-        "LM",
         "CM",
-        "LB"
+        "LB",
+        "LM"
       ],
       "metaRatings": []
     },
@@ -1059,6 +1072,7 @@
       "evolutionIgsBoost": 0,
       "premiumSeasonPassLevel": null,
       "standardSeasonPassLevel": null,
+      "metarankStr": null,
       "commonName": "Nemanja Vidić",
       "rolesPlusPlusArchetypes": [
         "stopper"
@@ -1131,13 +1145,251 @@
       "evolutionIgsBoost": 0,
       "premiumSeasonPassLevel": null,
       "standardSeasonPassLevel": null,
+      "metarankStr": null,
       "commonName": "Joshua Zirkzee",
       "rolesPlusPlusArchetypes": [
-        "poacher",
+        "advanced_forward",
         "target_forward",
-        "advanced_forward"
+        "poacher"
       ],
       "bodytype": "Lean Tall",
+      "positions": [
+        "ST"
+      ],
+      "metaRatings": []
+    },
+    {
+      "eaId": 265311,
+      "overall": 93,
+      "height": 165,
+      "foot": "Right",
+      "skillMoves": 5,
+      "weakFoot": 5,
+      "playstyles": [
+        "Whipped Pass",
+        "Technical",
+        "Flair",
+        "Trickster",
+        "Press Proven",
+        "Quick Step",
+        "Relentless",
+        "Trivela"
+      ],
+      "playstylesPlus": [
+        "Rapid",
+        "First Touch",
+        "Quick Step"
+      ],
+      "rolesPlus": [
+        "CAM Half Winger",
+        "RW Winger",
+        "LW Winger",
+        "RM Winger",
+        "RM Wide Midfielder",
+        "CAM Playmaker"
+      ],
+      "rolesPlusPlus": [
+        "CAM Shadow Striker",
+        "RM Inside Forward"
+      ],
+      "accelerateType": "EXPLOSIVE",
+      "weight": 55,
+      "attributeAcceleration": 97,
+      "attributeSprintSpeed": 93,
+      "attributeAgility": 93,
+      "attributeBalance": 85,
+      "attributeJumping": 68,
+      "attributeStamina": 87,
+      "attributeStrength": 66,
+      "attributeReactions": 93,
+      "attributeAggression": 79,
+      "attributeComposure": 93,
+      "attributeInterceptions": 68,
+      "attributePositioning": 97,
+      "attributeVision": 91,
+      "attributeBallControl": 93,
+      "attributeCrossing": 91,
+      "attributeDribbling": 93,
+      "attributeFinishing": 88,
+      "attributeFkAccuracy": 91,
+      "attributeHeadingAccuracy": 57,
+      "attributeLongPassing": 82,
+      "attributeShortPassing": 91,
+      "attributeDefensiveAwareness": 78,
+      "attributeShotPower": 92,
+      "attributeLongShots": 86,
+      "attributeStandingTackle": 98,
+      "attributeSlidingTackle": 96,
+      "attributeVolleys": 80,
+      "attributeCurve": 91,
+      "attributePenalties": 91,
+      "totalIgsBoost": 0,
+      "evolutionIgsBoost": 0,
+      "premiumSeasonPassLevel": null,
+      "standardSeasonPassLevel": null,
+      "metarankStr": null,
+      "commonName": "Alisha Lehmann",
+      "rolesPlusPlusArchetypes": [
+        "shadow_striker",
+        "inside_forward"
+      ],
+      "bodytype": "Average Short",
+      "positions": [
+        "LW",
+        "RW",
+        "RM"
+      ],
+      "metaRatings": []
+    },
+    {
+      "eaId": 134419854,
+      "overall": 94,
+      "height": 188,
+      "foot": "Right",
+      "skillMoves": 4,
+      "weakFoot": 4,
+      "playstyles": [
+        "Power Header",
+        "Incisive Pass",
+        "Long Ball Pass",
+        "Press Proven",
+        "Trivela",
+        "Aerial"
+      ],
+      "playstylesPlus": [
+        "Finesse Shot",
+        "First Touch",
+        "Pinged Pass"
+      ],
+      "rolesPlus": [
+        "ST Target Forward"
+      ],
+      "rolesPlusPlus": [
+        "ST Advanced Forward",
+        "ST Poacher",
+        "ST False 9"
+      ],
+      "accelerateType": "CONTROLLED_LENGTHY",
+      "weight": 86,
+      "attributeAcceleration": 84,
+      "attributeSprintSpeed": 86,
+      "attributeAgility": 85,
+      "attributeBalance": 85,
+      "attributeJumping": 92,
+      "attributeStamina": 81,
+      "attributeStrength": 91,
+      "attributeReactions": 98,
+      "attributeAggression": 85,
+      "attributeComposure": 97,
+      "attributeInterceptions": 46,
+      "attributePositioning": 98,
+      "attributeVision": 92,
+      "attributeBallControl": 93,
+      "attributeCrossing": 86,
+      "attributeDribbling": 88,
+      "attributeFinishing": 99,
+      "attributeFkAccuracy": 75,
+      "attributeHeadingAccuracy": 96,
+      "attributeLongPassing": 94,
+      "attributeShortPassing": 92,
+      "attributeDefensiveAwareness": 50,
+      "attributeShotPower": 98,
+      "attributeLongShots": 93,
+      "attributeStandingTackle": 50,
+      "attributeSlidingTackle": 42,
+      "attributeVolleys": 93,
+      "attributeCurve": 88,
+      "attributePenalties": 97,
+      "totalIgsBoost": 0,
+      "evolutionIgsBoost": 0,
+      "premiumSeasonPassLevel": null,
+      "standardSeasonPassLevel": null,
+      "metarankStr": null,
+      "commonName": "Harry Kane",
+      "rolesPlusPlusArchetypes": [
+        "advanced_forward",
+        "false_nine",
+        "poacher"
+      ],
+      "bodytype": "Unique",
+      "positions": [
+        "ST"
+      ],
+      "metaRatings": []
+    },
+    {
+      "eaId": 50591047,
+      "overall": 93,
+      "height": 191,
+      "foot": "Left",
+      "skillMoves": 4,
+      "weakFoot": 5,
+      "playstyles": [
+        "Chip Shot",
+        "Power Shot",
+        "Power Header",
+        "Technical",
+        "Flair",
+        "Quick Step",
+        "Relentless",
+        "Acrobatic"
+      ],
+      "playstylesPlus": [
+        "Finesse Shot",
+        "Rapid",
+        "Low Driven Shot"
+      ],
+      "rolesPlus": [
+        "ST False 9"
+      ],
+      "rolesPlusPlus": [
+        "ST Target Forward",
+        "ST Advanced Forward",
+        "ST Poacher"
+      ],
+      "accelerateType": "CONTROLLED_LENGTHY",
+      "weight": 79,
+      "attributeAcceleration": 92,
+      "attributeSprintSpeed": 94,
+      "attributeAgility": 88,
+      "attributeBalance": 88,
+      "attributeJumping": 96,
+      "attributeStamina": 86,
+      "attributeStrength": 93,
+      "attributeReactions": 90,
+      "attributeAggression": 88,
+      "attributeComposure": 88,
+      "attributeInterceptions": 38,
+      "attributePositioning": 97,
+      "attributeVision": 97,
+      "attributeBallControl": 89,
+      "attributeCrossing": 64,
+      "attributeDribbling": 89,
+      "attributeFinishing": 97,
+      "attributeFkAccuracy": 74,
+      "attributeHeadingAccuracy": 97,
+      "attributeLongPassing": 80,
+      "attributeShortPassing": 96,
+      "attributeDefensiveAwareness": 44,
+      "attributeShotPower": 99,
+      "attributeLongShots": 88,
+      "attributeStandingTackle": 38,
+      "attributeSlidingTackle": 26,
+      "attributeVolleys": 95,
+      "attributeCurve": 93,
+      "attributePenalties": 93,
+      "totalIgsBoost": 0,
+      "evolutionIgsBoost": 0,
+      "premiumSeasonPassLevel": null,
+      "standardSeasonPassLevel": null,
+      "metarankStr": null,
+      "commonName": "Rasmus Højlund",
+      "rolesPlusPlusArchetypes": [
+        "advanced_forward",
+        "target_forward",
+        "poacher"
+      ],
+      "bodytype": "Average Tall",
       "positions": [
         "ST"
       ],
@@ -1210,10 +1462,11 @@
       "evolutionIgsBoost": 0,
       "premiumSeasonPassLevel": null,
       "standardSeasonPassLevel": null,
+      "metarankStr": null,
       "commonName": "Bruno Fernandes",
       "rolesPlusPlusArchetypes": [
-        "playmaker",
-        "shadow_striker"
+        "shadow_striker",
+        "playmaker"
       ],
       "bodytype": "Unique",
       "positions": [
@@ -1223,84 +1476,76 @@
       "metaRatings": []
     },
     {
-      "eaId": 265311,
-      "overall": 91,
-      "height": 165,
+      "eaId": 236401,
+      "overall": 89,
+      "height": 183,
       "foot": "Right",
-      "skillMoves": 5,
-      "weakFoot": 4,
+      "skillMoves": 3,
+      "weakFoot": 5,
       "playstyles": [
-        "Pinged Pass",
-        "Tiki Taka",
+        "Jockey",
+        "Anticipate",
+        "Bruiser",
         "Technical",
-        "Flair",
-        "Trickster",
-        "Press Proven",
-        "Quick Step",
-        "Trivela"
+        "Flair"
       ],
       "playstylesPlus": [
-        "Finesse Shot",
-        "Rapid"
+        "Rapid",
+        "Intercept",
+        "Pinged Pass"
       ],
       "rolesPlus": [
-        "CAM Half Winger",
-        "RW Winger",
-        "LW Winger",
-        "RM Winger",
-        "RM Wide Midfielder",
-        "CAM Playmaker"
+        "LB Wingback",
+        "RB Wingback",
+        "RB Attacking Wingback"
       ],
       "rolesPlusPlus": [
-        "CAM Shadow Striker",
-        "RM Inside Forward"
+        "LB Fullback"
       ],
-      "accelerateType": "EXPLOSIVE",
-      "weight": 55,
-      "attributeAcceleration": 94,
-      "attributeSprintSpeed": 90,
-      "attributeAgility": 90,
+      "accelerateType": "CONTROLLED",
+      "weight": 65,
+      "attributeAcceleration": 95,
+      "attributeSprintSpeed": 85,
+      "attributeAgility": 95,
       "attributeBalance": 82,
-      "attributeJumping": 70,
-      "attributeStamina": 89,
-      "attributeStrength": 68,
-      "attributeReactions": 90,
-      "attributeAggression": 81,
-      "attributeComposure": 90,
-      "attributeInterceptions": 47,
-      "attributePositioning": 98,
-      "attributeVision": 91,
-      "attributeBallControl": 90,
-      "attributeCrossing": 91,
-      "attributeDribbling": 90,
-      "attributeFinishing": 89,
-      "attributeFkAccuracy": 91,
-      "attributeHeadingAccuracy": 39,
-      "attributeLongPassing": 82,
-      "attributeShortPassing": 91,
-      "attributeDefensiveAwareness": 54,
-      "attributeShotPower": 93,
-      "attributeLongShots": 87,
-      "attributeStandingTackle": 68,
-      "attributeSlidingTackle": 67,
-      "attributeVolleys": 81,
-      "attributeCurve": 91,
-      "attributePenalties": 92,
+      "attributeJumping": 84,
+      "attributeStamina": 82,
+      "attributeStrength": 74,
+      "attributeReactions": 87,
+      "attributeAggression": 75,
+      "attributeComposure": 87,
+      "attributeInterceptions": 91,
+      "attributePositioning": 80,
+      "attributeVision": 87,
+      "attributeBallControl": 93,
+      "attributeCrossing": 89,
+      "attributeDribbling": 92,
+      "attributeFinishing": 69,
+      "attributeFkAccuracy": 47,
+      "attributeHeadingAccuracy": 74,
+      "attributeLongPassing": 86,
+      "attributeShortPassing": 93,
+      "attributeDefensiveAwareness": 86,
+      "attributeShotPower": 68,
+      "attributeLongShots": 61,
+      "attributeStandingTackle": 87,
+      "attributeSlidingTackle": 91,
+      "attributeVolleys": 56,
+      "attributeCurve": 78,
+      "attributePenalties": 44,
       "totalIgsBoost": 0,
       "evolutionIgsBoost": 0,
       "premiumSeasonPassLevel": null,
       "standardSeasonPassLevel": null,
-      "commonName": "Alisha Lehmann",
+      "metarankStr": null,
+      "commonName": "Noussair Mazraoui",
       "rolesPlusPlusArchetypes": [
-        "shadow_striker",
-        "inside_forward"
+        "fullback"
       ],
-      "bodytype": "Average Short",
+      "bodytype": "Lean Medium",
       "positions": [
-        "RW",
-        "RM",
-        "LW",
-        "CAM"
+        "RB",
+        "LB"
       ],
       "metaRatings": []
     },
@@ -1369,6 +1614,7 @@
       "evolutionIgsBoost": 0,
       "premiumSeasonPassLevel": null,
       "standardSeasonPassLevel": null,
+      "metarankStr": null,
       "commonName": "Cole Palmer",
       "rolesPlusPlusArchetypes": [
         "shadow_striker",
@@ -1377,82 +1623,170 @@
       ],
       "bodytype": "Lean Tall",
       "positions": [
+        "CAM",
         "RW",
-        "RM",
-        "CAM"
+        "RM"
       ],
       "metaRatings": []
     },
     {
-      "eaId": 236401,
-      "overall": 89,
-      "height": 183,
+      "eaId": 100930224,
+      "overall": 90,
+      "height": 173,
       "foot": "Right",
-      "skillMoves": 3,
+      "skillMoves": 5,
       "weakFoot": 5,
       "playstyles": [
-        "Jockey",
-        "Anticipate",
-        "Bruiser",
-        "Technical",
-        "Flair"
+        "Finesse Shot",
+        "Flair",
+        "Trickster",
+        "Quick Step",
+        "Relentless",
+        "Trivela"
       ],
       "playstylesPlus": [
+        "Technical",
         "Rapid",
-        "Intercept",
-        "Pinged Pass"
+        "Low Driven Shot"
       ],
       "rolesPlus": [
-        "LB Wingback",
-        "RB Wingback",
-        "RB Attacking Wingback"
+        "RM Wide Midfielder",
+        "ST False 9",
+        "LM Wide Midfielder"
       ],
       "rolesPlusPlus": [
-        "LB Fullback"
+        "RW Inside Forward",
+        "LM Inside Forward",
+        "RM Inside Forward"
       ],
-      "accelerateType": "CONTROLLED",
-      "weight": 65,
-      "attributeAcceleration": 95,
-      "attributeSprintSpeed": 85,
-      "attributeAgility": 95,
-      "attributeBalance": 82,
-      "attributeJumping": 84,
-      "attributeStamina": 82,
-      "attributeStrength": 74,
-      "attributeReactions": 87,
-      "attributeAggression": 75,
-      "attributeComposure": 87,
-      "attributeInterceptions": 91,
-      "attributePositioning": 80,
+      "accelerateType": "CONTROLLED_EXPLOSIVE",
+      "weight": 60,
+      "attributeAcceleration": 96,
+      "attributeSprintSpeed": 97,
+      "attributeAgility": 92,
+      "attributeBalance": 88,
+      "attributeJumping": 94,
+      "attributeStamina": 95,
+      "attributeStrength": 88,
+      "attributeReactions": 90,
+      "attributeAggression": 86,
+      "attributeComposure": 85,
+      "attributeInterceptions": 51,
+      "attributePositioning": 87,
       "attributeVision": 87,
-      "attributeBallControl": 93,
-      "attributeCrossing": 89,
-      "attributeDribbling": 92,
-      "attributeFinishing": 69,
-      "attributeFkAccuracy": 47,
-      "attributeHeadingAccuracy": 74,
-      "attributeLongPassing": 86,
-      "attributeShortPassing": 93,
-      "attributeDefensiveAwareness": 86,
-      "attributeShotPower": 68,
-      "attributeLongShots": 61,
-      "attributeStandingTackle": 87,
-      "attributeSlidingTackle": 91,
-      "attributeVolleys": 56,
-      "attributeCurve": 78,
-      "attributePenalties": 44,
+      "attributeBallControl": 90,
+      "attributeCrossing": 87,
+      "attributeDribbling": 87,
+      "attributeFinishing": 90,
+      "attributeFkAccuracy": 75,
+      "attributeHeadingAccuracy": 83,
+      "attributeLongPassing": 76,
+      "attributeShortPassing": 88,
+      "attributeDefensiveAwareness": 47,
+      "attributeShotPower": 88,
+      "attributeLongShots": 86,
+      "attributeStandingTackle": 52,
+      "attributeSlidingTackle": 47,
+      "attributeVolleys": 76,
+      "attributeCurve": 76,
+      "attributePenalties": 82,
       "totalIgsBoost": 0,
       "evolutionIgsBoost": 0,
       "premiumSeasonPassLevel": null,
       "standardSeasonPassLevel": null,
-      "commonName": "Noussair Mazraoui",
+      "metarankStr": null,
+      "commonName": "Trinity Rodman",
       "rolesPlusPlusArchetypes": [
-        "fullback"
+        "inside_forward"
       ],
-      "bodytype": "Lean Medium",
+      "bodytype": "Average Medium",
       "positions": [
-        "RB",
-        "LB"
+        "RW",
+        "ST",
+        "LM",
+        "RM"
+      ],
+      "metaRatings": []
+    },
+    {
+      "eaId": 67162914,
+      "overall": 93,
+      "height": 176,
+      "foot": "Right",
+      "skillMoves": 5,
+      "weakFoot": 4,
+      "playstyles": [
+        "Chip Shot",
+        "Power Shot",
+        "Long Ball Pass",
+        "Rapid",
+        "First Touch",
+        "Relentless",
+        "Trivela",
+        "Acrobatic"
+      ],
+      "playstylesPlus": [
+        "Finesse Shot",
+        "Tiki Taka",
+        "Low Driven Shot",
+        "Press Proven"
+      ],
+      "rolesPlus": [
+        "CAM Classic 10",
+        "ST Poacher",
+        "ST Target Forward"
+      ],
+      "rolesPlusPlus": [
+        "CAM Shadow Striker",
+        "ST Advanced Forward",
+        "ST False 9"
+      ],
+      "accelerateType": "CONTROLLED",
+      "weight": 82,
+      "attributeAcceleration": 94,
+      "attributeSprintSpeed": 92,
+      "attributeAgility": 90,
+      "attributeBalance": 90,
+      "attributeJumping": 90,
+      "attributeStamina": 94,
+      "attributeStrength": 90,
+      "attributeReactions": 94,
+      "attributeAggression": 93,
+      "attributeComposure": 91,
+      "attributeInterceptions": 49,
+      "attributePositioning": 93,
+      "attributeVision": 84,
+      "attributeBallControl": 93,
+      "attributeCrossing": 83,
+      "attributeDribbling": 90,
+      "attributeFinishing": 93,
+      "attributeFkAccuracy": 87,
+      "attributeHeadingAccuracy": 94,
+      "attributeLongPassing": 88,
+      "attributeShortPassing": 90,
+      "attributeDefensiveAwareness": 58,
+      "attributeShotPower": 95,
+      "attributeLongShots": 94,
+      "attributeStandingTackle": 62,
+      "attributeSlidingTackle": 49,
+      "attributeVolleys": 94,
+      "attributeCurve": 90,
+      "attributePenalties": 90,
+      "totalIgsBoost": 0,
+      "evolutionIgsBoost": 0,
+      "premiumSeasonPassLevel": null,
+      "standardSeasonPassLevel": null,
+      "metarankStr": null,
+      "commonName": "Wayne Rooney",
+      "rolesPlusPlusArchetypes": [
+        "shadow_striker",
+        "false_nine",
+        "advanced_forward"
+      ],
+      "bodytype": "Stocky Medium",
+      "positions": [
+        "ST",
+        "CAM"
       ],
       "metaRatings": []
     }
