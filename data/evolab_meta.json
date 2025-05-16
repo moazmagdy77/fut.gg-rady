@@ -66,15 +66,15 @@
       "metarankStr": null,
       "commonName": "Amad Diallo",
       "rolesPlusPlusArchetypes": [
-        "inside_forward",
-        "false_nine"
+        "false_nine",
+        "inside_forward"
       ],
       "bodytype": "Lean Medium",
       "positions": [
+        "CAM",
         "RW",
         "ST",
-        "RM",
-        "CAM"
+        "RM"
       ],
       "metaRatings": [
         {
@@ -232,14 +232,14 @@
       "commonName": "Kyle Walker",
       "rolesPlusPlusArchetypes": [
         "holding",
-        "defender",
-        "wingback"
+        "wingback",
+        "defender"
       ],
       "bodytype": "Unique",
       "positions": [
-        "CB",
+        "RB",
         "CDM",
-        "RB"
+        "CB"
       ],
       "metaRatings": [
         {
@@ -348,8 +348,7 @@
         "RW Inside Forward"
       ],
       "rolesPlusPlus": [
-        "RW Wide Playmaker",
-        44
+        "RW Wide Playmaker"
       ],
       "accelerateType": "MOSTLY_EXPLOSIVE",
       "weight": 67,
@@ -393,10 +392,10 @@
       ],
       "bodytype": "Unique",
       "positions": [
+        "CAM",
         "RW",
         "ST",
-        "RM",
-        "CAM"
+        "RM"
       ],
       "metaRatings": [
         {
@@ -554,8 +553,8 @@
       ],
       "bodytype": "Stocky Medium",
       "positions": [
-        "ST",
-        "CAM"
+        "CAM",
+        "ST"
       ],
       "metaRatings": [
         {
@@ -681,13 +680,13 @@
       "metarankStr": null,
       "commonName": "Patrick Dorgu",
       "rolesPlusPlusArchetypes": [
-        "inside_forward",
-        "attacking_wingback"
+        "attacking_wingback",
+        "inside_forward"
       ],
       "bodytype": "Average Medium",
       "positions": [
-        "LB",
-        "LM"
+        "LM",
+        "LB"
       ],
       "metaRatings": [
         {
@@ -946,13 +945,13 @@
       "metarankStr": null,
       "commonName": "Matthijs de Ligt",
       "rolesPlusPlusArchetypes": [
-        "defender",
-        "deep_lying_playmaker"
+        "deep_lying_playmaker",
+        "defender"
       ],
       "bodytype": "Unique",
       "positions": [
-        "CB",
-        "CDM"
+        "CDM",
+        "CB"
       ],
       "metaRatings": [
         {
@@ -1079,9 +1078,9 @@
       ],
       "bodytype": "Average Short",
       "positions": [
-        "LB",
+        "CAM",
         "CM",
-        "CAM"
+        "LB"
       ],
       "metaRatings": [
         {
@@ -1342,9 +1341,9 @@
       ],
       "bodytype": "Average Short",
       "positions": [
+        "CAM",
         "CDM",
-        "CM",
-        "CAM"
+        "CM"
       ],
       "metaRatings": [
         {
@@ -1481,14 +1480,14 @@
       "metarankStr": null,
       "commonName": "Yan Couto",
       "rolesPlusPlusArchetypes": [
-        "wingback",
-        "attacking_wingback"
+        "attacking_wingback",
+        "wingback"
       ],
       "bodytype": "Lean Short",
       "positions": [
+        "RB",
         "RW",
-        "RM",
-        "RB"
+        "RM"
       ],
       "metaRatings": [
         {
@@ -1613,14 +1612,14 @@
       "metarankStr": null,
       "commonName": "Maicon",
       "rolesPlusPlusArchetypes": [
-        "fullback",
+        "attacking_wingback",
         "wingback",
-        "attacking_wingback"
+        "fullback"
       ],
       "bodytype": "Average Medium",
       "positions": [
-        "RM",
-        "RB"
+        "RB",
+        "RM"
       ],
       "metaRatings": [
         {
@@ -1752,16 +1751,16 @@
       "metarankStr": null,
       "commonName": "Federico Dimarco",
       "rolesPlusPlusArchetypes": [
-        "fullback",
-        "wingback",
+        "deep_lying_playmaker",
         "attacking_wingback",
-        "deep_lying_playmaker"
+        "wingback",
+        "fullback"
       ],
       "bodytype": "Average Medium",
       "positions": [
-        "LB",
         "LM",
-        "CM"
+        "CM",
+        "LB"
       ],
       "metaRatings": [
         {
@@ -2017,8 +2016,8 @@
       "metarankStr": null,
       "commonName": "Joshua Zirkzee",
       "rolesPlusPlusArchetypes": [
-        "advanced_forward",
         "target_forward",
+        "advanced_forward",
         "poacher"
       ],
       "bodytype": "Lean Tall",
@@ -2128,14 +2127,14 @@
       "metarankStr": null,
       "commonName": "Alisha Lehmann",
       "rolesPlusPlusArchetypes": [
-        "shadow_striker",
-        "inside_forward"
+        "inside_forward",
+        "shadow_striker"
       ],
       "bodytype": "Average Short",
       "positions": [
         "RW",
-        "RM",
-        "LW"
+        "LW",
+        "RM"
       ],
       "metaRatings": [
         {
@@ -2234,9 +2233,9 @@
       "metarankStr": null,
       "commonName": "Harry Kane",
       "rolesPlusPlusArchetypes": [
-        "advanced_forward",
         "false_nine",
-        "poacher"
+        "poacher",
+        "advanced_forward"
       ],
       "bodytype": "Unique",
       "positions": [
@@ -2341,8 +2340,8 @@
       "metarankStr": null,
       "commonName": "Rasmus H\u00f8jlund",
       "rolesPlusPlusArchetypes": [
-        "advanced_forward",
         "target_forward",
+        "advanced_forward",
         "poacher"
       ],
       "bodytype": "Average Tall",
@@ -2456,8 +2455,8 @@
       ],
       "bodytype": "Unique",
       "positions": [
-        "CM",
-        "CAM"
+        "CAM",
+        "CM"
       ],
       "metaRatings": [
         {
@@ -2580,8 +2579,8 @@
       ],
       "bodytype": "Lean Medium",
       "positions": [
-        "LB",
-        "RB"
+        "RB",
+        "LB"
       ],
       "metaRatings": [
         {
@@ -2682,15 +2681,15 @@
       "metarankStr": null,
       "commonName": "Cole Palmer",
       "rolesPlusPlusArchetypes": [
-        "shadow_striker",
+        "winger",
         "inside_forward",
-        "winger"
+        "shadow_striker"
       ],
       "bodytype": "Lean Tall",
       "positions": [
+        "CAM",
         "RW",
-        "RM",
-        "CAM"
+        "RM"
       ],
       "metaRatings": [
         {
@@ -2822,14 +2821,14 @@
       "metarankStr": null,
       "commonName": "Wayne Rooney",
       "rolesPlusPlusArchetypes": [
-        "shadow_striker",
+        "false_nine",
         "advanced_forward",
-        "false_nine"
+        "shadow_striker"
       ],
       "bodytype": "Stocky Medium",
       "positions": [
-        "ST",
-        "CAM"
+        "CAM",
+        "ST"
       ],
       "metaRatings": [
         {
@@ -2962,10 +2961,10 @@
       ],
       "bodytype": "Average Medium",
       "positions": [
-        "ST",
         "RW",
-        "LM",
-        "RM"
+        "ST",
+        "RM",
+        "LM"
       ],
       "metaRatings": [
         {
