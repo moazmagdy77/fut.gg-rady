@@ -71,10 +71,10 @@
       ],
       "bodytype": "Lean Medium",
       "positions": [
-        "CAM",
-        "ST",
         "RW",
-        "RM"
+        "ST",
+        "RM",
+        "CAM"
       ],
       "metaRatings": []
     },
@@ -146,15 +146,15 @@
       "metarankStr": null,
       "commonName": "Kyle Walker",
       "rolesPlusPlusArchetypes": [
-        "wingback",
+        "holding",
         "defender",
-        "holding"
+        "wingback"
       ],
       "bodytype": "Unique",
       "positions": [
-        "RB",
+        "CB",
         "CDM",
-        "CB"
+        "RB"
       ],
       "metaRatings": []
     },
@@ -185,7 +185,8 @@
         "RW Inside Forward"
       ],
       "rolesPlusPlus": [
-        "RW Wide Playmaker"
+        "RW Wide Playmaker",
+        44
       ],
       "accelerateType": "MOSTLY_EXPLOSIVE",
       "weight": 67,
@@ -229,10 +230,10 @@
       ],
       "bodytype": "Unique",
       "positions": [
-        "CAM",
-        "ST",
         "RW",
-        "RM"
+        "ST",
+        "RM",
+        "CAM"
       ],
       "metaRatings": []
     },
@@ -375,8 +376,8 @@
       "metarankStr": null,
       "commonName": "Patrick Dorgu",
       "rolesPlusPlusArchetypes": [
-        "attacking_wingback",
-        "inside_forward"
+        "inside_forward",
+        "attacking_wingback"
       ],
       "bodytype": "Average Medium",
       "positions": [
@@ -449,8 +450,8 @@
       "metarankStr": null,
       "commonName": "Adama Traoré",
       "rolesPlusPlusArchetypes": [
-        "winger",
-        "poacher"
+        "poacher",
+        "winger"
       ],
       "bodytype": "Unique",
       "positions": [
@@ -531,8 +532,8 @@
       ],
       "bodytype": "Unique",
       "positions": [
-        "CDM",
-        "CB"
+        "CB",
+        "CDM"
       ],
       "metaRatings": []
     },
@@ -609,8 +610,8 @@
       ],
       "bodytype": "Average Short",
       "positions": [
-        "CM",
         "LB",
+        "CM",
         "CAM"
       ],
       "metaRatings": []
@@ -765,8 +766,8 @@
       ],
       "bodytype": "Average Short",
       "positions": [
-        "CM",
         "CDM",
+        "CM",
         "CAM"
       ],
       "metaRatings": []
@@ -845,9 +846,9 @@
       ],
       "bodytype": "Lean Short",
       "positions": [
-        "RB",
         "RW",
-        "RM"
+        "RM",
+        "RB"
       ],
       "metaRatings": []
     },
@@ -915,14 +916,14 @@
       "metarankStr": null,
       "commonName": "Maicon",
       "rolesPlusPlusArchetypes": [
-        "wingback",
         "fullback",
+        "wingback",
         "attacking_wingback"
       ],
       "bodytype": "Average Medium",
       "positions": [
-        "RB",
-        "RM"
+        "RM",
+        "RB"
       ],
       "metaRatings": []
     },
@@ -997,16 +998,16 @@
       "metarankStr": null,
       "commonName": "Federico Dimarco",
       "rolesPlusPlusArchetypes": [
-        "wingback",
         "fullback",
+        "wingback",
         "attacking_wingback",
         "deep_lying_playmaker"
       ],
       "bodytype": "Average Medium",
       "positions": [
-        "CM",
         "LB",
-        "LM"
+        "LM",
+        "CM"
       ],
       "metaRatings": []
     },
@@ -1235,9 +1236,9 @@
       ],
       "bodytype": "Average Short",
       "positions": [
-        "LW",
         "RW",
-        "RM"
+        "RM",
+        "LW"
       ],
       "metaRatings": []
     },
@@ -1415,7 +1416,8 @@
       ],
       "playstylesPlus": [
         "Dead Ball",
-        "Long Ball Pass"
+        "Long Ball Pass",
+        "Anticipate"
       ],
       "rolesPlus": [
         "CAM Half Winger",
@@ -1465,8 +1467,8 @@
       "metarankStr": null,
       "commonName": "Bruno Fernandes",
       "rolesPlusPlusArchetypes": [
-        "shadow_striker",
-        "playmaker"
+        "playmaker",
+        "shadow_striker"
       ],
       "bodytype": "Unique",
       "positions": [
@@ -1544,8 +1546,8 @@
       ],
       "bodytype": "Lean Medium",
       "positions": [
-        "RB",
-        "LB"
+        "LB",
+        "RB"
       ],
       "metaRatings": []
     },
@@ -1623,88 +1625,9 @@
       ],
       "bodytype": "Lean Tall",
       "positions": [
-        "CAM",
         "RW",
-        "RM"
-      ],
-      "metaRatings": []
-    },
-    {
-      "eaId": 100930224,
-      "overall": 90,
-      "height": 173,
-      "foot": "Right",
-      "skillMoves": 5,
-      "weakFoot": 5,
-      "playstyles": [
-        "Finesse Shot",
-        "Flair",
-        "Trickster",
-        "Quick Step",
-        "Relentless",
-        "Trivela"
-      ],
-      "playstylesPlus": [
-        "Technical",
-        "Rapid",
-        "Low Driven Shot"
-      ],
-      "rolesPlus": [
-        "RM Wide Midfielder",
-        "ST False 9",
-        "LM Wide Midfielder"
-      ],
-      "rolesPlusPlus": [
-        "RW Inside Forward",
-        "LM Inside Forward",
-        "RM Inside Forward"
-      ],
-      "accelerateType": "CONTROLLED_EXPLOSIVE",
-      "weight": 60,
-      "attributeAcceleration": 96,
-      "attributeSprintSpeed": 97,
-      "attributeAgility": 92,
-      "attributeBalance": 88,
-      "attributeJumping": 94,
-      "attributeStamina": 95,
-      "attributeStrength": 88,
-      "attributeReactions": 90,
-      "attributeAggression": 86,
-      "attributeComposure": 85,
-      "attributeInterceptions": 51,
-      "attributePositioning": 87,
-      "attributeVision": 87,
-      "attributeBallControl": 90,
-      "attributeCrossing": 87,
-      "attributeDribbling": 87,
-      "attributeFinishing": 90,
-      "attributeFkAccuracy": 75,
-      "attributeHeadingAccuracy": 83,
-      "attributeLongPassing": 76,
-      "attributeShortPassing": 88,
-      "attributeDefensiveAwareness": 47,
-      "attributeShotPower": 88,
-      "attributeLongShots": 86,
-      "attributeStandingTackle": 52,
-      "attributeSlidingTackle": 47,
-      "attributeVolleys": 76,
-      "attributeCurve": 76,
-      "attributePenalties": 82,
-      "totalIgsBoost": 0,
-      "evolutionIgsBoost": 0,
-      "premiumSeasonPassLevel": null,
-      "standardSeasonPassLevel": null,
-      "metarankStr": null,
-      "commonName": "Trinity Rodman",
-      "rolesPlusPlusArchetypes": [
-        "inside_forward"
-      ],
-      "bodytype": "Average Medium",
-      "positions": [
-        "RW",
-        "ST",
-        "LM",
-        "RM"
+        "RM",
+        "CAM"
       ],
       "metaRatings": []
     },
@@ -1780,13 +1703,166 @@
       "commonName": "Wayne Rooney",
       "rolesPlusPlusArchetypes": [
         "shadow_striker",
-        "false_nine",
-        "advanced_forward"
+        "advanced_forward",
+        "false_nine"
       ],
       "bodytype": "Stocky Medium",
       "positions": [
         "ST",
         "CAM"
+      ],
+      "metaRatings": []
+    },
+    {
+      "eaId": 100930224,
+      "overall": 90,
+      "height": 173,
+      "foot": "Right",
+      "skillMoves": 5,
+      "weakFoot": 5,
+      "playstyles": [
+        "Finesse Shot",
+        "Flair",
+        "Trickster",
+        "Quick Step",
+        "Relentless",
+        "Trivela"
+      ],
+      "playstylesPlus": [
+        "Technical",
+        "Rapid",
+        "Low Driven Shot"
+      ],
+      "rolesPlus": [
+        "RM Wide Midfielder",
+        "ST False 9",
+        "LM Wide Midfielder"
+      ],
+      "rolesPlusPlus": [
+        "RW Inside Forward",
+        "LM Inside Forward",
+        "RM Inside Forward"
+      ],
+      "accelerateType": "CONTROLLED_EXPLOSIVE",
+      "weight": 60,
+      "attributeAcceleration": 96,
+      "attributeSprintSpeed": 97,
+      "attributeAgility": 92,
+      "attributeBalance": 88,
+      "attributeJumping": 94,
+      "attributeStamina": 95,
+      "attributeStrength": 88,
+      "attributeReactions": 90,
+      "attributeAggression": 86,
+      "attributeComposure": 85,
+      "attributeInterceptions": 51,
+      "attributePositioning": 87,
+      "attributeVision": 87,
+      "attributeBallControl": 90,
+      "attributeCrossing": 87,
+      "attributeDribbling": 87,
+      "attributeFinishing": 90,
+      "attributeFkAccuracy": 75,
+      "attributeHeadingAccuracy": 83,
+      "attributeLongPassing": 76,
+      "attributeShortPassing": 88,
+      "attributeDefensiveAwareness": 47,
+      "attributeShotPower": 88,
+      "attributeLongShots": 86,
+      "attributeStandingTackle": 52,
+      "attributeSlidingTackle": 47,
+      "attributeVolleys": 76,
+      "attributeCurve": 76,
+      "attributePenalties": 82,
+      "totalIgsBoost": 0,
+      "evolutionIgsBoost": 0,
+      "premiumSeasonPassLevel": null,
+      "standardSeasonPassLevel": null,
+      "metarankStr": null,
+      "commonName": "Trinity Rodman",
+      "rolesPlusPlusArchetypes": [
+        "inside_forward"
+      ],
+      "bodytype": "Average Medium",
+      "positions": [
+        "ST",
+        "RW",
+        "LM",
+        "RM"
+      ],
+      "metaRatings": []
+    },
+    {
+      "eaId": 269087,
+      "overall": 92,
+      "height": 190,
+      "foot": "Right",
+      "skillMoves": 2,
+      "weakFoot": 5,
+      "playstyles": [
+        "Long Ball Pass",
+        "Jockey",
+        "Block",
+        "Slide Tackle",
+        "Relentless",
+        "Aerial"
+      ],
+      "playstylesPlus": [
+        "Intercept",
+        "Anticipate",
+        "Bruiser"
+      ],
+      "rolesPlus": [
+        "CB Stopper"
+      ],
+      "rolesPlusPlus": [
+        "CB Ball-Playing Defender",
+        "CB Defender"
+      ],
+      "accelerateType": "LENGTHY",
+      "weight": 75,
+      "attributeAcceleration": 78,
+      "attributeSprintSpeed": 95,
+      "attributeAgility": 65,
+      "attributeBalance": 72,
+      "attributeJumping": 99,
+      "attributeStamina": 86,
+      "attributeStrength": 93,
+      "attributeReactions": 93,
+      "attributeAggression": 91,
+      "attributeComposure": 85,
+      "attributeInterceptions": 93,
+      "attributePositioning": 44,
+      "attributeVision": 71,
+      "attributeBallControl": 80,
+      "attributeCrossing": 56,
+      "attributeDribbling": 65,
+      "attributeFinishing": 41,
+      "attributeFkAccuracy": 38,
+      "attributeHeadingAccuracy": 89,
+      "attributeLongPassing": 69,
+      "attributeShortPassing": 88,
+      "attributeDefensiveAwareness": 91,
+      "attributeShotPower": 55,
+      "attributeLongShots": 40,
+      "attributeStandingTackle": 97,
+      "attributeSlidingTackle": 94,
+      "attributeVolleys": 38,
+      "attributeCurve": 44,
+      "attributePenalties": 44,
+      "totalIgsBoost": 0,
+      "evolutionIgsBoost": 0,
+      "premiumSeasonPassLevel": null,
+      "standardSeasonPassLevel": null,
+      "metarankStr": null,
+      "commonName": "Leny Yoro",
+      "rolesPlusPlusArchetypes": [
+        "ball_playing_defender",
+        "defender"
+      ],
+      "bodytype": "Lean Tall",
+      "positions": [
+        "CB"
       ],
       "metaRatings": []
     }

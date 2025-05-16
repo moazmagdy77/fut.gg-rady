@@ -71,10 +71,10 @@
       ],
       "bodytype": "Lean Medium",
       "positions": [
-        "CAM",
-        "ST",
         "RW",
-        "RM"
+        "ST",
+        "RM",
+        "CAM"
       ],
       "metaRatings": [
         {
@@ -231,15 +231,15 @@
       "metarankStr": null,
       "commonName": "Kyle Walker",
       "rolesPlusPlusArchetypes": [
-        "wingback",
+        "holding",
         "defender",
-        "holding"
+        "wingback"
       ],
       "bodytype": "Unique",
       "positions": [
-        "RB",
+        "CB",
         "CDM",
-        "CB"
+        "RB"
       ],
       "metaRatings": [
         {
@@ -348,7 +348,8 @@
         "RW Inside Forward"
       ],
       "rolesPlusPlus": [
-        "RW Wide Playmaker"
+        "RW Wide Playmaker",
+        44
       ],
       "accelerateType": "MOSTLY_EXPLOSIVE",
       "weight": 67,
@@ -392,10 +393,10 @@
       ],
       "bodytype": "Unique",
       "positions": [
-        "CAM",
-        "ST",
         "RW",
-        "RM"
+        "ST",
+        "RM",
+        "CAM"
       ],
       "metaRatings": [
         {
@@ -680,8 +681,8 @@
       "metarankStr": null,
       "commonName": "Patrick Dorgu",
       "rolesPlusPlusArchetypes": [
-        "attacking_wingback",
-        "inside_forward"
+        "inside_forward",
+        "attacking_wingback"
       ],
       "bodytype": "Average Medium",
       "positions": [
@@ -811,8 +812,8 @@
       "metarankStr": null,
       "commonName": "Adama Traor\u00e9",
       "rolesPlusPlusArchetypes": [
-        "winger",
-        "poacher"
+        "poacher",
+        "winger"
       ],
       "bodytype": "Unique",
       "positions": [
@@ -950,8 +951,8 @@
       ],
       "bodytype": "Unique",
       "positions": [
-        "CDM",
-        "CB"
+        "CB",
+        "CDM"
       ],
       "metaRatings": [
         {
@@ -1078,8 +1079,8 @@
       ],
       "bodytype": "Average Short",
       "positions": [
-        "CM",
         "LB",
+        "CM",
         "CAM"
       ],
       "metaRatings": [
@@ -1341,8 +1342,8 @@
       ],
       "bodytype": "Average Short",
       "positions": [
-        "CM",
         "CDM",
+        "CM",
         "CAM"
       ],
       "metaRatings": [
@@ -1485,9 +1486,9 @@
       ],
       "bodytype": "Lean Short",
       "positions": [
-        "RB",
         "RW",
-        "RM"
+        "RM",
+        "RB"
       ],
       "metaRatings": [
         {
@@ -1612,14 +1613,14 @@
       "metarankStr": null,
       "commonName": "Maicon",
       "rolesPlusPlusArchetypes": [
-        "wingback",
         "fullback",
+        "wingback",
         "attacking_wingback"
       ],
       "bodytype": "Average Medium",
       "positions": [
-        "RB",
-        "RM"
+        "RM",
+        "RB"
       ],
       "metaRatings": [
         {
@@ -1751,16 +1752,16 @@
       "metarankStr": null,
       "commonName": "Federico Dimarco",
       "rolesPlusPlusArchetypes": [
-        "wingback",
         "fullback",
+        "wingback",
         "attacking_wingback",
         "deep_lying_playmaker"
       ],
       "bodytype": "Average Medium",
       "positions": [
-        "CM",
         "LB",
-        "LM"
+        "LM",
+        "CM"
       ],
       "metaRatings": [
         {
@@ -2132,9 +2133,9 @@
       ],
       "bodytype": "Average Short",
       "positions": [
-        "LW",
         "RW",
-        "RM"
+        "RM",
+        "LW"
       ],
       "metaRatings": [
         {
@@ -2399,7 +2400,8 @@
       ],
       "playstylesPlus": [
         "Dead Ball",
-        "Long Ball Pass"
+        "Long Ball Pass",
+        "Anticipate"
       ],
       "rolesPlus": [
         "CAM Half Winger",
@@ -2449,8 +2451,8 @@
       "metarankStr": null,
       "commonName": "Bruno Fernandes",
       "rolesPlusPlusArchetypes": [
-        "shadow_striker",
-        "playmaker"
+        "playmaker",
+        "shadow_striker"
       ],
       "bodytype": "Unique",
       "positions": [
@@ -2460,43 +2462,43 @@
       "metaRatings": [
         {
           "archetype": "box_to_box",
-          "metaR_0chem": 85.25,
-          "metaR_3chem": 88.83,
+          "metaR_0chem": 86.35,
+          "metaR_3chem": 89.92,
           "bestChemStyle": "shadow",
           "accelerateType_chem": "CONTROLLED_EXPLOSIVE"
         },
         {
           "archetype": "classic_ten",
-          "metaR_0chem": 87.13,
-          "metaR_3chem": 90.89,
+          "metaR_0chem": 87.17,
+          "metaR_3chem": 90.93,
           "bestChemStyle": "engine",
           "accelerateType_chem": "CONTROLLED_EXPLOSIVE"
         },
         {
           "archetype": "deep_lying_playmaker",
-          "metaR_0chem": 82.13,
-          "metaR_3chem": 86.15,
+          "metaR_0chem": 83.05,
+          "metaR_3chem": 87.07,
           "bestChemStyle": "shadow",
           "accelerateType_chem": "CONTROLLED_EXPLOSIVE"
         },
         {
           "archetype": "half_winger",
-          "metaR_0chem": 82.16,
-          "metaR_3chem": 86.43,
+          "metaR_0chem": 83.28,
+          "metaR_3chem": 87.56,
           "bestChemStyle": "catalyst",
           "accelerateType_chem": "CONTROLLED_EXPLOSIVE"
         },
         {
           "archetype": "holding",
-          "metaR_0chem": 77.18,
-          "metaR_3chem": 83.73,
+          "metaR_0chem": 77.67,
+          "metaR_3chem": 84.21,
           "bestChemStyle": "shadow",
           "accelerateType_chem": "CONTROLLED_EXPLOSIVE"
         },
         {
           "archetype": "playmaker",
-          "metaR_0chem": 85.71,
-          "metaR_3chem": 89.12,
+          "metaR_0chem": 86.22,
+          "metaR_3chem": 89.64,
           "bestChemStyle": "engine",
           "accelerateType_chem": "CONTROLLED_EXPLOSIVE"
         },
@@ -2578,8 +2580,8 @@
       ],
       "bodytype": "Lean Medium",
       "positions": [
-        "RB",
-        "LB"
+        "LB",
+        "RB"
       ],
       "metaRatings": [
         {
@@ -2686,9 +2688,9 @@
       ],
       "bodytype": "Lean Tall",
       "positions": [
-        "CAM",
         "RW",
-        "RM"
+        "RM",
+        "CAM"
       ],
       "metaRatings": [
         {
@@ -2745,6 +2747,145 @@
           "metaR_0chem": 84.8,
           "metaR_3chem": 88.58,
           "bestChemStyle": "hunter",
+          "accelerateType_chem": "CONTROLLED"
+        }
+      ]
+    },
+    {
+      "eaId": 67162914,
+      "overall": 93,
+      "height": 176,
+      "foot": "Right",
+      "skillMoves": 5,
+      "weakFoot": 4,
+      "playstyles": [
+        "Chip Shot",
+        "Power Shot",
+        "Long Ball Pass",
+        "Rapid",
+        "First Touch",
+        "Relentless",
+        "Trivela",
+        "Acrobatic"
+      ],
+      "playstylesPlus": [
+        "Finesse Shot",
+        "Tiki Taka",
+        "Low Driven Shot",
+        "Press Proven"
+      ],
+      "rolesPlus": [
+        "CAM Classic 10",
+        "ST Poacher",
+        "ST Target Forward"
+      ],
+      "rolesPlusPlus": [
+        "CAM Shadow Striker",
+        "ST Advanced Forward",
+        "ST False 9"
+      ],
+      "accelerateType": "CONTROLLED",
+      "weight": 82,
+      "attributeAcceleration": 94,
+      "attributeSprintSpeed": 92,
+      "attributeAgility": 90,
+      "attributeBalance": 90,
+      "attributeJumping": 90,
+      "attributeStamina": 94,
+      "attributeStrength": 90,
+      "attributeReactions": 94,
+      "attributeAggression": 93,
+      "attributeComposure": 91,
+      "attributeInterceptions": 49,
+      "attributePositioning": 93,
+      "attributeVision": 84,
+      "attributeBallControl": 93,
+      "attributeCrossing": 83,
+      "attributeDribbling": 90,
+      "attributeFinishing": 93,
+      "attributeFkAccuracy": 87,
+      "attributeHeadingAccuracy": 94,
+      "attributeLongPassing": 88,
+      "attributeShortPassing": 90,
+      "attributeDefensiveAwareness": 58,
+      "attributeShotPower": 95,
+      "attributeLongShots": 94,
+      "attributeStandingTackle": 62,
+      "attributeSlidingTackle": 49,
+      "attributeVolleys": 94,
+      "attributeCurve": 90,
+      "attributePenalties": 90,
+      "totalIgsBoost": 0,
+      "evolutionIgsBoost": 0,
+      "premiumSeasonPassLevel": null,
+      "standardSeasonPassLevel": null,
+      "metarankStr": null,
+      "commonName": "Wayne Rooney",
+      "rolesPlusPlusArchetypes": [
+        "shadow_striker",
+        "advanced_forward",
+        "false_nine"
+      ],
+      "bodytype": "Stocky Medium",
+      "positions": [
+        "ST",
+        "CAM"
+      ],
+      "metaRatings": [
+        {
+          "archetype": "advanced_forward",
+          "metaR_0chem": 88.0,
+          "metaR_3chem": 92.01,
+          "bestChemStyle": "hunter",
+          "accelerateType_chem": "CONTROLLED"
+        },
+        {
+          "archetype": "classic_ten",
+          "metaR_0chem": 87.8,
+          "metaR_3chem": 91.74,
+          "bestChemStyle": "engine",
+          "accelerateType_chem": "CONTROLLED"
+        },
+        {
+          "archetype": "false_nine",
+          "metaR_0chem": 86.82,
+          "metaR_3chem": 90.72,
+          "bestChemStyle": "engine",
+          "accelerateType_chem": "CONTROLLED"
+        },
+        {
+          "archetype": "half_winger",
+          "metaR_0chem": 85.47,
+          "metaR_3chem": 89.29,
+          "bestChemStyle": "engine",
+          "accelerateType_chem": "CONTROLLED"
+        },
+        {
+          "archetype": "playmaker",
+          "metaR_0chem": 86.76,
+          "metaR_3chem": 90.35,
+          "bestChemStyle": "engine",
+          "accelerateType_chem": "CONTROLLED"
+        },
+        {
+          "archetype": "poacher",
+          "metaR_0chem": 85.85,
+          "metaR_3chem": 89.6,
+          "bestChemStyle": "hunter",
+          "accelerateType_chem": "CONTROLLED"
+        },
+        {
+          "archetype": "shadow_striker",
+          "metaR_0chem": 88.29,
+          "metaR_3chem": 92.1,
+          "bestChemStyle": "engine",
+          "accelerateType_chem": "CONTROLLED"
+        },
+        {
+          "archetype": "target_forward",
+          "metaR_0chem": 79.35,
+          "metaR_3chem": 83.47,
+          "bestChemStyle": "hawk",
           "accelerateType_chem": "CONTROLLED"
         }
       ]
@@ -2821,8 +2962,8 @@
       ],
       "bodytype": "Average Medium",
       "positions": [
-        "RW",
         "ST",
+        "RW",
         "LM",
         "RM"
       ],
@@ -2886,141 +3027,98 @@
       ]
     },
     {
-      "eaId": 67162914,
-      "overall": 93,
-      "height": 176,
+      "eaId": 269087,
+      "overall": 92,
+      "height": 190,
       "foot": "Right",
-      "skillMoves": 5,
-      "weakFoot": 4,
+      "skillMoves": 2,
+      "weakFoot": 5,
       "playstyles": [
-        "Chip Shot",
-        "Power Shot",
         "Long Ball Pass",
-        "Rapid",
-        "First Touch",
+        "Jockey",
+        "Block",
+        "Slide Tackle",
         "Relentless",
-        "Trivela",
-        "Acrobatic"
+        "Aerial"
       ],
       "playstylesPlus": [
-        "Finesse Shot",
-        "Tiki Taka",
-        "Low Driven Shot",
-        "Press Proven"
+        "Intercept",
+        "Anticipate",
+        "Bruiser"
       ],
       "rolesPlus": [
-        "CAM Classic 10",
-        "ST Poacher",
-        "ST Target Forward"
+        "CB Stopper"
       ],
       "rolesPlusPlus": [
-        "CAM Shadow Striker",
-        "ST Advanced Forward",
-        "ST False 9"
+        "CB Ball-Playing Defender",
+        "CB Defender"
       ],
-      "accelerateType": "CONTROLLED",
-      "weight": 82,
-      "attributeAcceleration": 94,
-      "attributeSprintSpeed": 92,
-      "attributeAgility": 90,
-      "attributeBalance": 90,
-      "attributeJumping": 90,
-      "attributeStamina": 94,
-      "attributeStrength": 90,
-      "attributeReactions": 94,
-      "attributeAggression": 93,
-      "attributeComposure": 91,
-      "attributeInterceptions": 49,
-      "attributePositioning": 93,
-      "attributeVision": 84,
-      "attributeBallControl": 93,
-      "attributeCrossing": 83,
-      "attributeDribbling": 90,
-      "attributeFinishing": 93,
-      "attributeFkAccuracy": 87,
-      "attributeHeadingAccuracy": 94,
-      "attributeLongPassing": 88,
-      "attributeShortPassing": 90,
-      "attributeDefensiveAwareness": 58,
-      "attributeShotPower": 95,
-      "attributeLongShots": 94,
-      "attributeStandingTackle": 62,
-      "attributeSlidingTackle": 49,
-      "attributeVolleys": 94,
-      "attributeCurve": 90,
-      "attributePenalties": 90,
+      "accelerateType": "LENGTHY",
+      "weight": 75,
+      "attributeAcceleration": 78,
+      "attributeSprintSpeed": 95,
+      "attributeAgility": 65,
+      "attributeBalance": 72,
+      "attributeJumping": 99,
+      "attributeStamina": 86,
+      "attributeStrength": 93,
+      "attributeReactions": 93,
+      "attributeAggression": 91,
+      "attributeComposure": 85,
+      "attributeInterceptions": 93,
+      "attributePositioning": 44,
+      "attributeVision": 71,
+      "attributeBallControl": 80,
+      "attributeCrossing": 56,
+      "attributeDribbling": 65,
+      "attributeFinishing": 41,
+      "attributeFkAccuracy": 38,
+      "attributeHeadingAccuracy": 89,
+      "attributeLongPassing": 69,
+      "attributeShortPassing": 88,
+      "attributeDefensiveAwareness": 91,
+      "attributeShotPower": 55,
+      "attributeLongShots": 40,
+      "attributeStandingTackle": 97,
+      "attributeSlidingTackle": 94,
+      "attributeVolleys": 38,
+      "attributeCurve": 44,
+      "attributePenalties": 44,
       "totalIgsBoost": 0,
       "evolutionIgsBoost": 0,
       "premiumSeasonPassLevel": null,
       "standardSeasonPassLevel": null,
       "metarankStr": null,
-      "commonName": "Wayne Rooney",
+      "commonName": "Leny Yoro",
       "rolesPlusPlusArchetypes": [
-        "shadow_striker",
-        "false_nine",
-        "advanced_forward"
+        "ball_playing_defender",
+        "defender"
       ],
-      "bodytype": "Stocky Medium",
+      "bodytype": "Lean Tall",
       "positions": [
-        "ST",
-        "CAM"
+        "CB"
       ],
       "metaRatings": [
         {
-          "archetype": "advanced_forward",
-          "metaR_0chem": 88.0,
-          "metaR_3chem": 92.01,
-          "bestChemStyle": "hunter",
-          "accelerateType_chem": "CONTROLLED"
+          "archetype": "ball_playing_defender",
+          "metaR_0chem": 81.69,
+          "metaR_3chem": 84.83,
+          "bestChemStyle": "shadow",
+          "accelerateType_chem": "LENGTHY"
         },
         {
-          "archetype": "classic_ten",
-          "metaR_0chem": 87.8,
-          "metaR_3chem": 91.74,
-          "bestChemStyle": "engine",
-          "accelerateType_chem": "CONTROLLED"
+          "archetype": "defender",
+          "metaR_0chem": 86.49,
+          "metaR_3chem": 90.91,
+          "bestChemStyle": "shadow",
+          "accelerateType_chem": "LENGTHY"
         },
         {
-          "archetype": "false_nine",
-          "metaR_0chem": 86.82,
-          "metaR_3chem": 90.72,
-          "bestChemStyle": "engine",
-          "accelerateType_chem": "CONTROLLED"
-        },
-        {
-          "archetype": "half_winger",
-          "metaR_0chem": 85.47,
-          "metaR_3chem": 89.29,
-          "bestChemStyle": "engine",
-          "accelerateType_chem": "CONTROLLED"
-        },
-        {
-          "archetype": "playmaker",
-          "metaR_0chem": 86.76,
-          "metaR_3chem": 90.35,
-          "bestChemStyle": "engine",
-          "accelerateType_chem": "CONTROLLED"
-        },
-        {
-          "archetype": "poacher",
-          "metaR_0chem": 85.85,
-          "metaR_3chem": 89.6,
-          "bestChemStyle": "hunter",
-          "accelerateType_chem": "CONTROLLED"
-        },
-        {
-          "archetype": "shadow_striker",
-          "metaR_0chem": 88.29,
-          "metaR_3chem": 92.1,
-          "bestChemStyle": "engine",
-          "accelerateType_chem": "CONTROLLED"
-        },
-        {
-          "archetype": "target_forward",
-          "metaR_0chem": 79.35,
-          "metaR_3chem": 83.47,
-          "bestChemStyle": "hawk",
-          "accelerateType_chem": "CONTROLLED"
+          "archetype": "stopper",
+          "metaR_0chem": 84.35,
+          "metaR_3chem": 88.76,
+          "bestChemStyle": "shadow",
+          "accelerateType_chem": "LENGTHY"
         }
       ]
     }
