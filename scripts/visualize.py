@@ -8,18 +8,6 @@ st.set_page_config(layout="wide")
 # Define data directory
 data_dir = Path(__file__).resolve().parents[1] / "data"
 
-# Load metadata
-visual_df = pd.read_csv(data_dir / "visual.csv")
-
-# Process visual fields
-visual_df["field"] = visual_df["field"].apply(lambda x: x.replace("attribute", "", 1) if isinstance(x, str) and x.startswith("attribute") else x)
-visual_df["field"] = visual_df["field"].apply(lambda x: x[0].lower() + x[1:] if isinstance(x, str) and x else x)
-
-non_attribute_filter_order = [
-    "overall", "rolesPlusPlus", "rolesPlus", "skillMoves", "weakFoot", "playstylesPlus", "playstyles",
-    "positions", "foot", "bodytype", "accelerateType", "height", "weight"
-]
-
 attribute_filter_order = [
     "acceleration", "sprintSpeed", "positioning", "finishing", "shotPower", "longShots",
     "volleys", "penalties", "vision", "crossing", "fkAccuracy", "shortPassing",
@@ -29,227 +17,408 @@ attribute_filter_order = [
     "gkDiving", "gkHandling", "gkKicking", "gkPositioning", "gkReflexes"
 ]
 
-attribute_fields = visual_df[visual_df["field"].isin(attribute_filter_order)].copy()
-attribute_fields["sort_index"] = attribute_fields["field"].apply(lambda x: attribute_filter_order.index(x))
-attribute_fields = attribute_fields.sort_values(by="sort_index")
-
-non_attribute_fields = visual_df[visual_df["field"].isin(non_attribute_filter_order)].copy()
-non_attribute_fields["sort_index"] = non_attribute_fields["field"].apply(lambda x: non_attribute_filter_order.index(x))
-non_attribute_fields = non_attribute_fields.sort_values(by="sort_index")
-
 # Load and normalize JSON
-with open(data_dir / "final.json", "r") as f:
-    data = json.load(f)
+# Expects club_final.json from the python_processing_script_v1
+try:
+    with open(data_dir / "club_final.json", "r") as f:
+        data = json.load(f)
+except FileNotFoundError:
+    st.error(f"Error: `club_final.json` not found in the '{data_dir}' directory. Please ensure the Python processing script has run successfully.")
+    st.stop()
+except json.JSONDecodeError:
+    st.error(f"Error: `club_final.json` is not a valid JSON file. Please check the file content.")
+    st.stop()
+
 
 for idx, p in enumerate(data):
-    p["player_origin_id"] = f"{p.get('eaId', 'unknown')}_{idx}"
-    p["debug_index"] = idx
+    p["player_origin_id"] = f"{p.get('eaId', 'unknown')}_{idx}" # Unique ID for merging later if needed
+    p["debug_index"] = idx # For debugging if necessary
 
-# Ensure all players have a metaRatings list
-def ensure_meta_list(p):
-    if not isinstance(p.get("metaRatings"), list):
-        if isinstance(p.get("metaRatings"), dict):
-            p["metaRatings"] = [p["metaRatings"]]
-        else:
-            p["metaRatings"] = [{"archetype": "N/A", "metaRating_0chem": 0, "metaRating_3chem": 0}]
-    elif len(p["metaRatings"]) == 0:
-        p["metaRatings"] = [{"archetype": "N/A", "metaRating_0chem": 0, "metaRating_3chem": 0}]
-    return p
+df = pd.json_normalize(data) # type: ignore
 
-data = [ensure_meta_list(p) for p in data]
-df = pd.json_normalize(data)
+if df.empty:
+    st.warning("No data loaded from club_final.json. The file might be empty or structured incorrectly.")
+    st.stop()
+
+# Filter out rows with empty or NaN commonName early
+if 'commonName' in df.columns:
+    df.dropna(subset=['commonName'], inplace=True)
+    df = df[df['commonName'].astype(str).str.strip() != '']
+else:
+    st.warning("`commonName` column not found in the data. Cannot filter out empty names.")
+
+
+if df.empty:
+    st.warning("No players with valid common names found in the data.")
+    st.stop()
+
 df["player_origin_id"] = df["player_origin_id"].astype(str)
 df["eaId"] = df["eaId"].astype(str)
 df["__true_player_id"] = df["eaId"].fillna(df["commonName"])
 
-# Rename attribute columns
-df.rename(columns={col: col.replace("attribute", "", 1)[0].lower() + col.replace("attribute", "", 1)[1:] for col in df.columns if col.startswith("attribute")}, inplace=True)
+
+# Add evolution column if it doesn't exist, default to False
+if "evolution" not in df.columns:
+    df["evolution"] = False
+
+
+# Rename attribute columns (e.g., attributeAcceleration to acceleration)
+df.rename(columns={col: col.replace("attribute", "", 1)[0].lower() + col.replace("attribute", "", 1)[1:] 
+                   for col in df.columns if col.startswith("attribute")}, inplace=True)
 
 # Explode metaRatings properly
-if "metaRatings" in df.columns:
-    df["metaRatings"] = df["metaRatings"].apply(lambda x: x if isinstance(x, list) else [{}])
-    df = df.explode("metaRatings", ignore_index=True)
-    df["metaRatings"] = df["metaRatings"].apply(lambda x: x if isinstance(x, dict) else {})
-    df["archetype"] = df["metaRatings"].apply(lambda x: x.get("archetype", "N/A"))
-    df["metaRating_0chem"] = df["metaRatings"].apply(lambda x: x.get("metaR_0chem", 0))
-    df["metaRating_3chem"] = df["metaRatings"].apply(lambda x: x.get("metaR_3chem", 0))
-    df["bestChemStyle"] = df["metaRatings"].apply(lambda x: x.get("bestChemStyle", "None"))
-    df["accelerateType_chem"] = df["metaRatings"].apply(lambda x: x.get("accelerateType_chem", "Unknown"))
-    df["hasRolePlus"] = df["metaRatings"].apply(lambda x: x.get("hasRolePlus", False))
-    df["hasRolePlusPlus"] = df["metaRatings"].apply(lambda x: x.get("hasRolePlusPlus", False))
-    df = df.drop(columns=["metaRatings"])
+meta_ratings_col_name = "metaRatings" # This matches the output of python_processing_script_v1
+if meta_ratings_col_name in df.columns:
+    df[meta_ratings_col_name] = df[meta_ratings_col_name].apply(lambda x: x if isinstance(x, list) else ([{}] if not x else [x])) # Ensure it's a list, handle None/empty
+    df = df.explode(meta_ratings_col_name, ignore_index=True)
+    
+    # Ensure the exploded column is treated as a dictionary
+    df[meta_ratings_col_name] = df[meta_ratings_col_name].apply(lambda x: x if isinstance(x, dict) else {})
+    
+    # Extract fields using the keys from python_processing_script_v1's meta_entry output
+    df["role"] = df[meta_ratings_col_name].apply(lambda x: x.get("role", "N/A"))
+    df["esMetaSub"] = pd.to_numeric(df[meta_ratings_col_name].apply(lambda x: x.get("esMetaSub")), errors='coerce').fillna(0)
+    df["esMeta"] = pd.to_numeric(df[meta_ratings_col_name].apply(lambda x: x.get("esMeta")), errors='coerce').fillna(0)
+    df["esChemStyle"] = df[meta_ratings_col_name].apply(lambda x: x.get("esChemStyle", "None")) 
+    df["esAccelType"] = df[meta_ratings_col_name].apply(lambda x: x.get("esAccelType", "Unknown")) 
+    df["ggMeta"] = pd.to_numeric(df[meta_ratings_col_name].apply(lambda x: x.get("ggMeta")), errors='coerce').fillna(0)
+    df["ggChemStyle"] = df[meta_ratings_col_name].apply(lambda x: x.get("ggChemStyle", "None")) 
+    df["ggAccelType"] = df[meta_ratings_col_name].apply(lambda x: x.get("ggAccelType", "Unknown")) 
+    df["subAccelType"] = df[meta_ratings_col_name].apply(lambda x: x.get("subAccelType", "CONTROLLED"))
 
-df["height"] = pd.to_numeric(df["height"], errors="coerce")
-df["weight"] = pd.to_numeric(df["weight"], errors="coerce")
-df["height"] = df["height"].fillna(0).astype(int)
-df["weight"] = df["weight"].fillna(0).astype(int)
-df["__player_id"] = df["player_origin_id"] + "_" + df["archetype"].astype(str)
+    df = df.drop(columns=[meta_ratings_col_name])
+else: 
+    placeholder_cols = ["role", "ggMeta", "ggChemStyle", "ggAccelType", 
+                         "esMeta", "esChemStyle", "esAccelType", "esMetaSub", "subAccelType"]
+    for col in placeholder_cols:
+        if col not in df.columns:
+            if "Meta" in col or "Rank" in col : df[col] = 0.0 
+            elif "ChemStyle" in col : df[col] = "None"
+            elif "AccelType" in col or "subAccelType" in col : df[col] = "Unknown"
+            else: df[col] = "N/A"
 
-# Add mapping from rolesPlusPlus to archetype keys
-rpp_to_archetype = {
-    "GK Goalkeeper": "goalkeeper", "GK Sweeper Keeper": "sweeper_keeper",
-    "RB Fullback": "fullback", "RB Falseback": "falseback", "RB Wingback": "wingback", "RB Attacking Wingback": "attacking_wingback",
-    "LB Fullback": "fullback", "LB Falseback": "falseback", "LB Wingback": "wingback", "LB Attacking Wingback": "attacking_wingback",
-    "CB Defender": "defender", "CB Stopper": "stopper", "CB Ball-Playing Defender": "ball_playing_defender",
-    "CDM Holding": "holding", "CDM Centre-Half": "centre_half", "CDM Deep-Lying Playmaker": "deep_lying_playmaker", "CDM Wide Half": "wide_half",
-    "CM Box to Box": "box_to_box", "CM Holding": "holding", "CM Deep-Lying Playmaker": "deep_lying_playmaker", "CM Playmaker": "playmaker", "CM Half-Winger": "half_ winger",
-    "RM Winger": "winger", "RM Wide Midfielder": "wide_midfielder", "RM Wide Playmaker": "wide_playmaker", "RM Inside Forward": "inside_forward",
-    "LM Winger": "winger", "LM Wide Midfielder": "wide_midfielder", "LM Wide Playmaker": "wide_playmaker", "LM Inside Forward": "inside_forward",
-    "CAM Playmaker": "playmaker", "CAM Shadow Striker": "shadow_striker", "CAM Half Winger": "half_winger", "CAM Classic 10": "classic_ten",
-    "RW Winger": "winger", "RW Inside Forward": "inside_forward", "RW Wide Playmaker": "wide_playmaker",
-    "LW Winger": "winger", "LW Inside Forward": "inside_forward", "LW Wide Playmaker": "wide_playmaker",
-    "ST Advanced Forward": "advanced_forward", "ST Poacher": "poacher", "ST False 9": "false_nine", "ST Target Forward": "target_forward"
-}
 
-# Sidebar filters
+df["height"] = pd.to_numeric(df["height"], errors='coerce').fillna(df["height"].dropna().astype(float).mean() if not df["height"].dropna().empty else 0).astype(int)
+df["weight"] = pd.to_numeric(df["weight"], errors='coerce').fillna(df["weight"].dropna().astype(float).mean() if not df["weight"].dropna().empty else 0).astype(int)
+df["overall"] = pd.to_numeric(df["overall"], errors='coerce').fillna(0).astype(int)
+df["skillMoves"] = pd.to_numeric(df["skillMoves"], errors='coerce').fillna(0).astype(int)
+df["weakFoot"] = pd.to_numeric(df["weakFoot"], errors='coerce').fillna(0).astype(int)
+
+for attr_col_name in attribute_filter_order:
+    if attr_col_name in df.columns:
+        df[attr_col_name] = pd.to_numeric(df[attr_col_name], errors='coerce').fillna(0).astype(int)
+
+
+df["__player_id"] = df["player_origin_id"] + "_" + df["role"].astype(str) 
+
+def recompute_role_flags(row):
+    current_role = row.get("role", "N/A")
+    player_roles_plus = row.get("roles+", []) 
+    player_roles_plus_plus = row.get("roles++", []) 
+    
+    if not isinstance(player_roles_plus, list): player_roles_plus = []
+    if not isinstance(player_roles_plus_plus, list): player_roles_plus_plus = []
+
+    has_role_plus = current_role in player_roles_plus
+    has_role_plus_plus = current_role in player_roles_plus_plus
+    return pd.Series({"hasRolePlus": has_role_plus, "hasRolePlusPlus": has_role_plus_plus})
+
+if "roles+" in df.columns and "roles++" in df.columns:
+    role_flags = df.apply(recompute_role_flags, axis=1)
+    df["hasRolePlus"] = role_flags["hasRolePlus"]
+    df["hasRolePlusPlus"] = role_flags["hasRolePlusPlus"]
+else:
+    df["hasRolePlus"] = False
+    df["hasRolePlusPlus"] = False
+
+
+# --- Sidebar filters ---
 st.sidebar.header("Filter Players")
 filters = {}
 
-# Evolution filter (if exists)
-evolution_values = [True, False]
-selected_evolution = st.sidebar.selectbox("evolution", options=["All"] + evolution_values)
-if selected_evolution != "All":
-    filters["evolution"] = selected_evolution
+if "evolution" in df.columns:
+    unique_evo_vals = sorted(list(df["evolution"].unique()))
+    options = ["All"] + unique_evo_vals
+    selected_evolution = st.sidebar.selectbox("Evolution", options=options, index=0)
+    if selected_evolution != "All":
+        filters["evolution"] = selected_evolution
 
-# Height filter
-if "height" in df.columns and not df["height"].isnull().all():
-    min_height = int(df["height"].min())
-    max_height = int(df["height"].max())
-    selected_height = st.sidebar.slider("Height (cm)", min_height, max_height, (min_height, max_height))
-    filters["height"] = selected_height
+def create_min_max_filter(container, column_name, label, default_step=1, default_format_str="%d"):
+    """Creates min/max number_input filters within the given container (e.g., st.sidebar or an expander)."""
+    if column_name in df.columns and not df[column_name].isnull().all():
+        numeric_col = pd.to_numeric(df[column_name], errors='coerce').dropna()
+        if not numeric_col.empty:
+            min_val_data = numeric_col.min() 
+            max_val_data = numeric_col.max() 
+            
+            if min_val_data == max_val_data:
+                # container.text(f"{label}: {min_val_data} (single value in dataset)") # Less verbose
+                return
 
-# Weight filter
-if "weight" in df.columns and not df["weight"].isnull().all():
-    min_weight = int(df["weight"].min())
-    max_weight = int(df["weight"].max())
-    selected_weight = st.sidebar.slider("Weight (kg)", min_weight, max_weight, (min_weight, max_weight))
-    filters["weight"] = selected_weight
+            key_prefix = column_name.lower().replace(" ", "_").replace("+", "plus").replace("-","").replace("(","").replace(")","")
+            is_target_float = isinstance(default_step, float)
+            
+            current_format_str = default_format_str
+            if is_target_float and default_format_str == "%d": current_format_str = "%.1f" 
+            elif not is_target_float and default_format_str != "%d": current_format_str = "%d"
 
-# Archetype filter
-archetypes = sorted(df["archetype"].dropna().unique())
-selected_archetypes = st.sidebar.multiselect("Archetype", options=archetypes)
-if selected_archetypes:
-    filters["archetype"] = selected_archetypes
+            if is_target_float:
+                s_min_val = float(min_val_data)
+                s_max_val = float(max_val_data)
+            else: 
+                s_min_val = int(round(min_val_data))
+                s_max_val = int(round(max_val_data))
+            
+            val_min_for_input = s_min_val 
+            val_max_for_input = s_max_val
+            
+            if container is None: 
+                st.error(f"Error: Filter container for '{label}' is None. Cannot create inputs.")
+                return
 
-# Process non-attribute fields
-for _, row in non_attribute_fields.iterrows():
-    col = row["field"]
-    if col not in df.columns:
-        continue
-    filter_type = row["filter type"]
-    if filter_type == "dropdown/selection":
-        series = df[col].dropna()
-        if series.apply(lambda x: isinstance(x, list)).any():
-            unique_vals = sorted(set(item for sublist in series if isinstance(sublist, list) for item in sublist))
-        else:
-            unique_vals = sorted(series.unique())
-        selected_vals = st.sidebar.multiselect(f"{col}", unique_vals)
-        if selected_vals:
-            filters[col] = selected_vals
-    elif filter_type == "min/max boxes in one line":
-        min_val = row["min"] if not pd.isna(row["min"]) else df[col].min()
-        max_val = row["max"] if not pd.isna(row["max"]) else df[col].max()
-        selected_range = st.sidebar.slider(f"{col}", int(min_val), int(max_val), (int(min_val), int(max_val)))
-        filters[col] = selected_range
+            col1, col2 = container.columns(2) 
+            user_min = col1.number_input(f"Min {label}", min_value=s_min_val, max_value=s_max_val, value=val_min_for_input, step=default_step, format=current_format_str, key=f"{key_prefix}_min")
+            user_max = col2.number_input(f"Max {label}", min_value=s_min_val, max_value=s_max_val, value=val_max_for_input, step=default_step, format=current_format_str, key=f"{key_prefix}_max")
+            
+            if float(user_min) > float(min_val_data) or float(user_max) < float(max_val_data):
+                 filters[column_name] = (float(user_min), float(user_max))
 
-# Recompute hasRolePlus and hasRolePlusPlus dynamically based on archetype and rolesPlus/rolesPlusPlus
-def recompute_role_flags(row):
-    roles_plus = row.get("rolesPlus", [])
-    roles_plus_plus = row.get("rolesPlusPlus", [])
-    archetype = row.get("archetype", "N/A")
-    mapped_roles_plus = [rpp_to_archetype.get(role, None) for role in roles_plus]
-    mapped_roles_plus_plus = [rpp_to_archetype.get(role, None) for role in roles_plus_plus]
-    has_role_plus = archetype in mapped_roles_plus
-    has_role_plus_plus = archetype in mapped_roles_plus_plus
-    return pd.Series({"hasRolePlus": has_role_plus, "hasRolePlusPlus": has_role_plus_plus})
+# General Numeric Filters (directly in sidebar)
+create_min_max_filter(st.sidebar, "overall", "Overall")
+create_min_max_filter(st.sidebar, "height", "Height (cm)")
+create_min_max_filter(st.sidebar, "weight", "Weight (kg)")
+create_min_max_filter(st.sidebar, "skillMoves", "Skill Moves")
+create_min_max_filter(st.sidebar, "weakFoot", "Weak Foot")
+create_min_max_filter(st.sidebar, "ggMeta", "GG Meta", default_step=0.1, default_format_str="%.1f")
+create_min_max_filter(st.sidebar, "esMetaSub", "ES Meta (Sub)", default_step=0.1, default_format_str="%.1f")
+create_min_max_filter(st.sidebar, "esMeta", "ES Meta (Chem)", default_step=0.1, default_format_str="%.1f")
 
-role_flags = df.apply(recompute_role_flags, axis=1)
-df["hasRolePlus"] = role_flags["hasRolePlus"]
-df["hasRolePlusPlus"] = role_flags["hasRolePlusPlus"]
 
-# Additional filters for hasRolePlus and hasRolePlusPlus
+if "role" in df.columns:
+    unique_roles = sorted(df["role"].dropna().unique())
+    if unique_roles:
+        selected_roles = st.sidebar.multiselect("Role", options=unique_roles)
+        if selected_roles:
+            filters["role"] = selected_roles
+
+# Filters for roles+ and roles++
+for role_col_name, role_label in [("roles+", "Roles+"), ("roles++", "Roles++")]:
+    if role_col_name in df.columns:
+        all_role_items = set()
+        df[role_col_name].dropna().apply(lambda L: all_role_items.update(L if isinstance(L, list) else []))
+        if all_role_items:
+            selected_role_items = st.sidebar.multiselect(f"{role_label} (Any)", sorted(list(all_role_items)))
+            if selected_role_items:
+                filters[f"{role_col_name}_any"] = selected_role_items
+
+
+all_ps_styles = set()
+if 'PS' in df.columns:
+    df['PS'].dropna().apply(lambda styles: all_ps_styles.update(styles if isinstance(styles, list) else []))
+if 'PS+' in df.columns:
+    df['PS+'].dropna().apply(lambda styles: all_ps_styles.update(styles if isinstance(styles, list) else []))
+
+if all_ps_styles:
+    selected_playstyles = st.sidebar.multiselect("PlayStyles (All Selected)", sorted(list(all_ps_styles))) 
+    if selected_playstyles:
+        filters["playstyles_all"] = selected_playstyles # Key is "playstyles_all"
+            
+if "ggAccelType" in df.columns: 
+    unique_gg_accel = sorted(df["ggAccelType"].dropna().unique())
+    if unique_gg_accel:
+        selected_gg_accel = st.sidebar.multiselect("GG Chem Accelerate Type", unique_gg_accel)
+        if selected_gg_accel:
+            filters["ggAccelType"] = selected_gg_accel
+
+if "esAccelType" in df.columns: 
+    unique_es_accel = sorted(df["esAccelType"].dropna().unique())
+    if unique_es_accel:
+        selected_es_accel = st.sidebar.multiselect("ES Chem Accelerate Type", unique_es_accel)
+        if selected_es_accel:
+            filters["esAccelType"] = selected_es_accel
+
+if "subAccelType" in df.columns: 
+    unique_sub_accel = sorted(df["subAccelType"].dropna().unique())
+    if unique_sub_accel:
+        selected_sub_accel = st.sidebar.multiselect("Sub Accelerate Type", unique_sub_accel)
+        if selected_sub_accel:
+            filters["subAccelType"] = selected_sub_accel
+
+
 with st.sidebar.expander("Role Familiarity", expanded=True):
-    has_role_plus = st.checkbox("Has Role Plus")
-    has_role_plus_plus = st.checkbox("Has Role Plus Plus")
-    if has_role_plus:
-        filters["hasRolePlus"] = True
-    if has_role_plus_plus:
-        filters["hasRolePlusPlus"] = True
+    if "hasRolePlus" in df.columns:
+        has_role_plus_checkbox = st.checkbox("Has Role Plus")
+        if has_role_plus_checkbox:
+            filters["hasRolePlus"] = True
+    if "hasRolePlusPlus" in df.columns:
+        has_role_plus_plus_checkbox = st.checkbox("Has Role Plus Plus")
+        if has_role_plus_plus_checkbox:
+            filters["hasRolePlusPlus"] = True
 
-with st.sidebar.expander("In-Game Stats", expanded=False):
-    for _, row in attribute_fields.iterrows():
-        col = row["field"]
-        if col not in df.columns:
-            continue
-        filter_type = row["filter type"]
-        if filter_type == "dropdown/selection":
-            unique_vals = sorted(df[col].dropna().unique())
-            selected_vals = st.multiselect(f"{col}", unique_vals)
-            if selected_vals:
-                filters[col] = selected_vals
-        elif filter_type == "min/max boxes in one line":
-            min_val = df[col].min()
-            max_val = df[col].max()
-            selected_range = st.slider(f"{col}", int(min_val), int(max_val), (int(min_val), int(max_val)))
-            filters[col] = selected_range
+igs_expander_container = st.sidebar.expander("In-Game Stats", expanded=False)
+for attr_col in attribute_filter_order:
+    create_min_max_filter(igs_expander_container, attr_col, attr_col.replace("_", " ").title())
+
 
 # Apply filters
 filtered_df = df.copy()
 for col, val in filters.items():
-    if col == "evolution":
-        filtered_df = filtered_df[filtered_df[col] == val]
-    elif isinstance(val, list):
-        if col in ["playstylesPlus", "playstyles"]:
-            # Special handling: players must have ALL selected styles across playstylesPlus and playstyles
-            def has_all_styles(row):
-                combined_styles = []
-                if isinstance(row.get("playstylesPlus"), list):
-                    combined_styles.extend(row.get("playstylesPlus"))
-                if isinstance(row.get("playstyles"), list):
-                    combined_styles.extend(row.get("playstyles"))
-                return all(v in combined_styles for v in val)
+    if col == "playstyles_all": 
+        def has_all_selected_styles_combined(row):
+            # If no playstyles are selected in the filter, all players pass this specific filter
+            if not val: # 'val' is the list of selected playstyles from the filter
+                return True
+            
+            combined_player_styles = set() 
+            ps_list = row.get("PS", [])
+            ps_plus_list = row.get("PS+", [])
 
-            filtered_df = filtered_df[filtered_df.apply(has_all_styles, axis=1)]
-        else:
-            if df[col].apply(lambda x: isinstance(x, list)).any():
-                filtered_df = filtered_df[filtered_df[col].apply(lambda x: any(i in x for i in val) if isinstance(x, list) else False)]
-            else:
-                filtered_df = filtered_df[filtered_df[col].isin(val)]
-    elif isinstance(val, tuple) and len(val) == 2:
-        filtered_df = filtered_df[filtered_df[col].between(val[0], val[1])]
-    else:
-        filtered_df = filtered_df[filtered_df[col] == val]
+            if isinstance(ps_list, list): 
+                combined_player_styles.update(ps_list)
+            if isinstance(ps_plus_list, list): 
+                combined_player_styles.update(ps_plus_list)
+            
+            # Check if all styles in 'val' (selected by user) are present in the player's combined styles
+            return all(s in combined_player_styles for s in val)
+        filtered_df = filtered_df[filtered_df.apply(has_all_selected_styles_combined, axis=1)]
+        continue 
+    elif col == "roles+_any" or col == "roles++_any": 
+        actual_col_name = col.split('_')[0] 
+        if actual_col_name in filtered_df.columns: 
+            def has_any_selected_style_single_list(row_styles_list_item): # Renamed variable to avoid conflict
+                if not isinstance(row_styles_list_item, list): return False
+                return any(s_item in row_styles_list_item for s_item in val) # val is from filters.items()
+            
+            # Added try-except for robustness during apply, though the 'in' check should prevent KeyErrors
+            try:
+                if not filtered_df.empty:
+                     mask = filtered_df[actual_col_name].apply(has_any_selected_style_single_list)
+                     filtered_df = filtered_df[mask]
+            except KeyError as e:
+                st.warning(f"Skipping filter for '{actual_col_name}' due to unexpected issue: {e}")
 
-# Sort option
-sort_by = st.sidebar.selectbox("Sort By", options=["metaRating_3chem", "metaRating_0chem", "overall"], index=0)
+        continue 
+
+    # General filter application for other types
+    if isinstance(val, list): 
+        if col in filtered_df.columns and filtered_df[col].dropna().apply(lambda x: isinstance(x, list)).any():
+            filtered_df = filtered_df[filtered_df[col].apply(lambda x: any(i in x for i in val) if isinstance(x, list) else False)]
+        elif col in filtered_df.columns:
+            filtered_df = filtered_df[filtered_df[col].isin(val)]
+        # else:
+            # st.warning(f"Filter column '{col}' not found for list filter.")
+    elif isinstance(val, tuple) and len(val) == 2: 
+        if col in filtered_df.columns:
+            numeric_series = pd.to_numeric(filtered_df[col], errors='coerce')
+            filtered_df = filtered_df[numeric_series.between(val[0], val[1], inclusive='both') & numeric_series.notna()]
+        # else:
+            # st.warning(f"Filter column '{col}' not found for tuple/range filter.")
+    else: 
+        if col in filtered_df.columns:
+            filtered_df = filtered_df[filtered_df[col] == val]
+        # else:
+            # st.warning(f"Filter column '{col}' not found for direct value filter.")
+
+
+# Default sort by ggMeta descending
+default_sort_column = "ggMeta"
+if default_sort_column in filtered_df.columns:
+    filtered_df = filtered_df.sort_values(by=default_sort_column, ascending=False)
+elif "overall" in filtered_df.columns: # Fallback
+    filtered_df = filtered_df.sort_values(by="overall", ascending=False)
+
 
 # Columns to display
 columns_to_display = [
-    "commonName", "archetype", "metaRating_0chem", "metaRating_3chem",
-    "bestChemStyle", "accelerateType_chem", "hasRolePlus", "hasRolePlusPlus",
-    "skillMoves", "weakFoot", "playstylesPlus", "playstyles", "positions", "foot",
-    "bodytype", "accelerateType", "height", "weight", "overall"
+    "commonName", "role", "overall",
+    "ggMeta", "ggChemStyle", "ggAccelType",
+    "esMeta", "esChemStyle", "esAccelType", 
+    "esMetaSub","subAccelType", 
+    "hasRolePlus", "hasRolePlusPlus",
+    "skillMoves", "weakFoot", 
+    "PS+", "PS", "roles+", "roles++", 
+    "positions", "foot",
+    "bodyType",
+    "height", "weight"
 ] + [col for col in attribute_filter_order if col in filtered_df.columns]
 
-existing_columns = [col for col in columns_to_display if col in filtered_df.columns]
-columns_to_hide = ["evolutionIgsBoost", "premiumSeasonPassLevel", "standardSeasonPassLevel", "totalIgsBoost"]
-filtered_df = filtered_df.drop(columns=[col for col in columns_to_hide if col in filtered_df.columns], errors="ignore")
-remaining_columns = [col for col in filtered_df.columns if col not in existing_columns]
-filtered_df = filtered_df[existing_columns + remaining_columns]
+final_display_columns = [col for col in columns_to_display if col in filtered_df.columns]
 
-def format_boolean(value):
-    if value is True:
-        return "✅"
-    elif value is False:
-        return "❌"
-    else:
-        return ""
 
-filtered_df["hasRolePlus"] = filtered_df["hasRolePlus"].apply(format_boolean)
-filtered_df["hasRolePlusPlus"] = filtered_df["hasRolePlusPlus"].apply(format_boolean)
+# Formatting for boolean flags
+if "hasRolePlus" in filtered_df.columns:
+    filtered_df["hasRolePlus"] = filtered_df["hasRolePlus"].apply(lambda x: "✅" if x else "❌")
+if "hasRolePlusPlus" in filtered_df.columns:
+    filtered_df["hasRolePlusPlus"] = filtered_df["hasRolePlusPlus"].apply(lambda x: "✅" if x else "❌")
+
 
 # Display
-st.title("El Mostashar Player Database - Rady Club")
-st.markdown(f"### Showing {filtered_df['player_origin_id'].nunique()} unique players")
-filtered_df = filtered_df.drop(columns=["__true_player_id", "player_origin_id", "debug_index", "__player_id"], errors="ignore")
-st.dataframe(filtered_df.sort_values(by=sort_by, ascending=False), use_container_width=True, hide_index=True)
+st.title("El Mostashar FC - Club Player Database - Rady Version")
+
+if filters:
+    st.subheader("Active Filters:")
+    filter_tags = []
+    for key, f_val in filters.items():
+        display_name = key.replace("_", " ").title()
+        if key == "playstyles_all": display_name = "PlayStyles (All Selected)" 
+        elif key == "roles+_any": display_name = "Roles+ (Any)"
+        elif key == "roles++_any": display_name = "Roles++ (Any)"
+        
+        if isinstance(f_val, list):
+            val_str = ", ".join(map(str,f_val))
+        elif isinstance(f_val, tuple):
+            val_str = f"{f_val[0]} - {f_val[1]}"
+        else:
+            val_str = str(f_val)
+        filter_tags.append(f"<span style='background-color:#333;color:#f5f5f5;padding:3px 7px;margin:2px;border-radius:12px;display:inline-block;font-size:0.9em;'>{display_name}: {val_str}</span>")
+    st.markdown(" ".join(filter_tags), unsafe_allow_html=True)
+    st.markdown("---")
+
+# Top 3 Players Display
+st.subheader("Top Meta Ratings")
+col1, col2, col3 = st.columns(3)
+
+# Top 3 GG Meta
+if "ggMeta" in filtered_df.columns and not filtered_df.empty:
+    top_gg_players_unique = filtered_df.loc[filtered_df.groupby("__true_player_id")["ggMeta"].idxmax()]
+    top_gg_df = top_gg_players_unique.nlargest(3, "ggMeta")
+    with col1:
+        st.markdown("**Top GG Meta**")
+        for i, (_, row) in enumerate(top_gg_df.iterrows()):
+            medal = ["🥇", "🥈", "🥉"][i] if i < 3 else "" 
+            st.metric(label=f"{medal} {row.get('commonName', 'N/A')}", value=f'{row.get("ggMeta", 0.0):.2f}')
+
+# Top 3 ES Meta (3 Chem)
+if "esMeta" in filtered_df.columns and not filtered_df.empty: 
+    top_es_players_unique = filtered_df.loc[filtered_df.groupby("__true_player_id")["esMeta"].idxmax()]
+    top_es_df = top_es_players_unique.nlargest(3, "esMeta")
+    with col2:
+        st.markdown("**Top EasySBC Meta (Full Chem)**")
+        for i, (_, row) in enumerate(top_es_df.iterrows()):
+            medal = ["🥇", "🥈", "🥉"][i] if i < 3 else ""
+            st.metric(label=f"{medal} {row.get('commonName', 'N/A')}", value=f'{row.get("esMeta", 0.0):.2f}')
+
+# Top 3 ES Meta (0 Chem)
+if "esMetaSub" in filtered_df.columns and not filtered_df.empty:
+    top_es0_players_unique = filtered_df.loc[filtered_df.groupby("__true_player_id")["esMetaSub"].idxmax()]
+    top_es0_df = top_es0_players_unique.nlargest(3, "esMetaSub")
+    with col3:
+        st.markdown("**Top EasySBC Meta (Sub)**")
+        for i, (_, row) in enumerate(top_es0_df.iterrows()):
+            medal = ["🥇", "🥈", "🥉"][i] if i < 3 else ""
+            st.metric(label=f"{medal} {row.get('commonName', 'N/A')}", value=f'{row.get("esMetaSub", 0.0):.2f}')
+
+
+st.markdown(f"### Showing {filtered_df['player_origin_id'].nunique()} unique players ({len(filtered_df)} role entries)")
+
+columns_to_drop_before_display = ["__true_player_id", "player_origin_id", "debug_index", "__player_id"]
+display_df = filtered_df.drop(columns=[col for col in columns_to_drop_before_display if col in filtered_df.columns], errors="ignore")
+
+if display_df.empty:
+    st.warning("No players found matching the selected filters.")
+else:
+    if final_display_columns : 
+        st.dataframe(display_df[final_display_columns], use_container_width=True, hide_index=True)
+    else: 
+        st.dataframe(display_df, use_container_width=True, hide_index=True)
+
