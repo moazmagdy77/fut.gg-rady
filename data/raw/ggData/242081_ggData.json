@@ -149,7 +149,7 @@
     "objectiveCampaignLevelId": null,
     "campaignProps": null,
     "contentTypeId": 27,
-    "numberOfEvolutions": 41,
+    "numberOfEvolutions": 25,
     "blurbText": null,
     "smallBlurbText": "Agustín Almendra is 25 years old, and plays for Racing Club in the CONMEBOL Sudamericana. Agustín Almendra's height stands at 182 cm (6'0'), and the nation he represents is Argentina. This Common version of Agustín Almendra is a 73 rated CM. He is Right footed, with 3 star skill moves and 2 star weak foot. ",
     "upgrades": null,
@@ -171,10 +171,146 @@
     "ggRating": null,
     "ggRatingPos": null,
     "ggRatingStr": null,
+    "isHistoricalItem": false,
     "commonName": "Agustín Almendra",
+    "club": {
+      "id": 2875,
+      "eaId": 101085,
+      "game": "25",
+      "slug": "101085-racing-club",
+      "name": "Racing Club",
+      "sisterClubEaId": null,
+      "leagueEaId": 1014,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/101085.73472fb9be9f57fb67c2693cb65af35e5558d07abbe5ec9084e0b6abd2d92284.png",
+      "lightImagePath": "2025/club-light/101085.4575fe8d983345003122be0523f4b589f6001533d6a1cbc619ef13aaef00d282.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        231478,
+        210513,
+        262271
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 73,
+      "midfieldRating": 70,
+      "defenseRating": 72,
+      "overallRating": 72,
+      "url": "/clubs/101085-racing-club/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/101085.73472fb9be9f57fb67c2693cb65af35e5558d07abbe5ec9084e0b6abd2d92284.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/101085.4575fe8d983345003122be0523f4b589f6001533d6a1cbc619ef13aaef00d282.png"
+    },
+    "uniqueClub": {
+      "id": 2875,
+      "eaId": 101085,
+      "game": "25",
+      "slug": "101085-racing-club",
+      "name": "Racing Club",
+      "sisterClubEaId": null,
+      "leagueEaId": 1014,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/101085.73472fb9be9f57fb67c2693cb65af35e5558d07abbe5ec9084e0b6abd2d92284.png",
+      "lightImagePath": "2025/club-light/101085.4575fe8d983345003122be0523f4b589f6001533d6a1cbc619ef13aaef00d282.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        231478,
+        210513,
+        262271
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 73,
+      "midfieldRating": 70,
+      "defenseRating": 72,
+      "overallRating": 72,
+      "url": "/clubs/101085-racing-club/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/101085.73472fb9be9f57fb67c2693cb65af35e5558d07abbe5ec9084e0b6abd2d92284.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/101085.4575fe8d983345003122be0523f4b589f6001533d6a1cbc619ef13aaef00d282.png"
+    },
+    "nation": {
+      "id": 702,
+      "eaId": 52,
+      "slug": "argentina",
+      "name": "Argentina",
+      "imagePath": "2025/nation/52.411384d76f978ce88ee08880f79fd0b7c92d9f7a35a091c2fe2e58ad066e8a1a.png",
+      "url": "/nations/argentina/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/nation/52.411384d76f978ce88ee08880f79fd0b7c92d9f7a35a091c2fe2e58ad066e8a1a.png"
+    },
+    "league": {
+      "id": 211,
+      "eaId": 1014,
+      "slug": "conmebol-sudamericana",
+      "name": "CONMEBOL Sudamericana",
+      "imagePath": "2025/league/1014.a31d0ebc5805fecb333186b1631b2b84c9e51b98e31bd333e044ed34330b3863.png",
+      "imageLightPath": "2025/league-light/1014.bfa73a569fc339777fad3035e4c5c147cbd1ce2cc8f34f6fef1586acf3abcc98.png",
+      "url": "/leagues/conmebol-sudamericana/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league/1014.a31d0ebc5805fecb333186b1631b2b84c9e51b98e31bd333e044ed34330b3863.png",
+      "imageLightUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league-light/1014.bfa73a569fc339777fad3035e4c5c147cbd1ce2cc8f34f6fef1586acf3abcc98.png"
+    },
     "isSbcItem": false,
     "isObjectiveItem": false,
+    "rarity": {
+      "id": 433,
+      "eaId": 0,
+      "slug": "common",
+      "game": "25",
+      "name": "Common",
+      "alternateName": null,
+      "url": "/rarities/common/",
+      "dominantColor": "d39570",
+      "imagePath": "2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png",
+      "imagePaths": [
+        "2025/rarities-level-1-large/0.9e74985cc5fa0235bfd1cdf18524886abec80cb940fb87245dc8eb0fe402e68e.png",
+        "2025/rarities-level-2-large/0.bcc3305230ad572a1c35252bfc76d94661378a3cd0bc6f05053ecadb8b4b8dbe.png",
+        "2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png"
+      ],
+      "isSpecial": false,
+      "compactImagePath": "2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png",
+      "compactImagePaths": [
+        "2025/rarities-level-1-small/0.07fe8673a441822a263a61409f05124a35882cb798e0cd62868d00dc388d25cd.png",
+        "2025/rarities-level-2-small/0.2d3f30416f2b228ddf7e8eef513c1ffb7af5aadea48ff7a9a24cccd90f40889c.png",
+        "2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png"
+      ],
+      "animatedImagePath": null,
+      "animatedImagesPath": null,
+      "animatedImagesFrameCount": null,
+      "animatedImagesFps": null,
+      "animatedImagesDelay": null,
+      "isBrightColorScheme": true,
+      "textColor": [
+        "3f1208",
+        "192228",
+        "31260c"
+      ],
+      "lineColor": [
+        "d39570",
+        "bfcbd3",
+        "c5a96b"
+      ],
+      "shadowColor": [
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "overallColor": null,
+      "numberOfPlayers": 13709,
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png",
+      "imageUrls": [
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-1-large/0.9e74985cc5fa0235bfd1cdf18524886abec80cb940fb87245dc8eb0fe402e68e.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-2-large/0.bcc3305230ad572a1c35252bfc76d94661378a3cd0bc6f05053ecadb8b4b8dbe.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png"
+      ],
+      "animatedImageUrl": null,
+      "animatedImagesUrl": null,
+      "compactImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png"
+    },
     "totalFaceStats": 412,
-    "totalIgs": 1951
+    "totalIgs": 1951,
+    "isFullChemistry": false,
+    "extraNationChemistry": 0,
+    "extraLeagueChemistry": 0,
+    "extraClubChemistry": 0,
+    "extraSquadLeagueChemistry": false,
+    "extraSquadNationChemistry": false
   }
 }

@@ -156,9 +156,9 @@
     "objectiveCampaignLevelId": null,
     "campaignProps": null,
     "contentTypeId": 27,
-    "numberOfEvolutions": 68,
+    "numberOfEvolutions": 156,
     "blurbText": null,
-    "smallBlurbText": "Villares is 28 years old, and plays for RC Deportivo in the LALIGA HYPERMOTION. Villares's height stands at 186 cm (6'1'), and the nation he represents is Spain. This Rare version of Villares is a 73 rated CM. He is Right footed, with 4 star skill moves and 3 star weak foot. ",
+    "smallBlurbText": "Villares is 29 years old, and plays for RC Deportivo in the LALIGA HYPERMOTION. Villares's height stands at 186 cm (6'1'), and the nation he represents is Spain. This Rare version of Villares is a 73 rated CM. He is Right footed, with 4 star skill moves and 3 star weak foot. ",
     "upgrades": null,
     "hasPrice": true,
     "trackerId": null,
@@ -178,10 +178,146 @@
     "ggRating": null,
     "ggRatingPos": null,
     "ggRatingStr": null,
+    "isHistoricalItem": false,
     "commonName": "Villares",
+    "club": {
+      "id": 2575,
+      "eaId": 242,
+      "game": "25",
+      "slug": "242-rc-deportivo",
+      "name": "RC Deportivo",
+      "sisterClubEaId": null,
+      "leagueEaId": 54,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/242.3e906be4a456bbd2737a13b42e67f2804736ee9a5893eedecbb7dbe0080f189d.png",
+      "lightImagePath": "2025/club-light/242.3e906be4a456bbd2737a13b42e67f2804736ee9a5893eedecbb7dbe0080f189d.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        239053,
+        4231,
+        25924
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 69,
+      "midfieldRating": 71,
+      "defenseRating": 70,
+      "overallRating": 71,
+      "url": "/clubs/242-rc-deportivo/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/242.3e906be4a456bbd2737a13b42e67f2804736ee9a5893eedecbb7dbe0080f189d.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/242.3e906be4a456bbd2737a13b42e67f2804736ee9a5893eedecbb7dbe0080f189d.png"
+    },
+    "uniqueClub": {
+      "id": 2575,
+      "eaId": 242,
+      "game": "25",
+      "slug": "242-rc-deportivo",
+      "name": "RC Deportivo",
+      "sisterClubEaId": null,
+      "leagueEaId": 54,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/242.3e906be4a456bbd2737a13b42e67f2804736ee9a5893eedecbb7dbe0080f189d.png",
+      "lightImagePath": "2025/club-light/242.3e906be4a456bbd2737a13b42e67f2804736ee9a5893eedecbb7dbe0080f189d.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        239053,
+        4231,
+        25924
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 69,
+      "midfieldRating": 71,
+      "defenseRating": 70,
+      "overallRating": 71,
+      "url": "/clubs/242-rc-deportivo/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/242.3e906be4a456bbd2737a13b42e67f2804736ee9a5893eedecbb7dbe0080f189d.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/242.3e906be4a456bbd2737a13b42e67f2804736ee9a5893eedecbb7dbe0080f189d.png"
+    },
+    "nation": {
+      "id": 695,
+      "eaId": 45,
+      "slug": "spain",
+      "name": "Spain",
+      "imagePath": "2025/nation/45.307275040b6531f26bb980298820e1a50df6eb288379a2efc5e5eb3abdb5f1ea.png",
+      "url": "/nations/spain/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/nation/45.307275040b6531f26bb980298820e1a50df6eb288379a2efc5e5eb3abdb5f1ea.png"
+    },
+    "league": {
+      "id": 189,
+      "eaId": 54,
+      "slug": "laliga-hypermotion",
+      "name": "LALIGA HYPERMOTION",
+      "imagePath": "2025/league/54.867a19306bc9fb0d12956fd754d8fe864796af461eba8f522d40c34720b9273f.png",
+      "imageLightPath": "2025/league-light/54.2b45f0db11179d077592cdfb78ffebe805c9ddf160682e415d4ee4f08ed3ad5e.png",
+      "url": "/leagues/laliga-hypermotion/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league/54.867a19306bc9fb0d12956fd754d8fe864796af461eba8f522d40c34720b9273f.png",
+      "imageLightUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league-light/54.2b45f0db11179d077592cdfb78ffebe805c9ddf160682e415d4ee4f08ed3ad5e.png"
+    },
     "isSbcItem": false,
     "isObjectiveItem": false,
+    "rarity": {
+      "id": 434,
+      "eaId": 1,
+      "slug": "rare",
+      "game": "25",
+      "name": "Rare",
+      "alternateName": null,
+      "url": "/rarities/rare/",
+      "dominantColor": "dd9c79",
+      "imagePath": "2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png",
+      "imagePaths": [
+        "2025/rarities-level-1-large/1.ff6159fb3f49c4a46fb58bb7ff2edf3443faa545162b5636d1d36484b195af8f.png",
+        "2025/rarities-level-2-large/1.110820e10aee7e71b2a058da6a645b42455e8b52d8209c84906ab13b4ca637e1.png",
+        "2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png"
+      ],
+      "isSpecial": false,
+      "compactImagePath": "2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png",
+      "compactImagePaths": [
+        "2025/rarities-level-1-small/1.0c997213875cb4e45f25ea3a9d4c8586377af07d992da90277cc443403fd9d26.png",
+        "2025/rarities-level-2-small/1.a31950d31bb7c2b74f1bd0d7ec162d223eda669622761601950d7f24b80c1cbf.png",
+        "2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png"
+      ],
+      "animatedImagePath": null,
+      "animatedImagesPath": null,
+      "animatedImagesFrameCount": null,
+      "animatedImagesFps": null,
+      "animatedImagesDelay": null,
+      "isBrightColorScheme": true,
+      "textColor": [
+        "3e281c",
+        "1e252a",
+        "2d2410"
+      ],
+      "lineColor": [
+        "dd9c79",
+        "bfccd1",
+        "e3c075"
+      ],
+      "shadowColor": [
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "overallColor": null,
+      "numberOfPlayers": 6927,
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png",
+      "imageUrls": [
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-1-large/1.ff6159fb3f49c4a46fb58bb7ff2edf3443faa545162b5636d1d36484b195af8f.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-2-large/1.110820e10aee7e71b2a058da6a645b42455e8b52d8209c84906ab13b4ca637e1.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png"
+      ],
+      "animatedImageUrl": null,
+      "animatedImagesUrl": null,
+      "compactImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png"
+    },
     "totalFaceStats": 423,
-    "totalIgs": 2007
+    "totalIgs": 2007,
+    "isFullChemistry": false,
+    "extraNationChemistry": 0,
+    "extraLeagueChemistry": 0,
+    "extraClubChemistry": 0,
+    "extraSquadLeagueChemistry": false,
+    "extraSquadNationChemistry": false
   }
 }

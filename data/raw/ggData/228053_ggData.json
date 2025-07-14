@@ -153,9 +153,9 @@
     "objectiveCampaignLevelId": null,
     "campaignProps": null,
     "contentTypeId": 27,
-    "numberOfEvolutions": 3,
+    "numberOfEvolutions": 139,
     "blurbText": null,
-    "smallBlurbText": "Shayon Harrison is 27 years old, and plays for Politehnica Iași in the SUPERLIGA. Shayon Harrison's height stands at 183 cm (6'0'), and the nation he represents is England. This Rare version of Shayon Harrison is a 64 rated ST. He is Left footed, with 3 star skill moves and 3 star weak foot. ",
+    "smallBlurbText": "Shayon Harrison is 28 years old, and plays for Politehnica Iași in the SUPERLIGA. Shayon Harrison's height stands at 183 cm (6'0'), and the nation he represents is England. This Rare version of Shayon Harrison is a 64 rated ST. He is Left footed, with 3 star skill moves and 3 star weak foot. ",
     "upgrades": null,
     "hasPrice": true,
     "trackerId": null,
@@ -172,10 +172,149 @@
     "premiumSeasonPassLevel": null,
     "standardSeasonPassLevel": null,
     "metarankStr": null,
+    "ggRating": null,
+    "ggRatingPos": null,
+    "ggRatingStr": null,
+    "isHistoricalItem": false,
     "commonName": "Shayon Harrison",
+    "club": {
+      "id": 2782,
+      "eaId": 110815,
+      "game": "25",
+      "slug": "110815-politehnica-iasi",
+      "name": "Politehnica Iași",
+      "sisterClubEaId": null,
+      "leagueEaId": 330,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/110815.189d054b573e675752a5389bd818d4ca57b03f60c94f4a58f1da9fcd9ac29bcf.png",
+      "lightImagePath": "2025/club-light/110815.5f596136ebab0cd897fac1506b9559424f3022b182b59c012c45f04f2db9aea7.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        248073,
+        248054,
+        256271
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 60,
+      "midfieldRating": 63,
+      "defenseRating": 64,
+      "overallRating": 63,
+      "url": "/clubs/110815-politehnica-iasi/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/110815.189d054b573e675752a5389bd818d4ca57b03f60c94f4a58f1da9fcd9ac29bcf.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/110815.5f596136ebab0cd897fac1506b9559424f3022b182b59c012c45f04f2db9aea7.png"
+    },
+    "uniqueClub": {
+      "id": 2782,
+      "eaId": 110815,
+      "game": "25",
+      "slug": "110815-politehnica-iasi",
+      "name": "Politehnica Iași",
+      "sisterClubEaId": null,
+      "leagueEaId": 330,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/110815.189d054b573e675752a5389bd818d4ca57b03f60c94f4a58f1da9fcd9ac29bcf.png",
+      "lightImagePath": "2025/club-light/110815.5f596136ebab0cd897fac1506b9559424f3022b182b59c012c45f04f2db9aea7.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        248073,
+        248054,
+        256271
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 60,
+      "midfieldRating": 63,
+      "defenseRating": 64,
+      "overallRating": 63,
+      "url": "/clubs/110815-politehnica-iasi/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/110815.189d054b573e675752a5389bd818d4ca57b03f60c94f4a58f1da9fcd9ac29bcf.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/110815.5f596136ebab0cd897fac1506b9559424f3022b182b59c012c45f04f2db9aea7.png"
+    },
+    "nation": {
+      "id": 665,
+      "eaId": 14,
+      "slug": "england",
+      "name": "England",
+      "imagePath": "2025/nation/14.78390863cddfae30b0df1723f63159b6dc1c09e4ecde31080b60ba3b9bee500e.png",
+      "url": "/nations/england/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/nation/14.78390863cddfae30b0df1723f63159b6dc1c09e4ecde31080b60ba3b9bee500e.png"
+    },
+    "league": {
+      "id": 205,
+      "eaId": 330,
+      "slug": "superliga",
+      "name": "SUPERLIGA",
+      "imagePath": "2025/league/330.323099a95e04ee87b1a7d68a9a8e319c7c89ee7c824cb6dfd9c71e6a405e3184.png",
+      "imageLightPath": "2025/league-light/330.9aa6fd58a331fea987d3235abf99c948568d1c4cbd330f39286145c0149306bd.png",
+      "url": "/leagues/superliga/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league/330.323099a95e04ee87b1a7d68a9a8e319c7c89ee7c824cb6dfd9c71e6a405e3184.png",
+      "imageLightUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league-light/330.9aa6fd58a331fea987d3235abf99c948568d1c4cbd330f39286145c0149306bd.png"
+    },
     "isSbcItem": false,
     "isObjectiveItem": false,
+    "rarity": {
+      "id": 434,
+      "eaId": 1,
+      "slug": "rare",
+      "game": "25",
+      "name": "Rare",
+      "alternateName": null,
+      "url": "/rarities/rare/",
+      "dominantColor": "dd9c79",
+      "imagePath": "2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png",
+      "imagePaths": [
+        "2025/rarities-level-1-large/1.ff6159fb3f49c4a46fb58bb7ff2edf3443faa545162b5636d1d36484b195af8f.png",
+        "2025/rarities-level-2-large/1.110820e10aee7e71b2a058da6a645b42455e8b52d8209c84906ab13b4ca637e1.png",
+        "2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png"
+      ],
+      "isSpecial": false,
+      "compactImagePath": "2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png",
+      "compactImagePaths": [
+        "2025/rarities-level-1-small/1.0c997213875cb4e45f25ea3a9d4c8586377af07d992da90277cc443403fd9d26.png",
+        "2025/rarities-level-2-small/1.a31950d31bb7c2b74f1bd0d7ec162d223eda669622761601950d7f24b80c1cbf.png",
+        "2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png"
+      ],
+      "animatedImagePath": null,
+      "animatedImagesPath": null,
+      "animatedImagesFrameCount": null,
+      "animatedImagesFps": null,
+      "animatedImagesDelay": null,
+      "isBrightColorScheme": true,
+      "textColor": [
+        "3e281c",
+        "1e252a",
+        "2d2410"
+      ],
+      "lineColor": [
+        "dd9c79",
+        "bfccd1",
+        "e3c075"
+      ],
+      "shadowColor": [
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "overallColor": null,
+      "numberOfPlayers": 6927,
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png",
+      "imageUrls": [
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-1-large/1.ff6159fb3f49c4a46fb58bb7ff2edf3443faa545162b5636d1d36484b195af8f.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-2-large/1.110820e10aee7e71b2a058da6a645b42455e8b52d8209c84906ab13b4ca637e1.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png"
+      ],
+      "animatedImageUrl": null,
+      "animatedImagesUrl": null,
+      "compactImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png"
+    },
     "totalFaceStats": 342,
-    "totalIgs": 1585
+    "totalIgs": 1585,
+    "isFullChemistry": false,
+    "extraNationChemistry": 0,
+    "extraLeagueChemistry": 0,
+    "extraClubChemistry": 0,
+    "extraSquadLeagueChemistry": false,
+    "extraSquadNationChemistry": false
   }
 }

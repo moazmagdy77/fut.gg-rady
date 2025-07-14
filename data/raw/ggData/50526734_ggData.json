@@ -150,9 +150,9 @@
     "objectiveCampaignLevelId": null,
     "campaignProps": null,
     "contentTypeId": 27,
-    "numberOfEvolutions": 1,
+    "numberOfEvolutions": 4,
     "blurbText": null,
-    "smallBlurbText": "Dejan Lovren is 35 years old, and plays for PAOK FC in the Hellas Liga. Dejan Lovren's height stands at 188 cm (6'2'), and the nation he represents is Croatia. This Rare version of Dejan Lovren is a 74 rated CB. He is Right footed, with 2 star skill moves and 4 star weak foot. ",
+    "smallBlurbText": "Dejan Lovren is 36 years old, and plays for PAOK FC in the Hellas Liga. Dejan Lovren's height stands at 188 cm (6'2'), and the nation he represents is Croatia. This Rare version of Dejan Lovren is a 74 rated CB. He is Right footed, with 2 star skill moves and 4 star weak foot. ",
     "upgrades": null,
     "hasPrice": true,
     "trackerId": null,
@@ -169,10 +169,175 @@
     "premiumSeasonPassLevel": null,
     "standardSeasonPassLevel": null,
     "metarankStr": null,
+    "ggRating": null,
+    "ggRatingPos": null,
+    "ggRatingStr": null,
+    "isHistoricalItem": false,
     "commonName": "Dejan Lovren",
+    "club": {
+      "id": 2663,
+      "eaId": 393,
+      "game": "25",
+      "slug": "393-paok-fc",
+      "name": "PAOK FC",
+      "sisterClubEaId": null,
+      "leagueEaId": 63,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/393.1d500bfe133ed4b4ecb9fd845a37d040554cf5e9222a6e3f2adf8396140573ea.png",
+      "lightImagePath": "2025/club-light/393.1d500bfe133ed4b4ecb9fd845a37d040554cf5e9222a6e3f2adf8396140573ea.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        30110,
+        222544,
+        229804
+      ],
+      "competitionIds": [
+        2
+      ],
+      "fixtureIds": [
+        226,
+        162,
+        199,
+        297,
+        236,
+        3695,
+        3697,
+        280,
+        252,
+        189
+      ],
+      "attackRating": 74,
+      "midfieldRating": 74,
+      "defenseRating": 73,
+      "overallRating": 74,
+      "url": "/clubs/393-paok-fc/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/393.1d500bfe133ed4b4ecb9fd845a37d040554cf5e9222a6e3f2adf8396140573ea.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/393.1d500bfe133ed4b4ecb9fd845a37d040554cf5e9222a6e3f2adf8396140573ea.png"
+    },
+    "uniqueClub": {
+      "id": 2663,
+      "eaId": 393,
+      "game": "25",
+      "slug": "393-paok-fc",
+      "name": "PAOK FC",
+      "sisterClubEaId": null,
+      "leagueEaId": 63,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/393.1d500bfe133ed4b4ecb9fd845a37d040554cf5e9222a6e3f2adf8396140573ea.png",
+      "lightImagePath": "2025/club-light/393.1d500bfe133ed4b4ecb9fd845a37d040554cf5e9222a6e3f2adf8396140573ea.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        30110,
+        222544,
+        229804
+      ],
+      "competitionIds": [
+        2
+      ],
+      "fixtureIds": [
+        226,
+        162,
+        199,
+        297,
+        236,
+        3695,
+        3697,
+        280,
+        252,
+        189
+      ],
+      "attackRating": 74,
+      "midfieldRating": 74,
+      "defenseRating": 73,
+      "overallRating": 74,
+      "url": "/clubs/393-paok-fc/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/393.1d500bfe133ed4b4ecb9fd845a37d040554cf5e9222a6e3f2adf8396140573ea.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/393.1d500bfe133ed4b4ecb9fd845a37d040554cf5e9222a6e3f2adf8396140573ea.png"
+    },
+    "nation": {
+      "id": 661,
+      "eaId": 10,
+      "slug": "croatia",
+      "name": "Croatia",
+      "imagePath": "2025/nation/10.7f4f8d8066323f16561f8d0f3c0b0e4bcfc39b01197aab63bc4499a37a6fe908.png",
+      "url": "/nations/croatia/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/nation/10.7f4f8d8066323f16561f8d0f3c0b0e4bcfc39b01197aab63bc4499a37a6fe908.png"
+    },
+    "league": {
+      "id": 193,
+      "eaId": 63,
+      "slug": "hellas-liga",
+      "name": "Hellas Liga",
+      "imagePath": "2025/league/63.547e6c2c7ccb12718f3269f853e6a42d3dfcce11a3b65d292b2f9c1e36b7ac98.png",
+      "imageLightPath": "2025/league-light/63.547e6c2c7ccb12718f3269f853e6a42d3dfcce11a3b65d292b2f9c1e36b7ac98.png",
+      "url": "/leagues/hellas-liga/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league/63.547e6c2c7ccb12718f3269f853e6a42d3dfcce11a3b65d292b2f9c1e36b7ac98.png",
+      "imageLightUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league-light/63.547e6c2c7ccb12718f3269f853e6a42d3dfcce11a3b65d292b2f9c1e36b7ac98.png"
+    },
     "isSbcItem": false,
     "isObjectiveItem": false,
+    "rarity": {
+      "id": 434,
+      "eaId": 1,
+      "slug": "rare",
+      "game": "25",
+      "name": "Rare",
+      "alternateName": null,
+      "url": "/rarities/rare/",
+      "dominantColor": "dd9c79",
+      "imagePath": "2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png",
+      "imagePaths": [
+        "2025/rarities-level-1-large/1.ff6159fb3f49c4a46fb58bb7ff2edf3443faa545162b5636d1d36484b195af8f.png",
+        "2025/rarities-level-2-large/1.110820e10aee7e71b2a058da6a645b42455e8b52d8209c84906ab13b4ca637e1.png",
+        "2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png"
+      ],
+      "isSpecial": false,
+      "compactImagePath": "2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png",
+      "compactImagePaths": [
+        "2025/rarities-level-1-small/1.0c997213875cb4e45f25ea3a9d4c8586377af07d992da90277cc443403fd9d26.png",
+        "2025/rarities-level-2-small/1.a31950d31bb7c2b74f1bd0d7ec162d223eda669622761601950d7f24b80c1cbf.png",
+        "2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png"
+      ],
+      "animatedImagePath": null,
+      "animatedImagesPath": null,
+      "animatedImagesFrameCount": null,
+      "animatedImagesFps": null,
+      "animatedImagesDelay": null,
+      "isBrightColorScheme": true,
+      "textColor": [
+        "3e281c",
+        "1e252a",
+        "2d2410"
+      ],
+      "lineColor": [
+        "dd9c79",
+        "bfccd1",
+        "e3c075"
+      ],
+      "shadowColor": [
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "overallColor": null,
+      "numberOfPlayers": 6927,
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png",
+      "imageUrls": [
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-1-large/1.ff6159fb3f49c4a46fb58bb7ff2edf3443faa545162b5636d1d36484b195af8f.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-2-large/1.110820e10aee7e71b2a058da6a645b42455e8b52d8209c84906ab13b4ca637e1.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png"
+      ],
+      "animatedImageUrl": null,
+      "animatedImagesUrl": null,
+      "compactImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png"
+    },
     "totalFaceStats": 354,
-    "totalIgs": 1652
+    "totalIgs": 1652,
+    "isFullChemistry": false,
+    "extraNationChemistry": 0,
+    "extraLeagueChemistry": 0,
+    "extraClubChemistry": 0,
+    "extraSquadLeagueChemistry": false,
+    "extraSquadNationChemistry": false
   }
 }

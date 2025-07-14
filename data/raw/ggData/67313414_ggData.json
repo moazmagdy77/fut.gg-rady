@@ -165,7 +165,7 @@
     "objectiveCampaignLevelId": null,
     "campaignProps": null,
     "contentTypeId": 27,
-    "numberOfEvolutions": 1,
+    "numberOfEvolutions": 7,
     "blurbText": null,
     "smallBlurbText": "Víctor Ibarbo is 35 years old, and plays for HERO in the Serie A TIM. Víctor Ibarbo's height stands at 188 cm (6'2'), and the nation he represents is Colombia. This Streets Won't Forget version of Víctor Ibarbo is a 78 rated RW. He is Right footed, with 4 star skill moves and 4 star weak foot. ",
     "upgrades": null,
@@ -184,10 +184,119 @@
     "premiumSeasonPassLevel": null,
     "standardSeasonPassLevel": null,
     "metarankStr": null,
+    "ggRating": null,
+    "ggRatingPos": null,
+    "ggRatingStr": null,
+    "isHistoricalItem": false,
     "commonName": "Víctor Ibarbo",
+    "club": null,
+    "uniqueClub": {
+      "id": 2999,
+      "eaId": 114605,
+      "game": "25",
+      "slug": "114605-hero",
+      "name": "HERO",
+      "sisterClubEaId": null,
+      "leagueEaId": 2118,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/114605.df965f0a2745d68ce02cc886839b25fba6480c9813b87a9e4720d4f25e12f86b.png",
+      "lightImagePath": "2025/club-light/114605.df965f0a2745d68ce02cc886839b25fba6480c9813b87a9e4720d4f25e12f86b.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": null,
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": null,
+      "midfieldRating": null,
+      "defenseRating": null,
+      "overallRating": null,
+      "url": "/clubs/114605-hero/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/114605.df965f0a2745d68ce02cc886839b25fba6480c9813b87a9e4720d4f25e12f86b.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/114605.df965f0a2745d68ce02cc886839b25fba6480c9813b87a9e4720d4f25e12f86b.png"
+    },
+    "nation": {
+      "id": 706,
+      "eaId": 56,
+      "slug": "colombia",
+      "name": "Colombia",
+      "imagePath": "2025/nation/56.4de6e81de64ff54afc7dd9dc371d930cd079ef8e679645414ac501d59cfd351f.png",
+      "url": "/nations/colombia/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/nation/56.4de6e81de64ff54afc7dd9dc371d930cd079ef8e679645414ac501d59cfd351f.png"
+    },
+    "league": {
+      "id": 183,
+      "eaId": 31,
+      "slug": "serie-a-tim",
+      "name": "Serie A TIM",
+      "imagePath": "2025/league/31.f1b853a1cb392da35c43676ecd74966da3e552b8202d1632c47a2ed7449d0215.png",
+      "imageLightPath": "2025/league-light/31.f1b853a1cb392da35c43676ecd74966da3e552b8202d1632c47a2ed7449d0215.png",
+      "url": "/leagues/serie-a-tim/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league/31.f1b853a1cb392da35c43676ecd74966da3e552b8202d1632c47a2ed7449d0215.png",
+      "imageLightUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league-light/31.f1b853a1cb392da35c43676ecd74966da3e552b8202d1632c47a2ed7449d0215.png"
+    },
     "isSbcItem": false,
     "isObjectiveItem": true,
+    "rarity": {
+      "id": 537,
+      "eaId": 18,
+      "slug": "streets-wont-forget",
+      "game": "25",
+      "name": "Streets Won't Forget",
+      "alternateName": null,
+      "url": "/rarities/streets-wont-forget/",
+      "dominantColor": "d5a924",
+      "imagePath": "2025/rarities-level-0-large/18.aa1a606d5904d7e04c75411b0f7ec32a865e5353a7d867f739c70aecef5244cb.png",
+      "imagePaths": [
+        "2025/rarities-level-0-large/18.aa1a606d5904d7e04c75411b0f7ec32a865e5353a7d867f739c70aecef5244cb.png",
+        "2025/rarities-level-0-large/18.aa1a606d5904d7e04c75411b0f7ec32a865e5353a7d867f739c70aecef5244cb.png",
+        "2025/rarities-level-0-large/18.aa1a606d5904d7e04c75411b0f7ec32a865e5353a7d867f739c70aecef5244cb.png"
+      ],
+      "isSpecial": true,
+      "compactImagePath": "2025/rarities-level-0-small/18.aa1a606d5904d7e04c75411b0f7ec32a865e5353a7d867f739c70aecef5244cb.png",
+      "compactImagePaths": [
+        "2025/rarities-level-0-small/18.aa1a606d5904d7e04c75411b0f7ec32a865e5353a7d867f739c70aecef5244cb.png",
+        "2025/rarities-level-0-small/18.aa1a606d5904d7e04c75411b0f7ec32a865e5353a7d867f739c70aecef5244cb.png",
+        "2025/rarities-level-0-small/18.aa1a606d5904d7e04c75411b0f7ec32a865e5353a7d867f739c70aecef5244cb.png"
+      ],
+      "animatedImagePath": null,
+      "animatedImagesPath": null,
+      "animatedImagesFrameCount": null,
+      "animatedImagesFps": null,
+      "animatedImagesDelay": null,
+      "isBrightColorScheme": false,
+      "textColor": [
+        "392103",
+        "392103",
+        "392103"
+      ],
+      "lineColor": [
+        "d5a924",
+        "d5a924",
+        "d5a924"
+      ],
+      "shadowColor": [
+        "",
+        "",
+        ""
+      ],
+      "overallColor": null,
+      "numberOfPlayers": 3,
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-0-large/18.aa1a606d5904d7e04c75411b0f7ec32a865e5353a7d867f739c70aecef5244cb.png",
+      "imageUrls": [
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-0-large/18.aa1a606d5904d7e04c75411b0f7ec32a865e5353a7d867f739c70aecef5244cb.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-0-large/18.aa1a606d5904d7e04c75411b0f7ec32a865e5353a7d867f739c70aecef5244cb.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-0-large/18.aa1a606d5904d7e04c75411b0f7ec32a865e5353a7d867f739c70aecef5244cb.png"
+      ],
+      "animatedImageUrl": null,
+      "animatedImagesUrl": null,
+      "compactImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-0-small/18.aa1a606d5904d7e04c75411b0f7ec32a865e5353a7d867f739c70aecef5244cb.png"
+    },
     "totalFaceStats": 435,
-    "totalIgs": 2042
+    "totalIgs": 2042,
+    "isFullChemistry": true,
+    "extraNationChemistry": 0,
+    "extraLeagueChemistry": 1,
+    "extraClubChemistry": 0,
+    "extraSquadLeagueChemistry": false,
+    "extraSquadNationChemistry": false
   }
 }

@@ -149,7 +149,7 @@
     "objectiveCampaignLevelId": null,
     "campaignProps": null,
     "contentTypeId": 27,
-    "numberOfEvolutions": 7,
+    "numberOfEvolutions": 77,
     "blurbText": null,
     "smallBlurbText": "Jonah Ayunga is 28 years old, and plays for St. Mirren in the cinch Premiership. Jonah Ayunga's height stands at 185 cm (6'1'), and the nation he represents is Kenya. This Common version of Jonah Ayunga is a 65 rated ST. He is Right footed, with 2 star skill moves and 3 star weak foot. ",
     "upgrades": null,
@@ -171,10 +171,146 @@
     "ggRating": null,
     "ggRatingPos": null,
     "ggRatingStr": null,
+    "isHistoricalItem": false,
     "commonName": "Jonah Ayunga",
+    "club": {
+      "id": 2554,
+      "eaId": 100805,
+      "game": "25",
+      "slug": "100805-st-mirren",
+      "name": "St. Mirren",
+      "sisterClubEaId": null,
+      "leagueEaId": 50,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/100805.407b0742bfbea93798b5a5f4863523577b007170d6c3da91a5dac1a284584b84.png",
+      "lightImagePath": "2025/club-light/100805.407b0742bfbea93798b5a5f4863523577b007170d6c3da91a5dac1a284584b84.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        225872,
+        210881,
+        236918
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 63,
+      "midfieldRating": 64,
+      "defenseRating": 64,
+      "overallRating": 64,
+      "url": "/clubs/100805-st-mirren/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/100805.407b0742bfbea93798b5a5f4863523577b007170d6c3da91a5dac1a284584b84.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/100805.407b0742bfbea93798b5a5f4863523577b007170d6c3da91a5dac1a284584b84.png"
+    },
+    "uniqueClub": {
+      "id": 2554,
+      "eaId": 100805,
+      "game": "25",
+      "slug": "100805-st-mirren",
+      "name": "St. Mirren",
+      "sisterClubEaId": null,
+      "leagueEaId": 50,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/100805.407b0742bfbea93798b5a5f4863523577b007170d6c3da91a5dac1a284584b84.png",
+      "lightImagePath": "2025/club-light/100805.407b0742bfbea93798b5a5f4863523577b007170d6c3da91a5dac1a284584b84.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        225872,
+        210881,
+        236918
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 63,
+      "midfieldRating": 64,
+      "defenseRating": 64,
+      "overallRating": 64,
+      "url": "/clubs/100805-st-mirren/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/100805.407b0742bfbea93798b5a5f4863523577b007170d6c3da91a5dac1a284584b84.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/100805.407b0742bfbea93798b5a5f4863523577b007170d6c3da91a5dac1a284584b84.png"
+    },
+    "nation": {
+      "id": 754,
+      "eaId": 120,
+      "slug": "kenya",
+      "name": "Kenya",
+      "imagePath": "2025/nation/120.a4f8b537516cb346c13fd6636af935d10bbf6a8c05307b2faedb938422607ca4.png",
+      "url": "/nations/kenya/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/nation/120.a4f8b537516cb346c13fd6636af935d10bbf6a8c05307b2faedb938422607ca4.png"
+    },
+    "league": {
+      "id": 187,
+      "eaId": 50,
+      "slug": "cinch-premiership",
+      "name": "cinch Premiership",
+      "imagePath": "2025/league/50.d1052392d2d9435d78e42b39780e822dd37b041b20804d4ebd26ce975245630f.png",
+      "imageLightPath": "2025/league-light/50.8610c65aefd8c1554c0470e0322e2d6f6af25883ab6991a0a52e7fc37590de28.png",
+      "url": "/leagues/cinch-premiership/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league/50.d1052392d2d9435d78e42b39780e822dd37b041b20804d4ebd26ce975245630f.png",
+      "imageLightUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league-light/50.8610c65aefd8c1554c0470e0322e2d6f6af25883ab6991a0a52e7fc37590de28.png"
+    },
     "isSbcItem": false,
     "isObjectiveItem": false,
+    "rarity": {
+      "id": 433,
+      "eaId": 0,
+      "slug": "common",
+      "game": "25",
+      "name": "Common",
+      "alternateName": null,
+      "url": "/rarities/common/",
+      "dominantColor": "d39570",
+      "imagePath": "2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png",
+      "imagePaths": [
+        "2025/rarities-level-1-large/0.9e74985cc5fa0235bfd1cdf18524886abec80cb940fb87245dc8eb0fe402e68e.png",
+        "2025/rarities-level-2-large/0.bcc3305230ad572a1c35252bfc76d94661378a3cd0bc6f05053ecadb8b4b8dbe.png",
+        "2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png"
+      ],
+      "isSpecial": false,
+      "compactImagePath": "2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png",
+      "compactImagePaths": [
+        "2025/rarities-level-1-small/0.07fe8673a441822a263a61409f05124a35882cb798e0cd62868d00dc388d25cd.png",
+        "2025/rarities-level-2-small/0.2d3f30416f2b228ddf7e8eef513c1ffb7af5aadea48ff7a9a24cccd90f40889c.png",
+        "2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png"
+      ],
+      "animatedImagePath": null,
+      "animatedImagesPath": null,
+      "animatedImagesFrameCount": null,
+      "animatedImagesFps": null,
+      "animatedImagesDelay": null,
+      "isBrightColorScheme": true,
+      "textColor": [
+        "3f1208",
+        "192228",
+        "31260c"
+      ],
+      "lineColor": [
+        "d39570",
+        "bfcbd3",
+        "c5a96b"
+      ],
+      "shadowColor": [
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "overallColor": null,
+      "numberOfPlayers": 13709,
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png",
+      "imageUrls": [
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-1-large/0.9e74985cc5fa0235bfd1cdf18524886abec80cb940fb87245dc8eb0fe402e68e.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-2-large/0.bcc3305230ad572a1c35252bfc76d94661378a3cd0bc6f05053ecadb8b4b8dbe.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png"
+      ],
+      "animatedImageUrl": null,
+      "animatedImagesUrl": null,
+      "compactImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png"
+    },
     "totalFaceStats": 368,
-    "totalIgs": 1700
+    "totalIgs": 1700,
+    "isFullChemistry": false,
+    "extraNationChemistry": 0,
+    "extraLeagueChemistry": 0,
+    "extraClubChemistry": 0,
+    "extraSquadLeagueChemistry": false,
+    "extraSquadNationChemistry": false
   }
 }

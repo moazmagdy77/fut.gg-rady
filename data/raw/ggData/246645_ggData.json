@@ -152,7 +152,7 @@
     "objectiveCampaignLevelId": null,
     "campaignProps": null,
     "contentTypeId": 27,
-    "numberOfEvolutions": 42,
+    "numberOfEvolutions": 34,
     "blurbText": null,
     "smallBlurbText": "Albert-Nicolas Lottin is 23 years old, and plays for CD Castellón in the LALIGA HYPERMOTION. Albert-Nicolas Lottin's height stands at 181 cm (5'11'), and the nation he represents is France. This Common version of Albert-Nicolas Lottin is a 65 rated CDM. He is Right footed, with 2 star skill moves and 3 star weak foot. ",
     "upgrades": null,
@@ -171,10 +171,149 @@
     "premiumSeasonPassLevel": null,
     "standardSeasonPassLevel": null,
     "metarankStr": null,
+    "ggRating": null,
+    "ggRatingPos": null,
+    "ggRatingStr": null,
+    "isHistoricalItem": false,
     "commonName": "Albert-Nicolas Lottin",
+    "club": {
+      "id": 2590,
+      "eaId": 100852,
+      "game": "25",
+      "slug": "100852-cd-castellon",
+      "name": "CD Castellón",
+      "sisterClubEaId": null,
+      "leagueEaId": 54,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/100852.585f53db47d6a9b03ede7274ac4b32af2866416ca86780001b49af9f1a3c8ff9.png",
+      "lightImagePath": "2025/club-light/100852.585f53db47d6a9b03ede7274ac4b32af2866416ca86780001b49af9f1a3c8ff9.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        277514,
+        237419,
+        223979
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 67,
+      "midfieldRating": 66,
+      "defenseRating": 66,
+      "overallRating": 67,
+      "url": "/clubs/100852-cd-castellon/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/100852.585f53db47d6a9b03ede7274ac4b32af2866416ca86780001b49af9f1a3c8ff9.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/100852.585f53db47d6a9b03ede7274ac4b32af2866416ca86780001b49af9f1a3c8ff9.png"
+    },
+    "uniqueClub": {
+      "id": 2590,
+      "eaId": 100852,
+      "game": "25",
+      "slug": "100852-cd-castellon",
+      "name": "CD Castellón",
+      "sisterClubEaId": null,
+      "leagueEaId": 54,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/100852.585f53db47d6a9b03ede7274ac4b32af2866416ca86780001b49af9f1a3c8ff9.png",
+      "lightImagePath": "2025/club-light/100852.585f53db47d6a9b03ede7274ac4b32af2866416ca86780001b49af9f1a3c8ff9.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        277514,
+        237419,
+        223979
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 67,
+      "midfieldRating": 66,
+      "defenseRating": 66,
+      "overallRating": 67,
+      "url": "/clubs/100852-cd-castellon/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/100852.585f53db47d6a9b03ede7274ac4b32af2866416ca86780001b49af9f1a3c8ff9.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/100852.585f53db47d6a9b03ede7274ac4b32af2866416ca86780001b49af9f1a3c8ff9.png"
+    },
+    "nation": {
+      "id": 669,
+      "eaId": 18,
+      "slug": "france",
+      "name": "France",
+      "imagePath": "2025/nation/18.1913b72e6c1685cc8b67c4126ed88119ac29293b1fc11688ebfb464631a7a654.png",
+      "url": "/nations/france/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/nation/18.1913b72e6c1685cc8b67c4126ed88119ac29293b1fc11688ebfb464631a7a654.png"
+    },
+    "league": {
+      "id": 189,
+      "eaId": 54,
+      "slug": "laliga-hypermotion",
+      "name": "LALIGA HYPERMOTION",
+      "imagePath": "2025/league/54.867a19306bc9fb0d12956fd754d8fe864796af461eba8f522d40c34720b9273f.png",
+      "imageLightPath": "2025/league-light/54.2b45f0db11179d077592cdfb78ffebe805c9ddf160682e415d4ee4f08ed3ad5e.png",
+      "url": "/leagues/laliga-hypermotion/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league/54.867a19306bc9fb0d12956fd754d8fe864796af461eba8f522d40c34720b9273f.png",
+      "imageLightUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league-light/54.2b45f0db11179d077592cdfb78ffebe805c9ddf160682e415d4ee4f08ed3ad5e.png"
+    },
     "isSbcItem": false,
     "isObjectiveItem": false,
+    "rarity": {
+      "id": 433,
+      "eaId": 0,
+      "slug": "common",
+      "game": "25",
+      "name": "Common",
+      "alternateName": null,
+      "url": "/rarities/common/",
+      "dominantColor": "d39570",
+      "imagePath": "2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png",
+      "imagePaths": [
+        "2025/rarities-level-1-large/0.9e74985cc5fa0235bfd1cdf18524886abec80cb940fb87245dc8eb0fe402e68e.png",
+        "2025/rarities-level-2-large/0.bcc3305230ad572a1c35252bfc76d94661378a3cd0bc6f05053ecadb8b4b8dbe.png",
+        "2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png"
+      ],
+      "isSpecial": false,
+      "compactImagePath": "2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png",
+      "compactImagePaths": [
+        "2025/rarities-level-1-small/0.07fe8673a441822a263a61409f05124a35882cb798e0cd62868d00dc388d25cd.png",
+        "2025/rarities-level-2-small/0.2d3f30416f2b228ddf7e8eef513c1ffb7af5aadea48ff7a9a24cccd90f40889c.png",
+        "2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png"
+      ],
+      "animatedImagePath": null,
+      "animatedImagesPath": null,
+      "animatedImagesFrameCount": null,
+      "animatedImagesFps": null,
+      "animatedImagesDelay": null,
+      "isBrightColorScheme": true,
+      "textColor": [
+        "3f1208",
+        "192228",
+        "31260c"
+      ],
+      "lineColor": [
+        "d39570",
+        "bfcbd3",
+        "c5a96b"
+      ],
+      "shadowColor": [
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "overallColor": null,
+      "numberOfPlayers": 13709,
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png",
+      "imageUrls": [
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-1-large/0.9e74985cc5fa0235bfd1cdf18524886abec80cb940fb87245dc8eb0fe402e68e.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-2-large/0.bcc3305230ad572a1c35252bfc76d94661378a3cd0bc6f05053ecadb8b4b8dbe.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png"
+      ],
+      "animatedImageUrl": null,
+      "animatedImagesUrl": null,
+      "compactImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png"
+    },
     "totalFaceStats": 360,
-    "totalIgs": 1674
+    "totalIgs": 1674,
+    "isFullChemistry": false,
+    "extraNationChemistry": 0,
+    "extraLeagueChemistry": 0,
+    "extraClubChemistry": 0,
+    "extraSquadLeagueChemistry": false,
+    "extraSquadNationChemistry": false
   }
 }

@@ -156,7 +156,7 @@
     "objectiveCampaignLevelId": null,
     "campaignProps": null,
     "contentTypeId": 27,
-    "numberOfEvolutions": 1,
+    "numberOfEvolutions": 12,
     "blurbText": null,
     "smallBlurbText": "Mauro Icardi is 32 years old, and plays for Galatasaray in the Trendyol Süper Lig. Mauro Icardi's height stands at 181 cm (5'11'), and the nation he represents is Argentina. This Rare version of Mauro Icardi is a 83 rated ST. He is Right footed, with 3 star skill moves and 4 star weak foot. ",
     "upgrades": null,
@@ -178,10 +178,172 @@
     "ggRating": null,
     "ggRatingPos": null,
     "ggRatingStr": null,
+    "isHistoricalItem": false,
     "commonName": "Mauro Icardi",
+    "club": {
+      "id": 2693,
+      "eaId": 325,
+      "game": "25",
+      "slug": "325-galatasaray",
+      "name": "Galatasaray",
+      "sisterClubEaId": null,
+      "leagueEaId": 68,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/325.743e376ba10324956066cc72e783fd3f048f3f3b08e2f96780de9a5a0b01d0d8.png",
+      "lightImagePath": "2025/club-light/325.743e376ba10324956066cc72e783fd3f048f3f3b08e2f96780de9a5a0b01d0d8.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        232293,
+        156616,
+        220793
+      ],
+      "competitionIds": [
+        2
+      ],
+      "fixtureIds": [
+        194,
+        162,
+        231,
+        265,
+        3692,
+        3698,
+        182,
+        216,
+        250,
+        283
+      ],
+      "attackRating": 85,
+      "midfieldRating": 78,
+      "defenseRating": 78,
+      "overallRating": 79,
+      "url": "/clubs/325-galatasaray/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/325.743e376ba10324956066cc72e783fd3f048f3f3b08e2f96780de9a5a0b01d0d8.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/325.743e376ba10324956066cc72e783fd3f048f3f3b08e2f96780de9a5a0b01d0d8.png"
+    },
+    "uniqueClub": {
+      "id": 2693,
+      "eaId": 325,
+      "game": "25",
+      "slug": "325-galatasaray",
+      "name": "Galatasaray",
+      "sisterClubEaId": null,
+      "leagueEaId": 68,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/325.743e376ba10324956066cc72e783fd3f048f3f3b08e2f96780de9a5a0b01d0d8.png",
+      "lightImagePath": "2025/club-light/325.743e376ba10324956066cc72e783fd3f048f3f3b08e2f96780de9a5a0b01d0d8.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        232293,
+        156616,
+        220793
+      ],
+      "competitionIds": [
+        2
+      ],
+      "fixtureIds": [
+        194,
+        162,
+        231,
+        265,
+        3692,
+        3698,
+        182,
+        216,
+        250,
+        283
+      ],
+      "attackRating": 85,
+      "midfieldRating": 78,
+      "defenseRating": 78,
+      "overallRating": 79,
+      "url": "/clubs/325-galatasaray/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/325.743e376ba10324956066cc72e783fd3f048f3f3b08e2f96780de9a5a0b01d0d8.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/325.743e376ba10324956066cc72e783fd3f048f3f3b08e2f96780de9a5a0b01d0d8.png"
+    },
+    "nation": {
+      "id": 702,
+      "eaId": 52,
+      "slug": "argentina",
+      "name": "Argentina",
+      "imagePath": "2025/nation/52.411384d76f978ce88ee08880f79fd0b7c92d9f7a35a091c2fe2e58ad066e8a1a.png",
+      "url": "/nations/argentina/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/nation/52.411384d76f978ce88ee08880f79fd0b7c92d9f7a35a091c2fe2e58ad066e8a1a.png"
+    },
+    "league": {
+      "id": 196,
+      "eaId": 68,
+      "slug": "trendyol-super-lig",
+      "name": "Trendyol Süper Lig",
+      "imagePath": "2025/league/68.b72bab7165bd125b59c876e6609c8dbf2433de20fe14cca756511946d0bd05a5.png",
+      "imageLightPath": "2025/league-light/68.84305dc146e5cca3edf2625d5709ecd250ececb1fd70a95440a8e0c0669caa9d.png",
+      "url": "/leagues/trendyol-super-lig/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league/68.b72bab7165bd125b59c876e6609c8dbf2433de20fe14cca756511946d0bd05a5.png",
+      "imageLightUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league-light/68.84305dc146e5cca3edf2625d5709ecd250ececb1fd70a95440a8e0c0669caa9d.png"
+    },
     "isSbcItem": false,
     "isObjectiveItem": false,
+    "rarity": {
+      "id": 434,
+      "eaId": 1,
+      "slug": "rare",
+      "game": "25",
+      "name": "Rare",
+      "alternateName": null,
+      "url": "/rarities/rare/",
+      "dominantColor": "dd9c79",
+      "imagePath": "2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png",
+      "imagePaths": [
+        "2025/rarities-level-1-large/1.ff6159fb3f49c4a46fb58bb7ff2edf3443faa545162b5636d1d36484b195af8f.png",
+        "2025/rarities-level-2-large/1.110820e10aee7e71b2a058da6a645b42455e8b52d8209c84906ab13b4ca637e1.png",
+        "2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png"
+      ],
+      "isSpecial": false,
+      "compactImagePath": "2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png",
+      "compactImagePaths": [
+        "2025/rarities-level-1-small/1.0c997213875cb4e45f25ea3a9d4c8586377af07d992da90277cc443403fd9d26.png",
+        "2025/rarities-level-2-small/1.a31950d31bb7c2b74f1bd0d7ec162d223eda669622761601950d7f24b80c1cbf.png",
+        "2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png"
+      ],
+      "animatedImagePath": null,
+      "animatedImagesPath": null,
+      "animatedImagesFrameCount": null,
+      "animatedImagesFps": null,
+      "animatedImagesDelay": null,
+      "isBrightColorScheme": true,
+      "textColor": [
+        "3e281c",
+        "1e252a",
+        "2d2410"
+      ],
+      "lineColor": [
+        "dd9c79",
+        "bfccd1",
+        "e3c075"
+      ],
+      "shadowColor": [
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "overallColor": null,
+      "numberOfPlayers": 6927,
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png",
+      "imageUrls": [
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-1-large/1.ff6159fb3f49c4a46fb58bb7ff2edf3443faa545162b5636d1d36484b195af8f.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-2-large/1.110820e10aee7e71b2a058da6a645b42455e8b52d8209c84906ab13b4ca637e1.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png"
+      ],
+      "animatedImageUrl": null,
+      "animatedImagesUrl": null,
+      "compactImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png"
+    },
     "totalFaceStats": 413,
-    "totalIgs": 2015
+    "totalIgs": 2015,
+    "isFullChemistry": false,
+    "extraNationChemistry": 0,
+    "extraLeagueChemistry": 0,
+    "extraClubChemistry": 0,
+    "extraSquadLeagueChemistry": false,
+    "extraSquadNationChemistry": false
   }
 }

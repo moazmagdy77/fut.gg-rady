@@ -160,7 +160,7 @@
     "objectiveCampaignLevelId": null,
     "campaignProps": null,
     "contentTypeId": 27,
-    "numberOfEvolutions": 50,
+    "numberOfEvolutions": 31,
     "blurbText": null,
     "smallBlurbText": "Taras Romanczuk is 33 years old, and plays for Jagiellonia in the PKO Bank Polski Ekstraklasa. Taras Romanczuk's height stands at 186 cm (6'1'), and the nation he represents is Poland. This Rare version of Taras Romanczuk is a 70 rated CDM. He is Left footed, with 2 star skill moves and 3 star weak foot. ",
     "upgrades": null,
@@ -179,10 +179,179 @@
     "premiumSeasonPassLevel": null,
     "standardSeasonPassLevel": null,
     "metarankStr": null,
+    "ggRating": null,
+    "ggRatingPos": null,
+    "ggRatingStr": null,
+    "isHistoricalItem": false,
     "commonName": "Taras Romanczuk",
+    "club": {
+      "id": 2680,
+      "eaId": 110745,
+      "game": "25",
+      "slug": "110745-jagiellonia",
+      "name": "Jagiellonia",
+      "sisterClubEaId": null,
+      "leagueEaId": 66,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/110745.09f0df76c309032aa12039952c73cd7eec9228802deebd8f8c812fb4d43946b0.png",
+      "lightImagePath": "2025/club-light/110745.09f0df76c309032aa12039952c73cd7eec9228802deebd8f8c812fb4d43946b0.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        239267,
+        212138,
+        224885
+      ],
+      "competitionIds": [
+        3
+      ],
+      "fixtureIds": [
+        3680,
+        98,
+        133,
+        3656,
+        72,
+        111,
+        3664,
+        146,
+        3667,
+        62,
+        3645,
+        3678
+      ],
+      "attackRating": 70,
+      "midfieldRating": 68,
+      "defenseRating": 68,
+      "overallRating": 68,
+      "url": "/clubs/110745-jagiellonia/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/110745.09f0df76c309032aa12039952c73cd7eec9228802deebd8f8c812fb4d43946b0.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/110745.09f0df76c309032aa12039952c73cd7eec9228802deebd8f8c812fb4d43946b0.png"
+    },
+    "uniqueClub": {
+      "id": 2680,
+      "eaId": 110745,
+      "game": "25",
+      "slug": "110745-jagiellonia",
+      "name": "Jagiellonia",
+      "sisterClubEaId": null,
+      "leagueEaId": 66,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/110745.09f0df76c309032aa12039952c73cd7eec9228802deebd8f8c812fb4d43946b0.png",
+      "lightImagePath": "2025/club-light/110745.09f0df76c309032aa12039952c73cd7eec9228802deebd8f8c812fb4d43946b0.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        239267,
+        212138,
+        224885
+      ],
+      "competitionIds": [
+        3
+      ],
+      "fixtureIds": [
+        3680,
+        98,
+        133,
+        3656,
+        72,
+        111,
+        3664,
+        146,
+        3667,
+        62,
+        3645,
+        3678
+      ],
+      "attackRating": 70,
+      "midfieldRating": 68,
+      "defenseRating": 68,
+      "overallRating": 68,
+      "url": "/clubs/110745-jagiellonia/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/110745.09f0df76c309032aa12039952c73cd7eec9228802deebd8f8c812fb4d43946b0.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/110745.09f0df76c309032aa12039952c73cd7eec9228802deebd8f8c812fb4d43946b0.png"
+    },
+    "nation": {
+      "id": 688,
+      "eaId": 37,
+      "slug": "poland",
+      "name": "Poland",
+      "imagePath": "2025/nation/37.b81416fa05c1354cb6a760b7ac64db7804599b575c87e64a3d3cba619332177c.png",
+      "url": "/nations/poland/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/nation/37.b81416fa05c1354cb6a760b7ac64db7804599b575c87e64a3d3cba619332177c.png"
+    },
+    "league": {
+      "id": 195,
+      "eaId": 66,
+      "slug": "pko-bank-polski-ekstraklasa",
+      "name": "PKO Bank Polski Ekstraklasa",
+      "imagePath": "2025/league/66.5e040c6cb58f30c1aed00f0a5d693df9c6f214e80096d77dffb17d73e8553e01.png",
+      "imageLightPath": "2025/league-light/66.a06d4a96828f8be4b6811b71d0f311fedf6d86dba6e19fe2caae897126d6c158.png",
+      "url": "/leagues/pko-bank-polski-ekstraklasa/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league/66.5e040c6cb58f30c1aed00f0a5d693df9c6f214e80096d77dffb17d73e8553e01.png",
+      "imageLightUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league-light/66.a06d4a96828f8be4b6811b71d0f311fedf6d86dba6e19fe2caae897126d6c158.png"
+    },
     "isSbcItem": false,
     "isObjectiveItem": false,
+    "rarity": {
+      "id": 434,
+      "eaId": 1,
+      "slug": "rare",
+      "game": "25",
+      "name": "Rare",
+      "alternateName": null,
+      "url": "/rarities/rare/",
+      "dominantColor": "dd9c79",
+      "imagePath": "2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png",
+      "imagePaths": [
+        "2025/rarities-level-1-large/1.ff6159fb3f49c4a46fb58bb7ff2edf3443faa545162b5636d1d36484b195af8f.png",
+        "2025/rarities-level-2-large/1.110820e10aee7e71b2a058da6a645b42455e8b52d8209c84906ab13b4ca637e1.png",
+        "2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png"
+      ],
+      "isSpecial": false,
+      "compactImagePath": "2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png",
+      "compactImagePaths": [
+        "2025/rarities-level-1-small/1.0c997213875cb4e45f25ea3a9d4c8586377af07d992da90277cc443403fd9d26.png",
+        "2025/rarities-level-2-small/1.a31950d31bb7c2b74f1bd0d7ec162d223eda669622761601950d7f24b80c1cbf.png",
+        "2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png"
+      ],
+      "animatedImagePath": null,
+      "animatedImagesPath": null,
+      "animatedImagesFrameCount": null,
+      "animatedImagesFps": null,
+      "animatedImagesDelay": null,
+      "isBrightColorScheme": true,
+      "textColor": [
+        "3e281c",
+        "1e252a",
+        "2d2410"
+      ],
+      "lineColor": [
+        "dd9c79",
+        "bfccd1",
+        "e3c075"
+      ],
+      "shadowColor": [
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "overallColor": null,
+      "numberOfPlayers": 6927,
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png",
+      "imageUrls": [
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-1-large/1.ff6159fb3f49c4a46fb58bb7ff2edf3443faa545162b5636d1d36484b195af8f.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-2-large/1.110820e10aee7e71b2a058da6a645b42455e8b52d8209c84906ab13b4ca637e1.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png"
+      ],
+      "animatedImageUrl": null,
+      "animatedImagesUrl": null,
+      "compactImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png"
+    },
     "totalFaceStats": 397,
-    "totalIgs": 1894
+    "totalIgs": 1894,
+    "isFullChemistry": false,
+    "extraNationChemistry": 0,
+    "extraLeagueChemistry": 0,
+    "extraClubChemistry": 0,
+    "extraSquadLeagueChemistry": false,
+    "extraSquadNationChemistry": false
   }
 }

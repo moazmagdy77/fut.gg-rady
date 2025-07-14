@@ -155,7 +155,7 @@
     "objectiveCampaignLevelId": null,
     "campaignProps": null,
     "contentTypeId": 27,
-    "numberOfEvolutions": 4,
+    "numberOfEvolutions": 41,
     "blurbText": null,
     "smallBlurbText": "Davíð Kristján Ólafsson is 30 years old, and plays for Cracovia in the PKO Bank Polski Ekstraklasa. Davíð Kristján Ólafsson's height stands at 184 cm (6'0'), and the nation he represents is Iceland. This Common version of Davíð Kristján Ólafsson is a 65 rated LB. He is Left footed, with 2 star skill moves and 3 star weak foot. ",
     "upgrades": null,
@@ -174,10 +174,149 @@
     "premiumSeasonPassLevel": null,
     "standardSeasonPassLevel": null,
     "metarankStr": null,
+    "ggRating": null,
+    "ggRatingPos": null,
+    "ggRatingStr": null,
+    "isHistoricalItem": false,
     "commonName": "Davíð Kristján Ólafsson",
+    "club": {
+      "id": 2682,
+      "eaId": 110747,
+      "game": "25",
+      "slug": "110747-cracovia",
+      "name": "Cracovia",
+      "sisterClubEaId": null,
+      "leagueEaId": 66,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/110747.5c1519c11591dabd91f32a02d1e7c595e5f00526481409d8c30d73f7f4423288.png",
+      "lightImagePath": "2025/club-light/110747.5c1519c11591dabd91f32a02d1e7c595e5f00526481409d8c30d73f7f4423288.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        223113,
+        192955,
+        219293
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 68,
+      "midfieldRating": 66,
+      "defenseRating": 66,
+      "overallRating": 66,
+      "url": "/clubs/110747-cracovia/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/110747.5c1519c11591dabd91f32a02d1e7c595e5f00526481409d8c30d73f7f4423288.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/110747.5c1519c11591dabd91f32a02d1e7c595e5f00526481409d8c30d73f7f4423288.png"
+    },
+    "uniqueClub": {
+      "id": 2682,
+      "eaId": 110747,
+      "game": "25",
+      "slug": "110747-cracovia",
+      "name": "Cracovia",
+      "sisterClubEaId": null,
+      "leagueEaId": 66,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/110747.5c1519c11591dabd91f32a02d1e7c595e5f00526481409d8c30d73f7f4423288.png",
+      "lightImagePath": "2025/club-light/110747.5c1519c11591dabd91f32a02d1e7c595e5f00526481409d8c30d73f7f4423288.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        223113,
+        192955,
+        219293
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 68,
+      "midfieldRating": 66,
+      "defenseRating": 66,
+      "overallRating": 66,
+      "url": "/clubs/110747-cracovia/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/110747.5c1519c11591dabd91f32a02d1e7c595e5f00526481409d8c30d73f7f4423288.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/110747.5c1519c11591dabd91f32a02d1e7c595e5f00526481409d8c30d73f7f4423288.png"
+    },
+    "nation": {
+      "id": 675,
+      "eaId": 24,
+      "slug": "iceland",
+      "name": "Iceland",
+      "imagePath": "2025/nation/24.0df15c88d11677baecd6ce150d8e517d130e0b88bd6dccc0a1cbda05aaae25e9.png",
+      "url": "/nations/iceland/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/nation/24.0df15c88d11677baecd6ce150d8e517d130e0b88bd6dccc0a1cbda05aaae25e9.png"
+    },
+    "league": {
+      "id": 195,
+      "eaId": 66,
+      "slug": "pko-bank-polski-ekstraklasa",
+      "name": "PKO Bank Polski Ekstraklasa",
+      "imagePath": "2025/league/66.5e040c6cb58f30c1aed00f0a5d693df9c6f214e80096d77dffb17d73e8553e01.png",
+      "imageLightPath": "2025/league-light/66.a06d4a96828f8be4b6811b71d0f311fedf6d86dba6e19fe2caae897126d6c158.png",
+      "url": "/leagues/pko-bank-polski-ekstraklasa/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league/66.5e040c6cb58f30c1aed00f0a5d693df9c6f214e80096d77dffb17d73e8553e01.png",
+      "imageLightUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league-light/66.a06d4a96828f8be4b6811b71d0f311fedf6d86dba6e19fe2caae897126d6c158.png"
+    },
     "isSbcItem": false,
     "isObjectiveItem": false,
+    "rarity": {
+      "id": 433,
+      "eaId": 0,
+      "slug": "common",
+      "game": "25",
+      "name": "Common",
+      "alternateName": null,
+      "url": "/rarities/common/",
+      "dominantColor": "d39570",
+      "imagePath": "2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png",
+      "imagePaths": [
+        "2025/rarities-level-1-large/0.9e74985cc5fa0235bfd1cdf18524886abec80cb940fb87245dc8eb0fe402e68e.png",
+        "2025/rarities-level-2-large/0.bcc3305230ad572a1c35252bfc76d94661378a3cd0bc6f05053ecadb8b4b8dbe.png",
+        "2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png"
+      ],
+      "isSpecial": false,
+      "compactImagePath": "2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png",
+      "compactImagePaths": [
+        "2025/rarities-level-1-small/0.07fe8673a441822a263a61409f05124a35882cb798e0cd62868d00dc388d25cd.png",
+        "2025/rarities-level-2-small/0.2d3f30416f2b228ddf7e8eef513c1ffb7af5aadea48ff7a9a24cccd90f40889c.png",
+        "2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png"
+      ],
+      "animatedImagePath": null,
+      "animatedImagesPath": null,
+      "animatedImagesFrameCount": null,
+      "animatedImagesFps": null,
+      "animatedImagesDelay": null,
+      "isBrightColorScheme": true,
+      "textColor": [
+        "3f1208",
+        "192228",
+        "31260c"
+      ],
+      "lineColor": [
+        "d39570",
+        "bfcbd3",
+        "c5a96b"
+      ],
+      "shadowColor": [
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "overallColor": null,
+      "numberOfPlayers": 13709,
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png",
+      "imageUrls": [
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-1-large/0.9e74985cc5fa0235bfd1cdf18524886abec80cb940fb87245dc8eb0fe402e68e.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-2-large/0.bcc3305230ad572a1c35252bfc76d94661378a3cd0bc6f05053ecadb8b4b8dbe.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png"
+      ],
+      "animatedImageUrl": null,
+      "animatedImagesUrl": null,
+      "compactImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png"
+    },
     "totalFaceStats": 378,
-    "totalIgs": 1759
+    "totalIgs": 1759,
+    "isFullChemistry": false,
+    "extraNationChemistry": 0,
+    "extraLeagueChemistry": 0,
+    "extraClubChemistry": 0,
+    "extraSquadLeagueChemistry": false,
+    "extraSquadNationChemistry": false
   }
 }

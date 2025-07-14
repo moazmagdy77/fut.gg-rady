@@ -145,7 +145,7 @@
     "objectiveCampaignLevelId": null,
     "campaignProps": null,
     "contentTypeId": 27,
-    "numberOfEvolutions": 2,
+    "numberOfEvolutions": 1,
     "blurbText": null,
     "smallBlurbText": "Moïse Mahop is 25 years old, and plays for FC Annecy in the Ligue 2 BKT. Moïse Mahop's height stands at 182 cm (6'0'), and the nation he represents is Cameroon. This Rare version of Moïse Mahop is a 63 rated LB. He is Left footed, with 2 star skill moves and 2 star weak foot. ",
     "upgrades": null,
@@ -164,10 +164,149 @@
     "premiumSeasonPassLevel": null,
     "standardSeasonPassLevel": null,
     "metarankStr": null,
+    "ggRating": null,
+    "ggRatingPos": null,
+    "ggRatingStr": null,
+    "isHistoricalItem": false,
     "commonName": "Moïse Mahop",
+    "club": {
+      "id": 2420,
+      "eaId": 131447,
+      "game": "25",
+      "slug": "131447-fc-annecy",
+      "name": "FC Annecy",
+      "sisterClubEaId": null,
+      "leagueEaId": 17,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/131447.1aabf13b8eef72850cea0324a87e8e82a627dee1ee25e56b373ef607565d331d.png",
+      "lightImagePath": "2025/club-light/131447.1aabf13b8eef72850cea0324a87e8e82a627dee1ee25e56b373ef607565d331d.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        263107,
+        261771,
+        263675
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 66,
+      "midfieldRating": 66,
+      "defenseRating": 65,
+      "overallRating": 65,
+      "url": "/clubs/131447-fc-annecy/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/131447.1aabf13b8eef72850cea0324a87e8e82a627dee1ee25e56b373ef607565d331d.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/131447.1aabf13b8eef72850cea0324a87e8e82a627dee1ee25e56b373ef607565d331d.png"
+    },
+    "uniqueClub": {
+      "id": 2420,
+      "eaId": 131447,
+      "game": "25",
+      "slug": "131447-fc-annecy",
+      "name": "FC Annecy",
+      "sisterClubEaId": null,
+      "leagueEaId": 17,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/131447.1aabf13b8eef72850cea0324a87e8e82a627dee1ee25e56b373ef607565d331d.png",
+      "lightImagePath": "2025/club-light/131447.1aabf13b8eef72850cea0324a87e8e82a627dee1ee25e56b373ef607565d331d.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        263107,
+        261771,
+        263675
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 66,
+      "midfieldRating": 66,
+      "defenseRating": 65,
+      "overallRating": 65,
+      "url": "/clubs/131447-fc-annecy/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/131447.1aabf13b8eef72850cea0324a87e8e82a627dee1ee25e56b373ef607565d331d.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/131447.1aabf13b8eef72850cea0324a87e8e82a627dee1ee25e56b373ef607565d331d.png"
+    },
+    "nation": {
+      "id": 740,
+      "eaId": 103,
+      "slug": "cameroon",
+      "name": "Cameroon",
+      "imagePath": "2025/nation/103.e079ea1ae4517273f5cba4da5a48c37403ee82cff97a83a8c189c57a293f52ad.png",
+      "url": "/nations/cameroon/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/nation/103.e079ea1ae4517273f5cba4da5a48c37403ee82cff97a83a8c189c57a293f52ad.png"
+    },
+    "league": {
+      "id": 180,
+      "eaId": 17,
+      "slug": "ligue-2-bkt",
+      "name": "Ligue 2 BKT",
+      "imagePath": "2025/league/17.ead67354db17078c8e753ea53f3fcf0c4d762e26f6fd6c2ba06384a130024e8b.png",
+      "imageLightPath": "2025/league-light/17.da2e28acee32d37dfb8ff2a9ef0a9c046190e4e8752ab2b56659d81e1f8b8c1b.png",
+      "url": "/leagues/ligue-2-bkt/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league/17.ead67354db17078c8e753ea53f3fcf0c4d762e26f6fd6c2ba06384a130024e8b.png",
+      "imageLightUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league-light/17.da2e28acee32d37dfb8ff2a9ef0a9c046190e4e8752ab2b56659d81e1f8b8c1b.png"
+    },
     "isSbcItem": false,
     "isObjectiveItem": false,
+    "rarity": {
+      "id": 434,
+      "eaId": 1,
+      "slug": "rare",
+      "game": "25",
+      "name": "Rare",
+      "alternateName": null,
+      "url": "/rarities/rare/",
+      "dominantColor": "dd9c79",
+      "imagePath": "2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png",
+      "imagePaths": [
+        "2025/rarities-level-1-large/1.ff6159fb3f49c4a46fb58bb7ff2edf3443faa545162b5636d1d36484b195af8f.png",
+        "2025/rarities-level-2-large/1.110820e10aee7e71b2a058da6a645b42455e8b52d8209c84906ab13b4ca637e1.png",
+        "2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png"
+      ],
+      "isSpecial": false,
+      "compactImagePath": "2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png",
+      "compactImagePaths": [
+        "2025/rarities-level-1-small/1.0c997213875cb4e45f25ea3a9d4c8586377af07d992da90277cc443403fd9d26.png",
+        "2025/rarities-level-2-small/1.a31950d31bb7c2b74f1bd0d7ec162d223eda669622761601950d7f24b80c1cbf.png",
+        "2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png"
+      ],
+      "animatedImagePath": null,
+      "animatedImagesPath": null,
+      "animatedImagesFrameCount": null,
+      "animatedImagesFps": null,
+      "animatedImagesDelay": null,
+      "isBrightColorScheme": true,
+      "textColor": [
+        "3e281c",
+        "1e252a",
+        "2d2410"
+      ],
+      "lineColor": [
+        "dd9c79",
+        "bfccd1",
+        "e3c075"
+      ],
+      "shadowColor": [
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "overallColor": null,
+      "numberOfPlayers": 6927,
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png",
+      "imageUrls": [
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-1-large/1.ff6159fb3f49c4a46fb58bb7ff2edf3443faa545162b5636d1d36484b195af8f.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-2-large/1.110820e10aee7e71b2a058da6a645b42455e8b52d8209c84906ab13b4ca637e1.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png"
+      ],
+      "animatedImageUrl": null,
+      "animatedImagesUrl": null,
+      "compactImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png"
+    },
     "totalFaceStats": 353,
-    "totalIgs": 1617
+    "totalIgs": 1617,
+    "isFullChemistry": false,
+    "extraNationChemistry": 0,
+    "extraLeagueChemistry": 0,
+    "extraClubChemistry": 0,
+    "extraSquadLeagueChemistry": false,
+    "extraSquadNationChemistry": false
   }
 }

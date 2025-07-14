@@ -154,7 +154,7 @@
     "objectiveCampaignLevelId": null,
     "campaignProps": null,
     "contentTypeId": 27,
-    "numberOfEvolutions": 4,
+    "numberOfEvolutions": 43,
     "blurbText": null,
     "smallBlurbText": "Vegard Kongsro is 26 years old, and plays for Yverdon Sport FC in the Credit Suisse Super League. Vegard Kongsro's height stands at 187 cm (6'2'), and the nation he represents is Norway. This Rare version of Vegard Kongsro is a 64 rated LB. He is Left footed, with 2 star skill moves and 2 star weak foot. ",
     "upgrades": null,
@@ -173,10 +173,149 @@
     "premiumSeasonPassLevel": null,
     "standardSeasonPassLevel": null,
     "metarankStr": null,
+    "ggRating": null,
+    "ggRatingPos": null,
+    "ggRatingStr": null,
+    "isHistoricalItem": false,
     "commonName": "Vegard Kongsro",
+    "club": {
+      "id": 2743,
+      "eaId": 1704,
+      "game": "25",
+      "slug": "1704-yverdon-sport-fc",
+      "name": "Yverdon Sport FC",
+      "sisterClubEaId": null,
+      "leagueEaId": 189,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/1704.6aa046135e664f9178e6da8a836df4be2069a276d50f0b765f4d46afa60a4d85.png",
+      "lightImagePath": "2025/club-light/1704.6aa046135e664f9178e6da8a836df4be2069a276d50f0b765f4d46afa60a4d85.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        190243,
+        223898,
+        231027
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 65,
+      "midfieldRating": 67,
+      "defenseRating": 66,
+      "overallRating": 67,
+      "url": "/clubs/1704-yverdon-sport-fc/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/1704.6aa046135e664f9178e6da8a836df4be2069a276d50f0b765f4d46afa60a4d85.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/1704.6aa046135e664f9178e6da8a836df4be2069a276d50f0b765f4d46afa60a4d85.png"
+    },
+    "uniqueClub": {
+      "id": 2743,
+      "eaId": 1704,
+      "game": "25",
+      "slug": "1704-yverdon-sport-fc",
+      "name": "Yverdon Sport FC",
+      "sisterClubEaId": null,
+      "leagueEaId": 189,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/1704.6aa046135e664f9178e6da8a836df4be2069a276d50f0b765f4d46afa60a4d85.png",
+      "lightImagePath": "2025/club-light/1704.6aa046135e664f9178e6da8a836df4be2069a276d50f0b765f4d46afa60a4d85.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        190243,
+        223898,
+        231027
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 65,
+      "midfieldRating": 67,
+      "defenseRating": 66,
+      "overallRating": 67,
+      "url": "/clubs/1704-yverdon-sport-fc/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/1704.6aa046135e664f9178e6da8a836df4be2069a276d50f0b765f4d46afa60a4d85.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/1704.6aa046135e664f9178e6da8a836df4be2069a276d50f0b765f4d46afa60a4d85.png"
+    },
+    "nation": {
+      "id": 687,
+      "eaId": 36,
+      "slug": "norway",
+      "name": "Norway",
+      "imagePath": "2025/nation/36.bad78885ca92c601e379ba3640ba2919daa3f774505a480250ae573257a3c647.png",
+      "url": "/nations/norway/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/nation/36.bad78885ca92c601e379ba3640ba2919daa3f774505a480250ae573257a3c647.png"
+    },
+    "league": {
+      "id": 200,
+      "eaId": 189,
+      "slug": "credit-suisse-super-league",
+      "name": "Credit Suisse Super League",
+      "imagePath": "2025/league/189.c219d2ed5289331965bd10ee99b96a61875ea4cd5078c608d2c7cbde897ae168.png",
+      "imageLightPath": "2025/league-light/189.a372ac23a5973509eccc3f87f2df581ec12198eb8dcdd091c9ed2e1f4f07ebef.png",
+      "url": "/leagues/credit-suisse-super-league/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league/189.c219d2ed5289331965bd10ee99b96a61875ea4cd5078c608d2c7cbde897ae168.png",
+      "imageLightUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league-light/189.a372ac23a5973509eccc3f87f2df581ec12198eb8dcdd091c9ed2e1f4f07ebef.png"
+    },
     "isSbcItem": false,
     "isObjectiveItem": false,
+    "rarity": {
+      "id": 434,
+      "eaId": 1,
+      "slug": "rare",
+      "game": "25",
+      "name": "Rare",
+      "alternateName": null,
+      "url": "/rarities/rare/",
+      "dominantColor": "dd9c79",
+      "imagePath": "2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png",
+      "imagePaths": [
+        "2025/rarities-level-1-large/1.ff6159fb3f49c4a46fb58bb7ff2edf3443faa545162b5636d1d36484b195af8f.png",
+        "2025/rarities-level-2-large/1.110820e10aee7e71b2a058da6a645b42455e8b52d8209c84906ab13b4ca637e1.png",
+        "2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png"
+      ],
+      "isSpecial": false,
+      "compactImagePath": "2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png",
+      "compactImagePaths": [
+        "2025/rarities-level-1-small/1.0c997213875cb4e45f25ea3a9d4c8586377af07d992da90277cc443403fd9d26.png",
+        "2025/rarities-level-2-small/1.a31950d31bb7c2b74f1bd0d7ec162d223eda669622761601950d7f24b80c1cbf.png",
+        "2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png"
+      ],
+      "animatedImagePath": null,
+      "animatedImagesPath": null,
+      "animatedImagesFrameCount": null,
+      "animatedImagesFps": null,
+      "animatedImagesDelay": null,
+      "isBrightColorScheme": true,
+      "textColor": [
+        "3e281c",
+        "1e252a",
+        "2d2410"
+      ],
+      "lineColor": [
+        "dd9c79",
+        "bfccd1",
+        "e3c075"
+      ],
+      "shadowColor": [
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "overallColor": null,
+      "numberOfPlayers": 6927,
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png",
+      "imageUrls": [
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-1-large/1.ff6159fb3f49c4a46fb58bb7ff2edf3443faa545162b5636d1d36484b195af8f.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-2-large/1.110820e10aee7e71b2a058da6a645b42455e8b52d8209c84906ab13b4ca637e1.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png"
+      ],
+      "animatedImageUrl": null,
+      "animatedImagesUrl": null,
+      "compactImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png"
+    },
     "totalFaceStats": 359,
-    "totalIgs": 1635
+    "totalIgs": 1635,
+    "isFullChemistry": false,
+    "extraNationChemistry": 0,
+    "extraLeagueChemistry": 0,
+    "extraClubChemistry": 0,
+    "extraSquadLeagueChemistry": false,
+    "extraSquadNationChemistry": false
   }
 }

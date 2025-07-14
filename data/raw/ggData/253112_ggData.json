@@ -154,7 +154,7 @@
     "objectiveCampaignLevelId": null,
     "campaignProps": null,
     "contentTypeId": 27,
-    "numberOfEvolutions": 3,
+    "numberOfEvolutions": 80,
     "blurbText": null,
     "smallBlurbText": "Filip Stuparević is 24 years old, and plays for Motherwell in the cinch Premiership. Filip Stuparević's height stands at 184 cm (6'0'), and the nation he represents is Serbia. This Rare version of Filip Stuparević is a 64 rated ST. He is Left footed, with 2 star skill moves and 3 star weak foot. ",
     "upgrades": null,
@@ -173,10 +173,149 @@
     "premiumSeasonPassLevel": null,
     "standardSeasonPassLevel": null,
     "metarankStr": null,
+    "ggRating": null,
+    "ggRatingPos": null,
+    "ggRatingStr": null,
+    "isHistoricalItem": false,
     "commonName": "Filip Stuparević",
+    "club": {
+      "id": 2548,
+      "eaId": 83,
+      "game": "25",
+      "slug": "83-motherwell",
+      "name": "Motherwell",
+      "sisterClubEaId": null,
+      "leagueEaId": 50,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/83.38f7b63818d5330e2d468681572725a83b1c9fcaaf0c652b149f5123215f5a0b.png",
+      "lightImagePath": "2025/club-light/83.38f7b63818d5330e2d468681572725a83b1c9fcaaf0c652b149f5123215f5a0b.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        270050,
+        237470,
+        236025
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 64,
+      "midfieldRating": 66,
+      "defenseRating": 62,
+      "overallRating": 64,
+      "url": "/clubs/83-motherwell/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/83.38f7b63818d5330e2d468681572725a83b1c9fcaaf0c652b149f5123215f5a0b.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/83.38f7b63818d5330e2d468681572725a83b1c9fcaaf0c652b149f5123215f5a0b.png"
+    },
+    "uniqueClub": {
+      "id": 2548,
+      "eaId": 83,
+      "game": "25",
+      "slug": "83-motherwell",
+      "name": "Motherwell",
+      "sisterClubEaId": null,
+      "leagueEaId": 50,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/83.38f7b63818d5330e2d468681572725a83b1c9fcaaf0c652b149f5123215f5a0b.png",
+      "lightImagePath": "2025/club-light/83.38f7b63818d5330e2d468681572725a83b1c9fcaaf0c652b149f5123215f5a0b.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        270050,
+        237470,
+        236025
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 64,
+      "midfieldRating": 66,
+      "defenseRating": 62,
+      "overallRating": 64,
+      "url": "/clubs/83-motherwell/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/83.38f7b63818d5330e2d468681572725a83b1c9fcaaf0c652b149f5123215f5a0b.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/83.38f7b63818d5330e2d468681572725a83b1c9fcaaf0c652b149f5123215f5a0b.png"
+    },
+    "nation": {
+      "id": 701,
+      "eaId": 51,
+      "slug": "serbia",
+      "name": "Serbia",
+      "imagePath": "2025/nation/51.c214147a14be5e378bffaae94056a451ffc9fc66abc0c5e378eddbd32baa1e69.png",
+      "url": "/nations/serbia/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/nation/51.c214147a14be5e378bffaae94056a451ffc9fc66abc0c5e378eddbd32baa1e69.png"
+    },
+    "league": {
+      "id": 187,
+      "eaId": 50,
+      "slug": "cinch-premiership",
+      "name": "cinch Premiership",
+      "imagePath": "2025/league/50.d1052392d2d9435d78e42b39780e822dd37b041b20804d4ebd26ce975245630f.png",
+      "imageLightPath": "2025/league-light/50.8610c65aefd8c1554c0470e0322e2d6f6af25883ab6991a0a52e7fc37590de28.png",
+      "url": "/leagues/cinch-premiership/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league/50.d1052392d2d9435d78e42b39780e822dd37b041b20804d4ebd26ce975245630f.png",
+      "imageLightUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league-light/50.8610c65aefd8c1554c0470e0322e2d6f6af25883ab6991a0a52e7fc37590de28.png"
+    },
     "isSbcItem": false,
     "isObjectiveItem": false,
+    "rarity": {
+      "id": 434,
+      "eaId": 1,
+      "slug": "rare",
+      "game": "25",
+      "name": "Rare",
+      "alternateName": null,
+      "url": "/rarities/rare/",
+      "dominantColor": "dd9c79",
+      "imagePath": "2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png",
+      "imagePaths": [
+        "2025/rarities-level-1-large/1.ff6159fb3f49c4a46fb58bb7ff2edf3443faa545162b5636d1d36484b195af8f.png",
+        "2025/rarities-level-2-large/1.110820e10aee7e71b2a058da6a645b42455e8b52d8209c84906ab13b4ca637e1.png",
+        "2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png"
+      ],
+      "isSpecial": false,
+      "compactImagePath": "2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png",
+      "compactImagePaths": [
+        "2025/rarities-level-1-small/1.0c997213875cb4e45f25ea3a9d4c8586377af07d992da90277cc443403fd9d26.png",
+        "2025/rarities-level-2-small/1.a31950d31bb7c2b74f1bd0d7ec162d223eda669622761601950d7f24b80c1cbf.png",
+        "2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png"
+      ],
+      "animatedImagePath": null,
+      "animatedImagesPath": null,
+      "animatedImagesFrameCount": null,
+      "animatedImagesFps": null,
+      "animatedImagesDelay": null,
+      "isBrightColorScheme": true,
+      "textColor": [
+        "3e281c",
+        "1e252a",
+        "2d2410"
+      ],
+      "lineColor": [
+        "dd9c79",
+        "bfccd1",
+        "e3c075"
+      ],
+      "shadowColor": [
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "overallColor": null,
+      "numberOfPlayers": 6927,
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png",
+      "imageUrls": [
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-1-large/1.ff6159fb3f49c4a46fb58bb7ff2edf3443faa545162b5636d1d36484b195af8f.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-2-large/1.110820e10aee7e71b2a058da6a645b42455e8b52d8209c84906ab13b4ca637e1.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png"
+      ],
+      "animatedImageUrl": null,
+      "animatedImagesUrl": null,
+      "compactImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png"
+    },
     "totalFaceStats": 351,
-    "totalIgs": 1688
+    "totalIgs": 1688,
+    "isFullChemistry": false,
+    "extraNationChemistry": 0,
+    "extraLeagueChemistry": 0,
+    "extraClubChemistry": 0,
+    "extraSquadLeagueChemistry": false,
+    "extraSquadNationChemistry": false
   }
 }

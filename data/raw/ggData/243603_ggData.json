@@ -155,7 +155,7 @@
     "objectiveCampaignLevelId": null,
     "campaignProps": null,
     "contentTypeId": 27,
-    "numberOfEvolutions": 2,
+    "numberOfEvolutions": 1,
     "blurbText": null,
     "smallBlurbText": "Lars Mogstad Ranger is 26 years old, and plays for Lillestrøm SK in the Eliteserien. Lars Mogstad Ranger's height stands at 176 cm (5'9'), and the nation he represents is Norway. This Rare version of Lars Mogstad Ranger is a 64 rated RB. He is Right footed, with 2 star skill moves and 2 star weak foot. ",
     "upgrades": null,
@@ -174,10 +174,149 @@
     "premiumSeasonPassLevel": null,
     "standardSeasonPassLevel": null,
     "metarankStr": null,
+    "ggRating": null,
+    "ggRatingPos": null,
+    "ggRatingStr": null,
+    "isHistoricalItem": false,
     "commonName": "Lars Mogstad Ranger",
+    "club": {
+      "id": 2528,
+      "eaId": 299,
+      "game": "25",
+      "slug": "299-lillestrom-sk",
+      "name": "Lillestrøm SK",
+      "sisterClubEaId": null,
+      "leagueEaId": 41,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/299.6b5d8c412afef5a9f7d2bfe420c1578d91988508af6028f3e50ab601204f8cf3.png",
+      "lightImagePath": "2025/club-light/299.6b5d8c412afef5a9f7d2bfe420c1578d91988508af6028f3e50ab601204f8cf3.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        232446,
+        266256,
+        242635
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 64,
+      "midfieldRating": 66,
+      "defenseRating": 64,
+      "overallRating": 65,
+      "url": "/clubs/299-lillestrom-sk/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/299.6b5d8c412afef5a9f7d2bfe420c1578d91988508af6028f3e50ab601204f8cf3.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/299.6b5d8c412afef5a9f7d2bfe420c1578d91988508af6028f3e50ab601204f8cf3.png"
+    },
+    "uniqueClub": {
+      "id": 2528,
+      "eaId": 299,
+      "game": "25",
+      "slug": "299-lillestrom-sk",
+      "name": "Lillestrøm SK",
+      "sisterClubEaId": null,
+      "leagueEaId": 41,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/299.6b5d8c412afef5a9f7d2bfe420c1578d91988508af6028f3e50ab601204f8cf3.png",
+      "lightImagePath": "2025/club-light/299.6b5d8c412afef5a9f7d2bfe420c1578d91988508af6028f3e50ab601204f8cf3.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        232446,
+        266256,
+        242635
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 64,
+      "midfieldRating": 66,
+      "defenseRating": 64,
+      "overallRating": 65,
+      "url": "/clubs/299-lillestrom-sk/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/299.6b5d8c412afef5a9f7d2bfe420c1578d91988508af6028f3e50ab601204f8cf3.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/299.6b5d8c412afef5a9f7d2bfe420c1578d91988508af6028f3e50ab601204f8cf3.png"
+    },
+    "nation": {
+      "id": 687,
+      "eaId": 36,
+      "slug": "norway",
+      "name": "Norway",
+      "imagePath": "2025/nation/36.bad78885ca92c601e379ba3640ba2919daa3f774505a480250ae573257a3c647.png",
+      "url": "/nations/norway/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/nation/36.bad78885ca92c601e379ba3640ba2919daa3f774505a480250ae573257a3c647.png"
+    },
+    "league": {
+      "id": 186,
+      "eaId": 41,
+      "slug": "eliteserien",
+      "name": "Eliteserien",
+      "imagePath": "2025/league/41.888532d684f62f4dca284b9abf889332f2c298a25d1cf3bc404c052bf6890e23.png",
+      "imageLightPath": "2025/league-light/41.7ba752d5c5b4969195ad3d2b53eff5e820bbda98c765374265ea02c509b64a31.png",
+      "url": "/leagues/eliteserien/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league/41.888532d684f62f4dca284b9abf889332f2c298a25d1cf3bc404c052bf6890e23.png",
+      "imageLightUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league-light/41.7ba752d5c5b4969195ad3d2b53eff5e820bbda98c765374265ea02c509b64a31.png"
+    },
     "isSbcItem": false,
     "isObjectiveItem": false,
+    "rarity": {
+      "id": 434,
+      "eaId": 1,
+      "slug": "rare",
+      "game": "25",
+      "name": "Rare",
+      "alternateName": null,
+      "url": "/rarities/rare/",
+      "dominantColor": "dd9c79",
+      "imagePath": "2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png",
+      "imagePaths": [
+        "2025/rarities-level-1-large/1.ff6159fb3f49c4a46fb58bb7ff2edf3443faa545162b5636d1d36484b195af8f.png",
+        "2025/rarities-level-2-large/1.110820e10aee7e71b2a058da6a645b42455e8b52d8209c84906ab13b4ca637e1.png",
+        "2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png"
+      ],
+      "isSpecial": false,
+      "compactImagePath": "2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png",
+      "compactImagePaths": [
+        "2025/rarities-level-1-small/1.0c997213875cb4e45f25ea3a9d4c8586377af07d992da90277cc443403fd9d26.png",
+        "2025/rarities-level-2-small/1.a31950d31bb7c2b74f1bd0d7ec162d223eda669622761601950d7f24b80c1cbf.png",
+        "2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png"
+      ],
+      "animatedImagePath": null,
+      "animatedImagesPath": null,
+      "animatedImagesFrameCount": null,
+      "animatedImagesFps": null,
+      "animatedImagesDelay": null,
+      "isBrightColorScheme": true,
+      "textColor": [
+        "3e281c",
+        "1e252a",
+        "2d2410"
+      ],
+      "lineColor": [
+        "dd9c79",
+        "bfccd1",
+        "e3c075"
+      ],
+      "shadowColor": [
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "overallColor": null,
+      "numberOfPlayers": 6927,
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png",
+      "imageUrls": [
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-1-large/1.ff6159fb3f49c4a46fb58bb7ff2edf3443faa545162b5636d1d36484b195af8f.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-2-large/1.110820e10aee7e71b2a058da6a645b42455e8b52d8209c84906ab13b4ca637e1.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png"
+      ],
+      "animatedImageUrl": null,
+      "animatedImagesUrl": null,
+      "compactImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png"
+    },
     "totalFaceStats": 378,
-    "totalIgs": 1732
+    "totalIgs": 1732,
+    "isFullChemistry": false,
+    "extraNationChemistry": 0,
+    "extraLeagueChemistry": 0,
+    "extraClubChemistry": 0,
+    "extraSquadLeagueChemistry": false,
+    "extraSquadNationChemistry": false
   }
 }

@@ -160,9 +160,9 @@
     "objectiveCampaignLevelId": null,
     "campaignProps": null,
     "contentTypeId": 27,
-    "numberOfEvolutions": 109,
+    "numberOfEvolutions": 459,
     "blurbText": null,
-    "smallBlurbText": "Birkir Bjarnason is 36 years old, and plays for Brescia in the Serie BKT. Birkir Bjarnason's height stands at 184 cm (6'0'), and the nation he represents is Iceland. This Common version of Birkir Bjarnason is a 67 rated CAM. He is Right footed, with 3 star skill moves and 4 star weak foot. ",
+    "smallBlurbText": "Birkir Bjarnason is 37 years old, and plays for Brescia in the Serie BKT. Birkir Bjarnason's height stands at 184 cm (6'0'), and the nation he represents is Iceland. This Common version of Birkir Bjarnason is a 67 rated CAM. He is Right footed, with 3 star skill moves and 4 star weak foot. ",
     "upgrades": null,
     "hasPrice": true,
     "trackerId": null,
@@ -179,10 +179,149 @@
     "premiumSeasonPassLevel": null,
     "standardSeasonPassLevel": null,
     "metarankStr": null,
+    "ggRating": null,
+    "ggRatingPos": null,
+    "ggRatingStr": null,
+    "isHistoricalItem": false,
     "commonName": "Birkir Bjarnason",
+    "club": {
+      "id": 2495,
+      "eaId": 113973,
+      "game": "25",
+      "slug": "113973-brescia",
+      "name": "Brescia",
+      "sisterClubEaId": null,
+      "leagueEaId": 32,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/113973.6379abb58d9e007b42b932107e8e0b1d2c6ba4a49f269cb97d60cff1b6d0cd7f.png",
+      "lightImagePath": "2025/club-light/113973.6379abb58d9e007b42b932107e8e0b1d2c6ba4a49f269cb97d60cff1b6d0cd7f.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        241096,
+        1114,
+        171877
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 64,
+      "midfieldRating": 65,
+      "defenseRating": 67,
+      "overallRating": 67,
+      "url": "/clubs/113973-brescia/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/113973.6379abb58d9e007b42b932107e8e0b1d2c6ba4a49f269cb97d60cff1b6d0cd7f.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/113973.6379abb58d9e007b42b932107e8e0b1d2c6ba4a49f269cb97d60cff1b6d0cd7f.png"
+    },
+    "uniqueClub": {
+      "id": 2495,
+      "eaId": 113973,
+      "game": "25",
+      "slug": "113973-brescia",
+      "name": "Brescia",
+      "sisterClubEaId": null,
+      "leagueEaId": 32,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/113973.6379abb58d9e007b42b932107e8e0b1d2c6ba4a49f269cb97d60cff1b6d0cd7f.png",
+      "lightImagePath": "2025/club-light/113973.6379abb58d9e007b42b932107e8e0b1d2c6ba4a49f269cb97d60cff1b6d0cd7f.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        241096,
+        1114,
+        171877
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 64,
+      "midfieldRating": 65,
+      "defenseRating": 67,
+      "overallRating": 67,
+      "url": "/clubs/113973-brescia/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/113973.6379abb58d9e007b42b932107e8e0b1d2c6ba4a49f269cb97d60cff1b6d0cd7f.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/113973.6379abb58d9e007b42b932107e8e0b1d2c6ba4a49f269cb97d60cff1b6d0cd7f.png"
+    },
+    "nation": {
+      "id": 675,
+      "eaId": 24,
+      "slug": "iceland",
+      "name": "Iceland",
+      "imagePath": "2025/nation/24.0df15c88d11677baecd6ce150d8e517d130e0b88bd6dccc0a1cbda05aaae25e9.png",
+      "url": "/nations/iceland/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/nation/24.0df15c88d11677baecd6ce150d8e517d130e0b88bd6dccc0a1cbda05aaae25e9.png"
+    },
+    "league": {
+      "id": 184,
+      "eaId": 32,
+      "slug": "serie-bkt",
+      "name": "Serie BKT",
+      "imagePath": "2025/league/32.1fd85b7dc602079a84827dd290053e6757910f7444a0310c76afc6fef012045e.png",
+      "imageLightPath": "2025/league-light/32.1fd85b7dc602079a84827dd290053e6757910f7444a0310c76afc6fef012045e.png",
+      "url": "/leagues/serie-bkt/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league/32.1fd85b7dc602079a84827dd290053e6757910f7444a0310c76afc6fef012045e.png",
+      "imageLightUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league-light/32.1fd85b7dc602079a84827dd290053e6757910f7444a0310c76afc6fef012045e.png"
+    },
     "isSbcItem": false,
     "isObjectiveItem": false,
+    "rarity": {
+      "id": 433,
+      "eaId": 0,
+      "slug": "common",
+      "game": "25",
+      "name": "Common",
+      "alternateName": null,
+      "url": "/rarities/common/",
+      "dominantColor": "d39570",
+      "imagePath": "2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png",
+      "imagePaths": [
+        "2025/rarities-level-1-large/0.9e74985cc5fa0235bfd1cdf18524886abec80cb940fb87245dc8eb0fe402e68e.png",
+        "2025/rarities-level-2-large/0.bcc3305230ad572a1c35252bfc76d94661378a3cd0bc6f05053ecadb8b4b8dbe.png",
+        "2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png"
+      ],
+      "isSpecial": false,
+      "compactImagePath": "2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png",
+      "compactImagePaths": [
+        "2025/rarities-level-1-small/0.07fe8673a441822a263a61409f05124a35882cb798e0cd62868d00dc388d25cd.png",
+        "2025/rarities-level-2-small/0.2d3f30416f2b228ddf7e8eef513c1ffb7af5aadea48ff7a9a24cccd90f40889c.png",
+        "2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png"
+      ],
+      "animatedImagePath": null,
+      "animatedImagesPath": null,
+      "animatedImagesFrameCount": null,
+      "animatedImagesFps": null,
+      "animatedImagesDelay": null,
+      "isBrightColorScheme": true,
+      "textColor": [
+        "3f1208",
+        "192228",
+        "31260c"
+      ],
+      "lineColor": [
+        "d39570",
+        "bfcbd3",
+        "c5a96b"
+      ],
+      "shadowColor": [
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "overallColor": null,
+      "numberOfPlayers": 13709,
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png",
+      "imageUrls": [
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-1-large/0.9e74985cc5fa0235bfd1cdf18524886abec80cb940fb87245dc8eb0fe402e68e.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-2-large/0.bcc3305230ad572a1c35252bfc76d94661378a3cd0bc6f05053ecadb8b4b8dbe.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png"
+      ],
+      "animatedImageUrl": null,
+      "animatedImagesUrl": null,
+      "compactImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png"
+    },
     "totalFaceStats": 400,
-    "totalIgs": 1923
+    "totalIgs": 1923,
+    "isFullChemistry": false,
+    "extraNationChemistry": 0,
+    "extraLeagueChemistry": 0,
+    "extraClubChemistry": 0,
+    "extraSquadLeagueChemistry": false,
+    "extraSquadNationChemistry": false
   }
 }

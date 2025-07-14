@@ -159,9 +159,9 @@
     "objectiveCampaignLevelId": null,
     "campaignProps": null,
     "contentTypeId": 27,
-    "numberOfEvolutions": 6,
+    "numberOfEvolutions": 9,
     "blurbText": null,
-    "smallBlurbText": "Ben Folami is 25 years old, and plays for Adelaide United in the Isuzu UTE A League. Ben Folami's height stands at 180 cm (5'11'), and the nation he represents is Australia. This Common version of Ben Folami is a 65 rated LW. He is Right footed, with 3 star skill moves and 4 star weak foot. ",
+    "smallBlurbText": "Ben Folami is 26 years old, and plays for Adelaide United in the Isuzu UTE A League. Ben Folami's height stands at 180 cm (5'11'), and the nation he represents is Australia. This Common version of Ben Folami is a 65 rated LW. He is Right footed, with 3 star skill moves and 4 star weak foot. ",
     "upgrades": null,
     "hasPrice": true,
     "trackerId": null,
@@ -178,10 +178,149 @@
     "premiumSeasonPassLevel": null,
     "standardSeasonPassLevel": null,
     "metarankStr": null,
+    "ggRating": null,
+    "ggRatingPos": null,
+    "ggRatingStr": null,
+    "isHistoricalItem": false,
     "commonName": "Ben Folami",
+    "club": {
+      "id": 2808,
+      "eaId": 111393,
+      "game": "25",
+      "slug": "111393-adelaide-united",
+      "name": "Adelaide United",
+      "sisterClubEaId": null,
+      "leagueEaId": 351,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/111393.8fed6ed9e05e3c0145f230e97475ad35a4316d8d4db92d32ad96dc5107d237ed.png",
+      "lightImagePath": "2025/club-light/111393.8fed6ed9e05e3c0145f230e97475ad35a4316d8d4db92d32ad96dc5107d237ed.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        209888,
+        195033,
+        233487
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 60,
+      "midfieldRating": 63,
+      "defenseRating": 63,
+      "overallRating": 63,
+      "url": "/clubs/111393-adelaide-united/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/111393.8fed6ed9e05e3c0145f230e97475ad35a4316d8d4db92d32ad96dc5107d237ed.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/111393.8fed6ed9e05e3c0145f230e97475ad35a4316d8d4db92d32ad96dc5107d237ed.png"
+    },
+    "uniqueClub": {
+      "id": 2808,
+      "eaId": 111393,
+      "game": "25",
+      "slug": "111393-adelaide-united",
+      "name": "Adelaide United",
+      "sisterClubEaId": null,
+      "leagueEaId": 351,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/111393.8fed6ed9e05e3c0145f230e97475ad35a4316d8d4db92d32ad96dc5107d237ed.png",
+      "lightImagePath": "2025/club-light/111393.8fed6ed9e05e3c0145f230e97475ad35a4316d8d4db92d32ad96dc5107d237ed.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        209888,
+        195033,
+        233487
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 60,
+      "midfieldRating": 63,
+      "defenseRating": 63,
+      "overallRating": 63,
+      "url": "/clubs/111393-adelaide-united/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/111393.8fed6ed9e05e3c0145f230e97475ad35a4316d8d4db92d32ad96dc5107d237ed.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/111393.8fed6ed9e05e3c0145f230e97475ad35a4316d8d4db92d32ad96dc5107d237ed.png"
+    },
+    "nation": {
+      "id": 797,
+      "eaId": 195,
+      "slug": "australia",
+      "name": "Australia",
+      "imagePath": "2025/nation/195.337d83f37e8269f8ccbc07e471a711d95331361349d493f52304f9fcddbee071.png",
+      "url": "/nations/australia/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/nation/195.337d83f37e8269f8ccbc07e471a711d95331361349d493f52304f9fcddbee071.png"
+    },
+    "league": {
+      "id": 208,
+      "eaId": 351,
+      "slug": "isuzu-ute-a-league",
+      "name": "Isuzu UTE A League",
+      "imagePath": "2025/league/351.1c8c35f1307cdcc8c4c34d9f4eb20fb1408d87b28655d702d35ba7388792918e.png",
+      "imageLightPath": "2025/league-light/351.f35f2ecebda1446a9e6ebd305a46bb64de79e25b901a1cd3ec2c8d1cec7e2931.png",
+      "url": "/leagues/isuzu-ute-a-league/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league/351.1c8c35f1307cdcc8c4c34d9f4eb20fb1408d87b28655d702d35ba7388792918e.png",
+      "imageLightUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league-light/351.f35f2ecebda1446a9e6ebd305a46bb64de79e25b901a1cd3ec2c8d1cec7e2931.png"
+    },
     "isSbcItem": false,
     "isObjectiveItem": false,
+    "rarity": {
+      "id": 433,
+      "eaId": 0,
+      "slug": "common",
+      "game": "25",
+      "name": "Common",
+      "alternateName": null,
+      "url": "/rarities/common/",
+      "dominantColor": "d39570",
+      "imagePath": "2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png",
+      "imagePaths": [
+        "2025/rarities-level-1-large/0.9e74985cc5fa0235bfd1cdf18524886abec80cb940fb87245dc8eb0fe402e68e.png",
+        "2025/rarities-level-2-large/0.bcc3305230ad572a1c35252bfc76d94661378a3cd0bc6f05053ecadb8b4b8dbe.png",
+        "2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png"
+      ],
+      "isSpecial": false,
+      "compactImagePath": "2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png",
+      "compactImagePaths": [
+        "2025/rarities-level-1-small/0.07fe8673a441822a263a61409f05124a35882cb798e0cd62868d00dc388d25cd.png",
+        "2025/rarities-level-2-small/0.2d3f30416f2b228ddf7e8eef513c1ffb7af5aadea48ff7a9a24cccd90f40889c.png",
+        "2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png"
+      ],
+      "animatedImagePath": null,
+      "animatedImagesPath": null,
+      "animatedImagesFrameCount": null,
+      "animatedImagesFps": null,
+      "animatedImagesDelay": null,
+      "isBrightColorScheme": true,
+      "textColor": [
+        "3f1208",
+        "192228",
+        "31260c"
+      ],
+      "lineColor": [
+        "d39570",
+        "bfcbd3",
+        "c5a96b"
+      ],
+      "shadowColor": [
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "overallColor": null,
+      "numberOfPlayers": 13709,
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png",
+      "imageUrls": [
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-1-large/0.9e74985cc5fa0235bfd1cdf18524886abec80cb940fb87245dc8eb0fe402e68e.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-2-large/0.bcc3305230ad572a1c35252bfc76d94661378a3cd0bc6f05053ecadb8b4b8dbe.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png"
+      ],
+      "animatedImageUrl": null,
+      "animatedImagesUrl": null,
+      "compactImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png"
+    },
     "totalFaceStats": 357,
-    "totalIgs": 1624
+    "totalIgs": 1624,
+    "isFullChemistry": false,
+    "extraNationChemistry": 0,
+    "extraLeagueChemistry": 0,
+    "extraClubChemistry": 0,
+    "extraSquadLeagueChemistry": false,
+    "extraSquadNationChemistry": false
   }
 }

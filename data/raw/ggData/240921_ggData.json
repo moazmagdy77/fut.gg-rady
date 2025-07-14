@@ -159,7 +159,7 @@
     "objectiveCampaignLevelId": null,
     "campaignProps": null,
     "contentTypeId": 27,
-    "numberOfEvolutions": 4,
+    "numberOfEvolutions": 1,
     "blurbText": null,
     "smallBlurbText": "Ronald Hernández is 27 years old, and plays for Atlanta United in the Major League Soccer. Ronald Hernández's height stands at 170 cm (5'7'), and the nation he represents is Venezuela. This Common version of Ronald Hernández is a 64 rated RB. He is Right footed, with 2 star skill moves and 3 star weak foot. ",
     "upgrades": null,
@@ -181,10 +181,146 @@
     "ggRating": null,
     "ggRatingPos": null,
     "ggRatingStr": null,
+    "isHistoricalItem": false,
     "commonName": "Ronald Hernández",
+    "club": {
+      "id": 2518,
+      "eaId": 112885,
+      "game": "25",
+      "slug": "112885-atlanta-united",
+      "name": "Atlanta United",
+      "sisterClubEaId": null,
+      "leagueEaId": 39,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/112885.bd1b588fbda7a6225e55b719acf0a08dd5db93bd73dceb37a97b6320af81f29a.png",
+      "lightImagePath": "2025/club-light/112885.bd1b588fbda7a6225e55b719acf0a08dd5db93bd73dceb37a97b6320af81f29a.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        230977,
+        164505,
+        207877
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 72,
+      "midfieldRating": 73,
+      "defenseRating": 70,
+      "overallRating": 71,
+      "url": "/clubs/112885-atlanta-united/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/112885.bd1b588fbda7a6225e55b719acf0a08dd5db93bd73dceb37a97b6320af81f29a.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/112885.bd1b588fbda7a6225e55b719acf0a08dd5db93bd73dceb37a97b6320af81f29a.png"
+    },
+    "uniqueClub": {
+      "id": 2518,
+      "eaId": 112885,
+      "game": "25",
+      "slug": "112885-atlanta-united",
+      "name": "Atlanta United",
+      "sisterClubEaId": null,
+      "leagueEaId": 39,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/112885.bd1b588fbda7a6225e55b719acf0a08dd5db93bd73dceb37a97b6320af81f29a.png",
+      "lightImagePath": "2025/club-light/112885.bd1b588fbda7a6225e55b719acf0a08dd5db93bd73dceb37a97b6320af81f29a.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        230977,
+        164505,
+        207877
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 72,
+      "midfieldRating": 73,
+      "defenseRating": 70,
+      "overallRating": 71,
+      "url": "/clubs/112885-atlanta-united/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/112885.bd1b588fbda7a6225e55b719acf0a08dd5db93bd73dceb37a97b6320af81f29a.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/112885.bd1b588fbda7a6225e55b719acf0a08dd5db93bd73dceb37a97b6320af81f29a.png"
+    },
+    "nation": {
+      "id": 711,
+      "eaId": 61,
+      "slug": "venezuela",
+      "name": "Venezuela",
+      "imagePath": "2025/nation/61.be439ea897c2a0a255de8c51d838fdef8db94d0b33443148ee485e95ba788aa0.png",
+      "url": "/nations/venezuela/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/nation/61.be439ea897c2a0a255de8c51d838fdef8db94d0b33443148ee485e95ba788aa0.png"
+    },
+    "league": {
+      "id": 185,
+      "eaId": 39,
+      "slug": "major-league-soccer",
+      "name": "Major League Soccer",
+      "imagePath": "2025/league/39.ea32ac1d4c5aeb379cec48a5132b135cd9c8767b603cd69fe3083092b4ef9eb3.png",
+      "imageLightPath": "2025/league-light/39.ea32ac1d4c5aeb379cec48a5132b135cd9c8767b603cd69fe3083092b4ef9eb3.png",
+      "url": "/leagues/major-league-soccer/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league/39.ea32ac1d4c5aeb379cec48a5132b135cd9c8767b603cd69fe3083092b4ef9eb3.png",
+      "imageLightUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league-light/39.ea32ac1d4c5aeb379cec48a5132b135cd9c8767b603cd69fe3083092b4ef9eb3.png"
+    },
     "isSbcItem": false,
     "isObjectiveItem": false,
+    "rarity": {
+      "id": 433,
+      "eaId": 0,
+      "slug": "common",
+      "game": "25",
+      "name": "Common",
+      "alternateName": null,
+      "url": "/rarities/common/",
+      "dominantColor": "d39570",
+      "imagePath": "2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png",
+      "imagePaths": [
+        "2025/rarities-level-1-large/0.9e74985cc5fa0235bfd1cdf18524886abec80cb940fb87245dc8eb0fe402e68e.png",
+        "2025/rarities-level-2-large/0.bcc3305230ad572a1c35252bfc76d94661378a3cd0bc6f05053ecadb8b4b8dbe.png",
+        "2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png"
+      ],
+      "isSpecial": false,
+      "compactImagePath": "2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png",
+      "compactImagePaths": [
+        "2025/rarities-level-1-small/0.07fe8673a441822a263a61409f05124a35882cb798e0cd62868d00dc388d25cd.png",
+        "2025/rarities-level-2-small/0.2d3f30416f2b228ddf7e8eef513c1ffb7af5aadea48ff7a9a24cccd90f40889c.png",
+        "2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png"
+      ],
+      "animatedImagePath": null,
+      "animatedImagesPath": null,
+      "animatedImagesFrameCount": null,
+      "animatedImagesFps": null,
+      "animatedImagesDelay": null,
+      "isBrightColorScheme": true,
+      "textColor": [
+        "3f1208",
+        "192228",
+        "31260c"
+      ],
+      "lineColor": [
+        "d39570",
+        "bfcbd3",
+        "c5a96b"
+      ],
+      "shadowColor": [
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "overallColor": null,
+      "numberOfPlayers": 13709,
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png",
+      "imageUrls": [
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-1-large/0.9e74985cc5fa0235bfd1cdf18524886abec80cb940fb87245dc8eb0fe402e68e.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-2-large/0.bcc3305230ad572a1c35252bfc76d94661378a3cd0bc6f05053ecadb8b4b8dbe.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png"
+      ],
+      "animatedImageUrl": null,
+      "animatedImagesUrl": null,
+      "compactImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png"
+    },
     "totalFaceStats": 352,
-    "totalIgs": 1606
+    "totalIgs": 1606,
+    "isFullChemistry": false,
+    "extraNationChemistry": 0,
+    "extraLeagueChemistry": 0,
+    "extraClubChemistry": 0,
+    "extraSquadLeagueChemistry": false,
+    "extraSquadNationChemistry": false
   }
 }

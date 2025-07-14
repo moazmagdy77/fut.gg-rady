@@ -149,7 +149,7 @@
     "objectiveCampaignLevelId": null,
     "campaignProps": null,
     "contentTypeId": 27,
-    "numberOfEvolutions": 12,
+    "numberOfEvolutions": 97,
     "blurbText": null,
     "smallBlurbText": "Mark Helm is 23 years old, and plays for Fleetwood Town in the EFL League Two. Mark Helm's height stands at 173 cm (5'8'), and the nation he represents is England. This Rare version of Mark Helm is a 64 rated CAM. He is Right footed, with 3 star skill moves and 4 star weak foot. ",
     "upgrades": null,
@@ -168,10 +168,149 @@
     "premiumSeasonPassLevel": null,
     "standardSeasonPassLevel": null,
     "metarankStr": null,
+    "ggRating": null,
+    "ggRatingPos": null,
+    "ggRatingStr": null,
+    "isHistoricalItem": false,
     "commonName": "Mark Helm",
+    "club": {
+      "id": 2658,
+      "eaId": 112260,
+      "game": "25",
+      "slug": "112260-fleetwood-town",
+      "name": "Fleetwood Town",
+      "sisterClubEaId": null,
+      "leagueEaId": 61,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/112260.f01bcb6fb57840adc1a549290a0f517b36e206c4d7dd90ab5fbcae795f5b20d7.png",
+      "lightImagePath": "2025/club-light/112260.f01bcb6fb57840adc1a549290a0f517b36e206c4d7dd90ab5fbcae795f5b20d7.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        208830,
+        212484,
+        204760
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 61,
+      "midfieldRating": 63,
+      "defenseRating": 63,
+      "overallRating": 63,
+      "url": "/clubs/112260-fleetwood-town/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/112260.f01bcb6fb57840adc1a549290a0f517b36e206c4d7dd90ab5fbcae795f5b20d7.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/112260.f01bcb6fb57840adc1a549290a0f517b36e206c4d7dd90ab5fbcae795f5b20d7.png"
+    },
+    "uniqueClub": {
+      "id": 2658,
+      "eaId": 112260,
+      "game": "25",
+      "slug": "112260-fleetwood-town",
+      "name": "Fleetwood Town",
+      "sisterClubEaId": null,
+      "leagueEaId": 61,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/112260.f01bcb6fb57840adc1a549290a0f517b36e206c4d7dd90ab5fbcae795f5b20d7.png",
+      "lightImagePath": "2025/club-light/112260.f01bcb6fb57840adc1a549290a0f517b36e206c4d7dd90ab5fbcae795f5b20d7.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        208830,
+        212484,
+        204760
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 61,
+      "midfieldRating": 63,
+      "defenseRating": 63,
+      "overallRating": 63,
+      "url": "/clubs/112260-fleetwood-town/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/112260.f01bcb6fb57840adc1a549290a0f517b36e206c4d7dd90ab5fbcae795f5b20d7.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/112260.f01bcb6fb57840adc1a549290a0f517b36e206c4d7dd90ab5fbcae795f5b20d7.png"
+    },
+    "nation": {
+      "id": 665,
+      "eaId": 14,
+      "slug": "england",
+      "name": "England",
+      "imagePath": "2025/nation/14.78390863cddfae30b0df1723f63159b6dc1c09e4ecde31080b60ba3b9bee500e.png",
+      "url": "/nations/england/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/nation/14.78390863cddfae30b0df1723f63159b6dc1c09e4ecde31080b60ba3b9bee500e.png"
+    },
+    "league": {
+      "id": 192,
+      "eaId": 61,
+      "slug": "efl-league-two",
+      "name": "EFL League Two",
+      "imagePath": "2025/league/61.23f7334d47c2734c979cd985d8ace993faf05c170cb69a3e7ebe6b0ebb546cff.png",
+      "imageLightPath": "2025/league-light/61.23f7334d47c2734c979cd985d8ace993faf05c170cb69a3e7ebe6b0ebb546cff.png",
+      "url": "/leagues/efl-league-two/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league/61.23f7334d47c2734c979cd985d8ace993faf05c170cb69a3e7ebe6b0ebb546cff.png",
+      "imageLightUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league-light/61.23f7334d47c2734c979cd985d8ace993faf05c170cb69a3e7ebe6b0ebb546cff.png"
+    },
     "isSbcItem": false,
     "isObjectiveItem": false,
+    "rarity": {
+      "id": 434,
+      "eaId": 1,
+      "slug": "rare",
+      "game": "25",
+      "name": "Rare",
+      "alternateName": null,
+      "url": "/rarities/rare/",
+      "dominantColor": "dd9c79",
+      "imagePath": "2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png",
+      "imagePaths": [
+        "2025/rarities-level-1-large/1.ff6159fb3f49c4a46fb58bb7ff2edf3443faa545162b5636d1d36484b195af8f.png",
+        "2025/rarities-level-2-large/1.110820e10aee7e71b2a058da6a645b42455e8b52d8209c84906ab13b4ca637e1.png",
+        "2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png"
+      ],
+      "isSpecial": false,
+      "compactImagePath": "2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png",
+      "compactImagePaths": [
+        "2025/rarities-level-1-small/1.0c997213875cb4e45f25ea3a9d4c8586377af07d992da90277cc443403fd9d26.png",
+        "2025/rarities-level-2-small/1.a31950d31bb7c2b74f1bd0d7ec162d223eda669622761601950d7f24b80c1cbf.png",
+        "2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png"
+      ],
+      "animatedImagePath": null,
+      "animatedImagesPath": null,
+      "animatedImagesFrameCount": null,
+      "animatedImagesFps": null,
+      "animatedImagesDelay": null,
+      "isBrightColorScheme": true,
+      "textColor": [
+        "3e281c",
+        "1e252a",
+        "2d2410"
+      ],
+      "lineColor": [
+        "dd9c79",
+        "bfccd1",
+        "e3c075"
+      ],
+      "shadowColor": [
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "overallColor": null,
+      "numberOfPlayers": 6927,
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png",
+      "imageUrls": [
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-1-large/1.ff6159fb3f49c4a46fb58bb7ff2edf3443faa545162b5636d1d36484b195af8f.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-2-large/1.110820e10aee7e71b2a058da6a645b42455e8b52d8209c84906ab13b4ca637e1.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png"
+      ],
+      "animatedImageUrl": null,
+      "animatedImagesUrl": null,
+      "compactImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png"
+    },
     "totalFaceStats": 364,
-    "totalIgs": 1724
+    "totalIgs": 1724,
+    "isFullChemistry": false,
+    "extraNationChemistry": 0,
+    "extraLeagueChemistry": 0,
+    "extraClubChemistry": 0,
+    "extraSquadLeagueChemistry": false,
+    "extraSquadNationChemistry": false
   }
 }

@@ -145,9 +145,9 @@
     "objectiveCampaignLevelId": null,
     "campaignProps": null,
     "contentTypeId": 27,
-    "numberOfEvolutions": 3,
+    "numberOfEvolutions": 83,
     "blurbText": null,
-    "smallBlurbText": "Jóannes Bjartalíð is 28 years old, and plays for Fredrikstad in the Eliteserien. Jóannes Bjartalíð's height stands at 180 cm (5'11'), and the nation he represents is Faroe Islands. This Common version of Jóannes Bjartalíð is a 62 rated ST. He is Left footed, with 2 star skill moves and 3 star weak foot. ",
+    "smallBlurbText": "Jóannes Bjartalíð is 29 years old, and plays for Fredrikstad in the Eliteserien. Jóannes Bjartalíð's height stands at 180 cm (5'11'), and the nation he represents is Faroe Islands. This Common version of Jóannes Bjartalíð is a 62 rated ST. He is Left footed, with 2 star skill moves and 3 star weak foot. ",
     "upgrades": null,
     "hasPrice": true,
     "trackerId": null,
@@ -164,10 +164,149 @@
     "premiumSeasonPassLevel": null,
     "standardSeasonPassLevel": null,
     "metarankStr": null,
+    "ggRating": null,
+    "ggRatingPos": null,
+    "ggRatingStr": null,
+    "isHistoricalItem": false,
     "commonName": "Jóannes Bjartalíð",
+    "club": {
+      "id": 2539,
+      "eaId": 2041,
+      "game": "25",
+      "slug": "2041-fredrikstad",
+      "name": "Fredrikstad",
+      "sisterClubEaId": null,
+      "leagueEaId": 41,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/2041.38d28cc97952d402214780ff69f5c492d1a417bf80ad7e8d13b54e37f9cdd67f.png",
+      "lightImagePath": "2025/club-light/2041.38d28cc97952d402214780ff69f5c492d1a417bf80ad7e8d13b54e37f9cdd67f.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        172522,
+        205214,
+        224793
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 61,
+      "midfieldRating": 63,
+      "defenseRating": 63,
+      "overallRating": 63,
+      "url": "/clubs/2041-fredrikstad/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/2041.38d28cc97952d402214780ff69f5c492d1a417bf80ad7e8d13b54e37f9cdd67f.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/2041.38d28cc97952d402214780ff69f5c492d1a417bf80ad7e8d13b54e37f9cdd67f.png"
+    },
+    "uniqueClub": {
+      "id": 2539,
+      "eaId": 2041,
+      "game": "25",
+      "slug": "2041-fredrikstad",
+      "name": "Fredrikstad",
+      "sisterClubEaId": null,
+      "leagueEaId": 41,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/2041.38d28cc97952d402214780ff69f5c492d1a417bf80ad7e8d13b54e37f9cdd67f.png",
+      "lightImagePath": "2025/club-light/2041.38d28cc97952d402214780ff69f5c492d1a417bf80ad7e8d13b54e37f9cdd67f.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        172522,
+        205214,
+        224793
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 61,
+      "midfieldRating": 63,
+      "defenseRating": 63,
+      "overallRating": 63,
+      "url": "/clubs/2041-fredrikstad/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/2041.38d28cc97952d402214780ff69f5c492d1a417bf80ad7e8d13b54e37f9cdd67f.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/2041.38d28cc97952d402214780ff69f5c492d1a417bf80ad7e8d13b54e37f9cdd67f.png"
+    },
+    "nation": {
+      "id": 667,
+      "eaId": 16,
+      "slug": "faroe-islands",
+      "name": "Faroe Islands",
+      "imagePath": "2025/nation/16.d7d7a2cd747722af41f49c77a54647ae548adc078601aa2e746a0a5f1b45a648.png",
+      "url": "/nations/faroe-islands/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/nation/16.d7d7a2cd747722af41f49c77a54647ae548adc078601aa2e746a0a5f1b45a648.png"
+    },
+    "league": {
+      "id": 186,
+      "eaId": 41,
+      "slug": "eliteserien",
+      "name": "Eliteserien",
+      "imagePath": "2025/league/41.888532d684f62f4dca284b9abf889332f2c298a25d1cf3bc404c052bf6890e23.png",
+      "imageLightPath": "2025/league-light/41.7ba752d5c5b4969195ad3d2b53eff5e820bbda98c765374265ea02c509b64a31.png",
+      "url": "/leagues/eliteserien/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league/41.888532d684f62f4dca284b9abf889332f2c298a25d1cf3bc404c052bf6890e23.png",
+      "imageLightUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league-light/41.7ba752d5c5b4969195ad3d2b53eff5e820bbda98c765374265ea02c509b64a31.png"
+    },
     "isSbcItem": false,
     "isObjectiveItem": false,
+    "rarity": {
+      "id": 433,
+      "eaId": 0,
+      "slug": "common",
+      "game": "25",
+      "name": "Common",
+      "alternateName": null,
+      "url": "/rarities/common/",
+      "dominantColor": "d39570",
+      "imagePath": "2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png",
+      "imagePaths": [
+        "2025/rarities-level-1-large/0.9e74985cc5fa0235bfd1cdf18524886abec80cb940fb87245dc8eb0fe402e68e.png",
+        "2025/rarities-level-2-large/0.bcc3305230ad572a1c35252bfc76d94661378a3cd0bc6f05053ecadb8b4b8dbe.png",
+        "2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png"
+      ],
+      "isSpecial": false,
+      "compactImagePath": "2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png",
+      "compactImagePaths": [
+        "2025/rarities-level-1-small/0.07fe8673a441822a263a61409f05124a35882cb798e0cd62868d00dc388d25cd.png",
+        "2025/rarities-level-2-small/0.2d3f30416f2b228ddf7e8eef513c1ffb7af5aadea48ff7a9a24cccd90f40889c.png",
+        "2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png"
+      ],
+      "animatedImagePath": null,
+      "animatedImagesPath": null,
+      "animatedImagesFrameCount": null,
+      "animatedImagesFps": null,
+      "animatedImagesDelay": null,
+      "isBrightColorScheme": true,
+      "textColor": [
+        "3f1208",
+        "192228",
+        "31260c"
+      ],
+      "lineColor": [
+        "d39570",
+        "bfcbd3",
+        "c5a96b"
+      ],
+      "shadowColor": [
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "overallColor": null,
+      "numberOfPlayers": 13709,
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png",
+      "imageUrls": [
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-1-large/0.9e74985cc5fa0235bfd1cdf18524886abec80cb940fb87245dc8eb0fe402e68e.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-2-large/0.bcc3305230ad572a1c35252bfc76d94661378a3cd0bc6f05053ecadb8b4b8dbe.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png"
+      ],
+      "animatedImageUrl": null,
+      "animatedImagesUrl": null,
+      "compactImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png"
+    },
     "totalFaceStats": 326,
-    "totalIgs": 1514
+    "totalIgs": 1514,
+    "isFullChemistry": false,
+    "extraNationChemistry": 0,
+    "extraLeagueChemistry": 0,
+    "extraClubChemistry": 0,
+    "extraSquadLeagueChemistry": false,
+    "extraSquadNationChemistry": false
   }
 }

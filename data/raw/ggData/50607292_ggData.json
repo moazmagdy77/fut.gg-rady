@@ -148,9 +148,9 @@
     "objectiveCampaignLevelId": null,
     "campaignProps": null,
     "contentTypeId": 27,
-    "numberOfEvolutions": 1,
+    "numberOfEvolutions": 33,
     "blurbText": null,
-    "smallBlurbText": "Gábor Szalai is 24 years old, and plays for Ferencvárosi TC in the Magyar Liga. Gábor Szalai's height stands at 191 cm (6'3'), and the nation he represents is Hungary. This Common version of Gábor Szalai is a 68 rated CB. He is Left footed, with 2 star skill moves and 2 star weak foot. ",
+    "smallBlurbText": "Gábor Szalai is 25 years old, and plays for Ferencvárosi TC in the Magyar Liga. Gábor Szalai's height stands at 191 cm (6'3'), and the nation he represents is Hungary. This Common version of Gábor Szalai is a 68 rated CB. He is Left footed, with 2 star skill moves and 2 star weak foot. ",
     "upgrades": null,
     "hasPrice": true,
     "trackerId": null,
@@ -167,10 +167,175 @@
     "premiumSeasonPassLevel": null,
     "standardSeasonPassLevel": null,
     "metarankStr": null,
+    "ggRating": null,
+    "ggRatingPos": null,
+    "ggRatingStr": null,
+    "isHistoricalItem": false,
     "commonName": "Gábor Szalai",
+    "club": {
+      "id": 2970,
+      "eaId": 1874,
+      "game": "25",
+      "slug": "1874-ferencvarosi-tc",
+      "name": "Ferencvárosi TC",
+      "sisterClubEaId": null,
+      "leagueEaId": 2211,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/1874.86de12925c3aa7a7112d8337beff2b015651231b8ad6a86ae3b098320b72abbb.png",
+      "lightImagePath": "2025/club-light/1874.86de12925c3aa7a7112d8337beff2b015651231b8ad6a86ae3b098320b72abbb.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        221610,
+        237055,
+        271701
+      ],
+      "competitionIds": [
+        2
+      ],
+      "fixtureIds": [
+        159,
+        291,
+        197,
+        3690,
+        175,
+        241,
+        275,
+        3703,
+        252,
+        223
+      ],
+      "attackRating": 73,
+      "midfieldRating": 72,
+      "defenseRating": 72,
+      "overallRating": 73,
+      "url": "/clubs/1874-ferencvarosi-tc/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/1874.86de12925c3aa7a7112d8337beff2b015651231b8ad6a86ae3b098320b72abbb.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/1874.86de12925c3aa7a7112d8337beff2b015651231b8ad6a86ae3b098320b72abbb.png"
+    },
+    "uniqueClub": {
+      "id": 2970,
+      "eaId": 1874,
+      "game": "25",
+      "slug": "1874-ferencvarosi-tc",
+      "name": "Ferencvárosi TC",
+      "sisterClubEaId": null,
+      "leagueEaId": 2211,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/1874.86de12925c3aa7a7112d8337beff2b015651231b8ad6a86ae3b098320b72abbb.png",
+      "lightImagePath": "2025/club-light/1874.86de12925c3aa7a7112d8337beff2b015651231b8ad6a86ae3b098320b72abbb.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        221610,
+        237055,
+        271701
+      ],
+      "competitionIds": [
+        2
+      ],
+      "fixtureIds": [
+        159,
+        291,
+        197,
+        3690,
+        175,
+        241,
+        275,
+        3703,
+        252,
+        223
+      ],
+      "attackRating": 73,
+      "midfieldRating": 72,
+      "defenseRating": 72,
+      "overallRating": 73,
+      "url": "/clubs/1874-ferencvarosi-tc/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/1874.86de12925c3aa7a7112d8337beff2b015651231b8ad6a86ae3b098320b72abbb.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/1874.86de12925c3aa7a7112d8337beff2b015651231b8ad6a86ae3b098320b72abbb.png"
+    },
+    "nation": {
+      "id": 674,
+      "eaId": 23,
+      "slug": "hungary",
+      "name": "Hungary",
+      "imagePath": "2025/nation/23.2b87b030ac2235807827e3aeef366a68f034368d52fed7f9647d6b0a3975bdea.png",
+      "url": "/nations/hungary/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/nation/23.2b87b030ac2235807827e3aeef366a68f034368d52fed7f9647d6b0a3975bdea.png"
+    },
+    "league": {
+      "id": 219,
+      "eaId": 2211,
+      "slug": "magyar-liga",
+      "name": "Magyar Liga",
+      "imagePath": "2025/league/2211.3be6e907457481c454bffebc75021414869854522d8bbc00d3919669f160af4e.png",
+      "imageLightPath": "2025/league-light/2211.3be6e907457481c454bffebc75021414869854522d8bbc00d3919669f160af4e.png",
+      "url": "/leagues/magyar-liga/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league/2211.3be6e907457481c454bffebc75021414869854522d8bbc00d3919669f160af4e.png",
+      "imageLightUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league-light/2211.3be6e907457481c454bffebc75021414869854522d8bbc00d3919669f160af4e.png"
+    },
     "isSbcItem": false,
     "isObjectiveItem": false,
+    "rarity": {
+      "id": 433,
+      "eaId": 0,
+      "slug": "common",
+      "game": "25",
+      "name": "Common",
+      "alternateName": null,
+      "url": "/rarities/common/",
+      "dominantColor": "d39570",
+      "imagePath": "2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png",
+      "imagePaths": [
+        "2025/rarities-level-1-large/0.9e74985cc5fa0235bfd1cdf18524886abec80cb940fb87245dc8eb0fe402e68e.png",
+        "2025/rarities-level-2-large/0.bcc3305230ad572a1c35252bfc76d94661378a3cd0bc6f05053ecadb8b4b8dbe.png",
+        "2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png"
+      ],
+      "isSpecial": false,
+      "compactImagePath": "2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png",
+      "compactImagePaths": [
+        "2025/rarities-level-1-small/0.07fe8673a441822a263a61409f05124a35882cb798e0cd62868d00dc388d25cd.png",
+        "2025/rarities-level-2-small/0.2d3f30416f2b228ddf7e8eef513c1ffb7af5aadea48ff7a9a24cccd90f40889c.png",
+        "2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png"
+      ],
+      "animatedImagePath": null,
+      "animatedImagesPath": null,
+      "animatedImagesFrameCount": null,
+      "animatedImagesFps": null,
+      "animatedImagesDelay": null,
+      "isBrightColorScheme": true,
+      "textColor": [
+        "3f1208",
+        "192228",
+        "31260c"
+      ],
+      "lineColor": [
+        "d39570",
+        "bfcbd3",
+        "c5a96b"
+      ],
+      "shadowColor": [
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "overallColor": null,
+      "numberOfPlayers": 13709,
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png",
+      "imageUrls": [
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-1-large/0.9e74985cc5fa0235bfd1cdf18524886abec80cb940fb87245dc8eb0fe402e68e.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-2-large/0.bcc3305230ad572a1c35252bfc76d94661378a3cd0bc6f05053ecadb8b4b8dbe.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png"
+      ],
+      "animatedImageUrl": null,
+      "animatedImagesUrl": null,
+      "compactImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png"
+    },
     "totalFaceStats": 322,
-    "totalIgs": 1503
+    "totalIgs": 1503,
+    "isFullChemistry": false,
+    "extraNationChemistry": 0,
+    "extraLeagueChemistry": 0,
+    "extraClubChemistry": 0,
+    "extraSquadLeagueChemistry": false,
+    "extraSquadNationChemistry": false
   }
 }

@@ -151,7 +151,7 @@
     "objectiveCampaignLevelId": null,
     "campaignProps": null,
     "contentTypeId": 27,
-    "numberOfEvolutions": 41,
+    "numberOfEvolutions": 26,
     "blurbText": null,
     "smallBlurbText": "Halimatu Ayinde is 30 years old, and plays for FC Rosengård in the Sverige Liga. Halimatu Ayinde's height stands at 165 cm (5'5'), and the nation she represents is Nigeria. This Rare version of Halimatu Ayinde is a 71 rated CDM. He is Right footed, with 3 star skill moves and 3 star weak foot. ",
     "upgrades": null,
@@ -170,10 +170,149 @@
     "premiumSeasonPassLevel": null,
     "standardSeasonPassLevel": null,
     "metarankStr": null,
+    "ggRating": null,
+    "ggRatingPos": null,
+    "ggRatingStr": null,
+    "isHistoricalItem": false,
     "commonName": "Halimatu Ayinde",
+    "club": {
+      "id": 2995,
+      "eaId": 131362,
+      "game": "25",
+      "slug": "131362-fc-rosengard",
+      "name": "FC Rosengård",
+      "sisterClubEaId": null,
+      "leagueEaId": 2232,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/131362.03f4806e2917c34f63027c57cf3d228361d6cfec5c9bda3553a6aabdcb139170.png",
+      "lightImagePath": "2025/club-light/131362.03f4806e2917c34f63027c57cf3d228361d6cfec5c9bda3553a6aabdcb139170.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        226369,
+        70145,
+        279933
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 63,
+      "midfieldRating": 69,
+      "defenseRating": 71,
+      "overallRating": 70,
+      "url": "/clubs/131362-fc-rosengard/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/131362.03f4806e2917c34f63027c57cf3d228361d6cfec5c9bda3553a6aabdcb139170.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/131362.03f4806e2917c34f63027c57cf3d228361d6cfec5c9bda3553a6aabdcb139170.png"
+    },
+    "uniqueClub": {
+      "id": 2995,
+      "eaId": 131362,
+      "game": "25",
+      "slug": "131362-fc-rosengard",
+      "name": "FC Rosengård",
+      "sisterClubEaId": null,
+      "leagueEaId": 2232,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/131362.03f4806e2917c34f63027c57cf3d228361d6cfec5c9bda3553a6aabdcb139170.png",
+      "lightImagePath": "2025/club-light/131362.03f4806e2917c34f63027c57cf3d228361d6cfec5c9bda3553a6aabdcb139170.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        226369,
+        70145,
+        279933
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 63,
+      "midfieldRating": 69,
+      "defenseRating": 71,
+      "overallRating": 70,
+      "url": "/clubs/131362-fc-rosengard/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/131362.03f4806e2917c34f63027c57cf3d228361d6cfec5c9bda3553a6aabdcb139170.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/131362.03f4806e2917c34f63027c57cf3d228361d6cfec5c9bda3553a6aabdcb139170.png"
+    },
+    "nation": {
+      "id": 764,
+      "eaId": 133,
+      "slug": "nigeria",
+      "name": "Nigeria",
+      "imagePath": "2025/nation/133.87dc4041397ef2ea3a775c262da9eb59dac40fd6cd9c653283194ade662cbb2b.png",
+      "url": "/nations/nigeria/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/nation/133.87dc4041397ef2ea3a775c262da9eb59dac40fd6cd9c653283194ade662cbb2b.png"
+    },
+    "league": {
+      "id": 229,
+      "eaId": 2232,
+      "slug": "sverige-liga",
+      "name": "Sverige Liga",
+      "imagePath": "2025/league/2232.ad26e34786188155653982efdbd1a0d98e8355d3b040c287a2bf7ad3879fac22.png",
+      "imageLightPath": "2025/league-light/2232.ad26e34786188155653982efdbd1a0d98e8355d3b040c287a2bf7ad3879fac22.png",
+      "url": "/leagues/sverige-liga/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league/2232.ad26e34786188155653982efdbd1a0d98e8355d3b040c287a2bf7ad3879fac22.png",
+      "imageLightUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league-light/2232.ad26e34786188155653982efdbd1a0d98e8355d3b040c287a2bf7ad3879fac22.png"
+    },
     "isSbcItem": false,
     "isObjectiveItem": false,
+    "rarity": {
+      "id": 434,
+      "eaId": 1,
+      "slug": "rare",
+      "game": "25",
+      "name": "Rare",
+      "alternateName": null,
+      "url": "/rarities/rare/",
+      "dominantColor": "dd9c79",
+      "imagePath": "2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png",
+      "imagePaths": [
+        "2025/rarities-level-1-large/1.ff6159fb3f49c4a46fb58bb7ff2edf3443faa545162b5636d1d36484b195af8f.png",
+        "2025/rarities-level-2-large/1.110820e10aee7e71b2a058da6a645b42455e8b52d8209c84906ab13b4ca637e1.png",
+        "2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png"
+      ],
+      "isSpecial": false,
+      "compactImagePath": "2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png",
+      "compactImagePaths": [
+        "2025/rarities-level-1-small/1.0c997213875cb4e45f25ea3a9d4c8586377af07d992da90277cc443403fd9d26.png",
+        "2025/rarities-level-2-small/1.a31950d31bb7c2b74f1bd0d7ec162d223eda669622761601950d7f24b80c1cbf.png",
+        "2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png"
+      ],
+      "animatedImagePath": null,
+      "animatedImagesPath": null,
+      "animatedImagesFrameCount": null,
+      "animatedImagesFps": null,
+      "animatedImagesDelay": null,
+      "isBrightColorScheme": true,
+      "textColor": [
+        "3e281c",
+        "1e252a",
+        "2d2410"
+      ],
+      "lineColor": [
+        "dd9c79",
+        "bfccd1",
+        "e3c075"
+      ],
+      "shadowColor": [
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "overallColor": null,
+      "numberOfPlayers": 6927,
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png",
+      "imageUrls": [
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-1-large/1.ff6159fb3f49c4a46fb58bb7ff2edf3443faa545162b5636d1d36484b195af8f.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-2-large/1.110820e10aee7e71b2a058da6a645b42455e8b52d8209c84906ab13b4ca637e1.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png"
+      ],
+      "animatedImageUrl": null,
+      "animatedImagesUrl": null,
+      "compactImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png"
+    },
     "totalFaceStats": 390,
-    "totalIgs": 1804
+    "totalIgs": 1804,
+    "isFullChemistry": false,
+    "extraNationChemistry": 0,
+    "extraLeagueChemistry": 0,
+    "extraClubChemistry": 0,
+    "extraSquadLeagueChemistry": false,
+    "extraSquadNationChemistry": false
   }
 }

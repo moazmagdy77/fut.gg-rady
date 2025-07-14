@@ -183,10 +183,168 @@
     "ggRating": null,
     "ggRatingPos": null,
     "ggRatingStr": null,
+    "isHistoricalItem": false,
     "commonName": "Marko Pjaca",
+    "club": {
+      "id": 2766,
+      "eaId": 211,
+      "game": "25",
+      "slug": "211-dinamo-zagreb",
+      "name": "Dinamo Zagreb",
+      "sisterClubEaId": null,
+      "leagueEaId": 317,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/211.eccd806206c1590050340e254d1d37eeb677f4305335fb5edc22515556b994e2.png",
+      "lightImagePath": "2025/club-light/211.eccd806206c1590050340e254d1d37eeb677f4305335fb5edc22515556b994e2.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        177003,
+        232580,
+        262842
+      ],
+      "competitionIds": [
+        1
+      ],
+      "fixtureIds": [
+        353,
+        387,
+        356,
+        421,
+        391,
+        332,
+        304,
+        433
+      ],
+      "attackRating": 70,
+      "midfieldRating": 71,
+      "defenseRating": 71,
+      "overallRating": 71,
+      "url": "/clubs/211-dinamo-zagreb/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/211.eccd806206c1590050340e254d1d37eeb677f4305335fb5edc22515556b994e2.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/211.eccd806206c1590050340e254d1d37eeb677f4305335fb5edc22515556b994e2.png"
+    },
+    "uniqueClub": {
+      "id": 2766,
+      "eaId": 211,
+      "game": "25",
+      "slug": "211-dinamo-zagreb",
+      "name": "Dinamo Zagreb",
+      "sisterClubEaId": null,
+      "leagueEaId": 317,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/211.eccd806206c1590050340e254d1d37eeb677f4305335fb5edc22515556b994e2.png",
+      "lightImagePath": "2025/club-light/211.eccd806206c1590050340e254d1d37eeb677f4305335fb5edc22515556b994e2.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        177003,
+        232580,
+        262842
+      ],
+      "competitionIds": [
+        1
+      ],
+      "fixtureIds": [
+        353,
+        387,
+        356,
+        421,
+        391,
+        332,
+        304,
+        433
+      ],
+      "attackRating": 70,
+      "midfieldRating": 71,
+      "defenseRating": 71,
+      "overallRating": 71,
+      "url": "/clubs/211-dinamo-zagreb/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/211.eccd806206c1590050340e254d1d37eeb677f4305335fb5edc22515556b994e2.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/211.eccd806206c1590050340e254d1d37eeb677f4305335fb5edc22515556b994e2.png"
+    },
+    "nation": {
+      "id": 661,
+      "eaId": 10,
+      "slug": "croatia",
+      "name": "Croatia",
+      "imagePath": "2025/nation/10.7f4f8d8066323f16561f8d0f3c0b0e4bcfc39b01197aab63bc4499a37a6fe908.png",
+      "url": "/nations/croatia/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/nation/10.7f4f8d8066323f16561f8d0f3c0b0e4bcfc39b01197aab63bc4499a37a6fe908.png"
+    },
+    "league": {
+      "id": 202,
+      "eaId": 317,
+      "slug": "liga-hrvatska",
+      "name": "Liga Hrvatska",
+      "imagePath": "2025/league/317.2358a72ae3fec9653b706ccbd402c73da00fdfd9ebcb24ae0f12736d6e1a5eb5.png",
+      "imageLightPath": "2025/league-light/317.2358a72ae3fec9653b706ccbd402c73da00fdfd9ebcb24ae0f12736d6e1a5eb5.png",
+      "url": "/leagues/liga-hrvatska/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league/317.2358a72ae3fec9653b706ccbd402c73da00fdfd9ebcb24ae0f12736d6e1a5eb5.png",
+      "imageLightUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league-light/317.2358a72ae3fec9653b706ccbd402c73da00fdfd9ebcb24ae0f12736d6e1a5eb5.png"
+    },
     "isSbcItem": false,
     "isObjectiveItem": false,
+    "rarity": {
+      "id": 434,
+      "eaId": 1,
+      "slug": "rare",
+      "game": "25",
+      "name": "Rare",
+      "alternateName": null,
+      "url": "/rarities/rare/",
+      "dominantColor": "dd9c79",
+      "imagePath": "2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png",
+      "imagePaths": [
+        "2025/rarities-level-1-large/1.ff6159fb3f49c4a46fb58bb7ff2edf3443faa545162b5636d1d36484b195af8f.png",
+        "2025/rarities-level-2-large/1.110820e10aee7e71b2a058da6a645b42455e8b52d8209c84906ab13b4ca637e1.png",
+        "2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png"
+      ],
+      "isSpecial": false,
+      "compactImagePath": "2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png",
+      "compactImagePaths": [
+        "2025/rarities-level-1-small/1.0c997213875cb4e45f25ea3a9d4c8586377af07d992da90277cc443403fd9d26.png",
+        "2025/rarities-level-2-small/1.a31950d31bb7c2b74f1bd0d7ec162d223eda669622761601950d7f24b80c1cbf.png",
+        "2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png"
+      ],
+      "animatedImagePath": null,
+      "animatedImagesPath": null,
+      "animatedImagesFrameCount": null,
+      "animatedImagesFps": null,
+      "animatedImagesDelay": null,
+      "isBrightColorScheme": true,
+      "textColor": [
+        "3e281c",
+        "1e252a",
+        "2d2410"
+      ],
+      "lineColor": [
+        "dd9c79",
+        "bfccd1",
+        "e3c075"
+      ],
+      "shadowColor": [
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "overallColor": null,
+      "numberOfPlayers": 6927,
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png",
+      "imageUrls": [
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-1-large/1.ff6159fb3f49c4a46fb58bb7ff2edf3443faa545162b5636d1d36484b195af8f.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-2-large/1.110820e10aee7e71b2a058da6a645b42455e8b52d8209c84906ab13b4ca637e1.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png"
+      ],
+      "animatedImageUrl": null,
+      "animatedImagesUrl": null,
+      "compactImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png"
+    },
     "totalFaceStats": 398,
-    "totalIgs": 1890
+    "totalIgs": 1890,
+    "isFullChemistry": false,
+    "extraNationChemistry": 0,
+    "extraLeagueChemistry": 0,
+    "extraClubChemistry": 0,
+    "extraSquadLeagueChemistry": false,
+    "extraSquadNationChemistry": false
   }
 }

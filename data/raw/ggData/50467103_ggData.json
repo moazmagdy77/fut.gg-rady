@@ -169,7 +169,7 @@
     "objectiveCampaignLevelId": null,
     "campaignProps": null,
     "contentTypeId": 27,
-    "numberOfEvolutions": 2,
+    "numberOfEvolutions": 1,
     "blurbText": null,
     "smallBlurbText": "Maicon is 43 years old, and plays for HERO in the Serie A TIM. Maicon's height stands at 184 cm (6'0'), and the nation he represents is Brazil. This Prime Hero version of Maicon is a 90 rated RB. He is Right footed, with 4 star skill moves and 4 star weak foot. ",
     "upgrades": null,
@@ -188,10 +188,119 @@
     "premiumSeasonPassLevel": null,
     "standardSeasonPassLevel": null,
     "metarankStr": null,
+    "ggRating": null,
+    "ggRatingPos": null,
+    "ggRatingStr": null,
+    "isHistoricalItem": false,
     "commonName": "Maicon",
+    "club": null,
+    "uniqueClub": {
+      "id": 2999,
+      "eaId": 114605,
+      "game": "25",
+      "slug": "114605-hero",
+      "name": "HERO",
+      "sisterClubEaId": null,
+      "leagueEaId": 2118,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/114605.df965f0a2745d68ce02cc886839b25fba6480c9813b87a9e4720d4f25e12f86b.png",
+      "lightImagePath": "2025/club-light/114605.df965f0a2745d68ce02cc886839b25fba6480c9813b87a9e4720d4f25e12f86b.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": null,
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": null,
+      "midfieldRating": null,
+      "defenseRating": null,
+      "overallRating": null,
+      "url": "/clubs/114605-hero/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/114605.df965f0a2745d68ce02cc886839b25fba6480c9813b87a9e4720d4f25e12f86b.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/114605.df965f0a2745d68ce02cc886839b25fba6480c9813b87a9e4720d4f25e12f86b.png"
+    },
+    "nation": {
+      "id": 704,
+      "eaId": 54,
+      "slug": "brazil",
+      "name": "Brazil",
+      "imagePath": "2025/nation/54.d9dc910e9f0757f8cb3980b65ec126b38c7ccd8eacbf33812b324fb0acb499c0.png",
+      "url": "/nations/brazil/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/nation/54.d9dc910e9f0757f8cb3980b65ec126b38c7ccd8eacbf33812b324fb0acb499c0.png"
+    },
+    "league": {
+      "id": 183,
+      "eaId": 31,
+      "slug": "serie-a-tim",
+      "name": "Serie A TIM",
+      "imagePath": "2025/league/31.f1b853a1cb392da35c43676ecd74966da3e552b8202d1632c47a2ed7449d0215.png",
+      "imageLightPath": "2025/league-light/31.f1b853a1cb392da35c43676ecd74966da3e552b8202d1632c47a2ed7449d0215.png",
+      "url": "/leagues/serie-a-tim/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league/31.f1b853a1cb392da35c43676ecd74966da3e552b8202d1632c47a2ed7449d0215.png",
+      "imageLightUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league-light/31.f1b853a1cb392da35c43676ecd74966da3e552b8202d1632c47a2ed7449d0215.png"
+    },
     "isSbcItem": false,
     "isObjectiveItem": false,
+    "rarity": {
+      "id": 439,
+      "eaId": 161,
+      "slug": "prime-hero",
+      "game": "25",
+      "name": "Prime Hero",
+      "alternateName": null,
+      "url": "/rarities/prime-hero/",
+      "dominantColor": "8a0536",
+      "imagePath": "2025/rarities-level-0-large/161.14dd3edf65c55d7b4dc8bc8783173df8ace9cd3327de0c18bfceb97bfa246d2d.png",
+      "imagePaths": [
+        "2025/rarities-level-0-large/161.14dd3edf65c55d7b4dc8bc8783173df8ace9cd3327de0c18bfceb97bfa246d2d.png",
+        "2025/rarities-level-0-large/161.14dd3edf65c55d7b4dc8bc8783173df8ace9cd3327de0c18bfceb97bfa246d2d.png",
+        "2025/rarities-level-0-large/161.14dd3edf65c55d7b4dc8bc8783173df8ace9cd3327de0c18bfceb97bfa246d2d.png"
+      ],
+      "isSpecial": true,
+      "compactImagePath": "2025/rarities-level-0-small/161.37165c775f127a75b42222968d87409661468339f6683ae1c80e13d7c0423f99.png",
+      "compactImagePaths": [
+        "2025/rarities-level-0-small/161.37165c775f127a75b42222968d87409661468339f6683ae1c80e13d7c0423f99.png",
+        "2025/rarities-level-0-small/161.37165c775f127a75b42222968d87409661468339f6683ae1c80e13d7c0423f99.png",
+        "2025/rarities-level-0-small/161.37165c775f127a75b42222968d87409661468339f6683ae1c80e13d7c0423f99.png"
+      ],
+      "animatedImagePath": null,
+      "animatedImagesPath": null,
+      "animatedImagesFrameCount": null,
+      "animatedImagesFps": null,
+      "animatedImagesDelay": null,
+      "isBrightColorScheme": false,
+      "textColor": [
+        "ffffff",
+        "ffffff",
+        "ffffff"
+      ],
+      "lineColor": [
+        "8a0536",
+        "8a0536",
+        "8a0536"
+      ],
+      "shadowColor": [
+        "",
+        "",
+        ""
+      ],
+      "overallColor": null,
+      "numberOfPlayers": 14,
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-0-large/161.14dd3edf65c55d7b4dc8bc8783173df8ace9cd3327de0c18bfceb97bfa246d2d.png",
+      "imageUrls": [
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-0-large/161.14dd3edf65c55d7b4dc8bc8783173df8ace9cd3327de0c18bfceb97bfa246d2d.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-0-large/161.14dd3edf65c55d7b4dc8bc8783173df8ace9cd3327de0c18bfceb97bfa246d2d.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-0-large/161.14dd3edf65c55d7b4dc8bc8783173df8ace9cd3327de0c18bfceb97bfa246d2d.png"
+      ],
+      "animatedImageUrl": null,
+      "animatedImagesUrl": null,
+      "compactImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-0-small/161.37165c775f127a75b42222968d87409661468339f6683ae1c80e13d7c0423f99.png"
+    },
     "totalFaceStats": 516,
-    "totalIgs": 2460
+    "totalIgs": 2460,
+    "isFullChemistry": true,
+    "extraNationChemistry": 0,
+    "extraLeagueChemistry": 1,
+    "extraClubChemistry": 0,
+    "extraSquadLeagueChemistry": false,
+    "extraSquadNationChemistry": false
   }
 }

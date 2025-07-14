@@ -154,7 +154,7 @@
     "objectiveCampaignLevelId": null,
     "campaignProps": null,
     "contentTypeId": 27,
-    "numberOfEvolutions": 2,
+    "numberOfEvolutions": 38,
     "blurbText": null,
     "smallBlurbText": "Tomáš Chorý is 30 years old, and plays for Slavia Praha in the Česká Liga. Tomáš Chorý's height stands at 200 cm (6'7'), and the nation he represents is Czech Republic. This Rare version of Tomáš Chorý is a 74 rated ST. He is Right footed, with 2 star skill moves and 3 star weak foot. ",
     "upgrades": null,
@@ -173,10 +173,171 @@
     "premiumSeasonPassLevel": null,
     "standardSeasonPassLevel": null,
     "metarankStr": null,
+    "ggRating": null,
+    "ggRatingPos": null,
+    "ggRatingStr": null,
+    "isHistoricalItem": false,
     "commonName": "Tomáš Chorý",
+    "club": {
+      "id": 2768,
+      "eaId": 266,
+      "game": "25",
+      "slug": "266-slavia-praha",
+      "name": "Slavia Praha",
+      "sisterClubEaId": null,
+      "leagueEaId": 319,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/266.9b891e951b8436681d54741a643f86525d07efea0615d8bfeedb80b3c6317cf9.png",
+      "lightImagePath": "2025/club-light/266.8bf1adfbf416eea1b10614e77ae6e3e8eaafb8adf61c496c89fcdf570522d5c3.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        236792,
+        251116,
+        266616
+      ],
+      "competitionIds": [
+        2
+      ],
+      "fixtureIds": [
+        163,
+        264,
+        299,
+        203,
+        245,
+        213,
+        183,
+        280
+      ],
+      "attackRating": 74,
+      "midfieldRating": 74,
+      "defenseRating": 74,
+      "overallRating": 74,
+      "url": "/clubs/266-slavia-praha/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/266.9b891e951b8436681d54741a643f86525d07efea0615d8bfeedb80b3c6317cf9.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/266.8bf1adfbf416eea1b10614e77ae6e3e8eaafb8adf61c496c89fcdf570522d5c3.png"
+    },
+    "uniqueClub": {
+      "id": 2768,
+      "eaId": 266,
+      "game": "25",
+      "slug": "266-slavia-praha",
+      "name": "Slavia Praha",
+      "sisterClubEaId": null,
+      "leagueEaId": 319,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/266.9b891e951b8436681d54741a643f86525d07efea0615d8bfeedb80b3c6317cf9.png",
+      "lightImagePath": "2025/club-light/266.8bf1adfbf416eea1b10614e77ae6e3e8eaafb8adf61c496c89fcdf570522d5c3.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        236792,
+        251116,
+        266616
+      ],
+      "competitionIds": [
+        2
+      ],
+      "fixtureIds": [
+        163,
+        264,
+        299,
+        203,
+        245,
+        213,
+        183,
+        280
+      ],
+      "attackRating": 74,
+      "midfieldRating": 74,
+      "defenseRating": 74,
+      "overallRating": 74,
+      "url": "/clubs/266-slavia-praha/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/266.9b891e951b8436681d54741a643f86525d07efea0615d8bfeedb80b3c6317cf9.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/266.8bf1adfbf416eea1b10614e77ae6e3e8eaafb8adf61c496c89fcdf570522d5c3.png"
+    },
+    "nation": {
+      "id": 663,
+      "eaId": 12,
+      "slug": "czech-republic",
+      "name": "Czech Republic",
+      "imagePath": "2025/nation/12.ae49138ac12a224f3dd98a84a1ea8090d8ac0a79909ec6b574c11d5705a8ba9e.png",
+      "url": "/nations/czech-republic/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/nation/12.ae49138ac12a224f3dd98a84a1ea8090d8ac0a79909ec6b574c11d5705a8ba9e.png"
+    },
+    "league": {
+      "id": 203,
+      "eaId": 319,
+      "slug": "ceska-liga",
+      "name": "Česká Liga",
+      "imagePath": "2025/league/319.5a1b5b29b4f1b398cabc0511d4bda2a47f17ca42f7f5a6a1c1d37db958121362.png",
+      "imageLightPath": "2025/league-light/319.5a1b5b29b4f1b398cabc0511d4bda2a47f17ca42f7f5a6a1c1d37db958121362.png",
+      "url": "/leagues/ceska-liga/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league/319.5a1b5b29b4f1b398cabc0511d4bda2a47f17ca42f7f5a6a1c1d37db958121362.png",
+      "imageLightUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league-light/319.5a1b5b29b4f1b398cabc0511d4bda2a47f17ca42f7f5a6a1c1d37db958121362.png"
+    },
     "isSbcItem": false,
     "isObjectiveItem": false,
+    "rarity": {
+      "id": 434,
+      "eaId": 1,
+      "slug": "rare",
+      "game": "25",
+      "name": "Rare",
+      "alternateName": null,
+      "url": "/rarities/rare/",
+      "dominantColor": "dd9c79",
+      "imagePath": "2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png",
+      "imagePaths": [
+        "2025/rarities-level-1-large/1.ff6159fb3f49c4a46fb58bb7ff2edf3443faa545162b5636d1d36484b195af8f.png",
+        "2025/rarities-level-2-large/1.110820e10aee7e71b2a058da6a645b42455e8b52d8209c84906ab13b4ca637e1.png",
+        "2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png"
+      ],
+      "isSpecial": false,
+      "compactImagePath": "2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png",
+      "compactImagePaths": [
+        "2025/rarities-level-1-small/1.0c997213875cb4e45f25ea3a9d4c8586377af07d992da90277cc443403fd9d26.png",
+        "2025/rarities-level-2-small/1.a31950d31bb7c2b74f1bd0d7ec162d223eda669622761601950d7f24b80c1cbf.png",
+        "2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png"
+      ],
+      "animatedImagePath": null,
+      "animatedImagesPath": null,
+      "animatedImagesFrameCount": null,
+      "animatedImagesFps": null,
+      "animatedImagesDelay": null,
+      "isBrightColorScheme": true,
+      "textColor": [
+        "3e281c",
+        "1e252a",
+        "2d2410"
+      ],
+      "lineColor": [
+        "dd9c79",
+        "bfccd1",
+        "e3c075"
+      ],
+      "shadowColor": [
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "overallColor": null,
+      "numberOfPlayers": 6927,
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png",
+      "imageUrls": [
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-1-large/1.ff6159fb3f49c4a46fb58bb7ff2edf3443faa545162b5636d1d36484b195af8f.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-2-large/1.110820e10aee7e71b2a058da6a645b42455e8b52d8209c84906ab13b4ca637e1.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png"
+      ],
+      "animatedImageUrl": null,
+      "animatedImagesUrl": null,
+      "compactImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png"
+    },
     "totalFaceStats": 366,
-    "totalIgs": 1781
+    "totalIgs": 1781,
+    "isFullChemistry": false,
+    "extraNationChemistry": 0,
+    "extraLeagueChemistry": 0,
+    "extraClubChemistry": 0,
+    "extraSquadLeagueChemistry": false,
+    "extraSquadNationChemistry": false
   }
 }

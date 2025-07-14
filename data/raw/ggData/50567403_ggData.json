@@ -150,7 +150,7 @@
     "objectiveCampaignLevelId": null,
     "campaignProps": null,
     "contentTypeId": 27,
-    "numberOfEvolutions": 3,
+    "numberOfEvolutions": 19,
     "blurbText": null,
     "smallBlurbText": "Auston Trusty is 26 years old, and plays for Celtic in the cinch Premiership. Auston Trusty's height stands at 191 cm (6'3'), and the nation he represents is United States. This Rare version of Auston Trusty is a 72 rated CB. He is Left footed, with 2 star skill moves and 3 star weak foot. ",
     "upgrades": null,
@@ -169,10 +169,175 @@
     "premiumSeasonPassLevel": null,
     "standardSeasonPassLevel": null,
     "metarankStr": null,
+    "ggRating": null,
+    "ggRatingPos": null,
+    "ggRatingStr": null,
+    "isHistoricalItem": false,
     "commonName": "Auston Trusty",
+    "club": {
+      "id": 2544,
+      "eaId": 78,
+      "game": "25",
+      "slug": "78-celtic",
+      "name": "Celtic",
+      "sisterClubEaId": null,
+      "leagueEaId": 50,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/78.5b5c69a83447fe5c6ef7280d5083223ed5e32657f81a382ee652bac08128936a.png",
+      "lightImagePath": "2025/club-light/78.5b5c69a83447fe5c6ef7280d5083223ed5e32657f81a382ee652bac08128936a.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        203376,
+        253149,
+        247699
+      ],
+      "competitionIds": [
+        1
+      ],
+      "fixtureIds": [
+        386,
+        324,
+        422,
+        359,
+        391,
+        427,
+        346,
+        309,
+        3738,
+        3743
+      ],
+      "attackRating": 75,
+      "midfieldRating": 75,
+      "defenseRating": 75,
+      "overallRating": 75,
+      "url": "/clubs/78-celtic/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/78.5b5c69a83447fe5c6ef7280d5083223ed5e32657f81a382ee652bac08128936a.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/78.5b5c69a83447fe5c6ef7280d5083223ed5e32657f81a382ee652bac08128936a.png"
+    },
+    "uniqueClub": {
+      "id": 2544,
+      "eaId": 78,
+      "game": "25",
+      "slug": "78-celtic",
+      "name": "Celtic",
+      "sisterClubEaId": null,
+      "leagueEaId": 50,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/78.5b5c69a83447fe5c6ef7280d5083223ed5e32657f81a382ee652bac08128936a.png",
+      "lightImagePath": "2025/club-light/78.5b5c69a83447fe5c6ef7280d5083223ed5e32657f81a382ee652bac08128936a.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        203376,
+        253149,
+        247699
+      ],
+      "competitionIds": [
+        1
+      ],
+      "fixtureIds": [
+        386,
+        324,
+        422,
+        359,
+        391,
+        427,
+        346,
+        309,
+        3738,
+        3743
+      ],
+      "attackRating": 75,
+      "midfieldRating": 75,
+      "defenseRating": 75,
+      "overallRating": 75,
+      "url": "/clubs/78-celtic/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/78.5b5c69a83447fe5c6ef7280d5083223ed5e32657f81a382ee652bac08128936a.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/78.5b5c69a83447fe5c6ef7280d5083223ed5e32657f81a382ee652bac08128936a.png"
+    },
+    "nation": {
+      "id": 734,
+      "eaId": 95,
+      "slug": "united-states",
+      "name": "United States",
+      "imagePath": "2025/nation/95.5cb71291a53f0e3542bee0b7cfe03747d58892e45689a378536978d04bc7e8f2.png",
+      "url": "/nations/united-states/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/nation/95.5cb71291a53f0e3542bee0b7cfe03747d58892e45689a378536978d04bc7e8f2.png"
+    },
+    "league": {
+      "id": 187,
+      "eaId": 50,
+      "slug": "cinch-premiership",
+      "name": "cinch Premiership",
+      "imagePath": "2025/league/50.d1052392d2d9435d78e42b39780e822dd37b041b20804d4ebd26ce975245630f.png",
+      "imageLightPath": "2025/league-light/50.8610c65aefd8c1554c0470e0322e2d6f6af25883ab6991a0a52e7fc37590de28.png",
+      "url": "/leagues/cinch-premiership/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league/50.d1052392d2d9435d78e42b39780e822dd37b041b20804d4ebd26ce975245630f.png",
+      "imageLightUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league-light/50.8610c65aefd8c1554c0470e0322e2d6f6af25883ab6991a0a52e7fc37590de28.png"
+    },
     "isSbcItem": false,
     "isObjectiveItem": false,
+    "rarity": {
+      "id": 434,
+      "eaId": 1,
+      "slug": "rare",
+      "game": "25",
+      "name": "Rare",
+      "alternateName": null,
+      "url": "/rarities/rare/",
+      "dominantColor": "dd9c79",
+      "imagePath": "2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png",
+      "imagePaths": [
+        "2025/rarities-level-1-large/1.ff6159fb3f49c4a46fb58bb7ff2edf3443faa545162b5636d1d36484b195af8f.png",
+        "2025/rarities-level-2-large/1.110820e10aee7e71b2a058da6a645b42455e8b52d8209c84906ab13b4ca637e1.png",
+        "2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png"
+      ],
+      "isSpecial": false,
+      "compactImagePath": "2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png",
+      "compactImagePaths": [
+        "2025/rarities-level-1-small/1.0c997213875cb4e45f25ea3a9d4c8586377af07d992da90277cc443403fd9d26.png",
+        "2025/rarities-level-2-small/1.a31950d31bb7c2b74f1bd0d7ec162d223eda669622761601950d7f24b80c1cbf.png",
+        "2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png"
+      ],
+      "animatedImagePath": null,
+      "animatedImagesPath": null,
+      "animatedImagesFrameCount": null,
+      "animatedImagesFps": null,
+      "animatedImagesDelay": null,
+      "isBrightColorScheme": true,
+      "textColor": [
+        "3e281c",
+        "1e252a",
+        "2d2410"
+      ],
+      "lineColor": [
+        "dd9c79",
+        "bfccd1",
+        "e3c075"
+      ],
+      "shadowColor": [
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "overallColor": null,
+      "numberOfPlayers": 6927,
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png",
+      "imageUrls": [
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-1-large/1.ff6159fb3f49c4a46fb58bb7ff2edf3443faa545162b5636d1d36484b195af8f.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-2-large/1.110820e10aee7e71b2a058da6a645b42455e8b52d8209c84906ab13b4ca637e1.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png"
+      ],
+      "animatedImageUrl": null,
+      "animatedImagesUrl": null,
+      "compactImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png"
+    },
     "totalFaceStats": 390,
-    "totalIgs": 1785
+    "totalIgs": 1785,
+    "isFullChemistry": false,
+    "extraNationChemistry": 0,
+    "extraLeagueChemistry": 0,
+    "extraClubChemistry": 0,
+    "extraSquadLeagueChemistry": false,
+    "extraSquadNationChemistry": false
   }
 }

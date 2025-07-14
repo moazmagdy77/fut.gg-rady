@@ -151,7 +151,7 @@
     "objectiveCampaignLevelId": null,
     "campaignProps": null,
     "contentTypeId": 27,
-    "numberOfEvolutions": 1,
+    "numberOfEvolutions": 33,
     "blurbText": null,
     "smallBlurbText": "Felipe Sánchez is 21 years old, and plays for FC Schalke 04 in the Bundesliga 2. Felipe Sánchez's height stands at 184 cm (6'0'), and the nation he represents is Argentina. This Common version of Felipe Sánchez is a 68 rated CB. He is Left footed, with 2 star skill moves and 3 star weak foot. ",
     "upgrades": null,
@@ -170,10 +170,149 @@
     "premiumSeasonPassLevel": null,
     "standardSeasonPassLevel": null,
     "metarankStr": null,
+    "ggRating": null,
+    "ggRatingPos": null,
+    "ggRatingStr": null,
+    "isHistoricalItem": false,
     "commonName": "Felipe Sánchez",
+    "club": {
+      "id": 2442,
+      "eaId": 34,
+      "game": "25",
+      "slug": "34-fc-schalke-04",
+      "name": "FC Schalke 04",
+      "sisterClubEaId": null,
+      "leagueEaId": 20,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/34.6d04986322a1cfd8546f29b7710d39bb557280b08d4ba00571e802aca545cfe6.png",
+      "lightImagePath": "2025/club-light/34.6d04986322a1cfd8546f29b7710d39bb557280b08d4ba00571e802aca545cfe6.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        45661,
+        213296,
+        238743
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 71,
+      "midfieldRating": 69,
+      "defenseRating": 67,
+      "overallRating": 69,
+      "url": "/clubs/34-fc-schalke-04/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/34.6d04986322a1cfd8546f29b7710d39bb557280b08d4ba00571e802aca545cfe6.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/34.6d04986322a1cfd8546f29b7710d39bb557280b08d4ba00571e802aca545cfe6.png"
+    },
+    "uniqueClub": {
+      "id": 2442,
+      "eaId": 34,
+      "game": "25",
+      "slug": "34-fc-schalke-04",
+      "name": "FC Schalke 04",
+      "sisterClubEaId": null,
+      "leagueEaId": 20,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/34.6d04986322a1cfd8546f29b7710d39bb557280b08d4ba00571e802aca545cfe6.png",
+      "lightImagePath": "2025/club-light/34.6d04986322a1cfd8546f29b7710d39bb557280b08d4ba00571e802aca545cfe6.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        45661,
+        213296,
+        238743
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 71,
+      "midfieldRating": 69,
+      "defenseRating": 67,
+      "overallRating": 69,
+      "url": "/clubs/34-fc-schalke-04/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/34.6d04986322a1cfd8546f29b7710d39bb557280b08d4ba00571e802aca545cfe6.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/34.6d04986322a1cfd8546f29b7710d39bb557280b08d4ba00571e802aca545cfe6.png"
+    },
+    "nation": {
+      "id": 702,
+      "eaId": 52,
+      "slug": "argentina",
+      "name": "Argentina",
+      "imagePath": "2025/nation/52.411384d76f978ce88ee08880f79fd0b7c92d9f7a35a091c2fe2e58ad066e8a1a.png",
+      "url": "/nations/argentina/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/nation/52.411384d76f978ce88ee08880f79fd0b7c92d9f7a35a091c2fe2e58ad066e8a1a.png"
+    },
+    "league": {
+      "id": 182,
+      "eaId": 20,
+      "slug": "bundesliga-2",
+      "name": "Bundesliga 2",
+      "imagePath": "2025/league/20.46738f8becf04ed7b3701e41d5f44544d56dba72001e124461f4be58c8192d46.png",
+      "imageLightPath": "2025/league-light/20.11d11771d3d61ecc4f0d34f92724dfe1cf7deb159bae4f4758675fcbd852d19f.png",
+      "url": "/leagues/bundesliga-2/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league/20.46738f8becf04ed7b3701e41d5f44544d56dba72001e124461f4be58c8192d46.png",
+      "imageLightUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league-light/20.11d11771d3d61ecc4f0d34f92724dfe1cf7deb159bae4f4758675fcbd852d19f.png"
+    },
     "isSbcItem": false,
     "isObjectiveItem": false,
+    "rarity": {
+      "id": 433,
+      "eaId": 0,
+      "slug": "common",
+      "game": "25",
+      "name": "Common",
+      "alternateName": null,
+      "url": "/rarities/common/",
+      "dominantColor": "d39570",
+      "imagePath": "2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png",
+      "imagePaths": [
+        "2025/rarities-level-1-large/0.9e74985cc5fa0235bfd1cdf18524886abec80cb940fb87245dc8eb0fe402e68e.png",
+        "2025/rarities-level-2-large/0.bcc3305230ad572a1c35252bfc76d94661378a3cd0bc6f05053ecadb8b4b8dbe.png",
+        "2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png"
+      ],
+      "isSpecial": false,
+      "compactImagePath": "2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png",
+      "compactImagePaths": [
+        "2025/rarities-level-1-small/0.07fe8673a441822a263a61409f05124a35882cb798e0cd62868d00dc388d25cd.png",
+        "2025/rarities-level-2-small/0.2d3f30416f2b228ddf7e8eef513c1ffb7af5aadea48ff7a9a24cccd90f40889c.png",
+        "2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png"
+      ],
+      "animatedImagePath": null,
+      "animatedImagesPath": null,
+      "animatedImagesFrameCount": null,
+      "animatedImagesFps": null,
+      "animatedImagesDelay": null,
+      "isBrightColorScheme": true,
+      "textColor": [
+        "3f1208",
+        "192228",
+        "31260c"
+      ],
+      "lineColor": [
+        "d39570",
+        "bfcbd3",
+        "c5a96b"
+      ],
+      "shadowColor": [
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "overallColor": null,
+      "numberOfPlayers": 13709,
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png",
+      "imageUrls": [
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-1-large/0.9e74985cc5fa0235bfd1cdf18524886abec80cb940fb87245dc8eb0fe402e68e.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-2-large/0.bcc3305230ad572a1c35252bfc76d94661378a3cd0bc6f05053ecadb8b4b8dbe.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png"
+      ],
+      "animatedImageUrl": null,
+      "animatedImagesUrl": null,
+      "compactImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png"
+    },
     "totalFaceStats": 348,
-    "totalIgs": 1590
+    "totalIgs": 1590,
+    "isFullChemistry": false,
+    "extraNationChemistry": 0,
+    "extraLeagueChemistry": 0,
+    "extraClubChemistry": 0,
+    "extraSquadLeagueChemistry": false,
+    "extraSquadNationChemistry": false
   }
 }

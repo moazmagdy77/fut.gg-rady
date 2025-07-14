@@ -147,7 +147,7 @@
     "objectiveCampaignLevelId": null,
     "campaignProps": null,
     "contentTypeId": 27,
-    "numberOfEvolutions": 1,
+    "numberOfEvolutions": 54,
     "blurbText": null,
     "smallBlurbText": "Tommy Smith is 35 years old, and plays for Auckland FC in the Isuzu UTE A League. Tommy Smith's height stands at 188 cm (6'2'), and the nation he represents is New Zealand. This Common version of Tommy Smith is a 62 rated CB. He is Left footed, with 2 star skill moves and 2 star weak foot. ",
     "upgrades": null,
@@ -169,10 +169,146 @@
     "ggRating": null,
     "ggRatingPos": null,
     "ggRatingStr": null,
+    "isHistoricalItem": false,
     "commonName": "Tommy Smith",
+    "club": {
+      "id": 2820,
+      "eaId": 131739,
+      "game": "25",
+      "slug": "131739-auckland-fc",
+      "name": "Auckland FC",
+      "sisterClubEaId": null,
+      "leagueEaId": 351,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/131739.a84ba2e799f84b44d2fd3d9a343e83c2bd1e932bc971cf202081c6dd0fe3dcf4.png",
+      "lightImagePath": "2025/club-light/131739.a84ba2e799f84b44d2fd3d9a343e83c2bd1e932bc971cf202081c6dd0fe3dcf4.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        237268,
+        208520,
+        263851
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 65,
+      "midfieldRating": 65,
+      "defenseRating": 65,
+      "overallRating": 65,
+      "url": "/clubs/131739-auckland-fc/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/131739.a84ba2e799f84b44d2fd3d9a343e83c2bd1e932bc971cf202081c6dd0fe3dcf4.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/131739.a84ba2e799f84b44d2fd3d9a343e83c2bd1e932bc971cf202081c6dd0fe3dcf4.png"
+    },
+    "uniqueClub": {
+      "id": 2820,
+      "eaId": 131739,
+      "game": "25",
+      "slug": "131739-auckland-fc",
+      "name": "Auckland FC",
+      "sisterClubEaId": null,
+      "leagueEaId": 351,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/131739.a84ba2e799f84b44d2fd3d9a343e83c2bd1e932bc971cf202081c6dd0fe3dcf4.png",
+      "lightImagePath": "2025/club-light/131739.a84ba2e799f84b44d2fd3d9a343e83c2bd1e932bc971cf202081c6dd0fe3dcf4.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        237268,
+        208520,
+        263851
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 65,
+      "midfieldRating": 65,
+      "defenseRating": 65,
+      "overallRating": 65,
+      "url": "/clubs/131739-auckland-fc/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/131739.a84ba2e799f84b44d2fd3d9a343e83c2bd1e932bc971cf202081c6dd0fe3dcf4.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/131739.a84ba2e799f84b44d2fd3d9a343e83c2bd1e932bc971cf202081c6dd0fe3dcf4.png"
+    },
+    "nation": {
+      "id": 799,
+      "eaId": 198,
+      "slug": "new-zealand",
+      "name": "New Zealand",
+      "imagePath": "2025/nation/198.bc171b9bac52d6254ae8b0b3e48e6782d13a4f3e18083c82c20bfc2487e15128.png",
+      "url": "/nations/new-zealand/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/nation/198.bc171b9bac52d6254ae8b0b3e48e6782d13a4f3e18083c82c20bfc2487e15128.png"
+    },
+    "league": {
+      "id": 208,
+      "eaId": 351,
+      "slug": "isuzu-ute-a-league",
+      "name": "Isuzu UTE A League",
+      "imagePath": "2025/league/351.1c8c35f1307cdcc8c4c34d9f4eb20fb1408d87b28655d702d35ba7388792918e.png",
+      "imageLightPath": "2025/league-light/351.f35f2ecebda1446a9e6ebd305a46bb64de79e25b901a1cd3ec2c8d1cec7e2931.png",
+      "url": "/leagues/isuzu-ute-a-league/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league/351.1c8c35f1307cdcc8c4c34d9f4eb20fb1408d87b28655d702d35ba7388792918e.png",
+      "imageLightUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league-light/351.f35f2ecebda1446a9e6ebd305a46bb64de79e25b901a1cd3ec2c8d1cec7e2931.png"
+    },
     "isSbcItem": false,
     "isObjectiveItem": false,
+    "rarity": {
+      "id": 433,
+      "eaId": 0,
+      "slug": "common",
+      "game": "25",
+      "name": "Common",
+      "alternateName": null,
+      "url": "/rarities/common/",
+      "dominantColor": "d39570",
+      "imagePath": "2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png",
+      "imagePaths": [
+        "2025/rarities-level-1-large/0.9e74985cc5fa0235bfd1cdf18524886abec80cb940fb87245dc8eb0fe402e68e.png",
+        "2025/rarities-level-2-large/0.bcc3305230ad572a1c35252bfc76d94661378a3cd0bc6f05053ecadb8b4b8dbe.png",
+        "2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png"
+      ],
+      "isSpecial": false,
+      "compactImagePath": "2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png",
+      "compactImagePaths": [
+        "2025/rarities-level-1-small/0.07fe8673a441822a263a61409f05124a35882cb798e0cd62868d00dc388d25cd.png",
+        "2025/rarities-level-2-small/0.2d3f30416f2b228ddf7e8eef513c1ffb7af5aadea48ff7a9a24cccd90f40889c.png",
+        "2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png"
+      ],
+      "animatedImagePath": null,
+      "animatedImagesPath": null,
+      "animatedImagesFrameCount": null,
+      "animatedImagesFps": null,
+      "animatedImagesDelay": null,
+      "isBrightColorScheme": true,
+      "textColor": [
+        "3f1208",
+        "192228",
+        "31260c"
+      ],
+      "lineColor": [
+        "d39570",
+        "bfcbd3",
+        "c5a96b"
+      ],
+      "shadowColor": [
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "overallColor": null,
+      "numberOfPlayers": 13709,
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png",
+      "imageUrls": [
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-1-large/0.9e74985cc5fa0235bfd1cdf18524886abec80cb940fb87245dc8eb0fe402e68e.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-2-large/0.bcc3305230ad572a1c35252bfc76d94661378a3cd0bc6f05053ecadb8b4b8dbe.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png"
+      ],
+      "animatedImageUrl": null,
+      "animatedImagesUrl": null,
+      "compactImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png"
+    },
     "totalFaceStats": 298,
-    "totalIgs": 1414
+    "totalIgs": 1414,
+    "isFullChemistry": false,
+    "extraNationChemistry": 0,
+    "extraLeagueChemistry": 0,
+    "extraClubChemistry": 0,
+    "extraSquadLeagueChemistry": false,
+    "extraSquadNationChemistry": false
   }
 }

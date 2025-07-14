@@ -148,7 +148,7 @@
     "objectiveCampaignLevelId": null,
     "campaignProps": null,
     "contentTypeId": 27,
-    "numberOfEvolutions": 1,
+    "numberOfEvolutions": 20,
     "blurbText": null,
     "smallBlurbText": "Christoph Zimmermann is 32 years old, and plays for SV Darmstadt 98 in the Bundesliga 2. Christoph Zimmermann's height stands at 194 cm (6'4'), and the nation he represents is Germany. This Rare version of Christoph Zimmermann is a 72 rated CB. He is Right footed, with 2 star skill moves and 3 star weak foot. ",
     "upgrades": null,
@@ -167,10 +167,149 @@
     "premiumSeasonPassLevel": null,
     "standardSeasonPassLevel": null,
     "metarankStr": null,
+    "ggRating": null,
+    "ggRatingPos": null,
+    "ggRatingStr": null,
+    "isHistoricalItem": false,
     "commonName": "Christoph Zimmermann",
+    "club": {
+      "id": 2454,
+      "eaId": 110502,
+      "game": "25",
+      "slug": "110502-sv-darmstadt-98",
+      "name": "SV Darmstadt 98",
+      "sisterClubEaId": null,
+      "leagueEaId": 20,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/110502.43d582b195097d0f9b39b8694e4057ab3cb5af05fc5a3f361bada2fa86a18be8.png",
+      "lightImagePath": "2025/club-light/110502.43d582b195097d0f9b39b8694e4057ab3cb5af05fc5a3f361bada2fa86a18be8.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        228859,
+        256674,
+        227978
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 70,
+      "midfieldRating": 70,
+      "defenseRating": 68,
+      "overallRating": 70,
+      "url": "/clubs/110502-sv-darmstadt-98/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/110502.43d582b195097d0f9b39b8694e4057ab3cb5af05fc5a3f361bada2fa86a18be8.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/110502.43d582b195097d0f9b39b8694e4057ab3cb5af05fc5a3f361bada2fa86a18be8.png"
+    },
+    "uniqueClub": {
+      "id": 2454,
+      "eaId": 110502,
+      "game": "25",
+      "slug": "110502-sv-darmstadt-98",
+      "name": "SV Darmstadt 98",
+      "sisterClubEaId": null,
+      "leagueEaId": 20,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/110502.43d582b195097d0f9b39b8694e4057ab3cb5af05fc5a3f361bada2fa86a18be8.png",
+      "lightImagePath": "2025/club-light/110502.43d582b195097d0f9b39b8694e4057ab3cb5af05fc5a3f361bada2fa86a18be8.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        228859,
+        256674,
+        227978
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 70,
+      "midfieldRating": 70,
+      "defenseRating": 68,
+      "overallRating": 70,
+      "url": "/clubs/110502-sv-darmstadt-98/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/110502.43d582b195097d0f9b39b8694e4057ab3cb5af05fc5a3f361bada2fa86a18be8.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/110502.43d582b195097d0f9b39b8694e4057ab3cb5af05fc5a3f361bada2fa86a18be8.png"
+    },
+    "nation": {
+      "id": 672,
+      "eaId": 21,
+      "slug": "germany",
+      "name": "Germany",
+      "imagePath": "2025/nation/21.09e6201577ad206ca1927900d61876676ce53a98d69a6e8047ccfeac8c133cdd.png",
+      "url": "/nations/germany/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/nation/21.09e6201577ad206ca1927900d61876676ce53a98d69a6e8047ccfeac8c133cdd.png"
+    },
+    "league": {
+      "id": 182,
+      "eaId": 20,
+      "slug": "bundesliga-2",
+      "name": "Bundesliga 2",
+      "imagePath": "2025/league/20.46738f8becf04ed7b3701e41d5f44544d56dba72001e124461f4be58c8192d46.png",
+      "imageLightPath": "2025/league-light/20.11d11771d3d61ecc4f0d34f92724dfe1cf7deb159bae4f4758675fcbd852d19f.png",
+      "url": "/leagues/bundesliga-2/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league/20.46738f8becf04ed7b3701e41d5f44544d56dba72001e124461f4be58c8192d46.png",
+      "imageLightUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league-light/20.11d11771d3d61ecc4f0d34f92724dfe1cf7deb159bae4f4758675fcbd852d19f.png"
+    },
     "isSbcItem": false,
     "isObjectiveItem": false,
+    "rarity": {
+      "id": 434,
+      "eaId": 1,
+      "slug": "rare",
+      "game": "25",
+      "name": "Rare",
+      "alternateName": null,
+      "url": "/rarities/rare/",
+      "dominantColor": "dd9c79",
+      "imagePath": "2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png",
+      "imagePaths": [
+        "2025/rarities-level-1-large/1.ff6159fb3f49c4a46fb58bb7ff2edf3443faa545162b5636d1d36484b195af8f.png",
+        "2025/rarities-level-2-large/1.110820e10aee7e71b2a058da6a645b42455e8b52d8209c84906ab13b4ca637e1.png",
+        "2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png"
+      ],
+      "isSpecial": false,
+      "compactImagePath": "2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png",
+      "compactImagePaths": [
+        "2025/rarities-level-1-small/1.0c997213875cb4e45f25ea3a9d4c8586377af07d992da90277cc443403fd9d26.png",
+        "2025/rarities-level-2-small/1.a31950d31bb7c2b74f1bd0d7ec162d223eda669622761601950d7f24b80c1cbf.png",
+        "2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png"
+      ],
+      "animatedImagePath": null,
+      "animatedImagesPath": null,
+      "animatedImagesFrameCount": null,
+      "animatedImagesFps": null,
+      "animatedImagesDelay": null,
+      "isBrightColorScheme": true,
+      "textColor": [
+        "3e281c",
+        "1e252a",
+        "2d2410"
+      ],
+      "lineColor": [
+        "dd9c79",
+        "bfccd1",
+        "e3c075"
+      ],
+      "shadowColor": [
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "overallColor": null,
+      "numberOfPlayers": 6927,
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png",
+      "imageUrls": [
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-1-large/1.ff6159fb3f49c4a46fb58bb7ff2edf3443faa545162b5636d1d36484b195af8f.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-2-large/1.110820e10aee7e71b2a058da6a645b42455e8b52d8209c84906ab13b4ca637e1.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png"
+      ],
+      "animatedImageUrl": null,
+      "animatedImagesUrl": null,
+      "compactImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png"
+    },
     "totalFaceStats": 314,
-    "totalIgs": 1458
+    "totalIgs": 1458,
+    "isFullChemistry": false,
+    "extraNationChemistry": 0,
+    "extraLeagueChemistry": 0,
+    "extraClubChemistry": 0,
+    "extraSquadLeagueChemistry": false,
+    "extraSquadNationChemistry": false
   }
 }

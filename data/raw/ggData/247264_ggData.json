@@ -161,9 +161,9 @@
     "objectiveCampaignLevelId": null,
     "campaignProps": null,
     "contentTypeId": 27,
-    "numberOfEvolutions": 129,
+    "numberOfEvolutions": 222,
     "blurbText": null,
-    "smallBlurbText": "Ayumu Seko is 24 years old, and plays for GC Zürich in the Credit Suisse Super League. Ayumu Seko's height stands at 185 cm (6'1'), and the nation he represents is Japan. This Common version of Ayumu Seko is a 66 rated CB. He is Right footed, with 2 star skill moves and 2 star weak foot. ",
+    "smallBlurbText": "Ayumu Seko is 25 years old, and plays for GC Zürich in the Credit Suisse Super League. Ayumu Seko's height stands at 185 cm (6'1'), and the nation he represents is Japan. This Common version of Ayumu Seko is a 66 rated CB. He is Right footed, with 2 star skill moves and 2 star weak foot. ",
     "upgrades": null,
     "hasPrice": true,
     "trackerId": null,
@@ -180,10 +180,149 @@
     "premiumSeasonPassLevel": null,
     "standardSeasonPassLevel": null,
     "metarankStr": null,
+    "ggRating": null,
+    "ggRatingPos": null,
+    "ggRatingStr": null,
+    "isHistoricalItem": false,
     "commonName": "Ayumu Seko",
+    "club": {
+      "id": 2736,
+      "eaId": 322,
+      "game": "25",
+      "slug": "322-gc-zurich",
+      "name": "GC Zürich",
+      "sisterClubEaId": null,
+      "leagueEaId": 189,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/322.785b9a2e06f4645368be1e682c4119a18203da912a6253540766b27d2ddcec9e.png",
+      "lightImagePath": "2025/club-light/322.785b9a2e06f4645368be1e682c4119a18203da912a6253540766b27d2ddcec9e.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        237640,
+        177683,
+        189117
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 66,
+      "midfieldRating": 67,
+      "defenseRating": 65,
+      "overallRating": 67,
+      "url": "/clubs/322-gc-zurich/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/322.785b9a2e06f4645368be1e682c4119a18203da912a6253540766b27d2ddcec9e.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/322.785b9a2e06f4645368be1e682c4119a18203da912a6253540766b27d2ddcec9e.png"
+    },
+    "uniqueClub": {
+      "id": 2736,
+      "eaId": 322,
+      "game": "25",
+      "slug": "322-gc-zurich",
+      "name": "GC Zürich",
+      "sisterClubEaId": null,
+      "leagueEaId": 189,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/322.785b9a2e06f4645368be1e682c4119a18203da912a6253540766b27d2ddcec9e.png",
+      "lightImagePath": "2025/club-light/322.785b9a2e06f4645368be1e682c4119a18203da912a6253540766b27d2ddcec9e.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        237640,
+        177683,
+        189117
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 66,
+      "midfieldRating": 67,
+      "defenseRating": 65,
+      "overallRating": 67,
+      "url": "/clubs/322-gc-zurich/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/322.785b9a2e06f4645368be1e682c4119a18203da912a6253540766b27d2ddcec9e.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/322.785b9a2e06f4645368be1e682c4119a18203da912a6253540766b27d2ddcec9e.png"
+    },
+    "nation": {
+      "id": 783,
+      "eaId": 163,
+      "slug": "japan",
+      "name": "Japan",
+      "imagePath": "2025/nation/163.3d16898c08390457f8afd84b3bf85b15b3bfbe81780858eacceaa5ba22574d93.png",
+      "url": "/nations/japan/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/nation/163.3d16898c08390457f8afd84b3bf85b15b3bfbe81780858eacceaa5ba22574d93.png"
+    },
+    "league": {
+      "id": 200,
+      "eaId": 189,
+      "slug": "credit-suisse-super-league",
+      "name": "Credit Suisse Super League",
+      "imagePath": "2025/league/189.c219d2ed5289331965bd10ee99b96a61875ea4cd5078c608d2c7cbde897ae168.png",
+      "imageLightPath": "2025/league-light/189.a372ac23a5973509eccc3f87f2df581ec12198eb8dcdd091c9ed2e1f4f07ebef.png",
+      "url": "/leagues/credit-suisse-super-league/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league/189.c219d2ed5289331965bd10ee99b96a61875ea4cd5078c608d2c7cbde897ae168.png",
+      "imageLightUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league-light/189.a372ac23a5973509eccc3f87f2df581ec12198eb8dcdd091c9ed2e1f4f07ebef.png"
+    },
     "isSbcItem": false,
     "isObjectiveItem": false,
+    "rarity": {
+      "id": 433,
+      "eaId": 0,
+      "slug": "common",
+      "game": "25",
+      "name": "Common",
+      "alternateName": null,
+      "url": "/rarities/common/",
+      "dominantColor": "d39570",
+      "imagePath": "2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png",
+      "imagePaths": [
+        "2025/rarities-level-1-large/0.9e74985cc5fa0235bfd1cdf18524886abec80cb940fb87245dc8eb0fe402e68e.png",
+        "2025/rarities-level-2-large/0.bcc3305230ad572a1c35252bfc76d94661378a3cd0bc6f05053ecadb8b4b8dbe.png",
+        "2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png"
+      ],
+      "isSpecial": false,
+      "compactImagePath": "2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png",
+      "compactImagePaths": [
+        "2025/rarities-level-1-small/0.07fe8673a441822a263a61409f05124a35882cb798e0cd62868d00dc388d25cd.png",
+        "2025/rarities-level-2-small/0.2d3f30416f2b228ddf7e8eef513c1ffb7af5aadea48ff7a9a24cccd90f40889c.png",
+        "2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png"
+      ],
+      "animatedImagePath": null,
+      "animatedImagesPath": null,
+      "animatedImagesFrameCount": null,
+      "animatedImagesFps": null,
+      "animatedImagesDelay": null,
+      "isBrightColorScheme": true,
+      "textColor": [
+        "3f1208",
+        "192228",
+        "31260c"
+      ],
+      "lineColor": [
+        "d39570",
+        "bfcbd3",
+        "c5a96b"
+      ],
+      "shadowColor": [
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "overallColor": null,
+      "numberOfPlayers": 13709,
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png",
+      "imageUrls": [
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-1-large/0.9e74985cc5fa0235bfd1cdf18524886abec80cb940fb87245dc8eb0fe402e68e.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-2-large/0.bcc3305230ad572a1c35252bfc76d94661378a3cd0bc6f05053ecadb8b4b8dbe.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png"
+      ],
+      "animatedImageUrl": null,
+      "animatedImagesUrl": null,
+      "compactImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png"
+    },
     "totalFaceStats": 338,
-    "totalIgs": 1557
+    "totalIgs": 1557,
+    "isFullChemistry": false,
+    "extraNationChemistry": 0,
+    "extraLeagueChemistry": 0,
+    "extraClubChemistry": 0,
+    "extraSquadLeagueChemistry": false,
+    "extraSquadNationChemistry": false
   }
 }

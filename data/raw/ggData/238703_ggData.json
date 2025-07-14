@@ -153,7 +153,7 @@
     "objectiveCampaignLevelId": null,
     "campaignProps": null,
     "contentTypeId": 27,
-    "numberOfEvolutions": 122,
+    "numberOfEvolutions": 270,
     "blurbText": null,
     "smallBlurbText": "Arvid Brorsson is 26 years old, and plays for Mjällby AIF in the Allsvenskan. Arvid Brorsson's height stands at 188 cm (6'2'), and the nation he represents is Sweden. This Rare version of Arvid Brorsson is a 63 rated CM. He is Right footed, with 2 star skill moves and 2 star weak foot. ",
     "upgrades": null,
@@ -175,10 +175,146 @@
     "ggRating": null,
     "ggRatingPos": null,
     "ggRatingStr": null,
+    "isHistoricalItem": false,
     "commonName": "Arvid Brorsson",
+    "club": {
+      "id": 2609,
+      "eaId": 112072,
+      "game": "25",
+      "slug": "112072-mjallby-aif",
+      "name": "Mjällby AIF",
+      "sisterClubEaId": null,
+      "leagueEaId": 56,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/112072.1253c26fbbb882bfeda0a48e271107c9076c53532fb54a48e5cd905792387942.png",
+      "lightImagePath": "2025/club-light/112072.1253c26fbbb882bfeda0a48e271107c9076c53532fb54a48e5cd905792387942.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        252386,
+        256453,
+        247042
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 63,
+      "midfieldRating": 64,
+      "defenseRating": 64,
+      "overallRating": 64,
+      "url": "/clubs/112072-mjallby-aif/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/112072.1253c26fbbb882bfeda0a48e271107c9076c53532fb54a48e5cd905792387942.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/112072.1253c26fbbb882bfeda0a48e271107c9076c53532fb54a48e5cd905792387942.png"
+    },
+    "uniqueClub": {
+      "id": 2609,
+      "eaId": 112072,
+      "game": "25",
+      "slug": "112072-mjallby-aif",
+      "name": "Mjällby AIF",
+      "sisterClubEaId": null,
+      "leagueEaId": 56,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/112072.1253c26fbbb882bfeda0a48e271107c9076c53532fb54a48e5cd905792387942.png",
+      "lightImagePath": "2025/club-light/112072.1253c26fbbb882bfeda0a48e271107c9076c53532fb54a48e5cd905792387942.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        252386,
+        256453,
+        247042
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 63,
+      "midfieldRating": 64,
+      "defenseRating": 64,
+      "overallRating": 64,
+      "url": "/clubs/112072-mjallby-aif/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/112072.1253c26fbbb882bfeda0a48e271107c9076c53532fb54a48e5cd905792387942.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/112072.1253c26fbbb882bfeda0a48e271107c9076c53532fb54a48e5cd905792387942.png"
+    },
+    "nation": {
+      "id": 696,
+      "eaId": 46,
+      "slug": "sweden",
+      "name": "Sweden",
+      "imagePath": "2025/nation/46.a4cc4a754a1a913a0de60a01e9c109398f53c39cb1a6583abe2c1424014784fc.png",
+      "url": "/nations/sweden/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/nation/46.a4cc4a754a1a913a0de60a01e9c109398f53c39cb1a6583abe2c1424014784fc.png"
+    },
+    "league": {
+      "id": 190,
+      "eaId": 56,
+      "slug": "allsvenskan",
+      "name": "Allsvenskan",
+      "imagePath": "2025/league/56.4a1b2581eac7a7802527edaf19ae139e785cc0cc1cdae78f2d84518c092cc819.png",
+      "imageLightPath": "2025/league-light/56.4a1b2581eac7a7802527edaf19ae139e785cc0cc1cdae78f2d84518c092cc819.png",
+      "url": "/leagues/allsvenskan/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league/56.4a1b2581eac7a7802527edaf19ae139e785cc0cc1cdae78f2d84518c092cc819.png",
+      "imageLightUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league-light/56.4a1b2581eac7a7802527edaf19ae139e785cc0cc1cdae78f2d84518c092cc819.png"
+    },
     "isSbcItem": false,
     "isObjectiveItem": false,
+    "rarity": {
+      "id": 434,
+      "eaId": 1,
+      "slug": "rare",
+      "game": "25",
+      "name": "Rare",
+      "alternateName": null,
+      "url": "/rarities/rare/",
+      "dominantColor": "dd9c79",
+      "imagePath": "2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png",
+      "imagePaths": [
+        "2025/rarities-level-1-large/1.ff6159fb3f49c4a46fb58bb7ff2edf3443faa545162b5636d1d36484b195af8f.png",
+        "2025/rarities-level-2-large/1.110820e10aee7e71b2a058da6a645b42455e8b52d8209c84906ab13b4ca637e1.png",
+        "2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png"
+      ],
+      "isSpecial": false,
+      "compactImagePath": "2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png",
+      "compactImagePaths": [
+        "2025/rarities-level-1-small/1.0c997213875cb4e45f25ea3a9d4c8586377af07d992da90277cc443403fd9d26.png",
+        "2025/rarities-level-2-small/1.a31950d31bb7c2b74f1bd0d7ec162d223eda669622761601950d7f24b80c1cbf.png",
+        "2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png"
+      ],
+      "animatedImagePath": null,
+      "animatedImagesPath": null,
+      "animatedImagesFrameCount": null,
+      "animatedImagesFps": null,
+      "animatedImagesDelay": null,
+      "isBrightColorScheme": true,
+      "textColor": [
+        "3e281c",
+        "1e252a",
+        "2d2410"
+      ],
+      "lineColor": [
+        "dd9c79",
+        "bfccd1",
+        "e3c075"
+      ],
+      "shadowColor": [
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "overallColor": null,
+      "numberOfPlayers": 6927,
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png",
+      "imageUrls": [
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-1-large/1.ff6159fb3f49c4a46fb58bb7ff2edf3443faa545162b5636d1d36484b195af8f.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-2-large/1.110820e10aee7e71b2a058da6a645b42455e8b52d8209c84906ab13b4ca637e1.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png"
+      ],
+      "animatedImageUrl": null,
+      "animatedImagesUrl": null,
+      "compactImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png"
+    },
     "totalFaceStats": 362,
-    "totalIgs": 1670
+    "totalIgs": 1670,
+    "isFullChemistry": false,
+    "extraNationChemistry": 0,
+    "extraLeagueChemistry": 0,
+    "extraClubChemistry": 0,
+    "extraSquadLeagueChemistry": false,
+    "extraSquadNationChemistry": false
   }
 }

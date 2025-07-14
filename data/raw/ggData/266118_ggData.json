@@ -145,7 +145,7 @@
     "objectiveCampaignLevelId": null,
     "campaignProps": null,
     "contentTypeId": 27,
-    "numberOfEvolutions": 2,
+    "numberOfEvolutions": 1,
     "blurbText": null,
     "smallBlurbText": "Jonathan Germán Gómez is 21 years old, and plays for PAOK FC in the Hellas Liga. Jonathan Germán Gómez's height stands at 178 cm (5'10'), and the nation he represents is Mexico. This Common version of Jonathan Germán Gómez is a 63 rated LB. He is Left footed, with 2 star skill moves and 3 star weak foot. ",
     "upgrades": null,
@@ -164,10 +164,175 @@
     "premiumSeasonPassLevel": null,
     "standardSeasonPassLevel": null,
     "metarankStr": null,
+    "ggRating": null,
+    "ggRatingPos": null,
+    "ggRatingStr": null,
+    "isHistoricalItem": false,
     "commonName": "Jonathan Germán Gómez",
+    "club": {
+      "id": 2663,
+      "eaId": 393,
+      "game": "25",
+      "slug": "393-paok-fc",
+      "name": "PAOK FC",
+      "sisterClubEaId": null,
+      "leagueEaId": 63,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/393.1d500bfe133ed4b4ecb9fd845a37d040554cf5e9222a6e3f2adf8396140573ea.png",
+      "lightImagePath": "2025/club-light/393.1d500bfe133ed4b4ecb9fd845a37d040554cf5e9222a6e3f2adf8396140573ea.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        30110,
+        222544,
+        229804
+      ],
+      "competitionIds": [
+        2
+      ],
+      "fixtureIds": [
+        226,
+        162,
+        199,
+        297,
+        236,
+        3695,
+        3697,
+        280,
+        252,
+        189
+      ],
+      "attackRating": 74,
+      "midfieldRating": 74,
+      "defenseRating": 73,
+      "overallRating": 74,
+      "url": "/clubs/393-paok-fc/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/393.1d500bfe133ed4b4ecb9fd845a37d040554cf5e9222a6e3f2adf8396140573ea.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/393.1d500bfe133ed4b4ecb9fd845a37d040554cf5e9222a6e3f2adf8396140573ea.png"
+    },
+    "uniqueClub": {
+      "id": 2663,
+      "eaId": 393,
+      "game": "25",
+      "slug": "393-paok-fc",
+      "name": "PAOK FC",
+      "sisterClubEaId": null,
+      "leagueEaId": 63,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/393.1d500bfe133ed4b4ecb9fd845a37d040554cf5e9222a6e3f2adf8396140573ea.png",
+      "lightImagePath": "2025/club-light/393.1d500bfe133ed4b4ecb9fd845a37d040554cf5e9222a6e3f2adf8396140573ea.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        30110,
+        222544,
+        229804
+      ],
+      "competitionIds": [
+        2
+      ],
+      "fixtureIds": [
+        226,
+        162,
+        199,
+        297,
+        236,
+        3695,
+        3697,
+        280,
+        252,
+        189
+      ],
+      "attackRating": 74,
+      "midfieldRating": 74,
+      "defenseRating": 73,
+      "overallRating": 74,
+      "url": "/clubs/393-paok-fc/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/393.1d500bfe133ed4b4ecb9fd845a37d040554cf5e9222a6e3f2adf8396140573ea.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/393.1d500bfe133ed4b4ecb9fd845a37d040554cf5e9222a6e3f2adf8396140573ea.png"
+    },
+    "nation": {
+      "id": 725,
+      "eaId": 83,
+      "slug": "mexico",
+      "name": "Mexico",
+      "imagePath": "2025/nation/83.b5f6853c0bb68cd8c4728fcb9a2ff3979904be87c48c58f5aff6497e12e8df11.png",
+      "url": "/nations/mexico/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/nation/83.b5f6853c0bb68cd8c4728fcb9a2ff3979904be87c48c58f5aff6497e12e8df11.png"
+    },
+    "league": {
+      "id": 193,
+      "eaId": 63,
+      "slug": "hellas-liga",
+      "name": "Hellas Liga",
+      "imagePath": "2025/league/63.547e6c2c7ccb12718f3269f853e6a42d3dfcce11a3b65d292b2f9c1e36b7ac98.png",
+      "imageLightPath": "2025/league-light/63.547e6c2c7ccb12718f3269f853e6a42d3dfcce11a3b65d292b2f9c1e36b7ac98.png",
+      "url": "/leagues/hellas-liga/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league/63.547e6c2c7ccb12718f3269f853e6a42d3dfcce11a3b65d292b2f9c1e36b7ac98.png",
+      "imageLightUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league-light/63.547e6c2c7ccb12718f3269f853e6a42d3dfcce11a3b65d292b2f9c1e36b7ac98.png"
+    },
     "isSbcItem": false,
     "isObjectiveItem": false,
+    "rarity": {
+      "id": 433,
+      "eaId": 0,
+      "slug": "common",
+      "game": "25",
+      "name": "Common",
+      "alternateName": null,
+      "url": "/rarities/common/",
+      "dominantColor": "d39570",
+      "imagePath": "2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png",
+      "imagePaths": [
+        "2025/rarities-level-1-large/0.9e74985cc5fa0235bfd1cdf18524886abec80cb940fb87245dc8eb0fe402e68e.png",
+        "2025/rarities-level-2-large/0.bcc3305230ad572a1c35252bfc76d94661378a3cd0bc6f05053ecadb8b4b8dbe.png",
+        "2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png"
+      ],
+      "isSpecial": false,
+      "compactImagePath": "2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png",
+      "compactImagePaths": [
+        "2025/rarities-level-1-small/0.07fe8673a441822a263a61409f05124a35882cb798e0cd62868d00dc388d25cd.png",
+        "2025/rarities-level-2-small/0.2d3f30416f2b228ddf7e8eef513c1ffb7af5aadea48ff7a9a24cccd90f40889c.png",
+        "2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png"
+      ],
+      "animatedImagePath": null,
+      "animatedImagesPath": null,
+      "animatedImagesFrameCount": null,
+      "animatedImagesFps": null,
+      "animatedImagesDelay": null,
+      "isBrightColorScheme": true,
+      "textColor": [
+        "3f1208",
+        "192228",
+        "31260c"
+      ],
+      "lineColor": [
+        "d39570",
+        "bfcbd3",
+        "c5a96b"
+      ],
+      "shadowColor": [
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "overallColor": null,
+      "numberOfPlayers": 13709,
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png",
+      "imageUrls": [
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-1-large/0.9e74985cc5fa0235bfd1cdf18524886abec80cb940fb87245dc8eb0fe402e68e.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-2-large/0.bcc3305230ad572a1c35252bfc76d94661378a3cd0bc6f05053ecadb8b4b8dbe.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png"
+      ],
+      "animatedImageUrl": null,
+      "animatedImagesUrl": null,
+      "compactImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png"
+    },
     "totalFaceStats": 325,
-    "totalIgs": 1526
+    "totalIgs": 1526,
+    "isFullChemistry": false,
+    "extraNationChemistry": 0,
+    "extraLeagueChemistry": 0,
+    "extraClubChemistry": 0,
+    "extraSquadLeagueChemistry": false,
+    "extraSquadNationChemistry": false
   }
 }

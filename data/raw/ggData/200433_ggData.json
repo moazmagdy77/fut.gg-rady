@@ -148,7 +148,7 @@
     "objectiveCampaignLevelId": null,
     "campaignProps": null,
     "contentTypeId": 27,
-    "numberOfEvolutions": 13,
+    "numberOfEvolutions": 528,
     "blurbText": null,
     "smallBlurbText": "Lukas Hinterseer is 34 years old, and plays for WSG Tirol in the Österreichische Fußball-Bundesliga. Lukas Hinterseer's height stands at 192 cm (6'4'), and the nation he represents is Austria. This Rare version of Lukas Hinterseer is a 63 rated ST. He is Right footed, with 3 star skill moves and 3 star weak foot. ",
     "upgrades": null,
@@ -170,10 +170,146 @@
     "ggRating": null,
     "ggRatingPos": null,
     "ggRatingStr": null,
+    "isHistoricalItem": false,
     "commonName": "Lukas Hinterseer",
+    "club": {
+      "id": 2720,
+      "eaId": 15040,
+      "game": "25",
+      "slug": "15040-wsg-tirol",
+      "name": "WSG Tirol",
+      "sisterClubEaId": null,
+      "leagueEaId": 80,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/15040.7532a973c9ea64a9ff09e3fcd6572f96ee339725f9219ae659631926440189bb.png",
+      "lightImagePath": "2025/club-light/15040.7532a973c9ea64a9ff09e3fcd6572f96ee339725f9219ae659631926440189bb.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        251547,
+        251229,
+        239091
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 61,
+      "midfieldRating": 65,
+      "defenseRating": 66,
+      "overallRating": 65,
+      "url": "/clubs/15040-wsg-tirol/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/15040.7532a973c9ea64a9ff09e3fcd6572f96ee339725f9219ae659631926440189bb.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/15040.7532a973c9ea64a9ff09e3fcd6572f96ee339725f9219ae659631926440189bb.png"
+    },
+    "uniqueClub": {
+      "id": 2720,
+      "eaId": 15040,
+      "game": "25",
+      "slug": "15040-wsg-tirol",
+      "name": "WSG Tirol",
+      "sisterClubEaId": null,
+      "leagueEaId": 80,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/15040.7532a973c9ea64a9ff09e3fcd6572f96ee339725f9219ae659631926440189bb.png",
+      "lightImagePath": "2025/club-light/15040.7532a973c9ea64a9ff09e3fcd6572f96ee339725f9219ae659631926440189bb.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        251547,
+        251229,
+        239091
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 61,
+      "midfieldRating": 65,
+      "defenseRating": 66,
+      "overallRating": 65,
+      "url": "/clubs/15040-wsg-tirol/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/15040.7532a973c9ea64a9ff09e3fcd6572f96ee339725f9219ae659631926440189bb.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/15040.7532a973c9ea64a9ff09e3fcd6572f96ee339725f9219ae659631926440189bb.png"
+    },
+    "nation": {
+      "id": 655,
+      "eaId": 4,
+      "slug": "austria",
+      "name": "Austria",
+      "imagePath": "2025/nation/4.6f96ff67f214e377a9db8065c4a9e6d4f05a654e0c15dc85bd5102107c2a7f15.png",
+      "url": "/nations/austria/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/nation/4.6f96ff67f214e377a9db8065c4a9e6d4f05a654e0c15dc85bd5102107c2a7f15.png"
+    },
+    "league": {
+      "id": 198,
+      "eaId": 80,
+      "slug": "osterreichische-fussball-bundesliga",
+      "name": "Österreichische Fußball-Bundesliga",
+      "imagePath": "2025/league/80.332c8a20bc711c177f8a82682962518ccc17a86810a807cb193bb27f4fd0815c.png",
+      "imageLightPath": "2025/league-light/80.332c8a20bc711c177f8a82682962518ccc17a86810a807cb193bb27f4fd0815c.png",
+      "url": "/leagues/osterreichische-fussball-bundesliga/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league/80.332c8a20bc711c177f8a82682962518ccc17a86810a807cb193bb27f4fd0815c.png",
+      "imageLightUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league-light/80.332c8a20bc711c177f8a82682962518ccc17a86810a807cb193bb27f4fd0815c.png"
+    },
     "isSbcItem": false,
     "isObjectiveItem": false,
+    "rarity": {
+      "id": 434,
+      "eaId": 1,
+      "slug": "rare",
+      "game": "25",
+      "name": "Rare",
+      "alternateName": null,
+      "url": "/rarities/rare/",
+      "dominantColor": "dd9c79",
+      "imagePath": "2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png",
+      "imagePaths": [
+        "2025/rarities-level-1-large/1.ff6159fb3f49c4a46fb58bb7ff2edf3443faa545162b5636d1d36484b195af8f.png",
+        "2025/rarities-level-2-large/1.110820e10aee7e71b2a058da6a645b42455e8b52d8209c84906ab13b4ca637e1.png",
+        "2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png"
+      ],
+      "isSpecial": false,
+      "compactImagePath": "2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png",
+      "compactImagePaths": [
+        "2025/rarities-level-1-small/1.0c997213875cb4e45f25ea3a9d4c8586377af07d992da90277cc443403fd9d26.png",
+        "2025/rarities-level-2-small/1.a31950d31bb7c2b74f1bd0d7ec162d223eda669622761601950d7f24b80c1cbf.png",
+        "2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png"
+      ],
+      "animatedImagePath": null,
+      "animatedImagesPath": null,
+      "animatedImagesFrameCount": null,
+      "animatedImagesFps": null,
+      "animatedImagesDelay": null,
+      "isBrightColorScheme": true,
+      "textColor": [
+        "3e281c",
+        "1e252a",
+        "2d2410"
+      ],
+      "lineColor": [
+        "dd9c79",
+        "bfccd1",
+        "e3c075"
+      ],
+      "shadowColor": [
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "overallColor": null,
+      "numberOfPlayers": 6927,
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png",
+      "imageUrls": [
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-1-large/1.ff6159fb3f49c4a46fb58bb7ff2edf3443faa545162b5636d1d36484b195af8f.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-2-large/1.110820e10aee7e71b2a058da6a645b42455e8b52d8209c84906ab13b4ca637e1.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png"
+      ],
+      "animatedImageUrl": null,
+      "animatedImagesUrl": null,
+      "compactImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png"
+    },
     "totalFaceStats": 323,
-    "totalIgs": 1616
+    "totalIgs": 1616,
+    "isFullChemistry": false,
+    "extraNationChemistry": 0,
+    "extraLeagueChemistry": 0,
+    "extraClubChemistry": 0,
+    "extraSquadLeagueChemistry": false,
+    "extraSquadNationChemistry": false
   }
 }

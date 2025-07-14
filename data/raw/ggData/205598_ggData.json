@@ -153,7 +153,7 @@
     "contentTypeId": 27,
     "numberOfEvolutions": 4,
     "blurbText": null,
-    "smallBlurbText": "André Sousa is 34 years old, and plays for Nacional in the Liga Portugal. André Sousa's height stands at 181 cm (5'11'), and the nation he represents is Portugal. This Common version of André Sousa is a 67 rated CM. He is Left footed, with 3 star skill moves and 2 star weak foot. ",
+    "smallBlurbText": "André Sousa is 35 years old, and plays for Nacional in the Liga Portugal. André Sousa's height stands at 181 cm (5'11'), and the nation he represents is Portugal. This Common version of André Sousa is a 67 rated CM. He is Left footed, with 3 star skill moves and 2 star weak foot. ",
     "upgrades": null,
     "hasPrice": true,
     "trackerId": null,
@@ -170,10 +170,149 @@
     "premiumSeasonPassLevel": null,
     "standardSeasonPassLevel": null,
     "metarankStr": null,
+    "ggRating": null,
+    "ggRatingPos": null,
+    "ggRatingStr": null,
+    "isHistoricalItem": false,
     "commonName": "André Sousa",
+    "club": {
+      "id": 2757,
+      "eaId": 1891,
+      "game": "25",
+      "slug": "1891-nacional",
+      "name": "Nacional",
+      "sisterClubEaId": null,
+      "leagueEaId": 308,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/1891.2ee13c8e768b5bd65a60895722f4eaa4f9bfd61777fdc4b492d20bdadbea137d.png",
+      "lightImagePath": "2025/club-light/1891.2ee13c8e768b5bd65a60895722f4eaa4f9bfd61777fdc4b492d20bdadbea137d.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        73453,
+        210385,
+        157970
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 68,
+      "midfieldRating": 68,
+      "defenseRating": 68,
+      "overallRating": 68,
+      "url": "/clubs/1891-nacional/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/1891.2ee13c8e768b5bd65a60895722f4eaa4f9bfd61777fdc4b492d20bdadbea137d.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/1891.2ee13c8e768b5bd65a60895722f4eaa4f9bfd61777fdc4b492d20bdadbea137d.png"
+    },
+    "uniqueClub": {
+      "id": 2757,
+      "eaId": 1891,
+      "game": "25",
+      "slug": "1891-nacional",
+      "name": "Nacional",
+      "sisterClubEaId": null,
+      "leagueEaId": 308,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/1891.2ee13c8e768b5bd65a60895722f4eaa4f9bfd61777fdc4b492d20bdadbea137d.png",
+      "lightImagePath": "2025/club-light/1891.2ee13c8e768b5bd65a60895722f4eaa4f9bfd61777fdc4b492d20bdadbea137d.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        73453,
+        210385,
+        157970
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 68,
+      "midfieldRating": 68,
+      "defenseRating": 68,
+      "overallRating": 68,
+      "url": "/clubs/1891-nacional/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/1891.2ee13c8e768b5bd65a60895722f4eaa4f9bfd61777fdc4b492d20bdadbea137d.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/1891.2ee13c8e768b5bd65a60895722f4eaa4f9bfd61777fdc4b492d20bdadbea137d.png"
+    },
+    "nation": {
+      "id": 689,
+      "eaId": 38,
+      "slug": "portugal",
+      "name": "Portugal",
+      "imagePath": "2025/nation/38.272aa2450c148960b84347d8f67ddbffbfc964716c956e39348910ec0c317a9c.png",
+      "url": "/nations/portugal/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/nation/38.272aa2450c148960b84347d8f67ddbffbfc964716c956e39348910ec0c317a9c.png"
+    },
+    "league": {
+      "id": 201,
+      "eaId": 308,
+      "slug": "liga-portugal",
+      "name": "Liga Portugal",
+      "imagePath": "2025/league/308.2c52538af777f7ad09422afdd8107f63a9057b1b0bfbc5498e659e43f72fa83d.png",
+      "imageLightPath": "2025/league-light/308.786b1e45df0508f0dc42add5a87ab5a423d47d33a80b4fa83d9e37f36ebda88a.png",
+      "url": "/leagues/liga-portugal/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league/308.2c52538af777f7ad09422afdd8107f63a9057b1b0bfbc5498e659e43f72fa83d.png",
+      "imageLightUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league-light/308.786b1e45df0508f0dc42add5a87ab5a423d47d33a80b4fa83d9e37f36ebda88a.png"
+    },
     "isSbcItem": false,
     "isObjectiveItem": false,
+    "rarity": {
+      "id": 433,
+      "eaId": 0,
+      "slug": "common",
+      "game": "25",
+      "name": "Common",
+      "alternateName": null,
+      "url": "/rarities/common/",
+      "dominantColor": "d39570",
+      "imagePath": "2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png",
+      "imagePaths": [
+        "2025/rarities-level-1-large/0.9e74985cc5fa0235bfd1cdf18524886abec80cb940fb87245dc8eb0fe402e68e.png",
+        "2025/rarities-level-2-large/0.bcc3305230ad572a1c35252bfc76d94661378a3cd0bc6f05053ecadb8b4b8dbe.png",
+        "2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png"
+      ],
+      "isSpecial": false,
+      "compactImagePath": "2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png",
+      "compactImagePaths": [
+        "2025/rarities-level-1-small/0.07fe8673a441822a263a61409f05124a35882cb798e0cd62868d00dc388d25cd.png",
+        "2025/rarities-level-2-small/0.2d3f30416f2b228ddf7e8eef513c1ffb7af5aadea48ff7a9a24cccd90f40889c.png",
+        "2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png"
+      ],
+      "animatedImagePath": null,
+      "animatedImagesPath": null,
+      "animatedImagesFrameCount": null,
+      "animatedImagesFps": null,
+      "animatedImagesDelay": null,
+      "isBrightColorScheme": true,
+      "textColor": [
+        "3f1208",
+        "192228",
+        "31260c"
+      ],
+      "lineColor": [
+        "d39570",
+        "bfcbd3",
+        "c5a96b"
+      ],
+      "shadowColor": [
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "overallColor": null,
+      "numberOfPlayers": 13709,
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png",
+      "imageUrls": [
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-1-large/0.9e74985cc5fa0235bfd1cdf18524886abec80cb940fb87245dc8eb0fe402e68e.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-2-large/0.bcc3305230ad572a1c35252bfc76d94661378a3cd0bc6f05053ecadb8b4b8dbe.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png"
+      ],
+      "animatedImageUrl": null,
+      "animatedImagesUrl": null,
+      "compactImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png"
+    },
     "totalFaceStats": 394,
-    "totalIgs": 1918
+    "totalIgs": 1918,
+    "isFullChemistry": false,
+    "extraNationChemistry": 0,
+    "extraLeagueChemistry": 0,
+    "extraClubChemistry": 0,
+    "extraSquadLeagueChemistry": false,
+    "extraSquadNationChemistry": false
   }
 }

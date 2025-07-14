@@ -150,9 +150,9 @@
     "objectiveCampaignLevelId": null,
     "campaignProps": null,
     "contentTypeId": 27,
-    "numberOfEvolutions": 4,
+    "numberOfEvolutions": 6,
     "blurbText": null,
-    "smallBlurbText": "Václav Jemelka is 29 years old, and plays for Viktoria Plzeň in the Česká Liga. Václav Jemelka's height stands at 187 cm (6'2'), and the nation he represents is Czech Republic. This Common version of Václav Jemelka is a 72 rated CB. He is Left footed, with 2 star skill moves and 2 star weak foot. ",
+    "smallBlurbText": "Václav Jemelka is 30 years old, and plays for Viktoria Plzeň in the Česká Liga. Václav Jemelka's height stands at 187 cm (6'2'), and the nation he represents is Czech Republic. This Common version of Václav Jemelka is a 72 rated CB. He is Left footed, with 2 star skill moves and 2 star weak foot. ",
     "upgrades": null,
     "hasPrice": true,
     "trackerId": null,
@@ -169,10 +169,179 @@
     "premiumSeasonPassLevel": null,
     "standardSeasonPassLevel": null,
     "metarankStr": null,
+    "ggRating": null,
+    "ggRatingPos": null,
+    "ggRatingStr": null,
+    "isHistoricalItem": false,
     "commonName": "Václav Jemelka",
+    "club": {
+      "id": 2770,
+      "eaId": 110468,
+      "game": "25",
+      "slug": "110468-viktoria-plzen",
+      "name": "Viktoria Plzeň",
+      "sisterClubEaId": null,
+      "leagueEaId": 319,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/110468.49fc07e7f976c266f8427782ec8e26a098f0d0ba3df879e49e67a0624d5bba4a.png",
+      "lightImagePath": "2025/club-light/110468.49fc07e7f976c266f8427782ec8e26a098f0d0ba3df879e49e67a0624d5bba4a.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        48940,
+        198331,
+        272872
+      ],
+      "competitionIds": [
+        2
+      ],
+      "fixtureIds": [
+        192,
+        3714,
+        228,
+        199,
+        233,
+        3690,
+        170,
+        3711,
+        274,
+        3703,
+        285,
+        255
+      ],
+      "attackRating": 72,
+      "midfieldRating": 73,
+      "defenseRating": 72,
+      "overallRating": 72,
+      "url": "/clubs/110468-viktoria-plzen/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/110468.49fc07e7f976c266f8427782ec8e26a098f0d0ba3df879e49e67a0624d5bba4a.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/110468.49fc07e7f976c266f8427782ec8e26a098f0d0ba3df879e49e67a0624d5bba4a.png"
+    },
+    "uniqueClub": {
+      "id": 2770,
+      "eaId": 110468,
+      "game": "25",
+      "slug": "110468-viktoria-plzen",
+      "name": "Viktoria Plzeň",
+      "sisterClubEaId": null,
+      "leagueEaId": 319,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/110468.49fc07e7f976c266f8427782ec8e26a098f0d0ba3df879e49e67a0624d5bba4a.png",
+      "lightImagePath": "2025/club-light/110468.49fc07e7f976c266f8427782ec8e26a098f0d0ba3df879e49e67a0624d5bba4a.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        48940,
+        198331,
+        272872
+      ],
+      "competitionIds": [
+        2
+      ],
+      "fixtureIds": [
+        192,
+        3714,
+        228,
+        199,
+        233,
+        3690,
+        170,
+        3711,
+        274,
+        3703,
+        285,
+        255
+      ],
+      "attackRating": 72,
+      "midfieldRating": 73,
+      "defenseRating": 72,
+      "overallRating": 72,
+      "url": "/clubs/110468-viktoria-plzen/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/110468.49fc07e7f976c266f8427782ec8e26a098f0d0ba3df879e49e67a0624d5bba4a.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/110468.49fc07e7f976c266f8427782ec8e26a098f0d0ba3df879e49e67a0624d5bba4a.png"
+    },
+    "nation": {
+      "id": 663,
+      "eaId": 12,
+      "slug": "czech-republic",
+      "name": "Czech Republic",
+      "imagePath": "2025/nation/12.ae49138ac12a224f3dd98a84a1ea8090d8ac0a79909ec6b574c11d5705a8ba9e.png",
+      "url": "/nations/czech-republic/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/nation/12.ae49138ac12a224f3dd98a84a1ea8090d8ac0a79909ec6b574c11d5705a8ba9e.png"
+    },
+    "league": {
+      "id": 203,
+      "eaId": 319,
+      "slug": "ceska-liga",
+      "name": "Česká Liga",
+      "imagePath": "2025/league/319.5a1b5b29b4f1b398cabc0511d4bda2a47f17ca42f7f5a6a1c1d37db958121362.png",
+      "imageLightPath": "2025/league-light/319.5a1b5b29b4f1b398cabc0511d4bda2a47f17ca42f7f5a6a1c1d37db958121362.png",
+      "url": "/leagues/ceska-liga/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league/319.5a1b5b29b4f1b398cabc0511d4bda2a47f17ca42f7f5a6a1c1d37db958121362.png",
+      "imageLightUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league-light/319.5a1b5b29b4f1b398cabc0511d4bda2a47f17ca42f7f5a6a1c1d37db958121362.png"
+    },
     "isSbcItem": false,
     "isObjectiveItem": false,
+    "rarity": {
+      "id": 433,
+      "eaId": 0,
+      "slug": "common",
+      "game": "25",
+      "name": "Common",
+      "alternateName": null,
+      "url": "/rarities/common/",
+      "dominantColor": "d39570",
+      "imagePath": "2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png",
+      "imagePaths": [
+        "2025/rarities-level-1-large/0.9e74985cc5fa0235bfd1cdf18524886abec80cb940fb87245dc8eb0fe402e68e.png",
+        "2025/rarities-level-2-large/0.bcc3305230ad572a1c35252bfc76d94661378a3cd0bc6f05053ecadb8b4b8dbe.png",
+        "2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png"
+      ],
+      "isSpecial": false,
+      "compactImagePath": "2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png",
+      "compactImagePaths": [
+        "2025/rarities-level-1-small/0.07fe8673a441822a263a61409f05124a35882cb798e0cd62868d00dc388d25cd.png",
+        "2025/rarities-level-2-small/0.2d3f30416f2b228ddf7e8eef513c1ffb7af5aadea48ff7a9a24cccd90f40889c.png",
+        "2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png"
+      ],
+      "animatedImagePath": null,
+      "animatedImagesPath": null,
+      "animatedImagesFrameCount": null,
+      "animatedImagesFps": null,
+      "animatedImagesDelay": null,
+      "isBrightColorScheme": true,
+      "textColor": [
+        "3f1208",
+        "192228",
+        "31260c"
+      ],
+      "lineColor": [
+        "d39570",
+        "bfcbd3",
+        "c5a96b"
+      ],
+      "shadowColor": [
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "overallColor": null,
+      "numberOfPlayers": 13709,
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png",
+      "imageUrls": [
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-1-large/0.9e74985cc5fa0235bfd1cdf18524886abec80cb940fb87245dc8eb0fe402e68e.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-2-large/0.bcc3305230ad572a1c35252bfc76d94661378a3cd0bc6f05053ecadb8b4b8dbe.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png"
+      ],
+      "animatedImageUrl": null,
+      "animatedImagesUrl": null,
+      "compactImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png"
+    },
     "totalFaceStats": 394,
-    "totalIgs": 1833
+    "totalIgs": 1833,
+    "isFullChemistry": false,
+    "extraNationChemistry": 0,
+    "extraLeagueChemistry": 0,
+    "extraClubChemistry": 0,
+    "extraSquadLeagueChemistry": false,
+    "extraSquadNationChemistry": false
   }
 }

@@ -149,7 +149,7 @@
     "objectiveCampaignLevelId": null,
     "campaignProps": null,
     "contentTypeId": 27,
-    "numberOfEvolutions": 13,
+    "numberOfEvolutions": 136,
     "blurbText": null,
     "smallBlurbText": "Filip Blažek is 27 years old, and plays for Unirea Slobozia in the SUPERLIGA. Filip Blažek's height stands at 188 cm (6'2'), and the nation he represents is Slovakia. This Common version of Filip Blažek is a 66 rated CB. He is Right footed, with 2 star skill moves and 3 star weak foot. ",
     "upgrades": null,
@@ -168,10 +168,149 @@
     "premiumSeasonPassLevel": null,
     "standardSeasonPassLevel": null,
     "metarankStr": null,
+    "ggRating": null,
+    "ggRatingPos": null,
+    "ggRatingStr": null,
+    "isHistoricalItem": false,
     "commonName": "Filip Blažek",
+    "club": {
+      "id": 2787,
+      "eaId": 131459,
+      "game": "25",
+      "slug": "131459-unirea-slobozia",
+      "name": "Unirea Slobozia",
+      "sisterClubEaId": null,
+      "leagueEaId": 330,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/131459.89708623930d09a7510bb3eb9f37804264e97ec50969a5ea1203440632b7b8f5.png",
+      "lightImagePath": "2025/club-light/131459.89708623930d09a7510bb3eb9f37804264e97ec50969a5ea1203440632b7b8f5.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        72620,
+        72624,
+        276141
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 63,
+      "midfieldRating": 62,
+      "defenseRating": 63,
+      "overallRating": 63,
+      "url": "/clubs/131459-unirea-slobozia/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/131459.89708623930d09a7510bb3eb9f37804264e97ec50969a5ea1203440632b7b8f5.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/131459.89708623930d09a7510bb3eb9f37804264e97ec50969a5ea1203440632b7b8f5.png"
+    },
+    "uniqueClub": {
+      "id": 2787,
+      "eaId": 131459,
+      "game": "25",
+      "slug": "131459-unirea-slobozia",
+      "name": "Unirea Slobozia",
+      "sisterClubEaId": null,
+      "leagueEaId": 330,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/131459.89708623930d09a7510bb3eb9f37804264e97ec50969a5ea1203440632b7b8f5.png",
+      "lightImagePath": "2025/club-light/131459.89708623930d09a7510bb3eb9f37804264e97ec50969a5ea1203440632b7b8f5.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        72620,
+        72624,
+        276141
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 63,
+      "midfieldRating": 62,
+      "defenseRating": 63,
+      "overallRating": 63,
+      "url": "/clubs/131459-unirea-slobozia/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/131459.89708623930d09a7510bb3eb9f37804264e97ec50969a5ea1203440632b7b8f5.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/131459.89708623930d09a7510bb3eb9f37804264e97ec50969a5ea1203440632b7b8f5.png"
+    },
+    "nation": {
+      "id": 693,
+      "eaId": 43,
+      "slug": "slovakia",
+      "name": "Slovakia",
+      "imagePath": "2025/nation/43.d3eaa80fc5fcaf1d0709bf1eb893207a577fa92065f434a656bc7b1b10a5a4a1.png",
+      "url": "/nations/slovakia/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/nation/43.d3eaa80fc5fcaf1d0709bf1eb893207a577fa92065f434a656bc7b1b10a5a4a1.png"
+    },
+    "league": {
+      "id": 205,
+      "eaId": 330,
+      "slug": "superliga",
+      "name": "SUPERLIGA",
+      "imagePath": "2025/league/330.323099a95e04ee87b1a7d68a9a8e319c7c89ee7c824cb6dfd9c71e6a405e3184.png",
+      "imageLightPath": "2025/league-light/330.9aa6fd58a331fea987d3235abf99c948568d1c4cbd330f39286145c0149306bd.png",
+      "url": "/leagues/superliga/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league/330.323099a95e04ee87b1a7d68a9a8e319c7c89ee7c824cb6dfd9c71e6a405e3184.png",
+      "imageLightUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league-light/330.9aa6fd58a331fea987d3235abf99c948568d1c4cbd330f39286145c0149306bd.png"
+    },
     "isSbcItem": false,
     "isObjectiveItem": false,
+    "rarity": {
+      "id": 433,
+      "eaId": 0,
+      "slug": "common",
+      "game": "25",
+      "name": "Common",
+      "alternateName": null,
+      "url": "/rarities/common/",
+      "dominantColor": "d39570",
+      "imagePath": "2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png",
+      "imagePaths": [
+        "2025/rarities-level-1-large/0.9e74985cc5fa0235bfd1cdf18524886abec80cb940fb87245dc8eb0fe402e68e.png",
+        "2025/rarities-level-2-large/0.bcc3305230ad572a1c35252bfc76d94661378a3cd0bc6f05053ecadb8b4b8dbe.png",
+        "2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png"
+      ],
+      "isSpecial": false,
+      "compactImagePath": "2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png",
+      "compactImagePaths": [
+        "2025/rarities-level-1-small/0.07fe8673a441822a263a61409f05124a35882cb798e0cd62868d00dc388d25cd.png",
+        "2025/rarities-level-2-small/0.2d3f30416f2b228ddf7e8eef513c1ffb7af5aadea48ff7a9a24cccd90f40889c.png",
+        "2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png"
+      ],
+      "animatedImagePath": null,
+      "animatedImagesPath": null,
+      "animatedImagesFrameCount": null,
+      "animatedImagesFps": null,
+      "animatedImagesDelay": null,
+      "isBrightColorScheme": true,
+      "textColor": [
+        "3f1208",
+        "192228",
+        "31260c"
+      ],
+      "lineColor": [
+        "d39570",
+        "bfcbd3",
+        "c5a96b"
+      ],
+      "shadowColor": [
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "overallColor": null,
+      "numberOfPlayers": 13709,
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png",
+      "imageUrls": [
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-1-large/0.9e74985cc5fa0235bfd1cdf18524886abec80cb940fb87245dc8eb0fe402e68e.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-2-large/0.bcc3305230ad572a1c35252bfc76d94661378a3cd0bc6f05053ecadb8b4b8dbe.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png"
+      ],
+      "animatedImageUrl": null,
+      "animatedImagesUrl": null,
+      "compactImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png"
+    },
     "totalFaceStats": 324,
-    "totalIgs": 1485
+    "totalIgs": 1485,
+    "isFullChemistry": false,
+    "extraNationChemistry": 0,
+    "extraLeagueChemistry": 0,
+    "extraClubChemistry": 0,
+    "extraSquadLeagueChemistry": false,
+    "extraSquadNationChemistry": false
   }
 }

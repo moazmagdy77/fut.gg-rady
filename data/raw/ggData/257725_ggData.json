@@ -159,7 +159,7 @@
     "objectiveCampaignLevelId": null,
     "campaignProps": null,
     "contentTypeId": 27,
-    "numberOfEvolutions": 6,
+    "numberOfEvolutions": 1,
     "blurbText": null,
     "smallBlurbText": "Dorinel Oancea is 28 years old, and plays for FC Univ. Cluj in the SUPERLIGA. Dorinel Oancea's height stands at 175 cm (5'9'), and the nation he represents is Romania. This Common version of Dorinel Oancea is a 66 rated RB. He is Right footed, with 2 star skill moves and 2 star weak foot. ",
     "upgrades": null,
@@ -181,10 +181,146 @@
     "ggRating": null,
     "ggRatingPos": null,
     "ggRatingStr": null,
+    "isHistoricalItem": false,
     "commonName": "Dorinel Oancea",
+    "club": {
+      "id": 2780,
+      "eaId": 110751,
+      "game": "25",
+      "slug": "110751-fc-univ-cluj",
+      "name": "FC Univ. Cluj",
+      "sisterClubEaId": null,
+      "leagueEaId": 330,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/110751.d1f832ff52dfcd18532572f993ecad48005959a529f652c6a703d4b13d9791c1.png",
+      "lightImagePath": "2025/club-light/110751.d1f832ff52dfcd18532572f993ecad48005959a529f652c6a703d4b13d9791c1.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        247955,
+        228388,
+        241771
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 65,
+      "midfieldRating": 67,
+      "defenseRating": 67,
+      "overallRating": 66,
+      "url": "/clubs/110751-fc-univ-cluj/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/110751.d1f832ff52dfcd18532572f993ecad48005959a529f652c6a703d4b13d9791c1.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/110751.d1f832ff52dfcd18532572f993ecad48005959a529f652c6a703d4b13d9791c1.png"
+    },
+    "uniqueClub": {
+      "id": 2780,
+      "eaId": 110751,
+      "game": "25",
+      "slug": "110751-fc-univ-cluj",
+      "name": "FC Univ. Cluj",
+      "sisterClubEaId": null,
+      "leagueEaId": 330,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/110751.d1f832ff52dfcd18532572f993ecad48005959a529f652c6a703d4b13d9791c1.png",
+      "lightImagePath": "2025/club-light/110751.d1f832ff52dfcd18532572f993ecad48005959a529f652c6a703d4b13d9791c1.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        247955,
+        228388,
+        241771
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 65,
+      "midfieldRating": 67,
+      "defenseRating": 67,
+      "overallRating": 66,
+      "url": "/clubs/110751-fc-univ-cluj/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/110751.d1f832ff52dfcd18532572f993ecad48005959a529f652c6a703d4b13d9791c1.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/110751.d1f832ff52dfcd18532572f993ecad48005959a529f652c6a703d4b13d9791c1.png"
+    },
+    "nation": {
+      "id": 690,
+      "eaId": 39,
+      "slug": "romania",
+      "name": "Romania",
+      "imagePath": "2025/nation/39.fb19e6c35bd49f17cc4270de8e60987e513d35201cbbcac3a256453e5d66d603.png",
+      "url": "/nations/romania/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/nation/39.fb19e6c35bd49f17cc4270de8e60987e513d35201cbbcac3a256453e5d66d603.png"
+    },
+    "league": {
+      "id": 205,
+      "eaId": 330,
+      "slug": "superliga",
+      "name": "SUPERLIGA",
+      "imagePath": "2025/league/330.323099a95e04ee87b1a7d68a9a8e319c7c89ee7c824cb6dfd9c71e6a405e3184.png",
+      "imageLightPath": "2025/league-light/330.9aa6fd58a331fea987d3235abf99c948568d1c4cbd330f39286145c0149306bd.png",
+      "url": "/leagues/superliga/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league/330.323099a95e04ee87b1a7d68a9a8e319c7c89ee7c824cb6dfd9c71e6a405e3184.png",
+      "imageLightUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league-light/330.9aa6fd58a331fea987d3235abf99c948568d1c4cbd330f39286145c0149306bd.png"
+    },
     "isSbcItem": false,
     "isObjectiveItem": false,
+    "rarity": {
+      "id": 433,
+      "eaId": 0,
+      "slug": "common",
+      "game": "25",
+      "name": "Common",
+      "alternateName": null,
+      "url": "/rarities/common/",
+      "dominantColor": "d39570",
+      "imagePath": "2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png",
+      "imagePaths": [
+        "2025/rarities-level-1-large/0.9e74985cc5fa0235bfd1cdf18524886abec80cb940fb87245dc8eb0fe402e68e.png",
+        "2025/rarities-level-2-large/0.bcc3305230ad572a1c35252bfc76d94661378a3cd0bc6f05053ecadb8b4b8dbe.png",
+        "2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png"
+      ],
+      "isSpecial": false,
+      "compactImagePath": "2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png",
+      "compactImagePaths": [
+        "2025/rarities-level-1-small/0.07fe8673a441822a263a61409f05124a35882cb798e0cd62868d00dc388d25cd.png",
+        "2025/rarities-level-2-small/0.2d3f30416f2b228ddf7e8eef513c1ffb7af5aadea48ff7a9a24cccd90f40889c.png",
+        "2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png"
+      ],
+      "animatedImagePath": null,
+      "animatedImagesPath": null,
+      "animatedImagesFrameCount": null,
+      "animatedImagesFps": null,
+      "animatedImagesDelay": null,
+      "isBrightColorScheme": true,
+      "textColor": [
+        "3f1208",
+        "192228",
+        "31260c"
+      ],
+      "lineColor": [
+        "d39570",
+        "bfcbd3",
+        "c5a96b"
+      ],
+      "shadowColor": [
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "overallColor": null,
+      "numberOfPlayers": 13709,
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png",
+      "imageUrls": [
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-1-large/0.9e74985cc5fa0235bfd1cdf18524886abec80cb940fb87245dc8eb0fe402e68e.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-2-large/0.bcc3305230ad572a1c35252bfc76d94661378a3cd0bc6f05053ecadb8b4b8dbe.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png"
+      ],
+      "animatedImageUrl": null,
+      "animatedImagesUrl": null,
+      "compactImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png"
+    },
     "totalFaceStats": 376,
-    "totalIgs": 1710
+    "totalIgs": 1710,
+    "isFullChemistry": false,
+    "extraNationChemistry": 0,
+    "extraLeagueChemistry": 0,
+    "extraClubChemistry": 0,
+    "extraSquadLeagueChemistry": false,
+    "extraSquadNationChemistry": false
   }
 }

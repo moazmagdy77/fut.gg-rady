@@ -159,7 +159,7 @@
     "objectiveCampaignLevelId": null,
     "campaignProps": null,
     "contentTypeId": 27,
-    "numberOfEvolutions": 1,
+    "numberOfEvolutions": 36,
     "blurbText": null,
     "smallBlurbText": "Serafin Szota is 26 years old, and plays for Śląsk Wrocław in the PKO Bank Polski Ekstraklasa. Serafin Szota's height stands at 187 cm (6'2'), and the nation he represents is Poland. This Rare version of Serafin Szota is a 63 rated CB. He is Right footed, with 2 star skill moves and 2 star weak foot. ",
     "upgrades": null,
@@ -181,10 +181,146 @@
     "ggRating": null,
     "ggRatingPos": null,
     "ggRatingStr": null,
+    "isHistoricalItem": false,
     "commonName": "Serafin Szota",
+    "club": {
+      "id": 2688,
+      "eaId": 111092,
+      "game": "25",
+      "slug": "111092-slask-wroclaw",
+      "name": "Śląsk Wrocław",
+      "sisterClubEaId": null,
+      "leagueEaId": 66,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/111092.0433ef0cc1ce7785eb1b340dc55d11c412240233c2d973515b74a1897f91c5b7.png",
+      "lightImagePath": "2025/club-light/111092.0433ef0cc1ce7785eb1b340dc55d11c412240233c2d973515b74a1897f91c5b7.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        223370,
+        194333,
+        227766
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 64,
+      "midfieldRating": 66,
+      "defenseRating": 64,
+      "overallRating": 65,
+      "url": "/clubs/111092-slask-wroclaw/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/111092.0433ef0cc1ce7785eb1b340dc55d11c412240233c2d973515b74a1897f91c5b7.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/111092.0433ef0cc1ce7785eb1b340dc55d11c412240233c2d973515b74a1897f91c5b7.png"
+    },
+    "uniqueClub": {
+      "id": 2688,
+      "eaId": 111092,
+      "game": "25",
+      "slug": "111092-slask-wroclaw",
+      "name": "Śląsk Wrocław",
+      "sisterClubEaId": null,
+      "leagueEaId": 66,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/111092.0433ef0cc1ce7785eb1b340dc55d11c412240233c2d973515b74a1897f91c5b7.png",
+      "lightImagePath": "2025/club-light/111092.0433ef0cc1ce7785eb1b340dc55d11c412240233c2d973515b74a1897f91c5b7.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        223370,
+        194333,
+        227766
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 64,
+      "midfieldRating": 66,
+      "defenseRating": 64,
+      "overallRating": 65,
+      "url": "/clubs/111092-slask-wroclaw/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/111092.0433ef0cc1ce7785eb1b340dc55d11c412240233c2d973515b74a1897f91c5b7.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/111092.0433ef0cc1ce7785eb1b340dc55d11c412240233c2d973515b74a1897f91c5b7.png"
+    },
+    "nation": {
+      "id": 688,
+      "eaId": 37,
+      "slug": "poland",
+      "name": "Poland",
+      "imagePath": "2025/nation/37.b81416fa05c1354cb6a760b7ac64db7804599b575c87e64a3d3cba619332177c.png",
+      "url": "/nations/poland/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/nation/37.b81416fa05c1354cb6a760b7ac64db7804599b575c87e64a3d3cba619332177c.png"
+    },
+    "league": {
+      "id": 195,
+      "eaId": 66,
+      "slug": "pko-bank-polski-ekstraklasa",
+      "name": "PKO Bank Polski Ekstraklasa",
+      "imagePath": "2025/league/66.5e040c6cb58f30c1aed00f0a5d693df9c6f214e80096d77dffb17d73e8553e01.png",
+      "imageLightPath": "2025/league-light/66.a06d4a96828f8be4b6811b71d0f311fedf6d86dba6e19fe2caae897126d6c158.png",
+      "url": "/leagues/pko-bank-polski-ekstraklasa/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league/66.5e040c6cb58f30c1aed00f0a5d693df9c6f214e80096d77dffb17d73e8553e01.png",
+      "imageLightUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league-light/66.a06d4a96828f8be4b6811b71d0f311fedf6d86dba6e19fe2caae897126d6c158.png"
+    },
     "isSbcItem": false,
     "isObjectiveItem": false,
+    "rarity": {
+      "id": 434,
+      "eaId": 1,
+      "slug": "rare",
+      "game": "25",
+      "name": "Rare",
+      "alternateName": null,
+      "url": "/rarities/rare/",
+      "dominantColor": "dd9c79",
+      "imagePath": "2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png",
+      "imagePaths": [
+        "2025/rarities-level-1-large/1.ff6159fb3f49c4a46fb58bb7ff2edf3443faa545162b5636d1d36484b195af8f.png",
+        "2025/rarities-level-2-large/1.110820e10aee7e71b2a058da6a645b42455e8b52d8209c84906ab13b4ca637e1.png",
+        "2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png"
+      ],
+      "isSpecial": false,
+      "compactImagePath": "2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png",
+      "compactImagePaths": [
+        "2025/rarities-level-1-small/1.0c997213875cb4e45f25ea3a9d4c8586377af07d992da90277cc443403fd9d26.png",
+        "2025/rarities-level-2-small/1.a31950d31bb7c2b74f1bd0d7ec162d223eda669622761601950d7f24b80c1cbf.png",
+        "2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png"
+      ],
+      "animatedImagePath": null,
+      "animatedImagesPath": null,
+      "animatedImagesFrameCount": null,
+      "animatedImagesFps": null,
+      "animatedImagesDelay": null,
+      "isBrightColorScheme": true,
+      "textColor": [
+        "3e281c",
+        "1e252a",
+        "2d2410"
+      ],
+      "lineColor": [
+        "dd9c79",
+        "bfccd1",
+        "e3c075"
+      ],
+      "shadowColor": [
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "overallColor": null,
+      "numberOfPlayers": 6927,
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png",
+      "imageUrls": [
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-1-large/1.ff6159fb3f49c4a46fb58bb7ff2edf3443faa545162b5636d1d36484b195af8f.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-2-large/1.110820e10aee7e71b2a058da6a645b42455e8b52d8209c84906ab13b4ca637e1.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png"
+      ],
+      "animatedImageUrl": null,
+      "animatedImagesUrl": null,
+      "compactImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png"
+    },
     "totalFaceStats": 335,
-    "totalIgs": 1509
+    "totalIgs": 1509,
+    "isFullChemistry": false,
+    "extraNationChemistry": 0,
+    "extraLeagueChemistry": 0,
+    "extraClubChemistry": 0,
+    "extraSquadLeagueChemistry": false,
+    "extraSquadNationChemistry": false
   }
 }

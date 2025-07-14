@@ -154,7 +154,7 @@
     "objectiveCampaignLevelId": null,
     "campaignProps": null,
     "contentTypeId": 27,
-    "numberOfEvolutions": 38,
+    "numberOfEvolutions": 32,
     "blurbText": null,
     "smallBlurbText": "Joel Chima Fujita is 23 years old, and plays for STVV in the 1A Pro League. Joel Chima Fujita's height stands at 175 cm (5'9'), and the nation he represents is Japan. This Common version of Joel Chima Fujita is a 67 rated CDM. He is Right footed, with 2 star skill moves and 3 star weak foot. ",
     "upgrades": null,
@@ -176,10 +176,146 @@
     "ggRating": null,
     "ggRatingPos": null,
     "ggRatingStr": null,
+    "isHistoricalItem": false,
     "commonName": "Joel Chima Fujita",
+    "club": {
+      "id": 2316,
+      "eaId": 680,
+      "game": "25",
+      "slug": "680-stvv",
+      "name": "STVV",
+      "sisterClubEaId": null,
+      "leagueEaId": 4,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/680.7f9b003a01e0772b18d8c7b7e094816e9d42733c76458fd3d9757ec4dfda7d2b.png",
+      "lightImagePath": "2025/club-light/680.c225e10eac77d7e1f538106d858a7a32ee21139bd84efdf102d0fa2c745286d4.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        224970,
+        232487,
+        232730
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 68,
+      "midfieldRating": 70,
+      "defenseRating": 67,
+      "overallRating": 68,
+      "url": "/clubs/680-stvv/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/680.7f9b003a01e0772b18d8c7b7e094816e9d42733c76458fd3d9757ec4dfda7d2b.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/680.c225e10eac77d7e1f538106d858a7a32ee21139bd84efdf102d0fa2c745286d4.png"
+    },
+    "uniqueClub": {
+      "id": 2316,
+      "eaId": 680,
+      "game": "25",
+      "slug": "680-stvv",
+      "name": "STVV",
+      "sisterClubEaId": null,
+      "leagueEaId": 4,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/680.7f9b003a01e0772b18d8c7b7e094816e9d42733c76458fd3d9757ec4dfda7d2b.png",
+      "lightImagePath": "2025/club-light/680.c225e10eac77d7e1f538106d858a7a32ee21139bd84efdf102d0fa2c745286d4.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        224970,
+        232487,
+        232730
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 68,
+      "midfieldRating": 70,
+      "defenseRating": 67,
+      "overallRating": 68,
+      "url": "/clubs/680-stvv/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/680.7f9b003a01e0772b18d8c7b7e094816e9d42733c76458fd3d9757ec4dfda7d2b.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/680.c225e10eac77d7e1f538106d858a7a32ee21139bd84efdf102d0fa2c745286d4.png"
+    },
+    "nation": {
+      "id": 783,
+      "eaId": 163,
+      "slug": "japan",
+      "name": "Japan",
+      "imagePath": "2025/nation/163.3d16898c08390457f8afd84b3bf85b15b3bfbe81780858eacceaa5ba22574d93.png",
+      "url": "/nations/japan/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/nation/163.3d16898c08390457f8afd84b3bf85b15b3bfbe81780858eacceaa5ba22574d93.png"
+    },
+    "league": {
+      "id": 175,
+      "eaId": 4,
+      "slug": "1a-pro-league",
+      "name": "1A Pro League",
+      "imagePath": "2025/league/4.92eb57bbf802a9cba8633144e760dee82e7039f96bac4853610d0247b8492af5.png",
+      "imageLightPath": "2025/league-light/4.96ab33aac9fc5863e31e228424cbc3ea49c26154e3e6854b5c1e21b5c3f4434f.png",
+      "url": "/leagues/1a-pro-league/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league/4.92eb57bbf802a9cba8633144e760dee82e7039f96bac4853610d0247b8492af5.png",
+      "imageLightUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league-light/4.96ab33aac9fc5863e31e228424cbc3ea49c26154e3e6854b5c1e21b5c3f4434f.png"
+    },
     "isSbcItem": false,
     "isObjectiveItem": false,
+    "rarity": {
+      "id": 433,
+      "eaId": 0,
+      "slug": "common",
+      "game": "25",
+      "name": "Common",
+      "alternateName": null,
+      "url": "/rarities/common/",
+      "dominantColor": "d39570",
+      "imagePath": "2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png",
+      "imagePaths": [
+        "2025/rarities-level-1-large/0.9e74985cc5fa0235bfd1cdf18524886abec80cb940fb87245dc8eb0fe402e68e.png",
+        "2025/rarities-level-2-large/0.bcc3305230ad572a1c35252bfc76d94661378a3cd0bc6f05053ecadb8b4b8dbe.png",
+        "2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png"
+      ],
+      "isSpecial": false,
+      "compactImagePath": "2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png",
+      "compactImagePaths": [
+        "2025/rarities-level-1-small/0.07fe8673a441822a263a61409f05124a35882cb798e0cd62868d00dc388d25cd.png",
+        "2025/rarities-level-2-small/0.2d3f30416f2b228ddf7e8eef513c1ffb7af5aadea48ff7a9a24cccd90f40889c.png",
+        "2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png"
+      ],
+      "animatedImagePath": null,
+      "animatedImagesPath": null,
+      "animatedImagesFrameCount": null,
+      "animatedImagesFps": null,
+      "animatedImagesDelay": null,
+      "isBrightColorScheme": true,
+      "textColor": [
+        "3f1208",
+        "192228",
+        "31260c"
+      ],
+      "lineColor": [
+        "d39570",
+        "bfcbd3",
+        "c5a96b"
+      ],
+      "shadowColor": [
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "overallColor": null,
+      "numberOfPlayers": 13709,
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png",
+      "imageUrls": [
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-1-large/0.9e74985cc5fa0235bfd1cdf18524886abec80cb940fb87245dc8eb0fe402e68e.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-2-large/0.bcc3305230ad572a1c35252bfc76d94661378a3cd0bc6f05053ecadb8b4b8dbe.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png"
+      ],
+      "animatedImageUrl": null,
+      "animatedImagesUrl": null,
+      "compactImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png"
+    },
     "totalFaceStats": 381,
-    "totalIgs": 1780
+    "totalIgs": 1780,
+    "isFullChemistry": false,
+    "extraNationChemistry": 0,
+    "extraLeagueChemistry": 0,
+    "extraClubChemistry": 0,
+    "extraSquadLeagueChemistry": false,
+    "extraSquadNationChemistry": false
   }
 }

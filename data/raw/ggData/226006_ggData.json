@@ -145,9 +145,9 @@
     "objectiveCampaignLevelId": null,
     "campaignProps": null,
     "contentTypeId": 27,
-    "numberOfEvolutions": 2,
+    "numberOfEvolutions": 1,
     "blurbText": null,
-    "smallBlurbText": "Colm Horgan is 30 years old, and plays for Galway United in the SSE Airtricity Men's Premier Division. Colm Horgan's height stands at 172 cm (5'8'), and the nation he represents is Republic of Ireland. This Common version of Colm Horgan is a 57 rated RB. He is Right footed, with 2 star skill moves and 3 star weak foot. ",
+    "smallBlurbText": "Colm Horgan is 31 years old, and plays for Galway United in the SSE Airtricity Men's Premier Division. Colm Horgan's height stands at 172 cm (5'8'), and the nation he represents is Republic of Ireland. This Common version of Colm Horgan is a 57 rated RB. He is Right footed, with 2 star skill moves and 3 star weak foot. ",
     "upgrades": null,
     "hasPrice": true,
     "trackerId": null,
@@ -164,10 +164,149 @@
     "premiumSeasonPassLevel": null,
     "standardSeasonPassLevel": null,
     "metarankStr": null,
+    "ggRating": null,
+    "ggRatingPos": null,
+    "ggRatingStr": null,
+    "isHistoricalItem": false,
     "commonName": "Colm Horgan",
+    "club": {
+      "id": 2673,
+      "eaId": 1571,
+      "game": "25",
+      "slug": "1571-galway-united",
+      "name": "Galway United",
+      "sisterClubEaId": null,
+      "leagueEaId": 65,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/1571.0bc12629adfd5a42e662f86dbfe89716d8b0103240d179fe47c4bf4a2c7b260c.png",
+      "lightImagePath": "2025/club-light/1571.0bc12629adfd5a42e662f86dbfe89716d8b0103240d179fe47c4bf4a2c7b260c.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        226012,
+        180903,
+        198190
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 56,
+      "midfieldRating": 59,
+      "defenseRating": 61,
+      "overallRating": 60,
+      "url": "/clubs/1571-galway-united/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/1571.0bc12629adfd5a42e662f86dbfe89716d8b0103240d179fe47c4bf4a2c7b260c.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/1571.0bc12629adfd5a42e662f86dbfe89716d8b0103240d179fe47c4bf4a2c7b260c.png"
+    },
+    "uniqueClub": {
+      "id": 2673,
+      "eaId": 1571,
+      "game": "25",
+      "slug": "1571-galway-united",
+      "name": "Galway United",
+      "sisterClubEaId": null,
+      "leagueEaId": 65,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/1571.0bc12629adfd5a42e662f86dbfe89716d8b0103240d179fe47c4bf4a2c7b260c.png",
+      "lightImagePath": "2025/club-light/1571.0bc12629adfd5a42e662f86dbfe89716d8b0103240d179fe47c4bf4a2c7b260c.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        226012,
+        180903,
+        198190
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 56,
+      "midfieldRating": 59,
+      "defenseRating": 61,
+      "overallRating": 60,
+      "url": "/clubs/1571-galway-united/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/1571.0bc12629adfd5a42e662f86dbfe89716d8b0103240d179fe47c4bf4a2c7b260c.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/1571.0bc12629adfd5a42e662f86dbfe89716d8b0103240d179fe47c4bf4a2c7b260c.png"
+    },
+    "nation": {
+      "id": 676,
+      "eaId": 25,
+      "slug": "republic-of-ireland",
+      "name": "Republic of Ireland",
+      "imagePath": "2025/nation/25.cc0eaf71ada7c7779feccad6752d6dc46465e15667da5110efd5b71e9248b78a.png",
+      "url": "/nations/republic-of-ireland/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/nation/25.cc0eaf71ada7c7779feccad6752d6dc46465e15667da5110efd5b71e9248b78a.png"
+    },
+    "league": {
+      "id": 194,
+      "eaId": 65,
+      "slug": "sse-airtricity-mens-premier-division",
+      "name": "SSE Airtricity Men's Premier Division",
+      "imagePath": "2025/league/65.0bde05d44ab591b5259cdd50c32bdc1e55276616b47b088ff70f6044b955c16a.png",
+      "imageLightPath": "2025/league-light/65.0bde05d44ab591b5259cdd50c32bdc1e55276616b47b088ff70f6044b955c16a.png",
+      "url": "/leagues/sse-airtricity-mens-premier-division/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league/65.0bde05d44ab591b5259cdd50c32bdc1e55276616b47b088ff70f6044b955c16a.png",
+      "imageLightUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league-light/65.0bde05d44ab591b5259cdd50c32bdc1e55276616b47b088ff70f6044b955c16a.png"
+    },
     "isSbcItem": false,
     "isObjectiveItem": false,
+    "rarity": {
+      "id": 433,
+      "eaId": 0,
+      "slug": "common",
+      "game": "25",
+      "name": "Common",
+      "alternateName": null,
+      "url": "/rarities/common/",
+      "dominantColor": "d39570",
+      "imagePath": "2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png",
+      "imagePaths": [
+        "2025/rarities-level-1-large/0.9e74985cc5fa0235bfd1cdf18524886abec80cb940fb87245dc8eb0fe402e68e.png",
+        "2025/rarities-level-2-large/0.bcc3305230ad572a1c35252bfc76d94661378a3cd0bc6f05053ecadb8b4b8dbe.png",
+        "2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png"
+      ],
+      "isSpecial": false,
+      "compactImagePath": "2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png",
+      "compactImagePaths": [
+        "2025/rarities-level-1-small/0.07fe8673a441822a263a61409f05124a35882cb798e0cd62868d00dc388d25cd.png",
+        "2025/rarities-level-2-small/0.2d3f30416f2b228ddf7e8eef513c1ffb7af5aadea48ff7a9a24cccd90f40889c.png",
+        "2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png"
+      ],
+      "animatedImagePath": null,
+      "animatedImagesPath": null,
+      "animatedImagesFrameCount": null,
+      "animatedImagesFps": null,
+      "animatedImagesDelay": null,
+      "isBrightColorScheme": true,
+      "textColor": [
+        "3f1208",
+        "192228",
+        "31260c"
+      ],
+      "lineColor": [
+        "d39570",
+        "bfcbd3",
+        "c5a96b"
+      ],
+      "shadowColor": [
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "overallColor": null,
+      "numberOfPlayers": 13709,
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png",
+      "imageUrls": [
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-1-large/0.9e74985cc5fa0235bfd1cdf18524886abec80cb940fb87245dc8eb0fe402e68e.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-2-large/0.bcc3305230ad572a1c35252bfc76d94661378a3cd0bc6f05053ecadb8b4b8dbe.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png"
+      ],
+      "animatedImageUrl": null,
+      "animatedImagesUrl": null,
+      "compactImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png"
+    },
     "totalFaceStats": 316,
-    "totalIgs": 1492
+    "totalIgs": 1492,
+    "isFullChemistry": false,
+    "extraNationChemistry": 0,
+    "extraLeagueChemistry": 0,
+    "extraClubChemistry": 0,
+    "extraSquadLeagueChemistry": false,
+    "extraSquadNationChemistry": false
   }
 }

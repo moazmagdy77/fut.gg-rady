@@ -150,7 +150,7 @@
     "objectiveCampaignLevelId": null,
     "campaignProps": null,
     "contentTypeId": 27,
-    "numberOfEvolutions": 15,
+    "numberOfEvolutions": 4,
     "blurbText": null,
     "smallBlurbText": "Julian Kudala is 23 years old, and plays for SSV Ulm 1846 in the Bundesliga 2. Julian Kudala's height stands at 184 cm (6'0'), and the nation he represents is Germany. This Common version of Julian Kudala is a 59 rated RM. He is Right footed, with 3 star skill moves and 3 star weak foot. ",
     "upgrades": null,
@@ -169,10 +169,149 @@
     "premiumSeasonPassLevel": null,
     "standardSeasonPassLevel": null,
     "metarankStr": null,
+    "ggRating": null,
+    "ggRatingPos": null,
+    "ggRatingStr": null,
+    "isHistoricalItem": false,
     "commonName": "Julian Kudala",
+    "club": {
+      "id": 2452,
+      "eaId": 110176,
+      "game": "25",
+      "slug": "110176-ssv-ulm-1846",
+      "name": "SSV Ulm 1846",
+      "sisterClubEaId": null,
+      "leagueEaId": 20,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/110176.e833e6723436b0111cb9c4f999134f268c8698f6669762804c876930a8625c5f.png",
+      "lightImagePath": "2025/club-light/110176.e833e6723436b0111cb9c4f999134f268c8698f6669762804c876930a8625c5f.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        255339,
+        273771,
+        250946
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 66,
+      "midfieldRating": 66,
+      "defenseRating": 67,
+      "overallRating": 66,
+      "url": "/clubs/110176-ssv-ulm-1846/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/110176.e833e6723436b0111cb9c4f999134f268c8698f6669762804c876930a8625c5f.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/110176.e833e6723436b0111cb9c4f999134f268c8698f6669762804c876930a8625c5f.png"
+    },
+    "uniqueClub": {
+      "id": 2452,
+      "eaId": 110176,
+      "game": "25",
+      "slug": "110176-ssv-ulm-1846",
+      "name": "SSV Ulm 1846",
+      "sisterClubEaId": null,
+      "leagueEaId": 20,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/110176.e833e6723436b0111cb9c4f999134f268c8698f6669762804c876930a8625c5f.png",
+      "lightImagePath": "2025/club-light/110176.e833e6723436b0111cb9c4f999134f268c8698f6669762804c876930a8625c5f.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        255339,
+        273771,
+        250946
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 66,
+      "midfieldRating": 66,
+      "defenseRating": 67,
+      "overallRating": 66,
+      "url": "/clubs/110176-ssv-ulm-1846/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/110176.e833e6723436b0111cb9c4f999134f268c8698f6669762804c876930a8625c5f.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/110176.e833e6723436b0111cb9c4f999134f268c8698f6669762804c876930a8625c5f.png"
+    },
+    "nation": {
+      "id": 672,
+      "eaId": 21,
+      "slug": "germany",
+      "name": "Germany",
+      "imagePath": "2025/nation/21.09e6201577ad206ca1927900d61876676ce53a98d69a6e8047ccfeac8c133cdd.png",
+      "url": "/nations/germany/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/nation/21.09e6201577ad206ca1927900d61876676ce53a98d69a6e8047ccfeac8c133cdd.png"
+    },
+    "league": {
+      "id": 182,
+      "eaId": 20,
+      "slug": "bundesliga-2",
+      "name": "Bundesliga 2",
+      "imagePath": "2025/league/20.46738f8becf04ed7b3701e41d5f44544d56dba72001e124461f4be58c8192d46.png",
+      "imageLightPath": "2025/league-light/20.11d11771d3d61ecc4f0d34f92724dfe1cf7deb159bae4f4758675fcbd852d19f.png",
+      "url": "/leagues/bundesliga-2/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league/20.46738f8becf04ed7b3701e41d5f44544d56dba72001e124461f4be58c8192d46.png",
+      "imageLightUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league-light/20.11d11771d3d61ecc4f0d34f92724dfe1cf7deb159bae4f4758675fcbd852d19f.png"
+    },
     "isSbcItem": false,
     "isObjectiveItem": false,
+    "rarity": {
+      "id": 433,
+      "eaId": 0,
+      "slug": "common",
+      "game": "25",
+      "name": "Common",
+      "alternateName": null,
+      "url": "/rarities/common/",
+      "dominantColor": "d39570",
+      "imagePath": "2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png",
+      "imagePaths": [
+        "2025/rarities-level-1-large/0.9e74985cc5fa0235bfd1cdf18524886abec80cb940fb87245dc8eb0fe402e68e.png",
+        "2025/rarities-level-2-large/0.bcc3305230ad572a1c35252bfc76d94661378a3cd0bc6f05053ecadb8b4b8dbe.png",
+        "2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png"
+      ],
+      "isSpecial": false,
+      "compactImagePath": "2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png",
+      "compactImagePaths": [
+        "2025/rarities-level-1-small/0.07fe8673a441822a263a61409f05124a35882cb798e0cd62868d00dc388d25cd.png",
+        "2025/rarities-level-2-small/0.2d3f30416f2b228ddf7e8eef513c1ffb7af5aadea48ff7a9a24cccd90f40889c.png",
+        "2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png"
+      ],
+      "animatedImagePath": null,
+      "animatedImagesPath": null,
+      "animatedImagesFrameCount": null,
+      "animatedImagesFps": null,
+      "animatedImagesDelay": null,
+      "isBrightColorScheme": true,
+      "textColor": [
+        "3f1208",
+        "192228",
+        "31260c"
+      ],
+      "lineColor": [
+        "d39570",
+        "bfcbd3",
+        "c5a96b"
+      ],
+      "shadowColor": [
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "overallColor": null,
+      "numberOfPlayers": 13709,
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png",
+      "imageUrls": [
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-1-large/0.9e74985cc5fa0235bfd1cdf18524886abec80cb940fb87245dc8eb0fe402e68e.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-2-large/0.bcc3305230ad572a1c35252bfc76d94661378a3cd0bc6f05053ecadb8b4b8dbe.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png"
+      ],
+      "animatedImageUrl": null,
+      "animatedImagesUrl": null,
+      "compactImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png"
+    },
     "totalFaceStats": 334,
-    "totalIgs": 1508
+    "totalIgs": 1508,
+    "isFullChemistry": false,
+    "extraNationChemistry": 0,
+    "extraLeagueChemistry": 0,
+    "extraClubChemistry": 0,
+    "extraSquadLeagueChemistry": false,
+    "extraSquadNationChemistry": false
   }
 }

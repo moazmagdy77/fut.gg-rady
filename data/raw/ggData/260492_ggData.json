@@ -153,7 +153,7 @@
     "objectiveCampaignLevelId": null,
     "campaignProps": null,
     "contentTypeId": 27,
-    "numberOfEvolutions": 0,
+    "numberOfEvolutions": 7,
     "blurbText": null,
     "smallBlurbText": "Eom Ji Sung is 23 years old, and plays for Swansea City in the EFL Championship. Eom Ji Sung's height stands at 178 cm (5'10'), and the nation he represents is Korea Republic. This Common version of Eom Ji Sung is a 72 rated LM. He is Right footed, with 3 star skill moves and 3 star weak foot. ",
     "upgrades": null,
@@ -172,10 +172,149 @@
     "premiumSeasonPassLevel": null,
     "standardSeasonPassLevel": null,
     "metarankStr": null,
+    "ggRating": null,
+    "ggRatingPos": null,
+    "ggRatingStr": null,
+    "isHistoricalItem": false,
     "commonName": "Eom Ji Sung",
+    "club": {
+      "id": 2383,
+      "eaId": 1960,
+      "game": "25",
+      "slug": "1960-swansea-city",
+      "name": "Swansea City",
+      "sisterClubEaId": null,
+      "leagueEaId": 14,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/1960.a8131eb32915bc3e8498a44cc5a2f83eb75ede529ed39f52dd821beb4a427b4a.png",
+      "lightImagePath": "2025/club-light/1960.1ae3b95c37861ead03643f65643628d33c6c7a12591b9232a17c9cad8cd26d0f.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        241651,
+        238216,
+        232104
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 69,
+      "midfieldRating": 70,
+      "defenseRating": 70,
+      "overallRating": 70,
+      "url": "/clubs/1960-swansea-city/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/1960.a8131eb32915bc3e8498a44cc5a2f83eb75ede529ed39f52dd821beb4a427b4a.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/1960.1ae3b95c37861ead03643f65643628d33c6c7a12591b9232a17c9cad8cd26d0f.png"
+    },
+    "uniqueClub": {
+      "id": 2383,
+      "eaId": 1960,
+      "game": "25",
+      "slug": "1960-swansea-city",
+      "name": "Swansea City",
+      "sisterClubEaId": null,
+      "leagueEaId": 14,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/1960.a8131eb32915bc3e8498a44cc5a2f83eb75ede529ed39f52dd821beb4a427b4a.png",
+      "lightImagePath": "2025/club-light/1960.1ae3b95c37861ead03643f65643628d33c6c7a12591b9232a17c9cad8cd26d0f.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        241651,
+        238216,
+        232104
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 69,
+      "midfieldRating": 70,
+      "defenseRating": 70,
+      "overallRating": 70,
+      "url": "/clubs/1960-swansea-city/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/1960.a8131eb32915bc3e8498a44cc5a2f83eb75ede529ed39f52dd821beb4a427b4a.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/1960.1ae3b95c37861ead03643f65643628d33c6c7a12591b9232a17c9cad8cd26d0f.png"
+    },
+    "nation": {
+      "id": 787,
+      "eaId": 167,
+      "slug": "korea-republic",
+      "name": "Korea Republic",
+      "imagePath": "2025/nation/167.82ceb3244d955567b31528a519ee7b130a8893caf40bb560038d26d308ba87fc.png",
+      "url": "/nations/korea-republic/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/nation/167.82ceb3244d955567b31528a519ee7b130a8893caf40bb560038d26d308ba87fc.png"
+    },
+    "league": {
+      "id": 178,
+      "eaId": 14,
+      "slug": "efl-championship",
+      "name": "EFL Championship",
+      "imagePath": "2025/league/14.b7e5b9489c5e59e767ed42d684f00ee24d0a16c70b38cf0dca8c37aca2229f90.png",
+      "imageLightPath": "2025/league-light/14.b7e5b9489c5e59e767ed42d684f00ee24d0a16c70b38cf0dca8c37aca2229f90.png",
+      "url": "/leagues/efl-championship/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league/14.b7e5b9489c5e59e767ed42d684f00ee24d0a16c70b38cf0dca8c37aca2229f90.png",
+      "imageLightUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league-light/14.b7e5b9489c5e59e767ed42d684f00ee24d0a16c70b38cf0dca8c37aca2229f90.png"
+    },
     "isSbcItem": false,
     "isObjectiveItem": false,
+    "rarity": {
+      "id": 433,
+      "eaId": 0,
+      "slug": "common",
+      "game": "25",
+      "name": "Common",
+      "alternateName": null,
+      "url": "/rarities/common/",
+      "dominantColor": "d39570",
+      "imagePath": "2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png",
+      "imagePaths": [
+        "2025/rarities-level-1-large/0.9e74985cc5fa0235bfd1cdf18524886abec80cb940fb87245dc8eb0fe402e68e.png",
+        "2025/rarities-level-2-large/0.bcc3305230ad572a1c35252bfc76d94661378a3cd0bc6f05053ecadb8b4b8dbe.png",
+        "2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png"
+      ],
+      "isSpecial": false,
+      "compactImagePath": "2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png",
+      "compactImagePaths": [
+        "2025/rarities-level-1-small/0.07fe8673a441822a263a61409f05124a35882cb798e0cd62868d00dc388d25cd.png",
+        "2025/rarities-level-2-small/0.2d3f30416f2b228ddf7e8eef513c1ffb7af5aadea48ff7a9a24cccd90f40889c.png",
+        "2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png"
+      ],
+      "animatedImagePath": null,
+      "animatedImagesPath": null,
+      "animatedImagesFrameCount": null,
+      "animatedImagesFps": null,
+      "animatedImagesDelay": null,
+      "isBrightColorScheme": true,
+      "textColor": [
+        "3f1208",
+        "192228",
+        "31260c"
+      ],
+      "lineColor": [
+        "d39570",
+        "bfcbd3",
+        "c5a96b"
+      ],
+      "shadowColor": [
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "overallColor": null,
+      "numberOfPlayers": 13709,
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png",
+      "imageUrls": [
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-1-large/0.9e74985cc5fa0235bfd1cdf18524886abec80cb940fb87245dc8eb0fe402e68e.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-2-large/0.bcc3305230ad572a1c35252bfc76d94661378a3cd0bc6f05053ecadb8b4b8dbe.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png"
+      ],
+      "animatedImageUrl": null,
+      "animatedImagesUrl": null,
+      "compactImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png"
+    },
     "totalFaceStats": 388,
-    "totalIgs": 1808
+    "totalIgs": 1808,
+    "isFullChemistry": false,
+    "extraNationChemistry": 0,
+    "extraLeagueChemistry": 0,
+    "extraClubChemistry": 0,
+    "extraSquadLeagueChemistry": false,
+    "extraSquadNationChemistry": false
   }
 }

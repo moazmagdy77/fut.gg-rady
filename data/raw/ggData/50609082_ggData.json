@@ -149,7 +149,7 @@
     "objectiveCampaignLevelId": null,
     "campaignProps": null,
     "contentTypeId": 27,
-    "numberOfEvolutions": 2,
+    "numberOfEvolutions": 1,
     "blurbText": null,
     "smallBlurbText": "Mackenzie Hunt is 23 years old, and plays for Fleetwood Town in the EFL League Two. Mackenzie Hunt's height stands at 176 cm (5'9'), and the nation he represents is United Arab Emirates. This Common version of Mackenzie Hunt is a 59 rated LB. He is Left footed, with 2 star skill moves and 2 star weak foot. ",
     "upgrades": null,
@@ -168,10 +168,149 @@
     "premiumSeasonPassLevel": null,
     "standardSeasonPassLevel": null,
     "metarankStr": null,
+    "ggRating": null,
+    "ggRatingPos": null,
+    "ggRatingStr": null,
+    "isHistoricalItem": false,
     "commonName": "Mackenzie Hunt",
+    "club": {
+      "id": 2658,
+      "eaId": 112260,
+      "game": "25",
+      "slug": "112260-fleetwood-town",
+      "name": "Fleetwood Town",
+      "sisterClubEaId": null,
+      "leagueEaId": 61,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/112260.f01bcb6fb57840adc1a549290a0f517b36e206c4d7dd90ab5fbcae795f5b20d7.png",
+      "lightImagePath": "2025/club-light/112260.f01bcb6fb57840adc1a549290a0f517b36e206c4d7dd90ab5fbcae795f5b20d7.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        208830,
+        212484,
+        204760
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 61,
+      "midfieldRating": 63,
+      "defenseRating": 63,
+      "overallRating": 63,
+      "url": "/clubs/112260-fleetwood-town/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/112260.f01bcb6fb57840adc1a549290a0f517b36e206c4d7dd90ab5fbcae795f5b20d7.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/112260.f01bcb6fb57840adc1a549290a0f517b36e206c4d7dd90ab5fbcae795f5b20d7.png"
+    },
+    "uniqueClub": {
+      "id": 2658,
+      "eaId": 112260,
+      "game": "25",
+      "slug": "112260-fleetwood-town",
+      "name": "Fleetwood Town",
+      "sisterClubEaId": null,
+      "leagueEaId": 61,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/112260.f01bcb6fb57840adc1a549290a0f517b36e206c4d7dd90ab5fbcae795f5b20d7.png",
+      "lightImagePath": "2025/club-light/112260.f01bcb6fb57840adc1a549290a0f517b36e206c4d7dd90ab5fbcae795f5b20d7.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        208830,
+        212484,
+        204760
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 61,
+      "midfieldRating": 63,
+      "defenseRating": 63,
+      "overallRating": 63,
+      "url": "/clubs/112260-fleetwood-town/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/112260.f01bcb6fb57840adc1a549290a0f517b36e206c4d7dd90ab5fbcae795f5b20d7.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/112260.f01bcb6fb57840adc1a549290a0f517b36e206c4d7dd90ab5fbcae795f5b20d7.png"
+    },
+    "nation": {
+      "id": 795,
+      "eaId": 190,
+      "slug": "united-arab-emirates",
+      "name": "United Arab Emirates",
+      "imagePath": "2025/nation/190.bb7c42d98d3c4994a624f401fa2e914c4d52f951be715d2bb793c864b564285f.png",
+      "url": "/nations/united-arab-emirates/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/nation/190.bb7c42d98d3c4994a624f401fa2e914c4d52f951be715d2bb793c864b564285f.png"
+    },
+    "league": {
+      "id": 192,
+      "eaId": 61,
+      "slug": "efl-league-two",
+      "name": "EFL League Two",
+      "imagePath": "2025/league/61.23f7334d47c2734c979cd985d8ace993faf05c170cb69a3e7ebe6b0ebb546cff.png",
+      "imageLightPath": "2025/league-light/61.23f7334d47c2734c979cd985d8ace993faf05c170cb69a3e7ebe6b0ebb546cff.png",
+      "url": "/leagues/efl-league-two/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league/61.23f7334d47c2734c979cd985d8ace993faf05c170cb69a3e7ebe6b0ebb546cff.png",
+      "imageLightUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league-light/61.23f7334d47c2734c979cd985d8ace993faf05c170cb69a3e7ebe6b0ebb546cff.png"
+    },
     "isSbcItem": false,
     "isObjectiveItem": false,
+    "rarity": {
+      "id": 433,
+      "eaId": 0,
+      "slug": "common",
+      "game": "25",
+      "name": "Common",
+      "alternateName": null,
+      "url": "/rarities/common/",
+      "dominantColor": "d39570",
+      "imagePath": "2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png",
+      "imagePaths": [
+        "2025/rarities-level-1-large/0.9e74985cc5fa0235bfd1cdf18524886abec80cb940fb87245dc8eb0fe402e68e.png",
+        "2025/rarities-level-2-large/0.bcc3305230ad572a1c35252bfc76d94661378a3cd0bc6f05053ecadb8b4b8dbe.png",
+        "2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png"
+      ],
+      "isSpecial": false,
+      "compactImagePath": "2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png",
+      "compactImagePaths": [
+        "2025/rarities-level-1-small/0.07fe8673a441822a263a61409f05124a35882cb798e0cd62868d00dc388d25cd.png",
+        "2025/rarities-level-2-small/0.2d3f30416f2b228ddf7e8eef513c1ffb7af5aadea48ff7a9a24cccd90f40889c.png",
+        "2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png"
+      ],
+      "animatedImagePath": null,
+      "animatedImagesPath": null,
+      "animatedImagesFrameCount": null,
+      "animatedImagesFps": null,
+      "animatedImagesDelay": null,
+      "isBrightColorScheme": true,
+      "textColor": [
+        "3f1208",
+        "192228",
+        "31260c"
+      ],
+      "lineColor": [
+        "d39570",
+        "bfcbd3",
+        "c5a96b"
+      ],
+      "shadowColor": [
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "overallColor": null,
+      "numberOfPlayers": 13709,
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png",
+      "imageUrls": [
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-1-large/0.9e74985cc5fa0235bfd1cdf18524886abec80cb940fb87245dc8eb0fe402e68e.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-2-large/0.bcc3305230ad572a1c35252bfc76d94661378a3cd0bc6f05053ecadb8b4b8dbe.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png"
+      ],
+      "animatedImageUrl": null,
+      "animatedImagesUrl": null,
+      "compactImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png"
+    },
     "totalFaceStats": 340,
-    "totalIgs": 1597
+    "totalIgs": 1597,
+    "isFullChemistry": false,
+    "extraNationChemistry": 0,
+    "extraLeagueChemistry": 0,
+    "extraClubChemistry": 0,
+    "extraSquadLeagueChemistry": false,
+    "extraSquadNationChemistry": false
   }
 }

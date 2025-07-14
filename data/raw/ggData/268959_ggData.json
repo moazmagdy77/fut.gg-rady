@@ -148,9 +148,9 @@
     "objectiveCampaignLevelId": null,
     "campaignProps": null,
     "contentTypeId": 27,
-    "numberOfEvolutions": 4,
+    "numberOfEvolutions": 45,
     "blurbText": null,
-    "smallBlurbText": "Liu Yixin is 23 years old, and plays for Henan FC in the Chinese Football Association Super League. Liu Yixin's height stands at 180 cm (5'11'), and the nation he represents is China PR. This Common version of Liu Yixin is a 57 rated LB. He is Right footed, with 2 star skill moves and 3 star weak foot. ",
+    "smallBlurbText": "Liu Yixin is 24 years old, and plays for Henan FC in the Chinese Football Association Super League. Liu Yixin's height stands at 180 cm (5'11'), and the nation he represents is China PR. This Common version of Liu Yixin is a 57 rated LB. He is Right footed, with 2 star skill moves and 3 star weak foot. ",
     "upgrades": null,
     "hasPrice": true,
     "trackerId": null,
@@ -167,10 +167,149 @@
     "premiumSeasonPassLevel": null,
     "standardSeasonPassLevel": null,
     "metarankStr": null,
+    "ggRating": null,
+    "ggRatingPos": null,
+    "ggRatingStr": null,
+    "isHistoricalItem": false,
     "commonName": "Liu Yixin",
+    "club": {
+      "id": 2923,
+      "eaId": 111779,
+      "game": "25",
+      "slug": "111779-henan-fc",
+      "name": "Henan FC",
+      "sisterClubEaId": null,
+      "leagueEaId": 2012,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/111779.95379d4890fb5d56edd228f28f56fde8b03d34b6fc3b0a8f70ecb750dfc7564d.png",
+      "lightImagePath": "2025/club-light/111779.95379d4890fb5d56edd228f28f56fde8b03d34b6fc3b0a8f70ecb750dfc7564d.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        215334,
+        213013,
+        208480
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 61,
+      "midfieldRating": 64,
+      "defenseRating": 63,
+      "overallRating": 64,
+      "url": "/clubs/111779-henan-fc/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/111779.95379d4890fb5d56edd228f28f56fde8b03d34b6fc3b0a8f70ecb750dfc7564d.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/111779.95379d4890fb5d56edd228f28f56fde8b03d34b6fc3b0a8f70ecb750dfc7564d.png"
+    },
+    "uniqueClub": {
+      "id": 2923,
+      "eaId": 111779,
+      "game": "25",
+      "slug": "111779-henan-fc",
+      "name": "Henan FC",
+      "sisterClubEaId": null,
+      "leagueEaId": 2012,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/111779.95379d4890fb5d56edd228f28f56fde8b03d34b6fc3b0a8f70ecb750dfc7564d.png",
+      "lightImagePath": "2025/club-light/111779.95379d4890fb5d56edd228f28f56fde8b03d34b6fc3b0a8f70ecb750dfc7564d.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        215334,
+        213013,
+        208480
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 61,
+      "midfieldRating": 64,
+      "defenseRating": 63,
+      "overallRating": 64,
+      "url": "/clubs/111779-henan-fc/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/111779.95379d4890fb5d56edd228f28f56fde8b03d34b6fc3b0a8f70ecb750dfc7564d.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/111779.95379d4890fb5d56edd228f28f56fde8b03d34b6fc3b0a8f70ecb750dfc7564d.png"
+    },
+    "nation": {
+      "id": 777,
+      "eaId": 155,
+      "slug": "china-pr",
+      "name": "China PR",
+      "imagePath": "2025/nation/155.86fcae555a5dc5cbafc42ede3638a6bb305a4da24df548211166a01ccf919e3b.png",
+      "url": "/nations/china-pr/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/nation/155.86fcae555a5dc5cbafc42ede3638a6bb305a4da24df548211166a01ccf919e3b.png"
+    },
+    "league": {
+      "id": 212,
+      "eaId": 2012,
+      "slug": "chinese-football-association-super-league",
+      "name": "Chinese Football Association Super League",
+      "imagePath": "2025/league/2012.2551a068f28eb2e12523e972963a7daf0268435716d9d0df7d0eb189dc81abc3.png",
+      "imageLightPath": "2025/league-light/2012.a2336ea3ad4c624255a3fdaa03f4fe3ce3f27c13b3609204fece68ae484f4ac8.png",
+      "url": "/leagues/chinese-football-association-super-league/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league/2012.2551a068f28eb2e12523e972963a7daf0268435716d9d0df7d0eb189dc81abc3.png",
+      "imageLightUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league-light/2012.a2336ea3ad4c624255a3fdaa03f4fe3ce3f27c13b3609204fece68ae484f4ac8.png"
+    },
     "isSbcItem": false,
     "isObjectiveItem": false,
+    "rarity": {
+      "id": 433,
+      "eaId": 0,
+      "slug": "common",
+      "game": "25",
+      "name": "Common",
+      "alternateName": null,
+      "url": "/rarities/common/",
+      "dominantColor": "d39570",
+      "imagePath": "2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png",
+      "imagePaths": [
+        "2025/rarities-level-1-large/0.9e74985cc5fa0235bfd1cdf18524886abec80cb940fb87245dc8eb0fe402e68e.png",
+        "2025/rarities-level-2-large/0.bcc3305230ad572a1c35252bfc76d94661378a3cd0bc6f05053ecadb8b4b8dbe.png",
+        "2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png"
+      ],
+      "isSpecial": false,
+      "compactImagePath": "2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png",
+      "compactImagePaths": [
+        "2025/rarities-level-1-small/0.07fe8673a441822a263a61409f05124a35882cb798e0cd62868d00dc388d25cd.png",
+        "2025/rarities-level-2-small/0.2d3f30416f2b228ddf7e8eef513c1ffb7af5aadea48ff7a9a24cccd90f40889c.png",
+        "2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png"
+      ],
+      "animatedImagePath": null,
+      "animatedImagesPath": null,
+      "animatedImagesFrameCount": null,
+      "animatedImagesFps": null,
+      "animatedImagesDelay": null,
+      "isBrightColorScheme": true,
+      "textColor": [
+        "3f1208",
+        "192228",
+        "31260c"
+      ],
+      "lineColor": [
+        "d39570",
+        "bfcbd3",
+        "c5a96b"
+      ],
+      "shadowColor": [
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "overallColor": null,
+      "numberOfPlayers": 13709,
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png",
+      "imageUrls": [
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-1-large/0.9e74985cc5fa0235bfd1cdf18524886abec80cb940fb87245dc8eb0fe402e68e.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-2-large/0.bcc3305230ad572a1c35252bfc76d94661378a3cd0bc6f05053ecadb8b4b8dbe.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/0.bea99d013d67bc41fec729166d783763d98371df14edfbca1b9896562c0b355d.png"
+      ],
+      "animatedImageUrl": null,
+      "animatedImagesUrl": null,
+      "compactImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-small/0.36979d419602c94f76334ef1a76956cfb9ee4d2b8520bee91e554090f1573149.png"
+    },
     "totalFaceStats": 281,
-    "totalIgs": 1322
+    "totalIgs": 1322,
+    "isFullChemistry": false,
+    "extraNationChemistry": 0,
+    "extraLeagueChemistry": 0,
+    "extraClubChemistry": 0,
+    "extraSquadLeagueChemistry": false,
+    "extraSquadNationChemistry": false
   }
 }

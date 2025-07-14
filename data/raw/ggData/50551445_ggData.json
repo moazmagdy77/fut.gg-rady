@@ -152,9 +152,9 @@
     "objectiveCampaignLevelId": null,
     "campaignProps": null,
     "contentTypeId": 27,
-    "numberOfEvolutions": 2,
+    "numberOfEvolutions": 21,
     "blurbText": null,
-    "smallBlurbText": "Roger Martínez is 30 years old, and plays for Al Taawoun in the ROSHN Saudi League. Roger Martínez's height stands at 180 cm (5'11'), and the nation he represents is Colombia. This Rare version of Roger Martínez is a 73 rated ST. He is Right footed, with 3 star skill moves and 4 star weak foot. ",
+    "smallBlurbText": "Roger Martínez is 31 years old, and plays for Al Taawoun in the ROSHN Saudi League. Roger Martínez's height stands at 180 cm (5'11'), and the nation he represents is Colombia. This Rare version of Roger Martínez is a 73 rated ST. He is Right footed, with 3 star skill moves and 4 star weak foot. ",
     "upgrades": null,
     "hasPrice": true,
     "trackerId": null,
@@ -171,10 +171,149 @@
     "premiumSeasonPassLevel": null,
     "standardSeasonPassLevel": null,
     "metarankStr": null,
+    "ggRating": null,
+    "ggRatingPos": null,
+    "ggRatingStr": null,
+    "isHistoricalItem": false,
     "commonName": "Roger Martínez",
+    "club": {
+      "id": 2799,
+      "eaId": 112393,
+      "game": "25",
+      "slug": "112393-al-taawoun",
+      "name": "Al Taawoun",
+      "sisterClubEaId": null,
+      "leagueEaId": 350,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/112393.50bba87f5a8e043b98039423b339843429f0d87a440c6f6c59342f27994cb5e5.png",
+      "lightImagePath": "2025/club-light/112393.50bba87f5a8e043b98039423b339843429f0d87a440c6f6c59342f27994cb5e5.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        242374,
+        212476,
+        226376
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 73,
+      "midfieldRating": 72,
+      "defenseRating": 66,
+      "overallRating": 70,
+      "url": "/clubs/112393-al-taawoun/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/112393.50bba87f5a8e043b98039423b339843429f0d87a440c6f6c59342f27994cb5e5.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/112393.50bba87f5a8e043b98039423b339843429f0d87a440c6f6c59342f27994cb5e5.png"
+    },
+    "uniqueClub": {
+      "id": 2799,
+      "eaId": 112393,
+      "game": "25",
+      "slug": "112393-al-taawoun",
+      "name": "Al Taawoun",
+      "sisterClubEaId": null,
+      "leagueEaId": 350,
+      "isWomen": false,
+      "isIconClub": false,
+      "imagePath": "2025/club/112393.50bba87f5a8e043b98039423b339843429f0d87a440c6f6c59342f27994cb5e5.png",
+      "lightImagePath": "2025/club-light/112393.50bba87f5a8e043b98039423b339843429f0d87a440c6f6c59342f27994cb5e5.png",
+      "pastAndPresentHighlightedPlayerItemEaIds": [
+        242374,
+        212476,
+        226376
+      ],
+      "competitionIds": [],
+      "fixtureIds": [],
+      "attackRating": 73,
+      "midfieldRating": 72,
+      "defenseRating": 66,
+      "overallRating": 70,
+      "url": "/clubs/112393-al-taawoun/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club/112393.50bba87f5a8e043b98039423b339843429f0d87a440c6f6c59342f27994cb5e5.png",
+      "lightImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/club-light/112393.50bba87f5a8e043b98039423b339843429f0d87a440c6f6c59342f27994cb5e5.png"
+    },
+    "nation": {
+      "id": 706,
+      "eaId": 56,
+      "slug": "colombia",
+      "name": "Colombia",
+      "imagePath": "2025/nation/56.4de6e81de64ff54afc7dd9dc371d930cd079ef8e679645414ac501d59cfd351f.png",
+      "url": "/nations/colombia/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/nation/56.4de6e81de64ff54afc7dd9dc371d930cd079ef8e679645414ac501d59cfd351f.png"
+    },
+    "league": {
+      "id": 207,
+      "eaId": 350,
+      "slug": "roshn-saudi-league",
+      "name": "ROSHN Saudi League",
+      "imagePath": "2025/league/350.244e0a9e137630f60ab8b8873969fabf8b9098ee99101678e72d92c26c9e3ad9.png",
+      "imageLightPath": "2025/league-light/350.54e48d8c27b4671a61636c8d01a8b88b2276fb176741f8bb7cda29e268c97bca.png",
+      "url": "/leagues/roshn-saudi-league/",
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league/350.244e0a9e137630f60ab8b8873969fabf8b9098ee99101678e72d92c26c9e3ad9.png",
+      "imageLightUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=100,format=auto,width=80/2025/league-light/350.54e48d8c27b4671a61636c8d01a8b88b2276fb176741f8bb7cda29e268c97bca.png"
+    },
     "isSbcItem": false,
     "isObjectiveItem": false,
+    "rarity": {
+      "id": 434,
+      "eaId": 1,
+      "slug": "rare",
+      "game": "25",
+      "name": "Rare",
+      "alternateName": null,
+      "url": "/rarities/rare/",
+      "dominantColor": "dd9c79",
+      "imagePath": "2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png",
+      "imagePaths": [
+        "2025/rarities-level-1-large/1.ff6159fb3f49c4a46fb58bb7ff2edf3443faa545162b5636d1d36484b195af8f.png",
+        "2025/rarities-level-2-large/1.110820e10aee7e71b2a058da6a645b42455e8b52d8209c84906ab13b4ca637e1.png",
+        "2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png"
+      ],
+      "isSpecial": false,
+      "compactImagePath": "2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png",
+      "compactImagePaths": [
+        "2025/rarities-level-1-small/1.0c997213875cb4e45f25ea3a9d4c8586377af07d992da90277cc443403fd9d26.png",
+        "2025/rarities-level-2-small/1.a31950d31bb7c2b74f1bd0d7ec162d223eda669622761601950d7f24b80c1cbf.png",
+        "2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png"
+      ],
+      "animatedImagePath": null,
+      "animatedImagesPath": null,
+      "animatedImagesFrameCount": null,
+      "animatedImagesFps": null,
+      "animatedImagesDelay": null,
+      "isBrightColorScheme": true,
+      "textColor": [
+        "3e281c",
+        "1e252a",
+        "2d2410"
+      ],
+      "lineColor": [
+        "dd9c79",
+        "bfccd1",
+        "e3c075"
+      ],
+      "shadowColor": [
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "overallColor": null,
+      "numberOfPlayers": 6927,
+      "imageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png",
+      "imageUrls": [
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-1-large/1.ff6159fb3f49c4a46fb58bb7ff2edf3443faa545162b5636d1d36484b195af8f.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-2-large/1.110820e10aee7e71b2a058da6a645b42455e8b52d8209c84906ab13b4ca637e1.png",
+        "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-large/1.b52cea8041cb56b29f51b3bd072a77de34cffc5d76f1ea51d32fcff5ee6bfcb8.png"
+      ],
+      "animatedImageUrl": null,
+      "animatedImagesUrl": null,
+      "compactImageUrl": "https://game-assets.fut.gg/cdn-cgi/image/quality=90,format=auto,width=400/2025/rarities-level-3-small/1.a29ff208b2bf03a548950fe82bd6d1c68195082266dfba5060f57c149635ef7d.png"
+    },
     "totalFaceStats": 407,
-    "totalIgs": 1945
+    "totalIgs": 1945,
+    "isFullChemistry": false,
+    "extraNationChemistry": 0,
+    "extraLeagueChemistry": 0,
+    "extraClubChemistry": 0,
+    "extraSquadLeagueChemistry": false,
+    "extraSquadNationChemistry": false
   }
 }
