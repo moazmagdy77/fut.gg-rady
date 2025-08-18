@@ -5,7 +5,6 @@ from pathlib import Path
 
 # Set working directory to the script's own directory
 base_dir = Path(__file__).resolve().parent
-data_dir = base_dir.parent.parent / "data"
 
 steps = [
     ("🔎 Step 1: Extract CLUB player IDs", ["python", "club.1.get.ids.py"]),

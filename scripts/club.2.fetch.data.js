@@ -6,73 +6,45 @@ const puppeteer = require('puppeteer');
 
 // --- Configuration ---
 const CLUB_IDS_FILE = '../data/club_ids.json'; // Relative to script location
+const MAPS_FILE = '../data/maps.json'; // Relative to script location for mappings
 
 // Output Directories (relative to script location)
-const GG_DATA_DIR = '../data/raw/ggData'; // For fut.gg player item definitions
-const ES_META_DIR = '../data/raw/esMeta'; // For EasySBC meta ratings
-const GG_META_DIR = '../data/raw/ggMeta'; // For fut.gg metarank
+const GG_DATA_DIR = '../../fut.gg/data/raw/ggData'; // For fut.gg player item definitions
+const ES_META_DIR = '../../fut.gg/data/raw/esMeta'; // For EasySBC meta ratings
+const GG_META_DIR = '../../fut.gg/data/raw/ggMeta'; // For fut.gg metarank
 
 // API Endpoints
 const FUTGG_PLAYER_DETAILS_URL_TEMPLATE = (eaId) => `https://www.fut.gg/api/fut/player-item-definitions/25/${eaId}/`;
 const FUTGG_METARANK_URL_TEMPLATE = (eaId) => `https://www.fut.gg/api/fut/metarank/player/${eaId}/`;
-const EASYSBC_META_URL_TEMPLATE = (eaId, archetypeId) => `https://api.easysbc.io/squad-builder/meta-ratings?archetypeId=${archetypeId}&resourceId=${eaId}`;
+const EASYSBC_META_URL_TEMPLATE = (eaId, esRoleId) => `https://api.easysbc.io/players/${eaId}?player-role-id=${esRoleId}&expanded=false`;
 
 // Request Management
-const MAX_CONCURRENT_PLAYERS_IN_BATCH = 5;
-const DELAY_BETWEEN_BATCHES_MS = 2000; // Delay after a batch is processed
-const DELAY_BETWEEN_ARCHETYPE_CALLS_MS = 250; // Polite delay for EasySBC calls for the same player
+const MAX_CONCURRENT_PLAYERS_IN_BATCH = 100;
+const DELAY_BETWEEN_BATCHES_MS = 2000;
+const DELAY_BETWEEN_ARCHETYPE_CALLS_MS = 250;
 const MAX_RETRIES_API = 2;
-const API_TIMEOUT_MS = 25000; // Timeout for individual API calls (Axios)
-const PUPPETEER_PAGE_TIMEOUT_MS = 30000; // Timeout for Puppeteer page navigation/actions
-const BROWSER_RESTART_INTERVAL_BATCHES = 20; // Restart browser every X batches
+const API_TIMEOUT_MS = 25000;
+const PUPPETEER_PAGE_TIMEOUT_MS = 30000;
+const BROWSER_RESTART_INTERVAL_BATCHES = 1;
 
 // Logging Configuration
-const VERBOSE_LOGGING = false; // Set to true for more detailed success logs
-
-// Mapping for EasySBC Archetypes
-const positionIdToArchetype = {
-    "0": ["goalkeeper", "sweeper_keeper"],
-    "3": ["fullback", "falseback", "wingback", "attacking_wingback"], // RB
-    "5": ["ball_playing_defender", "defender", "stopper"],           // CB
-    "7": ["fullback", "falseback", "wingback", "attacking_wingback"], // LB
-    "10": ["holding", "deep_lying_playmaker", "wide_half", "centre_half"], // CDM
-    "12": ["winger", "wide_midfielder", "wide_playmaker", "inside_forward"], // RM
-    "14": ["holding", "deep_lying_playmaker", "playmaker", "half_winger", "box_to_box"], // CM
-    "16": ["winger", "wide_midfielder", "wide_playmaker", "inside_forward"], // LM
-    "18": ["playmaker", "half_winger", "classic_ten", "shadow_striker"], // CAM
-    "23": ["inside_forward", "winger", "wide_playmaker"], // RW
-    "25": ["advanced_forward", "target_forward", "poacher", "false_nine"], // ST
-    "27": ["inside_forward", "winger", "wide_playmaker"]  // LW
-};
+const VERBOSE_LOGGING = false;
 
 // --- Helper Functions ---
 
-/**
- * Creates a delay for a specified number of milliseconds.
- * @param {number} ms - The delay in milliseconds.
- */
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
-/**
- * Ensures a directory exists, creating it if necessary.
- * @param {string} dirPath - The path to the directory.
- */
 async function ensureDirExists(dirPath) {
     try {
         await fs.mkdir(dirPath, { recursive: true });
     } catch (error) {
-        if (error.code !== 'EEXIST') { // Ignore error if directory already exists
+        if (error.code !== 'EEXIST') {
             console.error(`❌ Error creating directory ${dirPath}: ${error.message}\n${error.stack || ''}`);
-            throw error; // Re-throw if it's a different error
+            throw error;
         }
     }
 }
 
-/**
- * Saves data to a JSON file.
- * @param {string} filePath - The full path to the file.
- * @param {any} data - The data to save.
- */
 async function saveData(filePath, data) {
     try {
         await fs.writeFile(filePath, JSON.stringify(data, null, 2), 'utf-8');
@@ -82,20 +54,27 @@ async function saveData(filePath, data) {
     }
 }
 
-/**
- * Fetches data from a fut.gg URL using Puppeteer with retry logic.
- * @param {import('puppeteer').Browser} browser - The Puppeteer browser instance.
- * @param {string} url - The URL to fetch.
- * @param {string|number} identifier - Player EA ID for logging.
- * @param {string} dataType - Description of data type for logging (e.g., "details", "metarank").
- * @returns {Promise<object|null>} Parsed JSON data or null on failure.
- */
+async function checkPlayerDataExists(eaIdStr, ggDataDirAbs, esMetaDirAbs, ggMetaDirAbs) {
+    const ggDataPath = path.join(ggDataDirAbs, `${eaIdStr}_ggData.json`);
+    const esMetaPath = path.join(esMetaDirAbs, `${eaIdStr}_esMeta.json`);
+    const ggMetaPath = path.join(ggMetaDirAbs, `${eaIdStr}_ggMeta.json`);
+    try {
+        await Promise.all([
+            fs.access(ggDataPath),
+            fs.access(esMetaPath),
+            fs.access(ggMetaPath)
+        ]);
+        return true;
+    } catch (error) {
+        return false;
+    }
+}
+
 async function fetchFutGgWithPuppeteer(browser, url, identifier, dataType) {
     for (let attempt = 0; attempt <= MAX_RETRIES_API; attempt++) {
         let page;
         try {
             page = await browser.newPage();
-            // Optimize page load by intercepting requests
             await page.setRequestInterception(true);
             page.on('request', (req) => {
                 if (['image', 'stylesheet', 'font', 'media'].includes(req.resourceType())) {
@@ -104,75 +83,23 @@ async function fetchFutGgWithPuppeteer(browser, url, identifier, dataType) {
                     req.continue();
                 }
             });
-
             await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
             page.setDefaultNavigationTimeout(PUPPETEER_PAGE_TIMEOUT_MS);
-
-            if (VERBOSE_LOGGING || attempt > 0) { // Log first attempt only if verbose, or any retry attempt
-                console.log(`📦 [Fut.gg ${dataType}] Attempt ${attempt + 1}/${MAX_RETRIES_API + 1} for ID ${identifier} from ${url}`);
+            if (VERBOSE_LOGGING || attempt > 0) {
+                console.log(`📦 [Fut.gg ${dataType}] Attempt ${attempt + 1}/${MAX_RETRIES_API + 1} for ID ${identifier}`);
             }
-            
-            const responsePromise = page.goto(url, { waitUntil: 'domcontentloaded' });
-            const timeoutPromise = new Promise((_, reject) => 
-                setTimeout(() => reject(new Error(`⏰ Puppeteer page operation timed out after ${PUPPETEER_PAGE_TIMEOUT_MS}ms for URL: ${url}`)), PUPPETEER_PAGE_TIMEOUT_MS)
-            );
-            
-            await Promise.race([responsePromise, timeoutPromise]);
-
+            await page.goto(url, { waitUntil: 'domcontentloaded' });
             const content = await page.evaluate(() => document.body.innerText);
             await page.close();
-            
-            if (!content) {
-                throw new Error("No content retrieved from page.");
-            }
-            try {
-                return JSON.parse(content);
-            } catch (parseError) {
-                console.error(`❌ [Fut.gg ${dataType}] JSON Parse Error for ID ${identifier}. URL: ${url}. Content: ${content.substring(0,200)}...\n${parseError.stack || parseError}`);
-                throw parseError; 
-            }
-
+            if (!content) throw new Error("No content retrieved from page.");
+            return JSON.parse(content);
         } catch (err) {
-            if (page) await page.close().catch(e => console.warn(`⚠️ Error closing page for ID ${identifier} (Fut.gg ${dataType}): ${e.message}`));
-            
+            if (page) await page.close().catch(e => console.warn(`⚠️ Error closing page for ID ${identifier}: ${e.message}`));
             if (attempt < MAX_RETRIES_API) {
-                console.warn(`⚠️ [Fut.gg ${dataType}] Error for ID ${identifier} (Attempt ${attempt + 1}). Retrying... Error: ${err.message}\n${err.stack || ''}`);
-                await delay(1000 * (attempt + 1)); // Exponential backoff
-            } else {
-                console.error(`❌ [Fut.gg ${dataType}] Failed for ID ${identifier} after ${MAX_RETRIES_API + 1} attempts. URL: ${url}. Error: ${err.message}\n${err.stack || ''}`);
-                return null; 
-            }
-        }
-    }
-    return null; 
-}
-
-/**
- * Fetches data from EasySBC API using Axios with retry logic.
- * @param {string|number} eaId - Player EA ID.
- * @param {string} archetypeId - The archetype ID.
- * @returns {Promise<Array<object>|null>} Parsed JSON data (array of ratings) or null on failure.
- */
-async function fetchEasySBCWithAxios(eaId, archetypeId) {
-    const url = EASYSBC_META_URL_TEMPLATE(eaId, archetypeId);
-    for (let attempt = 0; attempt <= MAX_RETRIES_API; attempt++) {
-        try {
-            if (VERBOSE_LOGGING || attempt > 0) {
-                 console.log(`📦 [EasySBC] Attempt ${attempt + 1}/${MAX_RETRIES_API + 1} for ID ${eaId}, Archetype: ${archetypeId}`);
-            }
-            const response = await axios.get(url, { timeout: API_TIMEOUT_MS });
-            if (Array.isArray(response.data)) {
-                return response.data;
-            } else {
-                console.warn(`⚠️ [EasySBC] Unexpected data format for ID ${eaId}, Archetype: ${archetypeId}. Expected array, got: ${typeof response.data}. URL: ${url}`);
-                return null; 
-            }
-        } catch (err) {
-            if (attempt < MAX_RETRIES_API) {
-                console.warn(`⚠️ [EasySBC] Error for ID ${eaId}, Archetype: ${archetypeId} (Attempt ${attempt + 1}). Retrying... Error: ${err.message}\n${err.response ? `Status: ${err.response.status}, Data: ${JSON.stringify(err.response.data).substring(0,100)}...` : ''}\n${err.stack || ''}`);
+                console.warn(`⚠️ [Fut.gg ${dataType}] Error for ID ${identifier} (Attempt ${attempt + 1}). Retrying... Error: ${err.message}`);
                 await delay(1000 * (attempt + 1));
             } else {
-                console.error(`❌ [EasySBC] Failed for ID ${eaId}, Archetype: ${archetypeId} after ${MAX_RETRIES_API + 1} attempts. URL: ${url}. Error: ${err.message}\n${err.response ? `Status: ${err.response.status}, Data: ${JSON.stringify(err.response.data).substring(0,100)}...` : ''}\n${err.stack || ''}`);
+                console.error(`❌ [Fut.gg ${dataType}] Failed for ID ${identifier} after ${MAX_RETRIES_API + 1} attempts. URL: ${url}. Error: ${err.message}`);
                 return null;
             }
         }
@@ -180,37 +107,76 @@ async function fetchEasySBCWithAxios(eaId, archetypeId) {
     return null;
 }
 
+async function fetchEasySBCWithAxios(eaId, esRoleId) {
+    const url = EASYSBC_META_URL_TEMPLATE(eaId, esRoleId);
+    for (let attempt = 0; attempt <= MAX_RETRIES_API; attempt++) {
+        try {
+            if (VERBOSE_LOGGING || attempt > 0) {
+                 console.log(`📦 [EasySBC] Attempt ${attempt + 1}/${MAX_RETRIES_API + 1} for ID ${eaId}, Role ID: ${esRoleId}`);
+            }
+            const response = await axios.get(url, { timeout: API_TIMEOUT_MS });
+            if (typeof response.data === 'object' && response.data !== null && !Array.isArray(response.data)) {
+                return response.data;
+            } else {
+                console.warn(`⚠️ [EasySBC] Unexpected data format for ID ${eaId}, Role ID: ${esRoleId}. Expected object, got: ${typeof response.data}.`);
+                return null;
+            }
+        } catch (err) {
+            if (attempt < MAX_RETRIES_API) {
+                console.warn(`⚠️ [EasySBC] Error for ID ${eaId}, Role ID: ${esRoleId} (Attempt ${attempt + 1}). Retrying... Error: ${err.message}`);
+                await delay(1000 * (attempt + 1));
+            } else {
+                console.error(`❌ [EasySBC] Failed for ID ${eaId}, Role ID: ${esRoleId} after ${MAX_RETRIES_API + 1} attempts. Error: ${err.message}`);
+                return null;
+            }
+        }
+    }
+    return null;
+}
 
 // --- Main Processing Function ---
 (async () => {
     console.log("🚀 Starting API data fetching script...");
     const overallStartTime = Date.now();
 
-    // Resolve absolute paths for directories
     const scriptDir = __dirname;
     const clubIdsFilePath = path.resolve(scriptDir, CLUB_IDS_FILE);
-    const ggDataDir = path.resolve(scriptDir, GG_DATA_DIR);
-    const esMetaDir = path.resolve(scriptDir, ES_META_DIR);
-    const ggMetaDir = path.resolve(scriptDir, GG_META_DIR);
+    const mapsFilePath = path.resolve(scriptDir, MAPS_FILE);
+    const ggDataDirAbs = path.resolve(scriptDir, GG_DATA_DIR);
+    const esMetaDirAbs = path.resolve(scriptDir, ES_META_DIR);
+    const ggMetaDirAbs = path.resolve(scriptDir, GG_META_DIR);
 
-    // 0. Read player IDs
-    let playerEaIds;
+    let playerEaIds, positionIdToEsRoleIds;
+
     try {
         const rawIds = await fs.readFile(clubIdsFilePath, 'utf-8');
         playerEaIds = JSON.parse(rawIds);
         if (!Array.isArray(playerEaIds)) throw new Error("Club IDs file is not an array.");
         console.log(`ℹ️ Loaded ${playerEaIds.length} player EA IDs.`);
     } catch (error) {
-        console.error(`❌ Fatal error reading club_ids.json: ${error.message}\n${error.stack || ''}. Exiting.`);
+        console.error(`❌ Fatal error reading ${CLUB_IDS_FILE}: ${error.message}\n${error.stack || ''}. Exiting.`);
         return;
     }
 
-    // Ensure output directories exist
+    // --- MODIFIED: Load mappings from maps.json ---
+    try {
+        const mapsRaw = await fs.readFile(mapsFilePath, 'utf-8');
+        const mapsData = JSON.parse(mapsRaw);
+        if (!mapsData.positionIdToEsRoleIds) {
+            throw new Error("'positionIdToEsRoleIds' key not found in maps.json.");
+        }
+        positionIdToEsRoleIds = mapsData.positionIdToEsRoleIds;
+        console.log("ℹ️ Successfully loaded 'positionIdToEsRoleIds' mapping from maps.json.");
+    } catch (error) {
+        console.error(`❌ Fatal error reading or parsing ${MAPS_FILE}: ${error.message}\n${error.stack || ''}. Exiting.`);
+        return;
+    }
+
     try {
         await Promise.all([
-            ensureDirExists(ggDataDir),
-            ensureDirExists(esMetaDir),
-            ensureDirExists(ggMetaDir)
+            ensureDirExists(ggDataDirAbs),
+            ensureDirExists(esMetaDirAbs),
+            ensureDirExists(ggMetaDirAbs)
         ]);
     } catch (error) {
         console.error(`❌ Fatal error creating output directories. Exiting.`);
@@ -221,6 +187,8 @@ async function fetchEasySBCWithAxios(eaId, archetypeId) {
     let batchesProcessedSinceRestart = 0;
     let successfulPlayerProcessing = 0;
     let failedPlayerProcessing = 0;
+    let skippedExistingCount = 0;
+    let fetchedNewCount = 0;
 
     for (let i = 0; i < playerEaIds.length; i += MAX_CONCURRENT_PLAYERS_IN_BATCH) {
         const batchEaIds = playerEaIds.slice(i, i + MAX_CONCURRENT_PLAYERS_IN_BATCH);
@@ -235,140 +203,121 @@ async function fetchEasySBCWithAxios(eaId, archetypeId) {
             batchesProcessedSinceRestart = 0;
             console.log("✅ Browser restarted.");
         }
-        
+
         const playerPromises = batchEaIds.map(async (eaId) => {
-            if (VERBOSE_LOGGING) console.log(`--- Starting processing for EA ID: ${eaId} ---`);
-            let futGgDetailsData = null; 
-            let playerSucceeded = true; // Assume success until a critical part fails
+            const eaIdStr = String(eaId);
+
+            const allFilesExist = await checkPlayerDataExists(eaIdStr, ggDataDirAbs, esMetaDirAbs, ggMetaDirAbs);
+            if (allFilesExist) {
+                if (VERBOSE_LOGGING) console.log(`⏭️ [Cache] Data for player ID ${eaIdStr} already exists. Skipping fetch.`);
+                return { eaId: eaIdStr, status: 'skipped_exists', success: true };
+            }
+
+            if (VERBOSE_LOGGING) console.log(`--- Fetching new data for EA ID: ${eaIdStr} ---`);
+            let futGgDetailsData = null;
+            let playerSucceeded = true;
 
             const [detailsResult, metarankResult] = await Promise.allSettled([
                 fetchFutGgWithPuppeteer(browser, FUTGG_PLAYER_DETAILS_URL_TEMPLATE(eaId), eaId, "details"),
                 fetchFutGgWithPuppeteer(browser, FUTGG_METARANK_URL_TEMPLATE(eaId), eaId, "metarank")
             ]);
 
-            // Handle fut.gg player details result (Step 1)
             if (detailsResult.status === 'fulfilled' && detailsResult.value) {
-                futGgDetailsData = detailsResult.value; 
+                futGgDetailsData = detailsResult.value;
                 try {
-                    await saveData(path.join(ggDataDir, `${eaId}_ggData.json`), futGgDetailsData);
-                    if (VERBOSE_LOGGING) console.log(`✅ [Fut.gg details] Saved for ${eaId}`);
-                } catch (saveError) { 
-                    playerSucceeded = false; 
-                    // Error already logged by saveData
-                }
+                    await saveData(path.join(ggDataDirAbs, `${eaIdStr}_ggData.json`), futGgDetailsData);
+                } catch (saveError) { playerSucceeded = false; }
             } else {
-                console.error(`❌ [Fut.gg details] Fetch failed or empty for ${eaId}: ${detailsResult.reason?.message || 'No data returned'}`);
+                console.error(`❌ [Fut.gg details] Fetch failed or empty for ${eaIdStr}: ${detailsResult.reason?.message || 'No data returned'}`);
                 playerSucceeded = false;
             }
 
-            // Handle fut.gg metarank result (Step 3)
             if (metarankResult.status === 'fulfilled' && metarankResult.value) {
                 try {
-                    await saveData(path.join(ggMetaDir, `${eaId}_ggMeta.json`), metarankResult.value);
-                    if (VERBOSE_LOGGING) console.log(`✅ [Fut.gg metarank] Saved for ${eaId}`);
-                } catch (saveError) { 
-                    playerSucceeded = false; 
-                    // Error already logged by saveData
-                }
+                    await saveData(path.join(ggMetaDirAbs, `${eaIdStr}_ggMeta.json`), metarankResult.value);
+                } catch (saveError) { playerSucceeded = false; }
             } else {
-                console.error(`❌ [Fut.gg metarank] Fetch failed or empty for ${eaId}: ${metarankResult.reason?.message || 'No data returned'}`);
-                playerSucceeded = false; // Mark as failed if metarank fetch fails
+                console.error(`❌ [Fut.gg metarank] Fetch failed or empty for ${eaIdStr}: ${metarankResult.reason?.message || 'No data returned'}`);
+                playerSucceeded = false;
             }
 
-            // Step 2: Fetch EasySBC meta ratings (dependent on successful fut.gg details)
-            if (playerSucceeded && futGgDetailsData && futGgDetailsData.data) { // Only proceed if details were successful
+            if (playerSucceeded && futGgDetailsData && futGgDetailsData.data) {
                 const playerDefinition = futGgDetailsData.data;
-                const position = playerDefinition.position; 
-                const alternativePositionIds = playerDefinition.alternativePositionIds || []; 
+                const esRoleIdsToFetch = new Set();
 
-                const archetypesToFetch = new Set();
-                if (position !== undefined && positionIdToArchetype[String(position)]) {
-                    positionIdToArchetype[String(position)].forEach(arch => archetypesToFetch.add(arch));
-                }
-                alternativePositionIds.forEach(altPosId => {
-                    if (positionIdToArchetype[String(altPosId)]) {
-                        positionIdToArchetype[String(altPosId)].forEach(arch => archetypesToFetch.add(arch));
+                const allPositions = [playerDefinition.position, ...(playerDefinition.alternativePositionIds || [])];
+                allPositions.forEach(posId => {
+                    if (posId !== undefined && positionIdToEsRoleIds[String(posId)]) {
+                        positionIdToEsRoleIds[String(posId)].forEach(roleId => esRoleIdsToFetch.add(roleId));
                     }
                 });
-                
-                // Placeholder for rolesPlusPlus logic
-                // if (playerDefinition.rolesPlusPlus && Array.isArray(playerDefinition.rolesPlusPlus)) { ... }
 
-
-                if (archetypesToFetch.size > 0) {
-                    if (VERBOSE_LOGGING) console.log(`ℹ️ [EasySBC] Derived archetypes for ${eaId}: ${[...archetypesToFetch].join(', ')}`);
-                    const allArchetypeApiResponses = [];
-                    let esSbcFetchOverallSuccess = true; // Tracks if all attempted archetypes were fetched
-                    
-                    for (const archetype of archetypesToFetch) {
-                        const esResponseArray = await fetchEasySBCWithAxios(eaId, archetype);
-                        if (esResponseArray) { 
-                            allArchetypeApiResponses.push({ archetype: archetype, ratings: esResponseArray });
+                if (esRoleIdsToFetch.size > 0) {
+                    const allEsApiResponses = [];
+                    let esSbcFetchOverallSuccess = true;
+                    for (const esRoleId of esRoleIdsToFetch) {
+                        const esResponseObject = await fetchEasySBCWithAxios(eaId, esRoleId);
+                        if (esResponseObject) {
+                            allEsApiResponses.push({ roleId: esRoleId, data: esResponseObject });
                         } else {
-                            esSbcFetchOverallSuccess = false; // Mark if any single archetype fetch fails
+                            esSbcFetchOverallSuccess = false;
                         }
-                        if (archetypesToFetch.size > 1) await delay(DELAY_BETWEEN_ARCHETYPE_CALLS_MS);
+                        if (esRoleIdsToFetch.size > 1) await delay(DELAY_BETWEEN_ARCHETYPE_CALLS_MS);
                     }
 
-                    if (!esSbcFetchOverallSuccess) { // If any archetype fetch failed for this player
+                    if (!esSbcFetchOverallSuccess) {
                         playerSucceeded = false;
-                        console.warn(`⚠️ [EasySBC] One or more archetype fetches failed for ${eaId}. Data might be incomplete.`);
+                        console.warn(`⚠️ [EasySBC] One or more role ID fetches failed for ${eaIdStr}. Data might be incomplete.`);
                     }
 
-                    if (allArchetypeApiResponses.length > 0) {
+                    if (allEsApiResponses.length > 0) {
                         try {
-                            await saveData(path.join(esMetaDir, `${eaId}_esMeta.json`), allArchetypeApiResponses);
-                            if (VERBOSE_LOGGING) console.log(`✅ [EasySBC] Saved meta for ${eaId} (${allArchetypeApiResponses.length} archetypes)`);
-                        } catch (saveError) { 
-                            playerSucceeded = false; 
-                            // Error logged by saveData
-                        }
-                    } else {
-                        if (VERBOSE_LOGGING && archetypesToFetch.size > 0) console.log(`ℹ️ [EasySBC] No successful responses to save for ${eaId} (all archetypes failed or returned no data).`);
-                        // If archetypes were attempted but nothing was saved, and not already marked by esSbcFetchOverallSuccess
-                        if (archetypesToFetch.size > 0 && esSbcFetchOverallSuccess) { 
-                            // This case means fetches might have returned null/empty but not thrown errors, leading to empty allArchetypeApiResponses
-                            // Consider if this should also mark playerSucceeded as false if data is expected.
-                            // For now, if esSbcFetchOverallSuccess is true, it means individual fetches didn't error out.
-                        }
+                            await saveData(path.join(esMetaDirAbs, `${eaIdStr}_esMeta.json`), allEsApiResponses);
+                        } catch (saveError) { playerSucceeded = false; }
                     }
-                } else {
-                    if (VERBOSE_LOGGING) console.log(`ℹ️ [EasySBC] No archetypes derived for ${eaId} from positions.`);
-                }
-            } else {
-                if (playerSucceeded) { // If not already marked as failed by ggDetails/ggMeta
-                    if (VERBOSE_LOGGING) console.log(`ℹ️ [EasySBC] Skipping for ${eaId} due to missing or failed fut.gg details data.`);
-                    // If futGgDetailsData was the reason for skipping, playerSucceeded is already false.
-                    // This log is for clarity if it was some other reason playerSucceeded was true but futGgDetailsData was still falsy.
                 }
             }
-            if (VERBOSE_LOGGING) console.log(`--- Finished processing for EA ID: ${eaId} ---`);
-            return playerSucceeded;
+            return { eaId: eaIdStr, status: playerSucceeded ? 'fetched_success' : 'fetched_fail', success: playerSucceeded };
         });
 
         const batchResults = await Promise.allSettled(playerPromises);
+        let currentBatchSuccess = 0;
+        let currentBatchFail = 0;
+
         batchResults.forEach(result => {
-            if (result.status === 'fulfilled' && result.value === true) {
-                successfulPlayerProcessing++;
+            if (result.status === 'fulfilled') {
+                if (result.value.success) {
+                    successfulPlayerProcessing++;
+                    currentBatchSuccess++;
+                    if (result.value.status === 'skipped_exists') skippedExistingCount++;
+                    else if (result.value.status === 'fetched_success') fetchedNewCount++;
+                } else {
+                    failedPlayerProcessing++;
+                    currentBatchFail++;
+                }
             } else {
-                failedPlayerProcessing++; // Counts rejections or explicit 'false' returns
+                failedPlayerProcessing++;
+                currentBatchFail++;
+                console.error(`❌ Critical error processing a player promise (rejected): ${result.reason?.stack || result.reason}`);
             }
         });
 
         batchesProcessedSinceRestart++;
         const batchEndTime = Date.now();
-        console.log(`⏱ Batch ${batchNumber} completed in ${(batchEndTime - batchStartTime) / 1000}s. Success: ${batchResults.filter(r => r.status === 'fulfilled' && r.value === true).length}, Fail/Partial: ${batchResults.filter(r => r.status !== 'fulfilled' || r.value === false).length}.`);
-        
+        console.log(`⏱ Batch ${batchNumber} completed in ${(batchEndTime - batchStartTime) / 1000}s. Success: ${currentBatchSuccess}, Fail/Partial: ${currentBatchFail}.`);
+
         if (i + MAX_CONCURRENT_PLAYERS_IN_BATCH < playerEaIds.length) {
-            if (VERBOSE_LOGGING) console.log(`⏳ Delaying ${DELAY_BETWEEN_BATCHES_MS / 1000}s before next batch...`);
             await delay(DELAY_BETWEEN_BATCHES_MS);
         }
     }
 
     await browser.close().catch(e => console.warn("⚠️ Error closing main browser instance:", e.message));
     const overallEndTime = Date.now();
-    console.log(`\n🎉 All players processed in ${((overallEndTime - overallStartTime) / 1000 / 60).toFixed(2)} minutes.`);
-    console.log(`📊 Total Players: ${playerEaIds.length}, Fully Successful: ${successfulPlayerProcessing}, Failed/Partially Failed: ${failedPlayerProcessing}`);
+    console.log(`\n🎉 All player ID processing attempts completed in ${((overallEndTime - overallStartTime) / 1000 / 60).toFixed(2)} minutes.`);
+    console.log(`📊 Total Player IDs in input: ${playerEaIds.length}`);
+    console.log(`  Processed Successfully (fetched or already existing): ${successfulPlayerProcessing}`);
+    console.log(`    - Skipped (data already existed): ${skippedExistingCount}`);
+    console.log(`    - Newly Fetched & Saved: ${fetchedNewCount}`);
+    console.log(`  Failed/Partially Failed during fetch: ${failedPlayerProcessing}`);
     console.log("Script finished.");
-
 })();
