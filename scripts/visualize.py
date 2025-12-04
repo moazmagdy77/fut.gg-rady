@@ -194,7 +194,7 @@ if default_sort_column in filtered_df.columns:
     filtered_df = filtered_df.sort_values(by=default_sort_column, ascending=False)
 
 # --- Display Logic ---
-st.title("El Mostashar FC - Rady Player Database")
+st.title("El Mostashar FC - Rady Club Player Database")
 
 if filters:
     st.subheader("Active Filters:")
@@ -231,8 +231,8 @@ def display_top_metric(container, df_to_use, metric_col, title, n=5):
                     label = f"{rank_display} {row.get('commonName', 'N/A')} ({row.get('role', 'N/A')})"
                     st.metric(label=label, value=f'{row.get(metric_col, 0.0):.2f}')
 
-display_top_metric(col1, filtered_df, "avgMeta", "Top Average On-Chem Meta", n=5)
-display_top_metric(col2, filtered_df, "avgMetaSub", "Top Average Sub Meta", n=5)
+display_top_metric(col1, filtered_df, "avgMeta", "Top Average On-Chem Meta", n=18)
+display_top_metric(col2, filtered_df, "avgMetaSub", "Top Average Sub Meta", n=18)
 
 st.markdown("---")
 st.markdown(f"### Player List ({filtered_df['player_origin_id'].nunique()} unique players, {len(filtered_df)} total entries)")

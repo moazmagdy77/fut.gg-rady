@@ -9,12 +9,12 @@ const CLUB_IDS_FILE = '../data/club_ids.json'; // Relative to script location
 const MAPS_FILE = '../data/maps.json'; // Relative to script location for mappings
 
 // Output Directories (relative to script location)
-const GG_DATA_DIR = '../../fut.gg/data/raw/ggData'; // For fut.gg player item definitions
-const ES_META_DIR = '../../fut.gg/data/raw/esMeta'; // For EasySBC meta ratings
-const GG_META_DIR = '../../fut.gg/data/raw/ggMeta'; // For fut.gg metarank
+const GG_DATA_DIR = '../data/raw/ggData'; // For fut.gg player item definitions
+const ES_META_DIR = '../data/raw/esMeta'; // For EasySBC meta ratings
+const GG_META_DIR = '../data/raw/ggMeta'; // For fut.gg metarank
 
 // API Endpoints
-const FUTGG_PLAYER_DETAILS_URL_TEMPLATE = (eaId) => `https://www.fut.gg/api/fut/player-item-definitions/25/${eaId}/`;
+const FUTGG_PLAYER_DETAILS_URL_TEMPLATE = (eaId) => `https://www.fut.gg/api/fut/player-item-definitions/26/${eaId}/`;
 const FUTGG_METARANK_URL_TEMPLATE = (eaId) => `https://www.fut.gg/api/fut/metarank/player/${eaId}/`;
 const EASYSBC_META_URL_TEMPLATE = (eaId, esRoleId) => `https://api.easysbc.io/players/${eaId}?player-role-id=${esRoleId}&expanded=false`;
 
